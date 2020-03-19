@@ -1,0 +1,1061 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		523FBFE622F554F1004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 523FBFE122F554EF004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Telugu.pdf */; };
+		523FBFE722F554F1004747FC /* Raghavendra_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 523FBFE222F554F0004747FC /* Raghavendra_Ashtottara_Sata_Namavali_PlainEnglish.pdf */; };
+		523FBFE822F554F1004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 523FBFE322F554F0004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Devanagari.pdf */; };
+		523FBFE922F554F1004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 523FBFE422F554F0004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Tamil.pdf */; };
+		523FBFEA22F554F1004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 523FBFE522F554F0004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Gujarati.pdf */; };
+		523FBFEC22F554FA004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 523FBFEB22F554F9004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Kannada.pdf */; };
+		524A97A322DDA9070026EF94 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A97A222DDA9070026EF94 /* Utils.swift */; };
+		524A97A622DDB61B0026EF94 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A97A522DDB61B0026EF94 /* ListViewController.swift */; };
+		524A97A822DDB6B30026EF94 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A97A722DDB6B30026EF94 /* DisplayViewController.swift */; };
+		524A97AB22DDBC750026EF94 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A97AA22DDBC750026EF94 /* ListCell.swift */; };
+		524A97F822DEA3170026EF94 /* Shiva_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 524A97EA22DEA3150026EF94 /* Shiva_Ashtottara_Sata_Namavali_Kannada.pdf */; };
+		524A97F922DEA3180026EF94 /* Saraswati_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 524A97EB22DEA3150026EF94 /* Saraswati_Ashtottara_Sata_Namavali_Kannada.pdf */; };
+		524A97FA22DEA3180026EF94 /* Krishna_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 524A97EC22DEA3150026EF94 /* Krishna_Ashtottara_Sata_Namavali_Kannada.pdf */; };
+		524A97FB22DEA3180026EF94 /* Hanuman_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 524A97ED22DEA3160026EF94 /* Hanuman_Ashtottara_Sata_Namavali_Kannada.pdf */; };
+		524A97FC22DEA3180026EF94 /* Subrahmanya_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 524A97EE22DEA3160026EF94 /* Subrahmanya_Ashtottara_Sata_Namavali_Kannada.pdf */; };
+		524A97FD22DEA3180026EF94 /* Durga_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 524A97EF22DEA3160026EF94 /* Durga_Ashtottara_Sata_Namavali_Kannada.pdf */; };
+		524A97FE22DEA3180026EF94 /* Rama_Ashtottara_Sata_Namaavali_Kannada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 524A97F022DEA3160026EF94 /* Rama_Ashtottara_Sata_Namaavali_Kannada.pdf */; };
+		524A97FF22DEA3180026EF94 /* Ganesha_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 524A97F122DEA3160026EF94 /* Ganesha_Ashtottara_Sata_Namavali_Kannada.pdf */; };
+		524A980022DEA3180026EF94 /* Lakshmi_Ashtottara_Sata_Naamaavali_Kannada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 524A97F222DEA3160026EF94 /* Lakshmi_Ashtottara_Sata_Naamaavali_Kannada.pdf */; };
+		524A980122DEA3180026EF94 /* Gayatri_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 524A97F322DEA3170026EF94 /* Gayatri_Ashtottara_Sata_Namavali_Kannada.pdf */; };
+		524A980222DEA3180026EF94 /* Narasimha_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 524A97F422DEA3170026EF94 /* Narasimha_Ashtottara_Sata_Namavali_Kannada.pdf */; };
+		524A980322DEA3180026EF94 /* Aditya_Hrudayam_Kannada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 524A97F522DEA3170026EF94 /* Aditya_Hrudayam_Kannada.pdf */; };
+		524A980422DEA3180026EF94 /* Shani_Vajrapanjara_Kavacham_Kannada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 524A97F622DEA3170026EF94 /* Shani_Vajrapanjara_Kavacham_Kannada.pdf */; };
+		524A980522DEA3180026EF94 /* Govinda_Namaavali_Kannada.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 524A97F722DEA3170026EF94 /* Govinda_Namaavali_Kannada.pdf */; };
+		524CCBDE22DD88E4000D3675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524CCBDD22DD88E4000D3675 /* AppDelegate.swift */; };
+		524CCBE322DD88E4000D3675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524CCBE122DD88E4000D3675 /* Main.storyboard */; };
+		524CCBE522DD88E7000D3675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524CCBE422DD88E7000D3675 /* Assets.xcassets */; };
+		524CCBE822DD88E7000D3675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524CCBE622DD88E7000D3675 /* LaunchScreen.storyboard */; };
+		5258DD46240F6E480092C11D /* AshtotraModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DD45240F6E480092C11D /* AshtotraModal.swift */; };
+		5258DD51240F7B4F0092C11D /* AshtotraUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DD50240F7B4F0092C11D /* AshtotraUnitTests.swift */; };
+		5258DD58240F7B530092C11D /* AshtotrasUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5258DD47240F7AB70092C11D /* AshtotrasUnitTest.swift */; };
+		52B1FEF722EEADE200A47718 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52B1FEF622EEADE100A47718 /* GoogleService-Info.plist */; };
+		52B6D37822E935BD00C8575C /* Ganesha_Ashtottara_Sata_Namavali_English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D31C22E935B800C8575C /* Ganesha_Ashtottara_Sata_Namavali_English.pdf */; };
+		52B6D37922E935BD00C8575C /* Gayatri_Ashtottara_Sata_Namavali_English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D31D22E935B800C8575C /* Gayatri_Ashtottara_Sata_Namavali_English.pdf */; };
+		52B6D37A22E935BD00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D31E22E935B800C8575C /* Hanuman_Ashtottara_Sata_Namavali_Tamil.pdf */; };
+		52B6D37B22E935BD00C8575C /* Gayatri_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D31F22E935B800C8575C /* Gayatri_Ashtottara_Sata_Namavali_PlainEnglish.pdf */; };
+		52B6D37D22E935BD00C8575C /* Govinda_Namaavali_Telugu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D32122E935B800C8575C /* Govinda_Namaavali_Telugu.pdf */; };
+		52B6D37E22E935BD00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D32222E935B800C8575C /* Ganesha_Ashtottara_Sata_Namavali_Devanagari.pdf */; };
+		52B6D37F22E935BD00C8575C /* Govinda_Namaavali_PlainEnglish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D32322E935B800C8575C /* Govinda_Namaavali_PlainEnglish.pdf */; };
+		52B6D38022E935BD00C8575C /* Krishna_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D32422E935B800C8575C /* Krishna_Ashtottara_Sata_Namavali_Tamil.pdf */; };
+		52B6D38122E935BD00C8575C /* Rama_Ashtottara_Sata_Namaavali_Tamil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D32522E935B800C8575C /* Rama_Ashtottara_Sata_Namaavali_Tamil.pdf */; };
+		52B6D38222E935BD00C8575C /* Saraswati_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D32622E935B800C8575C /* Saraswati_Ashtottara_Sata_Namavali_PlainEnglish.pdf */; };
+		52B6D38322E935BD00C8575C /* Shani_Vajrapanjara_Kavacham_Telugu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D32722E935B800C8575C /* Shani_Vajrapanjara_Kavacham_Telugu.pdf */; };
+		52B6D38422E935BD00C8575C /* Krishna_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D32822E935B900C8575C /* Krishna_Ashtottara_Sata_Namavali_PlainEnglish.pdf */; };
+		52B6D38522E935BD00C8575C /* Aditya_Hrudayam_PlainEnglish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D32922E935B900C8575C /* Aditya_Hrudayam_PlainEnglish.pdf */; };
+		52B6D38622E935BD00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D32A22E935B900C8575C /* Narasimha_Ashtottara_Sata_Namavali_Tamil.pdf */; };
+		52B6D38722E935BD00C8575C /* Shiva_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D32B22E935B900C8575C /* Shiva_Ashtottara_Sata_Namavali_Devanagari.pdf */; };
+		52B6D38822E935BD00C8575C /* Hanuman_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D32C22E935B900C8575C /* Hanuman_Ashtottara_Sata_Namavali_PlainEnglish.pdf */; };
+		52B6D38922E935BD00C8575C /* Shiva_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D32D22E935B900C8575C /* Shiva_Ashtottara_Sata_Namavali_PlainEnglish.pdf */; };
+		52B6D38A22E935BD00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Tamil (1).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D32E22E935B900C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Tamil (1).pdf */; };
+		52B6D38B22E935BD00C8575C /* Rama_Ashtottara_Sata_Namaavali_Telugu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D32F22E935B900C8575C /* Rama_Ashtottara_Sata_Namaavali_Telugu.pdf */; };
+		52B6D38C22E935BD00C8575C /* Durga_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D33022E935B900C8575C /* Durga_Ashtottara_Sata_Namavali_Gujarati.pdf */; };
+		52B6D38D22E935BD00C8575C /* Durga_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D33122E935B900C8575C /* Durga_Ashtottara_Sata_Namavali_Devanagari.pdf */; };
+		52B6D38E22E935BD00C8575C /* Aditya_Hrudayam_Tamil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D33222E935B900C8575C /* Aditya_Hrudayam_Tamil.pdf */; };
+		52B6D38F22E935BD00C8575C /* Aditya_Hrudayam_English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D33322E935B900C8575C /* Aditya_Hrudayam_English.pdf */; };
+		52B6D39022E935BD00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D33422E935B900C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Gujarati.pdf */; };
+		52B6D39222E935BD00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_PlainEnglish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D33622E935B900C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_PlainEnglish.pdf */; };
+		52B6D39322E935BD00C8575C /* Hanuman_Ashtottara_Sata_Namavali_English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D33722E935B900C8575C /* Hanuman_Ashtottara_Sata_Namavali_English.pdf */; };
+		52B6D39422E935BD00C8575C /* Rama_Ashtottara_Sata_Namaavali_PlainEnglish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D33822E935BA00C8575C /* Rama_Ashtottara_Sata_Namaavali_PlainEnglish.pdf */; };
+		52B6D39522E935BD00C8575C /* Govinda_Namaavali_English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D33922E935BA00C8575C /* Govinda_Namaavali_English.pdf */; };
+		52B6D39622E935BD00C8575C /* Narasimha_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D33A22E935BA00C8575C /* Narasimha_Ashtottara_Sata_Namavali_PlainEnglish.pdf */; };
+		52B6D39722E935BD00C8575C /* Govinda_Namaavali_Tamil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D33B22E935BA00C8575C /* Govinda_Namaavali_Tamil.pdf */; };
+		52B6D39822E935BD00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D33C22E935BA00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Telugu.pdf */; };
+		52B6D39922E935BD00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D33D22E935BA00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Telugu.pdf */; };
+		52B6D39A22E935BD00C8575C /* Durga_Ashtottara_Sata_Namavali_English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D33E22E935BA00C8575C /* Durga_Ashtottara_Sata_Namavali_English.pdf */; };
+		52B6D39B22E935BD00C8575C /* Narasimha_Ashtottara_Sata_Namavali_English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D33F22E935BA00C8575C /* Narasimha_Ashtottara_Sata_Namavali_English.pdf */; };
+		52B6D39C22E935BD00C8575C /* Govinda_Namaavali_Devanagari.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D34022E935BA00C8575C /* Govinda_Namaavali_Devanagari.pdf */; };
+		52B6D39D22E935BD00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Tamil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D34122E935BA00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Tamil.pdf */; };
+		52B6D39E22E935BD00C8575C /* Durga_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D34222E935BA00C8575C /* Durga_Ashtottara_Sata_Namavali_PlainEnglish.pdf */; };
+		52B6D39F22E935BD00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D34322E935BA00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Gujarati.pdf */; };
+		52B6D3A022E935BD00C8575C /* Shiva_Ashtottara_Sata_Namavali_English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D34422E935BA00C8575C /* Shiva_Ashtottara_Sata_Namavali_English.pdf */; };
+		52B6D3A122E935BD00C8575C /* Shani_Vajrapanjara_Kavacham_Gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D34522E935BA00C8575C /* Shani_Vajrapanjara_Kavacham_Gujarati.pdf */; };
+		52B6D3A222E935BD00C8575C /* Shiva-Stotra-namavali.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D34622E935BA00C8575C /* Shiva-Stotra-namavali.pdf */; };
+		52B6D3A322E935BD00C8575C /* Krishna_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D34722E935BA00C8575C /* Krishna_Ashtottara_Sata_Namavali_Telugu.pdf */; };
+		52B6D3A422E935BD00C8575C /* Govinda_Namaavali_Gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D34822E935BA00C8575C /* Govinda_Namaavali_Gujarati.pdf */; };
+		52B6D3A522E935BD00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D34922E935BA00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_English.pdf */; };
+		52B6D3A622E935BD00C8575C /* Aditya_Hrudayam_Gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D34A22E935BB00C8575C /* Aditya_Hrudayam_Gujarati.pdf */; };
+		52B6D3A722E935BD00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D34B22E935BB00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Telugu.pdf */; };
+		52B6D3A922E935BE00C8575C /* Durga_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D34D22E935BB00C8575C /* Durga_Ashtottara_Sata_Namavali_Telugu.pdf */; };
+		52B6D3AA22E935BE00C8575C /* Shani_Vajrapanjara_Kavacham_Devanagari.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D34E22E935BB00C8575C /* Shani_Vajrapanjara_Kavacham_Devanagari.pdf */; };
+		52B6D3AB22E935BE00C8575C /* Shani_Vajrapanjara_Kavacham_English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D34F22E935BB00C8575C /* Shani_Vajrapanjara_Kavacham_English.pdf */; };
+		52B6D3AC22E935BE00C8575C /* Shiva_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D35022E935BB00C8575C /* Shiva_Ashtottara_Sata_Namavali_Telugu.pdf */; };
+		52B6D3AD22E935BE00C8575C /* Krishna_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D35122E935BB00C8575C /* Krishna_Ashtottara_Sata_Namavali_Devanagari.pdf */; };
+		52B6D3AE22E935BE00C8575C /* Ganesha_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D35222E935BB00C8575C /* Ganesha_Ashtottara_Sata_Namavali_PlainEnglish.pdf */; };
+		52B6D3AF22E935BE00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D35322E935BB00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_PlainEnglish.pdf */; };
+		52B6D3B022E935BE00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D35422E935BB00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Gujarati.pdf */; };
+		52B6D3B122E935BE00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D35522E935BB00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Telugu.pdf */; };
+		52B6D3B222E935BE00C8575C /* Shiva_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D35622E935BB00C8575C /* Shiva_Ashtottara_Sata_Namavali_Gujarati.pdf */; };
+		52B6D3B322E935BE00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D35722E935BB00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Tamil.pdf */; };
+		52B6D3B422E935BE00C8575C /* Krishna_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D35822E935BB00C8575C /* Krishna_Ashtottara_Sata_Namavali_Gujarati.pdf */; };
+		52B6D3B522E935BE00C8575C /* Aditya_Hrudayam_Telugu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D35922E935BB00C8575C /* Aditya_Hrudayam_Telugu.pdf */; };
+		52B6D3B722E935BE00C8575C /* Saraswati_Ashtottara_Sata_Namavali_English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D35B22E935BC00C8575C /* Saraswati_Ashtottara_Sata_Namavali_English.pdf */; };
+		52B6D3B822E935BE00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Telugu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D35C22E935BC00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Telugu.pdf */; };
+		52B6D3B922E935BE00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D35D22E935BC00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Gujarati.pdf */; };
+		52B6D3BA22E935BE00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Devanagari.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D35E22E935BC00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Devanagari.pdf */; };
+		52B6D3BB22E935BE00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D35F22E935BC00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Telugu.pdf */; };
+		52B6D3BC22E935BE00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D36022E935BC00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Devanagari.pdf */; };
+		52B6D3BD22E935BE00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D36122E935BC00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Telugu.pdf */; };
+		52B6D3BE22E935BE00C8575C /* Shani_Vajrapanjara_Kavacham_Tamil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D36222E935BC00C8575C /* Shani_Vajrapanjara_Kavacham_Tamil.pdf */; };
+		52B6D3BF22E935BE00C8575C /* Rama_Ashtottara_Sata_Namaavali_English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D36322E935BC00C8575C /* Rama_Ashtottara_Sata_Namaavali_English.pdf */; };
+		52B6D3C022E935BE00C8575C /* Durga_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D36422E935BC00C8575C /* Durga_Ashtottara_Sata_Namavali_Tamil.pdf */; };
+		52B6D3C122E935BE00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D36522E935BC00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Gujarati.pdf */; };
+		52B6D3C222E935BE00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D36622E935BC00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Gujarati.pdf */; };
+		52B6D3C422E935BE00C8575C /* Rama_Ashtottara_Sata_Namaavali_Devanagari.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D36822E935BC00C8575C /* Rama_Ashtottara_Sata_Namaavali_Devanagari.pdf */; };
+		52B6D3C522E935BE00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D36922E935BD00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Devanagari.pdf */; };
+		52B6D3C622E935BE00C8575C /* Krishna_Ashtottara_Sata_Namavali_English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D36A22E935BD00C8575C /* Krishna_Ashtottara_Sata_Namavali_English.pdf */; };
+		52B6D3C722E935BE00C8575C /* Shani_Vajrapanjara_Kavacham_PlainEnglish.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D36B22E935BD00C8575C /* Shani_Vajrapanjara_Kavacham_PlainEnglish.pdf */; };
+		52B6D3C822E935BE00C8575C /* Aditya_Hrudayam_Devanagari.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D36C22E935BD00C8575C /* Aditya_Hrudayam_Devanagari.pdf */; };
+		52B6D3C922E935BE00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D36D22E935BD00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Gujarati.pdf */; };
+		52B6D3CA22E935BE00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D36E22E935BD00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Tamil.pdf */; };
+		52B6D3CB22E935BE00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D36F22E935BD00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Devanagari.pdf */; };
+		52B6D3CC22E935BE00C8575C /* Shiva_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D37022E935BD00C8575C /* Shiva_Ashtottara_Sata_Namavali_Tamil.pdf */; };
+		52B6D3CD22E935BE00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D37122E935BD00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Devanagari.pdf */; };
+		52B6D3CE22E935BE00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D37222E935BD00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_English.pdf */; };
+		52B6D3CF22E935BE00C8575C /* Rama_Ashtottara_Sata_Namaavali_Gujarati.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D37322E935BD00C8575C /* Rama_Ashtottara_Sata_Namaavali_Gujarati.pdf */; };
+		52B6D3D022E935BE00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D37422E935BD00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Devanagari.pdf */; };
+		52B6D3D122E935BE00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D37522E935BD00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Tamil.pdf */; };
+		52B6D3D222E935BE00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 52B6D37622E935BD00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Tamil.pdf */; };
+		CC129FE9E5E8E3E1482D5138 /* Pods_Ashtotra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E6ED2A3B332C824028C798 /* Pods_Ashtotra.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5258DD53240F7B4F0092C11D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524CCBD222DD88E4000D3675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524CCBD922DD88E4000D3675;
+			remoteInfo = Ashtotra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0446CFB97EE3918E33765FCF /* Pods-Ashtotra.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ashtotra.release.xcconfig"; path = "Target Support Files/Pods-Ashtotra/Pods-Ashtotra.release.xcconfig"; sourceTree = "<group>"; };
+		523FBFE122F554EF004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Telugu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Raghavendra_Ashtottara_Sata_Namavali_Telugu.pdf; sourceTree = "<group>"; };
+		523FBFE222F554F0004747FC /* Raghavendra_Ashtottara_Sata_Namavali_PlainEnglish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Raghavendra_Ashtottara_Sata_Namavali_PlainEnglish.pdf; sourceTree = "<group>"; };
+		523FBFE322F554F0004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Devanagari.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Raghavendra_Ashtottara_Sata_Namavali_Devanagari.pdf; sourceTree = "<group>"; };
+		523FBFE422F554F0004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Tamil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Raghavendra_Ashtottara_Sata_Namavali_Tamil.pdf; sourceTree = "<group>"; };
+		523FBFE522F554F0004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Raghavendra_Ashtottara_Sata_Namavali_Gujarati.pdf; sourceTree = "<group>"; };
+		523FBFEB22F554F9004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Kannada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Raghavendra_Ashtottara_Sata_Namavali_Kannada.pdf; sourceTree = "<group>"; };
+		524A97A222DDA9070026EF94 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		524A97A522DDB61B0026EF94 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		524A97A722DDB6B30026EF94 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+		524A97AA22DDBC750026EF94 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		524A97EA22DEA3150026EF94 /* Shiva_Ashtottara_Sata_Namavali_Kannada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shiva_Ashtottara_Sata_Namavali_Kannada.pdf; sourceTree = "<group>"; };
+		524A97EB22DEA3150026EF94 /* Saraswati_Ashtottara_Sata_Namavali_Kannada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Saraswati_Ashtottara_Sata_Namavali_Kannada.pdf; sourceTree = "<group>"; };
+		524A97EC22DEA3150026EF94 /* Krishna_Ashtottara_Sata_Namavali_Kannada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Krishna_Ashtottara_Sata_Namavali_Kannada.pdf; sourceTree = "<group>"; };
+		524A97ED22DEA3160026EF94 /* Hanuman_Ashtottara_Sata_Namavali_Kannada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hanuman_Ashtottara_Sata_Namavali_Kannada.pdf; sourceTree = "<group>"; };
+		524A97EE22DEA3160026EF94 /* Subrahmanya_Ashtottara_Sata_Namavali_Kannada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Subrahmanya_Ashtottara_Sata_Namavali_Kannada.pdf; sourceTree = "<group>"; };
+		524A97EF22DEA3160026EF94 /* Durga_Ashtottara_Sata_Namavali_Kannada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Durga_Ashtottara_Sata_Namavali_Kannada.pdf; sourceTree = "<group>"; };
+		524A97F022DEA3160026EF94 /* Rama_Ashtottara_Sata_Namaavali_Kannada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rama_Ashtottara_Sata_Namaavali_Kannada.pdf; sourceTree = "<group>"; };
+		524A97F122DEA3160026EF94 /* Ganesha_Ashtottara_Sata_Namavali_Kannada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ganesha_Ashtottara_Sata_Namavali_Kannada.pdf; sourceTree = "<group>"; };
+		524A97F222DEA3160026EF94 /* Lakshmi_Ashtottara_Sata_Naamaavali_Kannada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Lakshmi_Ashtottara_Sata_Naamaavali_Kannada.pdf; sourceTree = "<group>"; };
+		524A97F322DEA3170026EF94 /* Gayatri_Ashtottara_Sata_Namavali_Kannada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gayatri_Ashtottara_Sata_Namavali_Kannada.pdf; sourceTree = "<group>"; };
+		524A97F422DEA3170026EF94 /* Narasimha_Ashtottara_Sata_Namavali_Kannada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Narasimha_Ashtottara_Sata_Namavali_Kannada.pdf; sourceTree = "<group>"; };
+		524A97F522DEA3170026EF94 /* Aditya_Hrudayam_Kannada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Aditya_Hrudayam_Kannada.pdf; sourceTree = "<group>"; };
+		524A97F622DEA3170026EF94 /* Shani_Vajrapanjara_Kavacham_Kannada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shani_Vajrapanjara_Kavacham_Kannada.pdf; sourceTree = "<group>"; };
+		524A97F722DEA3170026EF94 /* Govinda_Namaavali_Kannada.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Govinda_Namaavali_Kannada.pdf; sourceTree = "<group>"; };
+		524CCBDA22DD88E4000D3675 /* Ashtotra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ashtotra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		524CCBDD22DD88E4000D3675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		524CCBE222DD88E4000D3675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		524CCBE422DD88E7000D3675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524CCBE722DD88E7000D3675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		524CCBE922DD88E7000D3675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5258DD45240F6E480092C11D /* AshtotraModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshtotraModal.swift; sourceTree = "<group>"; };
+		5258DD47240F7AB70092C11D /* AshtotrasUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshtotrasUnitTest.swift; sourceTree = "<group>"; };
+		5258DD4E240F7B4F0092C11D /* AshtotraUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AshtotraUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5258DD50240F7B4F0092C11D /* AshtotraUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshtotraUnitTests.swift; sourceTree = "<group>"; };
+		5258DD52240F7B4F0092C11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B1FEF622EEADE100A47718 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52B6D31C22E935B800C8575C /* Ganesha_Ashtottara_Sata_Namavali_English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ganesha_Ashtottara_Sata_Namavali_English.pdf; sourceTree = "<group>"; };
+		52B6D31D22E935B800C8575C /* Gayatri_Ashtottara_Sata_Namavali_English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gayatri_Ashtottara_Sata_Namavali_English.pdf; sourceTree = "<group>"; };
+		52B6D31E22E935B800C8575C /* Hanuman_Ashtottara_Sata_Namavali_Tamil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hanuman_Ashtottara_Sata_Namavali_Tamil.pdf; sourceTree = "<group>"; };
+		52B6D31F22E935B800C8575C /* Gayatri_Ashtottara_Sata_Namavali_PlainEnglish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gayatri_Ashtottara_Sata_Namavali_PlainEnglish.pdf; sourceTree = "<group>"; };
+		52B6D32122E935B800C8575C /* Govinda_Namaavali_Telugu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Govinda_Namaavali_Telugu.pdf; sourceTree = "<group>"; };
+		52B6D32222E935B800C8575C /* Ganesha_Ashtottara_Sata_Namavali_Devanagari.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ganesha_Ashtottara_Sata_Namavali_Devanagari.pdf; sourceTree = "<group>"; };
+		52B6D32322E935B800C8575C /* Govinda_Namaavali_PlainEnglish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Govinda_Namaavali_PlainEnglish.pdf; sourceTree = "<group>"; };
+		52B6D32422E935B800C8575C /* Krishna_Ashtottara_Sata_Namavali_Tamil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Krishna_Ashtottara_Sata_Namavali_Tamil.pdf; sourceTree = "<group>"; };
+		52B6D32522E935B800C8575C /* Rama_Ashtottara_Sata_Namaavali_Tamil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rama_Ashtottara_Sata_Namaavali_Tamil.pdf; sourceTree = "<group>"; };
+		52B6D32622E935B800C8575C /* Saraswati_Ashtottara_Sata_Namavali_PlainEnglish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Saraswati_Ashtottara_Sata_Namavali_PlainEnglish.pdf; sourceTree = "<group>"; };
+		52B6D32722E935B800C8575C /* Shani_Vajrapanjara_Kavacham_Telugu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shani_Vajrapanjara_Kavacham_Telugu.pdf; sourceTree = "<group>"; };
+		52B6D32822E935B900C8575C /* Krishna_Ashtottara_Sata_Namavali_PlainEnglish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Krishna_Ashtottara_Sata_Namavali_PlainEnglish.pdf; sourceTree = "<group>"; };
+		52B6D32922E935B900C8575C /* Aditya_Hrudayam_PlainEnglish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Aditya_Hrudayam_PlainEnglish.pdf; sourceTree = "<group>"; };
+		52B6D32A22E935B900C8575C /* Narasimha_Ashtottara_Sata_Namavali_Tamil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Narasimha_Ashtottara_Sata_Namavali_Tamil.pdf; sourceTree = "<group>"; };
+		52B6D32B22E935B900C8575C /* Shiva_Ashtottara_Sata_Namavali_Devanagari.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shiva_Ashtottara_Sata_Namavali_Devanagari.pdf; sourceTree = "<group>"; };
+		52B6D32C22E935B900C8575C /* Hanuman_Ashtottara_Sata_Namavali_PlainEnglish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hanuman_Ashtottara_Sata_Namavali_PlainEnglish.pdf; sourceTree = "<group>"; };
+		52B6D32D22E935B900C8575C /* Shiva_Ashtottara_Sata_Namavali_PlainEnglish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shiva_Ashtottara_Sata_Namavali_PlainEnglish.pdf; sourceTree = "<group>"; };
+		52B6D32E22E935B900C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Tamil (1).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Subrahmanya_Ashtottara_Sata_Namavali_Tamil (1).pdf"; sourceTree = "<group>"; };
+		52B6D32F22E935B900C8575C /* Rama_Ashtottara_Sata_Namaavali_Telugu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rama_Ashtottara_Sata_Namaavali_Telugu.pdf; sourceTree = "<group>"; };
+		52B6D33022E935B900C8575C /* Durga_Ashtottara_Sata_Namavali_Gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Durga_Ashtottara_Sata_Namavali_Gujarati.pdf; sourceTree = "<group>"; };
+		52B6D33122E935B900C8575C /* Durga_Ashtottara_Sata_Namavali_Devanagari.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Durga_Ashtottara_Sata_Namavali_Devanagari.pdf; sourceTree = "<group>"; };
+		52B6D33222E935B900C8575C /* Aditya_Hrudayam_Tamil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Aditya_Hrudayam_Tamil.pdf; sourceTree = "<group>"; };
+		52B6D33322E935B900C8575C /* Aditya_Hrudayam_English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Aditya_Hrudayam_English.pdf; sourceTree = "<group>"; };
+		52B6D33422E935B900C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Lakshmi_Ashtottara_Sata_Naamaavali_Gujarati.pdf; sourceTree = "<group>"; };
+		52B6D33622E935B900C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_PlainEnglish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Lakshmi_Ashtottara_Sata_Naamaavali_PlainEnglish.pdf; sourceTree = "<group>"; };
+		52B6D33722E935B900C8575C /* Hanuman_Ashtottara_Sata_Namavali_English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hanuman_Ashtottara_Sata_Namavali_English.pdf; sourceTree = "<group>"; };
+		52B6D33822E935BA00C8575C /* Rama_Ashtottara_Sata_Namaavali_PlainEnglish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rama_Ashtottara_Sata_Namaavali_PlainEnglish.pdf; sourceTree = "<group>"; };
+		52B6D33922E935BA00C8575C /* Govinda_Namaavali_English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Govinda_Namaavali_English.pdf; sourceTree = "<group>"; };
+		52B6D33A22E935BA00C8575C /* Narasimha_Ashtottara_Sata_Namavali_PlainEnglish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Narasimha_Ashtottara_Sata_Namavali_PlainEnglish.pdf; sourceTree = "<group>"; };
+		52B6D33B22E935BA00C8575C /* Govinda_Namaavali_Tamil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Govinda_Namaavali_Tamil.pdf; sourceTree = "<group>"; };
+		52B6D33C22E935BA00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Telugu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ganesha_Ashtottara_Sata_Namavali_Telugu.pdf; sourceTree = "<group>"; };
+		52B6D33D22E935BA00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Telugu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gayatri_Ashtottara_Sata_Namavali_Telugu.pdf; sourceTree = "<group>"; };
+		52B6D33E22E935BA00C8575C /* Durga_Ashtottara_Sata_Namavali_English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Durga_Ashtottara_Sata_Namavali_English.pdf; sourceTree = "<group>"; };
+		52B6D33F22E935BA00C8575C /* Narasimha_Ashtottara_Sata_Namavali_English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Narasimha_Ashtottara_Sata_Namavali_English.pdf; sourceTree = "<group>"; };
+		52B6D34022E935BA00C8575C /* Govinda_Namaavali_Devanagari.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Govinda_Namaavali_Devanagari.pdf; sourceTree = "<group>"; };
+		52B6D34122E935BA00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Tamil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Lakshmi_Ashtottara_Sata_Naamaavali_Tamil.pdf; sourceTree = "<group>"; };
+		52B6D34222E935BA00C8575C /* Durga_Ashtottara_Sata_Namavali_PlainEnglish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Durga_Ashtottara_Sata_Namavali_PlainEnglish.pdf; sourceTree = "<group>"; };
+		52B6D34322E935BA00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Narasimha_Ashtottara_Sata_Namavali_Gujarati.pdf; sourceTree = "<group>"; };
+		52B6D34422E935BA00C8575C /* Shiva_Ashtottara_Sata_Namavali_English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shiva_Ashtottara_Sata_Namavali_English.pdf; sourceTree = "<group>"; };
+		52B6D34522E935BA00C8575C /* Shani_Vajrapanjara_Kavacham_Gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shani_Vajrapanjara_Kavacham_Gujarati.pdf; sourceTree = "<group>"; };
+		52B6D34622E935BA00C8575C /* Shiva-Stotra-namavali.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Shiva-Stotra-namavali.pdf"; sourceTree = "<group>"; };
+		52B6D34722E935BA00C8575C /* Krishna_Ashtottara_Sata_Namavali_Telugu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Krishna_Ashtottara_Sata_Namavali_Telugu.pdf; sourceTree = "<group>"; };
+		52B6D34822E935BA00C8575C /* Govinda_Namaavali_Gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Govinda_Namaavali_Gujarati.pdf; sourceTree = "<group>"; };
+		52B6D34922E935BA00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Lakshmi_Ashtottara_Sata_Naamaavali_English.pdf; sourceTree = "<group>"; };
+		52B6D34A22E935BB00C8575C /* Aditya_Hrudayam_Gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Aditya_Hrudayam_Gujarati.pdf; sourceTree = "<group>"; };
+		52B6D34B22E935BB00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Telugu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Narasimha_Ashtottara_Sata_Namavali_Telugu.pdf; sourceTree = "<group>"; };
+		52B6D34D22E935BB00C8575C /* Durga_Ashtottara_Sata_Namavali_Telugu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Durga_Ashtottara_Sata_Namavali_Telugu.pdf; sourceTree = "<group>"; };
+		52B6D34E22E935BB00C8575C /* Shani_Vajrapanjara_Kavacham_Devanagari.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shani_Vajrapanjara_Kavacham_Devanagari.pdf; sourceTree = "<group>"; };
+		52B6D34F22E935BB00C8575C /* Shani_Vajrapanjara_Kavacham_English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shani_Vajrapanjara_Kavacham_English.pdf; sourceTree = "<group>"; };
+		52B6D35022E935BB00C8575C /* Shiva_Ashtottara_Sata_Namavali_Telugu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shiva_Ashtottara_Sata_Namavali_Telugu.pdf; sourceTree = "<group>"; };
+		52B6D35122E935BB00C8575C /* Krishna_Ashtottara_Sata_Namavali_Devanagari.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Krishna_Ashtottara_Sata_Namavali_Devanagari.pdf; sourceTree = "<group>"; };
+		52B6D35222E935BB00C8575C /* Ganesha_Ashtottara_Sata_Namavali_PlainEnglish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ganesha_Ashtottara_Sata_Namavali_PlainEnglish.pdf; sourceTree = "<group>"; };
+		52B6D35322E935BB00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_PlainEnglish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Subrahmanya_Ashtottara_Sata_Namavali_PlainEnglish.pdf; sourceTree = "<group>"; };
+		52B6D35422E935BB00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Subrahmanya_Ashtottara_Sata_Namavali_Gujarati.pdf; sourceTree = "<group>"; };
+		52B6D35522E935BB00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Telugu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Saraswati_Ashtottara_Sata_Namavali_Telugu.pdf; sourceTree = "<group>"; };
+		52B6D35622E935BB00C8575C /* Shiva_Ashtottara_Sata_Namavali_Gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shiva_Ashtottara_Sata_Namavali_Gujarati.pdf; sourceTree = "<group>"; };
+		52B6D35722E935BB00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Tamil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Subrahmanya_Ashtottara_Sata_Namavali_Tamil.pdf; sourceTree = "<group>"; };
+		52B6D35822E935BB00C8575C /* Krishna_Ashtottara_Sata_Namavali_Gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Krishna_Ashtottara_Sata_Namavali_Gujarati.pdf; sourceTree = "<group>"; };
+		52B6D35922E935BB00C8575C /* Aditya_Hrudayam_Telugu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Aditya_Hrudayam_Telugu.pdf; sourceTree = "<group>"; };
+		52B6D35B22E935BC00C8575C /* Saraswati_Ashtottara_Sata_Namavali_English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Saraswati_Ashtottara_Sata_Namavali_English.pdf; sourceTree = "<group>"; };
+		52B6D35C22E935BC00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Telugu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Lakshmi_Ashtottara_Sata_Naamaavali_Telugu.pdf; sourceTree = "<group>"; };
+		52B6D35D22E935BC00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hanuman_Ashtottara_Sata_Namavali_Gujarati.pdf; sourceTree = "<group>"; };
+		52B6D35E22E935BC00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Devanagari.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Lakshmi_Ashtottara_Sata_Naamaavali_Devanagari.pdf; sourceTree = "<group>"; };
+		52B6D35F22E935BC00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Telugu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Subrahmanya_Ashtottara_Sata_Namavali_Telugu.pdf; sourceTree = "<group>"; };
+		52B6D36022E935BC00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Devanagari.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Narasimha_Ashtottara_Sata_Namavali_Devanagari.pdf; sourceTree = "<group>"; };
+		52B6D36122E935BC00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Telugu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hanuman_Ashtottara_Sata_Namavali_Telugu.pdf; sourceTree = "<group>"; };
+		52B6D36222E935BC00C8575C /* Shani_Vajrapanjara_Kavacham_Tamil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shani_Vajrapanjara_Kavacham_Tamil.pdf; sourceTree = "<group>"; };
+		52B6D36322E935BC00C8575C /* Rama_Ashtottara_Sata_Namaavali_English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rama_Ashtottara_Sata_Namaavali_English.pdf; sourceTree = "<group>"; };
+		52B6D36422E935BC00C8575C /* Durga_Ashtottara_Sata_Namavali_Tamil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Durga_Ashtottara_Sata_Namavali_Tamil.pdf; sourceTree = "<group>"; };
+		52B6D36522E935BC00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ganesha_Ashtottara_Sata_Namavali_Gujarati.pdf; sourceTree = "<group>"; };
+		52B6D36622E935BC00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gayatri_Ashtottara_Sata_Namavali_Gujarati.pdf; sourceTree = "<group>"; };
+		52B6D36822E935BC00C8575C /* Rama_Ashtottara_Sata_Namaavali_Devanagari.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rama_Ashtottara_Sata_Namaavali_Devanagari.pdf; sourceTree = "<group>"; };
+		52B6D36922E935BD00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Devanagari.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Saraswati_Ashtottara_Sata_Namavali_Devanagari.pdf; sourceTree = "<group>"; };
+		52B6D36A22E935BD00C8575C /* Krishna_Ashtottara_Sata_Namavali_English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Krishna_Ashtottara_Sata_Namavali_English.pdf; sourceTree = "<group>"; };
+		52B6D36B22E935BD00C8575C /* Shani_Vajrapanjara_Kavacham_PlainEnglish.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shani_Vajrapanjara_Kavacham_PlainEnglish.pdf; sourceTree = "<group>"; };
+		52B6D36C22E935BD00C8575C /* Aditya_Hrudayam_Devanagari.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Aditya_Hrudayam_Devanagari.pdf; sourceTree = "<group>"; };
+		52B6D36D22E935BD00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Saraswati_Ashtottara_Sata_Namavali_Gujarati.pdf; sourceTree = "<group>"; };
+		52B6D36E22E935BD00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Tamil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Saraswati_Ashtottara_Sata_Namavali_Tamil.pdf; sourceTree = "<group>"; };
+		52B6D36F22E935BD00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Devanagari.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gayatri_Ashtottara_Sata_Namavali_Devanagari.pdf; sourceTree = "<group>"; };
+		52B6D37022E935BD00C8575C /* Shiva_Ashtottara_Sata_Namavali_Tamil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Shiva_Ashtottara_Sata_Namavali_Tamil.pdf; sourceTree = "<group>"; };
+		52B6D37122E935BD00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Devanagari.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Subrahmanya_Ashtottara_Sata_Namavali_Devanagari.pdf; sourceTree = "<group>"; };
+		52B6D37222E935BD00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Subrahmanya_Ashtottara_Sata_Namavali_English.pdf; sourceTree = "<group>"; };
+		52B6D37322E935BD00C8575C /* Rama_Ashtottara_Sata_Namaavali_Gujarati.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Rama_Ashtottara_Sata_Namaavali_Gujarati.pdf; sourceTree = "<group>"; };
+		52B6D37422E935BD00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Devanagari.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hanuman_Ashtottara_Sata_Namavali_Devanagari.pdf; sourceTree = "<group>"; };
+		52B6D37522E935BD00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Tamil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Ganesha_Ashtottara_Sata_Namavali_Tamil.pdf; sourceTree = "<group>"; };
+		52B6D37622E935BD00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Tamil.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gayatri_Ashtottara_Sata_Namavali_Tamil.pdf; sourceTree = "<group>"; };
+		65E6ED2A3B332C824028C798 /* Pods_Ashtotra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ashtotra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCF1D008382FBBBDCE59F02 /* Pods-Ashtotra.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ashtotra.debug.xcconfig"; path = "Target Support Files/Pods-Ashtotra/Pods-Ashtotra.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		524CCBD722DD88E4000D3675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC129FE9E5E8E3E1482D5138 /* Pods_Ashtotra.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5258DD4B240F7B4F0092C11D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004E7875C062A2904D256A9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBCF1D008382FBBBDCE59F02 /* Pods-Ashtotra.debug.xcconfig */,
+				0446CFB97EE3918E33765FCF /* Pods-Ashtotra.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		524A97A922DDBC4D0026EF94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				524A97AA22DDBC750026EF94 /* ListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		524A97E822DEA2A10026EF94 /* Resorces */ = {
+			isa = PBXGroup;
+			children = (
+				52B6D31A22E9356E00C8575C /* Others */,
+				524A982522DEC7260026EF94 /* Kannada */,
+			);
+			path = Resorces;
+			sourceTree = "<group>";
+		};
+		524A97E922DEA2AB0026EF94 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				524A97A522DDB61B0026EF94 /* ListViewController.swift */,
+				524A97A722DDB6B30026EF94 /* DisplayViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		524A982522DEC7260026EF94 /* Kannada */ = {
+			isa = PBXGroup;
+			children = (
+				523FBFEB22F554F9004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Kannada.pdf */,
+				524A97F522DEA3170026EF94 /* Aditya_Hrudayam_Kannada.pdf */,
+				524A97EF22DEA3160026EF94 /* Durga_Ashtottara_Sata_Namavali_Kannada.pdf */,
+				524A97F122DEA3160026EF94 /* Ganesha_Ashtottara_Sata_Namavali_Kannada.pdf */,
+				524A97F322DEA3170026EF94 /* Gayatri_Ashtottara_Sata_Namavali_Kannada.pdf */,
+				524A97F722DEA3170026EF94 /* Govinda_Namaavali_Kannada.pdf */,
+				524A97ED22DEA3160026EF94 /* Hanuman_Ashtottara_Sata_Namavali_Kannada.pdf */,
+				524A97F422DEA3170026EF94 /* Narasimha_Ashtottara_Sata_Namavali_Kannada.pdf */,
+				524A97EB22DEA3150026EF94 /* Saraswati_Ashtottara_Sata_Namavali_Kannada.pdf */,
+				524A97F622DEA3170026EF94 /* Shani_Vajrapanjara_Kavacham_Kannada.pdf */,
+				524A97EA22DEA3150026EF94 /* Shiva_Ashtottara_Sata_Namavali_Kannada.pdf */,
+				524A97F222DEA3160026EF94 /* Lakshmi_Ashtottara_Sata_Naamaavali_Kannada.pdf */,
+				524A97EC22DEA3150026EF94 /* Krishna_Ashtottara_Sata_Namavali_Kannada.pdf */,
+				524A97F022DEA3160026EF94 /* Rama_Ashtottara_Sata_Namaavali_Kannada.pdf */,
+				524A97EE22DEA3160026EF94 /* Subrahmanya_Ashtottara_Sata_Namavali_Kannada.pdf */,
+			);
+			path = Kannada;
+			sourceTree = "<group>";
+		};
+		524A982722DEE2120026EF94 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				524A97A222DDA9070026EF94 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		524CCBD122DD88E4000D3675 = {
+			isa = PBXGroup;
+			children = (
+				524CCBDC22DD88E4000D3675 /* Ashtotra Book */,
+				5258DD49240F7AC20092C11D /* Testing */,
+				524A97E822DEA2A10026EF94 /* Resorces */,
+				5258DD4F240F7B4F0092C11D /* AshtotraUnitTests */,
+				524CCBDB22DD88E4000D3675 /* Products */,
+				004E7875C062A2904D256A9E /* Pods */,
+				834E26BE88AAA442F87D01CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		524CCBDB22DD88E4000D3675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				524CCBDA22DD88E4000D3675 /* Ashtotra.app */,
+				5258DD4E240F7B4F0092C11D /* AshtotraUnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		524CCBDC22DD88E4000D3675 /* Ashtotra Book */ = {
+			isa = PBXGroup;
+			children = (
+				524A982722DEE2120026EF94 /* Utils */,
+				524A97E922DEA2AB0026EF94 /* ViewController */,
+				524A97A922DDBC4D0026EF94 /* View */,
+				5258DD45240F6E480092C11D /* AshtotraModal.swift */,
+				524CCBDD22DD88E4000D3675 /* AppDelegate.swift */,
+				524CCBE122DD88E4000D3675 /* Main.storyboard */,
+				524CCBE422DD88E7000D3675 /* Assets.xcassets */,
+				524CCBE622DD88E7000D3675 /* LaunchScreen.storyboard */,
+				524CCBE922DD88E7000D3675 /* Info.plist */,
+				52B1FEF622EEADE100A47718 /* GoogleService-Info.plist */,
+			);
+			path = "Ashtotra Book";
+			sourceTree = "<group>";
+		};
+		5258DD49240F7AC20092C11D /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				5258DD47240F7AB70092C11D /* AshtotrasUnitTest.swift */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		5258DD4F240F7B4F0092C11D /* AshtotraUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				5258DD50240F7B4F0092C11D /* AshtotraUnitTests.swift */,
+				5258DD52240F7B4F0092C11D /* Info.plist */,
+			);
+			path = AshtotraUnitTests;
+			sourceTree = "<group>";
+		};
+		52B6D31A22E9356E00C8575C /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				523FBFE322F554F0004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Devanagari.pdf */,
+				523FBFE522F554F0004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Gujarati.pdf */,
+				523FBFE222F554F0004747FC /* Raghavendra_Ashtottara_Sata_Namavali_PlainEnglish.pdf */,
+				523FBFE422F554F0004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Tamil.pdf */,
+				523FBFE122F554EF004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Telugu.pdf */,
+				52B6D36C22E935BD00C8575C /* Aditya_Hrudayam_Devanagari.pdf */,
+				52B6D33322E935B900C8575C /* Aditya_Hrudayam_English.pdf */,
+				52B6D34A22E935BB00C8575C /* Aditya_Hrudayam_Gujarati.pdf */,
+				52B6D32922E935B900C8575C /* Aditya_Hrudayam_PlainEnglish.pdf */,
+				52B6D33222E935B900C8575C /* Aditya_Hrudayam_Tamil.pdf */,
+				52B6D35922E935BB00C8575C /* Aditya_Hrudayam_Telugu.pdf */,
+				52B6D33122E935B900C8575C /* Durga_Ashtottara_Sata_Namavali_Devanagari.pdf */,
+				52B6D33E22E935BA00C8575C /* Durga_Ashtottara_Sata_Namavali_English.pdf */,
+				52B6D33022E935B900C8575C /* Durga_Ashtottara_Sata_Namavali_Gujarati.pdf */,
+				52B6D34222E935BA00C8575C /* Durga_Ashtottara_Sata_Namavali_PlainEnglish.pdf */,
+				52B6D36422E935BC00C8575C /* Durga_Ashtottara_Sata_Namavali_Tamil.pdf */,
+				52B6D34D22E935BB00C8575C /* Durga_Ashtottara_Sata_Namavali_Telugu.pdf */,
+				52B6D32222E935B800C8575C /* Ganesha_Ashtottara_Sata_Namavali_Devanagari.pdf */,
+				52B6D31C22E935B800C8575C /* Ganesha_Ashtottara_Sata_Namavali_English.pdf */,
+				52B6D36522E935BC00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Gujarati.pdf */,
+				52B6D35222E935BB00C8575C /* Ganesha_Ashtottara_Sata_Namavali_PlainEnglish.pdf */,
+				52B6D37522E935BD00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Tamil.pdf */,
+				52B6D33C22E935BA00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Telugu.pdf */,
+				52B6D36F22E935BD00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Devanagari.pdf */,
+				52B6D31D22E935B800C8575C /* Gayatri_Ashtottara_Sata_Namavali_English.pdf */,
+				52B6D36622E935BC00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Gujarati.pdf */,
+				52B6D31F22E935B800C8575C /* Gayatri_Ashtottara_Sata_Namavali_PlainEnglish.pdf */,
+				52B6D37622E935BD00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Tamil.pdf */,
+				52B6D33D22E935BA00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Telugu.pdf */,
+				52B6D34022E935BA00C8575C /* Govinda_Namaavali_Devanagari.pdf */,
+				52B6D33922E935BA00C8575C /* Govinda_Namaavali_English.pdf */,
+				52B6D34822E935BA00C8575C /* Govinda_Namaavali_Gujarati.pdf */,
+				52B6D32322E935B800C8575C /* Govinda_Namaavali_PlainEnglish.pdf */,
+				52B6D33B22E935BA00C8575C /* Govinda_Namaavali_Tamil.pdf */,
+				52B6D32122E935B800C8575C /* Govinda_Namaavali_Telugu.pdf */,
+				52B6D37422E935BD00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Devanagari.pdf */,
+				52B6D33722E935B900C8575C /* Hanuman_Ashtottara_Sata_Namavali_English.pdf */,
+				52B6D35D22E935BC00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Gujarati.pdf */,
+				52B6D32C22E935B900C8575C /* Hanuman_Ashtottara_Sata_Namavali_PlainEnglish.pdf */,
+				52B6D31E22E935B800C8575C /* Hanuman_Ashtottara_Sata_Namavali_Tamil.pdf */,
+				52B6D36122E935BC00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Telugu.pdf */,
+				52B6D35122E935BB00C8575C /* Krishna_Ashtottara_Sata_Namavali_Devanagari.pdf */,
+				52B6D36A22E935BD00C8575C /* Krishna_Ashtottara_Sata_Namavali_English.pdf */,
+				52B6D35822E935BB00C8575C /* Krishna_Ashtottara_Sata_Namavali_Gujarati.pdf */,
+				52B6D32822E935B900C8575C /* Krishna_Ashtottara_Sata_Namavali_PlainEnglish.pdf */,
+				52B6D32422E935B800C8575C /* Krishna_Ashtottara_Sata_Namavali_Tamil.pdf */,
+				52B6D34722E935BA00C8575C /* Krishna_Ashtottara_Sata_Namavali_Telugu.pdf */,
+				52B6D35E22E935BC00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Devanagari.pdf */,
+				52B6D34922E935BA00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_English.pdf */,
+				52B6D33422E935B900C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Gujarati.pdf */,
+				52B6D33622E935B900C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_PlainEnglish.pdf */,
+				52B6D34122E935BA00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Tamil.pdf */,
+				52B6D35C22E935BC00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Telugu.pdf */,
+				52B6D36022E935BC00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Devanagari.pdf */,
+				52B6D33F22E935BA00C8575C /* Narasimha_Ashtottara_Sata_Namavali_English.pdf */,
+				52B6D34322E935BA00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Gujarati.pdf */,
+				52B6D33A22E935BA00C8575C /* Narasimha_Ashtottara_Sata_Namavali_PlainEnglish.pdf */,
+				52B6D32A22E935B900C8575C /* Narasimha_Ashtottara_Sata_Namavali_Tamil.pdf */,
+				52B6D34B22E935BB00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Telugu.pdf */,
+				52B6D36822E935BC00C8575C /* Rama_Ashtottara_Sata_Namaavali_Devanagari.pdf */,
+				52B6D36322E935BC00C8575C /* Rama_Ashtottara_Sata_Namaavali_English.pdf */,
+				52B6D37322E935BD00C8575C /* Rama_Ashtottara_Sata_Namaavali_Gujarati.pdf */,
+				52B6D33822E935BA00C8575C /* Rama_Ashtottara_Sata_Namaavali_PlainEnglish.pdf */,
+				52B6D32522E935B800C8575C /* Rama_Ashtottara_Sata_Namaavali_Tamil.pdf */,
+				52B6D32F22E935B900C8575C /* Rama_Ashtottara_Sata_Namaavali_Telugu.pdf */,
+				52B6D36922E935BD00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Devanagari.pdf */,
+				52B6D35B22E935BC00C8575C /* Saraswati_Ashtottara_Sata_Namavali_English.pdf */,
+				52B6D36D22E935BD00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Gujarati.pdf */,
+				52B6D32622E935B800C8575C /* Saraswati_Ashtottara_Sata_Namavali_PlainEnglish.pdf */,
+				52B6D36E22E935BD00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Tamil.pdf */,
+				52B6D35522E935BB00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Telugu.pdf */,
+				52B6D34E22E935BB00C8575C /* Shani_Vajrapanjara_Kavacham_Devanagari.pdf */,
+				52B6D34F22E935BB00C8575C /* Shani_Vajrapanjara_Kavacham_English.pdf */,
+				52B6D34522E935BA00C8575C /* Shani_Vajrapanjara_Kavacham_Gujarati.pdf */,
+				52B6D36B22E935BD00C8575C /* Shani_Vajrapanjara_Kavacham_PlainEnglish.pdf */,
+				52B6D36222E935BC00C8575C /* Shani_Vajrapanjara_Kavacham_Tamil.pdf */,
+				52B6D32722E935B800C8575C /* Shani_Vajrapanjara_Kavacham_Telugu.pdf */,
+				52B6D32B22E935B900C8575C /* Shiva_Ashtottara_Sata_Namavali_Devanagari.pdf */,
+				52B6D34422E935BA00C8575C /* Shiva_Ashtottara_Sata_Namavali_English.pdf */,
+				52B6D35622E935BB00C8575C /* Shiva_Ashtottara_Sata_Namavali_Gujarati.pdf */,
+				52B6D32D22E935B900C8575C /* Shiva_Ashtottara_Sata_Namavali_PlainEnglish.pdf */,
+				52B6D37022E935BD00C8575C /* Shiva_Ashtottara_Sata_Namavali_Tamil.pdf */,
+				52B6D35022E935BB00C8575C /* Shiva_Ashtottara_Sata_Namavali_Telugu.pdf */,
+				52B6D34622E935BA00C8575C /* Shiva-Stotra-namavali.pdf */,
+				52B6D37122E935BD00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Devanagari.pdf */,
+				52B6D37222E935BD00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_English.pdf */,
+				52B6D35422E935BB00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Gujarati.pdf */,
+				52B6D35322E935BB00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_PlainEnglish.pdf */,
+				52B6D32E22E935B900C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Tamil (1).pdf */,
+				52B6D35722E935BB00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Tamil.pdf */,
+				52B6D35F22E935BC00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Telugu.pdf */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		834E26BE88AAA442F87D01CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65E6ED2A3B332C824028C798 /* Pods_Ashtotra.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		524CCBD922DD88E4000D3675 /* Ashtotra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524CCBEC22DD88E7000D3675 /* Build configuration list for PBXNativeTarget "Ashtotra" */;
+			buildPhases = (
+				15E9377FC3F62564446F06E6 /* [CP] Check Pods Manifest.lock */,
+				524CCBD622DD88E4000D3675 /* Sources */,
+				524CCBD722DD88E4000D3675 /* Frameworks */,
+				524CCBD822DD88E4000D3675 /* Resources */,
+				E9D6F714A557D28409E2C22E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ashtotra;
+			productName = "Ashtotra Book";
+			productReference = 524CCBDA22DD88E4000D3675 /* Ashtotra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5258DD4D240F7B4F0092C11D /* AshtotraUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5258DD55240F7B4F0092C11D /* Build configuration list for PBXNativeTarget "AshtotraUnitTests" */;
+			buildPhases = (
+				5258DD4A240F7B4F0092C11D /* Sources */,
+				5258DD4B240F7B4F0092C11D /* Frameworks */,
+				5258DD4C240F7B4F0092C11D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5258DD54240F7B4F0092C11D /* PBXTargetDependency */,
+			);
+			name = AshtotraUnitTests;
+			productName = AshtotraUnitTests;
+			productReference = 5258DD4E240F7B4F0092C11D /* AshtotraUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		524CCBD222DD88E4000D3675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Shruezee;
+				TargetAttributes = {
+					524CCBD922DD88E4000D3675 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5258DD4D240F7B4F0092C11D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 524CCBD922DD88E4000D3675;
+					};
+				};
+			};
+			buildConfigurationList = 524CCBD522DD88E4000D3675 /* Build configuration list for PBXProject "Ashtotra" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 524CCBD122DD88E4000D3675;
+			productRefGroup = 524CCBDB22DD88E4000D3675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				524CCBD922DD88E4000D3675 /* Ashtotra */,
+				5258DD4D240F7B4F0092C11D /* AshtotraUnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		524CCBD822DD88E4000D3675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B6D39A22E935BD00C8575C /* Durga_Ashtottara_Sata_Namavali_English.pdf in Resources */,
+				52B6D3BE22E935BE00C8575C /* Shani_Vajrapanjara_Kavacham_Tamil.pdf in Resources */,
+				52B6D39E22E935BD00C8575C /* Durga_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */,
+				524A97F822DEA3170026EF94 /* Shiva_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */,
+				52B6D3D222E935BE00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */,
+				52B6D3BF22E935BE00C8575C /* Rama_Ashtottara_Sata_Namaavali_English.pdf in Resources */,
+				52B6D3BA22E935BE00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Devanagari.pdf in Resources */,
+				52B6D39922E935BD00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */,
+				523FBFE622F554F1004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */,
+				52B6D3CD22E935BE00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */,
+				52B6D3A022E935BD00C8575C /* Shiva_Ashtottara_Sata_Namavali_English.pdf in Resources */,
+				52B6D38B22E935BD00C8575C /* Rama_Ashtottara_Sata_Namaavali_Telugu.pdf in Resources */,
+				52B6D38322E935BD00C8575C /* Shani_Vajrapanjara_Kavacham_Telugu.pdf in Resources */,
+				52B6D3AE22E935BE00C8575C /* Ganesha_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */,
+				52B6D38D22E935BD00C8575C /* Durga_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */,
+				52B6D3B422E935BE00C8575C /* Krishna_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */,
+				52B6D38922E935BD00C8575C /* Shiva_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */,
+				52B6D3C122E935BE00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */,
+				52B6D37E22E935BD00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */,
+				52B6D39622E935BD00C8575C /* Narasimha_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */,
+				52B6D39822E935BD00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */,
+				524A97F922DEA3180026EF94 /* Saraswati_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */,
+				52B6D3B322E935BE00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */,
+				52B6D3B022E935BE00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */,
+				52B6D37D22E935BD00C8575C /* Govinda_Namaavali_Telugu.pdf in Resources */,
+				52B6D38022E935BD00C8575C /* Krishna_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */,
+				52B6D3BD22E935BE00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */,
+				52B6D3BC22E935BE00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */,
+				52B6D3CA22E935BE00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */,
+				52B6D38F22E935BD00C8575C /* Aditya_Hrudayam_English.pdf in Resources */,
+				52B6D3CB22E935BE00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */,
+				52B6D3A622E935BD00C8575C /* Aditya_Hrudayam_Gujarati.pdf in Resources */,
+				52B6D38A22E935BD00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Tamil (1).pdf in Resources */,
+				52B6D3D122E935BE00C8575C /* Ganesha_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */,
+				52B6D3C922E935BE00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */,
+				52B6D37A22E935BD00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */,
+				52B6D38122E935BD00C8575C /* Rama_Ashtottara_Sata_Namaavali_Tamil.pdf in Resources */,
+				52B6D38622E935BD00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */,
+				52B6D3B122E935BE00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */,
+				52B6D3A222E935BD00C8575C /* Shiva-Stotra-namavali.pdf in Resources */,
+				524A97FA22DEA3180026EF94 /* Krishna_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */,
+				52B6D3C222E935BE00C8575C /* Gayatri_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */,
+				52B6D3A922E935BE00C8575C /* Durga_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */,
+				52B6D3CC22E935BE00C8575C /* Shiva_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */,
+				52B1FEF722EEADE200A47718 /* GoogleService-Info.plist in Resources */,
+				524A97FB22DEA3180026EF94 /* Hanuman_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */,
+				52B6D3A522E935BD00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_English.pdf in Resources */,
+				523FBFEA22F554F1004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */,
+				52B6D3D022E935BE00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */,
+				52B6D3CE22E935BE00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_English.pdf in Resources */,
+				52B6D39D22E935BD00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Tamil.pdf in Resources */,
+				52B6D3AD22E935BE00C8575C /* Krishna_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */,
+				52B6D3B822E935BE00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Telugu.pdf in Resources */,
+				52B6D39322E935BD00C8575C /* Hanuman_Ashtottara_Sata_Namavali_English.pdf in Resources */,
+				52B6D39722E935BD00C8575C /* Govinda_Namaavali_Tamil.pdf in Resources */,
+				52B6D38722E935BD00C8575C /* Shiva_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */,
+				52B6D39522E935BD00C8575C /* Govinda_Namaavali_English.pdf in Resources */,
+				52B6D3C722E935BE00C8575C /* Shani_Vajrapanjara_Kavacham_PlainEnglish.pdf in Resources */,
+				52B6D3C522E935BE00C8575C /* Saraswati_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */,
+				524A97FC22DEA3180026EF94 /* Subrahmanya_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */,
+				52B6D3C422E935BE00C8575C /* Rama_Ashtottara_Sata_Namaavali_Devanagari.pdf in Resources */,
+				52B6D38422E935BD00C8575C /* Krishna_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */,
+				524A97FD22DEA3180026EF94 /* Durga_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */,
+				524A97FE22DEA3180026EF94 /* Rama_Ashtottara_Sata_Namaavali_Kannada.pdf in Resources */,
+				524A97FF22DEA3180026EF94 /* Ganesha_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */,
+				52B6D3C022E935BE00C8575C /* Durga_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */,
+				524A980022DEA3180026EF94 /* Lakshmi_Ashtottara_Sata_Naamaavali_Kannada.pdf in Resources */,
+				523FBFE822F554F1004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Devanagari.pdf in Resources */,
+				524A980122DEA3180026EF94 /* Gayatri_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */,
+				524A980222DEA3180026EF94 /* Narasimha_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */,
+				523FBFE922F554F1004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Tamil.pdf in Resources */,
+				52B6D38222E935BD00C8575C /* Saraswati_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */,
+				52B6D38822E935BD00C8575C /* Hanuman_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */,
+				52B6D39C22E935BD00C8575C /* Govinda_Namaavali_Devanagari.pdf in Resources */,
+				524A980322DEA3180026EF94 /* Aditya_Hrudayam_Kannada.pdf in Resources */,
+				524A980422DEA3180026EF94 /* Shani_Vajrapanjara_Kavacham_Kannada.pdf in Resources */,
+				52B6D38E22E935BD00C8575C /* Aditya_Hrudayam_Tamil.pdf in Resources */,
+				52B6D39B22E935BD00C8575C /* Narasimha_Ashtottara_Sata_Namavali_English.pdf in Resources */,
+				52B6D3A122E935BD00C8575C /* Shani_Vajrapanjara_Kavacham_Gujarati.pdf in Resources */,
+				52B6D3AA22E935BE00C8575C /* Shani_Vajrapanjara_Kavacham_Devanagari.pdf in Resources */,
+				52B6D3B222E935BE00C8575C /* Shiva_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */,
+				52B6D3B722E935BE00C8575C /* Saraswati_Ashtottara_Sata_Namavali_English.pdf in Resources */,
+				52B6D3C622E935BE00C8575C /* Krishna_Ashtottara_Sata_Namavali_English.pdf in Resources */,
+				52B6D3BB22E935BE00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */,
+				52B6D3AB22E935BE00C8575C /* Shani_Vajrapanjara_Kavacham_English.pdf in Resources */,
+				52B6D3C822E935BE00C8575C /* Aditya_Hrudayam_Devanagari.pdf in Resources */,
+				52B6D39F22E935BD00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */,
+				52B6D37B22E935BD00C8575C /* Gayatri_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */,
+				52B6D39022E935BD00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_Gujarati.pdf in Resources */,
+				52B6D3A422E935BD00C8575C /* Govinda_Namaavali_Gujarati.pdf in Resources */,
+				524A980522DEA3180026EF94 /* Govinda_Namaavali_Kannada.pdf in Resources */,
+				52B6D3B522E935BE00C8575C /* Aditya_Hrudayam_Telugu.pdf in Resources */,
+				52B6D38522E935BD00C8575C /* Aditya_Hrudayam_PlainEnglish.pdf in Resources */,
+				524CCBE822DD88E7000D3675 /* LaunchScreen.storyboard in Resources */,
+				52B6D38C22E935BD00C8575C /* Durga_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */,
+				52B6D37F22E935BD00C8575C /* Govinda_Namaavali_PlainEnglish.pdf in Resources */,
+				52B6D39422E935BD00C8575C /* Rama_Ashtottara_Sata_Namaavali_PlainEnglish.pdf in Resources */,
+				52B6D3CF22E935BE00C8575C /* Rama_Ashtottara_Sata_Namaavali_Gujarati.pdf in Resources */,
+				52B6D3B922E935BE00C8575C /* Hanuman_Ashtottara_Sata_Namavali_Gujarati.pdf in Resources */,
+				524CCBE522DD88E7000D3675 /* Assets.xcassets in Resources */,
+				523FBFEC22F554FA004747FC /* Raghavendra_Ashtottara_Sata_Namavali_Kannada.pdf in Resources */,
+				52B6D3AC22E935BE00C8575C /* Shiva_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */,
+				52B6D3A322E935BD00C8575C /* Krishna_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */,
+				52B6D37922E935BD00C8575C /* Gayatri_Ashtottara_Sata_Namavali_English.pdf in Resources */,
+				52B6D3AF22E935BE00C8575C /* Subrahmanya_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */,
+				52B6D3A722E935BD00C8575C /* Narasimha_Ashtottara_Sata_Namavali_Telugu.pdf in Resources */,
+				52B6D39222E935BD00C8575C /* Lakshmi_Ashtottara_Sata_Naamaavali_PlainEnglish.pdf in Resources */,
+				523FBFE722F554F1004747FC /* Raghavendra_Ashtottara_Sata_Namavali_PlainEnglish.pdf in Resources */,
+				52B6D37822E935BD00C8575C /* Ganesha_Ashtottara_Sata_Namavali_English.pdf in Resources */,
+				524CCBE322DD88E4000D3675 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5258DD4C240F7B4F0092C11D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15E9377FC3F62564446F06E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ashtotra-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9D6F714A557D28409E2C22E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ashtotra/Pods-Ashtotra-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ashtotra/Pods-Ashtotra-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ashtotra/Pods-Ashtotra-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524CCBD622DD88E4000D3675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A97A622DDB61B0026EF94 /* ListViewController.swift in Sources */,
+				524CCBDE22DD88E4000D3675 /* AppDelegate.swift in Sources */,
+				524A97A322DDA9070026EF94 /* Utils.swift in Sources */,
+				5258DD46240F6E480092C11D /* AshtotraModal.swift in Sources */,
+				524A97AB22DDBC750026EF94 /* ListCell.swift in Sources */,
+				524A97A822DDB6B30026EF94 /* DisplayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5258DD4A240F7B4F0092C11D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5258DD51240F7B4F0092C11D /* AshtotraUnitTests.swift in Sources */,
+				5258DD58240F7B530092C11D /* AshtotrasUnitTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5258DD54240F7B4F0092C11D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524CCBD922DD88E4000D3675 /* Ashtotra */;
+			targetProxy = 5258DD53240F7B4F0092C11D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		524CCBE122DD88E4000D3675 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524CCBE222DD88E4000D3675 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		524CCBE622DD88E7000D3675 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524CCBE722DD88E7000D3675 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		524CCBEA22DD88E7000D3675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		524CCBEB22DD88E7000D3675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		524CCBED22DD88E7000D3675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBCF1D008382FBBBDCE59F02 /* Pods-Ashtotra.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 73RC6SBX5Y;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Resorces/Others",
+				);
+				INFOPLIST_FILE = "Ashtotra Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shruezee.Ashtotra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		524CCBEE22DD88E7000D3675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0446CFB97EE3918E33765FCF /* Pods-Ashtotra.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 73RC6SBX5Y;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Resorces/Others",
+				);
+				INFOPLIST_FILE = "Ashtotra Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shruezee.Ashtotra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5258DD56240F7B4F0092C11D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73RC6SBX5Y;
+				INFOPLIST_FILE = AshtotraUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shruezee.AshtotraUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ashtotra.app/Ashtotra";
+			};
+			name = Debug;
+		};
+		5258DD57240F7B4F0092C11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73RC6SBX5Y;
+				INFOPLIST_FILE = AshtotraUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shruezee.AshtotraUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ashtotra.app/Ashtotra";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		524CCBD522DD88E4000D3675 /* Build configuration list for PBXProject "Ashtotra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524CCBEA22DD88E7000D3675 /* Debug */,
+				524CCBEB22DD88E7000D3675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524CCBEC22DD88E7000D3675 /* Build configuration list for PBXNativeTarget "Ashtotra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524CCBED22DD88E7000D3675 /* Debug */,
+				524CCBEE22DD88E7000D3675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5258DD55240F7B4F0092C11D /* Build configuration list for PBXNativeTarget "AshtotraUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5258DD56240F7B4F0092C11D /* Debug */,
+				5258DD57240F7B4F0092C11D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 524CCBD222DD88E4000D3675 /* Project object */;
+}
