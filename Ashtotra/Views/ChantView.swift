@@ -7,6 +7,7 @@ struct ChantView: View {
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(\.dynamicTypeSize) private var typeSize
     @Environment(PracticeLog.self) private var log
+    @Environment(Reciter.self) private var reciter
     @AppStorage("script") private var script: Script = .simple
     @AppStorage("haptics") private var haptics = true
 
@@ -32,12 +33,46 @@ struct ChantView: View {
         }
         .foregroundStyle(.white)
         .onAppear { UIApplication.shared.isIdleTimerDisabled = true }
-        .onDisappear { UIApplication.shared.isIdleTimerDisabled = false }
+        .onDisappear {
+            UIApplication.shared.isIdleTimerDisabled = false
+            if listening { reciter.stop() }
+        }
+        .onChange(of: reciter.currentIndex) { _, spoken in
+            guard listening, let spoken, spoken != index else { return }
+            withAnimation(reduceMotion ? nil : .easeOut(duration: 0.25)) { index = spoken }
+            log.setPosition(index, in: collection.id)
+        }
+        .onChange(of: reciter.finishedToken) { _, _ in
+            if reciterOwner == lastListenOwner && index == 107 { finish() }
+        }
         .sensoryFeedback(.selection, trigger: index) { _, _ in haptics }
         .sensoryFeedback(.success, trigger: finished) { _, new in haptics && new }
     }
 
-    private var name: DivineName { collection.names[index] }
+    private var name: ScriptText { collection.names[index] }
+
+    private var reciterOwner: String { "chant-\(collection.id)" }
+    private var listening: Bool { reciter.isPlaying(reciterOwner) }
+    @State private var lastListenOwner: String?
+
+    private var spokenLines: [String] {
+        collection.names.map { library.chantLine($0, script: .devanagari) }
+    }
+
+    private func toggleListening() {
+        if listening {
+            reciter.stop()
+        } else {
+            lastListenOwner = reciterOwner
+            reciter.play(spokenLines, from: index, owner: reciterOwner)
+        }
+    }
+
+    private func finish() {
+        log.complete(collection.id)
+        withAnimation(.easeInOut(duration: 0.5)) { finished = true }
+        UIAccessibility.post(notification: .announcement, argument: "108 names offered")
+    }
 
     private var chanting: some View {
         VStack(spacing: 0) {
@@ -122,6 +157,14 @@ struct ChantView: View {
 
     private var controls: some View {
         HStack(spacing: 14) {
+            Button(action: toggleListening) {
+                Image(systemName: listening ? "pause.fill" : "speaker.wave.2.fill")
+                    .frame(width: 64, height: 64)
+            }
+            .background(.white.opacity(listening ? 0.45 : 0.16), in: .rect(cornerRadius: 20))
+            .accessibilityLabel(listening ? "Pause listening" : "Listen and chant along")
+            .disabled(!Reciter.hasVoice)
+
             Button(action: goBack) {
                 Label("Back", systemImage: "chevron.left")
                     .frame(maxWidth: .infinity, minHeight: 64)
@@ -169,6 +212,7 @@ struct ChantView: View {
             }
             Button {
                 withAnimation { index = 0; finished = false }
+                lastListenOwner = nil
             } label: {
                 Text("Chant again")
                     .font(.headline)
@@ -180,19 +224,20 @@ struct ChantView: View {
 
     private func advance() {
         if index == 107 {
-            log.complete(collection.id)
-            withAnimation(.easeInOut(duration: 0.5)) { finished = true }
-            UIAccessibility.post(notification: .announcement, argument: "108 names offered")
+            if listening { reciter.stop() }
+            finish()
             return
         }
         withAnimation(reduceMotion ? nil : .easeOut(duration: 0.25)) { index += 1 }
         log.setPosition(index, in: collection.id)
+        if listening { reciter.play(spokenLines, from: index, owner: reciterOwner) }
     }
 
     private func goBack() {
         guard index > 0 else { return }
         withAnimation(reduceMotion ? nil : .easeOut(duration: 0.25)) { index -= 1 }
         log.setPosition(index, in: collection.id)
+        if listening { reciter.play(spokenLines, from: index, owner: reciterOwner) }
     }
 }
 

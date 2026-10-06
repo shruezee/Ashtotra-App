@@ -46,6 +46,7 @@ struct ReaderView: View {
             .background(Theme.background.ignoresSafeArea())
             .navigationTitle(collection.title)
             .navigationBarTitleDisplayMode(.inline)
+        .toolbar(.hidden, for: .tabBar)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     ScriptMenu(script: $script)

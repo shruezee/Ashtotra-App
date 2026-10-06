@@ -1,69 +1,36 @@
 import SwiftUI
 
-struct HomeView: View {
+struct NamesView: View {
     @Environment(PracticeLog.self) private var log
     @AppStorage("script") private var script: Script = .simple
-    @State private var showSettings = false
-    @State private var path: [NameCollection] = []
 
     private let library = Library.shared
 
     var body: some View {
-        NavigationStack(path: $path) {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 20) {
-                    header
-                    ForEach(library.collections) { collection in
-                        NavigationLink(value: collection) {
-                            CollectionCard(collection: collection, script: script)
-                        }
-                        .buttonStyle(.plain)
+        ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
+                header
+                ForEach(library.collections) { collection in
+                    NavigationLink(value: collection) {
+                        CollectionCard(collection: collection, script: script)
                     }
-                    footer
+                    .buttonStyle(.plain)
                 }
-                .padding(.horizontal, 20)
-                .padding(.bottom, 32)
-                .frame(maxWidth: 700)
-                .frame(maxWidth: .infinity)
+                footer
             }
-            .background(Theme.background.ignoresSafeArea())
-            .navigationTitle("Ashtotra")
-            .navigationDestination(for: NameCollection.self) { collection in
-                ReaderView(collection: collection)
-            }
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button {
-                        showSettings = true
-                    } label: {
-                        Label("Settings", systemImage: "gearshape")
-                    }
-                }
-            }
-            .sheet(isPresented: $showSettings) {
-                SettingsView()
-            }
+            .padding(.horizontal, 20)
+            .padding(.bottom, 32)
+            .frame(maxWidth: 700)
+            .frame(maxWidth: .infinity)
         }
-        #if DEBUG
-        .onAppear(perform: openDemoRoute)
-        #endif
+        .background(Theme.background.ignoresSafeArea())
+        .navigationTitle("108 Names")
+        .settingsToolbar()
     }
-
-    #if DEBUG
-    /// Launch with `-demoRoute shiva` or `-demoRoute settings` to open a screen directly (screenshots).
-    private func openDemoRoute() {
-        guard let route = UserDefaults.standard.string(forKey: "demoRoute") else { return }
-        if route == "settings" {
-            showSettings = true
-        } else if let collection = library.collection(id: route) {
-            path = [collection]
-        }
-    }
-    #endif
 
     private var header: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Text("108 sacred names, in your script.")
+            Text("Ashtottara Shatanamavali: chant 108 names with a mala.")
                 .font(.title3.weight(.medium))
                 .foregroundStyle(.secondary)
             if log.totalCompletions > 0 {
@@ -143,5 +110,5 @@ struct CollectionCard: View {
 }
 
 #Preview {
-    HomeView().environment(PracticeLog())
+    NavigationStack { NamesView() }.environment(PracticeLog())
 }

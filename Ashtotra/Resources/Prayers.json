@@ -1,0 +1,3687 @@
+{
+ "prayers": [
+  {
+   "id": "ganesha-pancharatnam",
+   "title": "Ganesha Pancharatnam",
+   "nativeTitle": "गणेश पञ्चरत्नम्",
+   "deity": "orange",
+   "kind": "stotra",
+   "about": "Adi Shankaracharya's five jewels in praise of Ganesha, traditionally recited at daybreak. The sixth verse tells of the blessings of reciting it.",
+   "verses": [
+    {
+     "label": null,
+     "number": 1,
+     "lines": [
+      {
+       "iast": "mudā karātta modakaṃ sadā vimukti sādhakam",
+       "simple": "mudaa karaatta modakam sadaa vimukti saadhakam",
+       "devanagari": "मुदा करात्त मोदकं सदा विमुक्ति साधकम्",
+       "telugu": "ముదా కరాత్త మోదకం సదా విముక్తి సాధకమ్",
+       "kannada": "ಮುದಾ ಕರಾತ್ತ ಮೋದಕಂ ಸದಾ ವಿಮುಕ್ತಿ ಸಾಧಕಮ್",
+       "gujarati": "મુદા કરાત્ત મોદકં સદા વિમુક્તિ સાધકમ્"
+      },
+      {
+       "iast": "kaḷādharāvataṃsakaṃ vilāsiloka rakṣakam",
+       "simple": "kalaadharaavatamsakam vilaasiloka rakshakam",
+       "devanagari": "कऌआधरावतंसकं विलासिलोक रक्षकम्",
+       "telugu": "కఌఆధరావతంసకం విలాసిలోక రక్షకమ్",
+       "kannada": "ಕಌಆಧರಾವತಂಸಕಂ ವಿಲಾಸಿಲೋಕ ರಕ್ಷಕಮ್",
+       "gujarati": "કઌઆધરાવતંસકં વિલાસિલોક રક્ષકમ્"
+      },
+      {
+       "iast": "anāyakaika nāyakaṃ vināśitebha daityakam",
+       "simple": "anaayakaika naayakam vinaashitebha daityakam",
+       "devanagari": "अनायकैक नायकं विनाशितेभ दैत्यकम्",
+       "telugu": "అనాయకైక నాయకం వినాశితేభ దైత్యకమ్",
+       "kannada": "ಅನಾಯಕೈಕ ನಾಯಕಂ ವಿನಾಶಿತೇಭ ದೈತ್ಯಕಮ್",
+       "gujarati": "અનાયકૈક નાયકં વિનાશિતેભ દૈત્યકમ્"
+      },
+      {
+       "iast": "natāśubhāśu nāśakaṃ namāmi taṃ vināyakam",
+       "simple": "nataashubhaashu naashakam namaami tam vinaayakam",
+       "devanagari": "नताशुभाशु नाशकं नमामि तं विनायकम्",
+       "telugu": "నతాశుభాశు నాశకం నమామి తం వినాయకమ్",
+       "kannada": "ನತಾಶುಭಾಶು ನಾಶಕಂ ನಮಾಮಿ ತಂ ವಿನಾಯಕಮ್",
+       "gujarati": "નતાશુભાશુ નાશકં નમામિ તં વિનાયકમ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 2,
+     "lines": [
+      {
+       "iast": "natetarāti bhīkaraṃ navoditārka bhāsvaram",
+       "simple": "natetaraati bheekaram navoditaarka bhaasvaram",
+       "devanagari": "नतेतराति भीकरं नवोदितार्क भास्वरम्",
+       "telugu": "నతేతరాతి భీకరం నవోదితార్క భాస్వరమ్",
+       "kannada": "ನತೇತರಾತಿ ಭೀಕರಂ ನವೋದಿತಾರ್ಕ ಭಾಸ್ವರಮ್",
+       "gujarati": "નતેતરાતિ ભીકરં નવોદિતાર્ક ભાસ્વરમ્"
+      },
+      {
+       "iast": "namatsurāri nirjaraṃ natādhikāpaduddharam",
+       "simple": "namatsuraari nirjaram nataadhikaapaduddharam",
+       "devanagari": "नमत्सुरारि निर्जरं नताधिकापदुद्धरम्",
+       "telugu": "నమత్సురారి నిర్జరం నతాధికాపదుద్ధరమ్",
+       "kannada": "ನಮತ್ಸುರಾರಿ ನಿರ್ಜರಂ ನತಾಧಿಕಾಪದುದ್ಧರಮ್",
+       "gujarati": "નમત્સુરારિ નિર્જરં નતાધિકાપદુદ્ધરમ્"
+      },
+      {
+       "iast": "sureśvaraṃ nidhīśvaraṃ gajeśvaraṃ gaṇeśvaram",
+       "simple": "sureshvaram nidheeshvaram gajeshvaram ganeshvaram",
+       "devanagari": "सुरेश्वरं निधीश्वरं गजेश्वरं गणेश्वरम्",
+       "telugu": "సురేశ్వరం నిధీశ్వరం గజేశ్వరం గణేశ్వరమ్",
+       "kannada": "ಸುರೇಶ್ವರಂ ನಿಧೀಶ್ವರಂ ಗಜೇಶ್ವರಂ ಗಣೇಶ್ವರಮ್",
+       "gujarati": "સુરેશ્વરં નિધીશ્વરં ગજેશ્વરં ગણેશ્વરમ્"
+      },
+      {
+       "iast": "maheśvaraṃ tamāśraye parātparaṃ nirantaram",
+       "simple": "maheshvaram tamaashraye paraatparam nirantaram",
+       "devanagari": "महेश्वरं तमाश्रये परात्परं निरन्तरम्",
+       "telugu": "మహేశ్వరం తమాశ్రయే పరాత్పరం నిరన్తరమ్",
+       "kannada": "ಮಹೇಶ್ವರಂ ತಮಾಶ್ರಯೇ ಪರಾತ್ಪರಂ ನಿರನ್ತರಮ್",
+       "gujarati": "મહેશ્વરં તમાશ્રયે પરાત્પરં નિરન્તરમ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 3,
+     "lines": [
+      {
+       "iast": "samasta loka śaṅkaraṃ nirasta daitya kuñjaram",
+       "simple": "samasta loka shankaram nirasta daitya kunjaram",
+       "devanagari": "समस्त लोक शङ्करं निरस्त दैत्य कुञ्जरम्",
+       "telugu": "సమస్త లోక శఙ్కరం నిరస్త దైత్య కుఞ్జరమ్",
+       "kannada": "ಸಮಸ್ತ ಲೋಕ ಶಙ್ಕರಂ ನಿರಸ್ತ ದೈತ್ಯ ಕುಞ್ಜರಮ್",
+       "gujarati": "સમસ્ત લોક શઙ્કરં નિરસ્ત દૈત્ય કુઞ્જરમ્"
+      },
+      {
+       "iast": "daretarodaraṃ varaṃ varebha vaktramakṣaram",
+       "simple": "daretarodaram varam varebha vaktramaksharam",
+       "devanagari": "दरेतरोदरं वरं वरेभ वक्त्रमक्षरम्",
+       "telugu": "దరేతరోదరం వరం వరేభ వక్త్రమక్షరమ్",
+       "kannada": "ದರೇತರೋದರಂ ವರಂ ವರೇಭ ವಕ್ತ್ರಮಕ್ಷರಮ್",
+       "gujarati": "દરેતરોદરં વરં વરેભ વક્ત્રમક્ષરમ્"
+      },
+      {
+       "iast": "kṛpākaraṃ kṣamākaraṃ mudākaraṃ yaśaskaram",
+       "simple": "kripaakaram kshamaakaram mudaakaram yashaskaram",
+       "devanagari": "कृपाकरं क्षमाकरं मुदाकरं यशस्करम्",
+       "telugu": "కృపాకరం క్షమాకరం ముదాకరం యశస్కరమ్",
+       "kannada": "ಕೃಪಾಕರಂ ಕ್ಷಮಾಕರಂ ಮುದಾಕರಂ ಯಶಸ್ಕರಮ್",
+       "gujarati": "કૃપાકરં ક્ષમાકરં મુદાકરં યશસ્કરમ્"
+      },
+      {
+       "iast": "manaskaraṃ namaskṛtāṃ namaskaromi bhāsvaram",
+       "simple": "manaskaram namaskritaam namaskaromi bhaasvaram",
+       "devanagari": "मनस्करं नमस्कृतां नमस्करोमि भास्वरम्",
+       "telugu": "మనస్కరం నమస్కృతాం నమస్కరోమి భాస్వరమ్",
+       "kannada": "ಮನಸ್ಕರಂ ನಮಸ್ಕೃತಾಂ ನಮಸ್ಕರೋಮಿ ಭಾಸ್ವರಮ್",
+       "gujarati": "મનસ્કરં નમસ્કૃતાં નમસ્કરોમિ ભાસ્વરમ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 4,
+     "lines": [
+      {
+       "iast": "akiñcanārti mārjanaṃ cirantanokti bhājanam",
+       "simple": "akinchanaarti maarjanam chirantanokti bhaajanam",
+       "devanagari": "अकिञ्चनार्ति मार्जनं चिरन्तनोक्ति भाजनम्",
+       "telugu": "అకిఞ్చనార్తి మార్జనం చిరన్తనోక్తి భాజనమ్",
+       "kannada": "ಅಕಿಞ್ಚನಾರ್ತಿ ಮಾರ್ಜನಂ ಚಿರನ್ತನೋಕ್ತಿ ಭಾಜನಮ್",
+       "gujarati": "અકિઞ્ચનાર્તિ માર્જનં ચિરન્તનોક્તિ ભાજનમ્"
+      },
+      {
+       "iast": "purāri pūrva nandanaṃ surāri garva carvaṇam",
+       "simple": "puraari poorva nandanam suraari garva charvanam",
+       "devanagari": "पुरारि पूर्व नन्दनं सुरारि गर्व चर्वणम्",
+       "telugu": "పురారి పూర్వ నన్దనం సురారి గర్వ చర్వణమ్",
+       "kannada": "ಪುರಾರಿ ಪೂರ್ವ ನನ್ದನಂ ಸುರಾರಿ ಗರ್ವ ಚರ್ವಣಮ್",
+       "gujarati": "પુરારિ પૂર્વ નન્દનં સુરારિ ગર્વ ચર્વણમ્"
+      },
+      {
+       "iast": "prapañca nāśa bhīṣaṇaṃ dhanañjayādi bhūṣaṇam",
+       "simple": "prapancha naasha bheeshanam dhananjayaadi bhooshanam",
+       "devanagari": "प्रपञ्च नाश भीषणं धनञ्जयादि भूषणम्",
+       "telugu": "ప్రపఞ్చ నాశ భీషణం ధనఞ్జయాది భూషణమ్",
+       "kannada": "ಪ್ರಪಞ್ಚ ನಾಶ ಭೀಷಣಂ ಧನಞ್ಜಯಾದಿ ಭೂಷಣಮ್",
+       "gujarati": "પ્રપઞ્ચ નાશ ભીષણં ધનઞ્જયાદિ ભૂષણમ્"
+      },
+      {
+       "iast": "kapola dānavāraṇaṃ bhaje purāṇa vāraṇam",
+       "simple": "kapola daanavaaranam bhaje puraana vaaranam",
+       "devanagari": "कपोल दानवारणं भजे पुराण वारणम्",
+       "telugu": "కపోల దానవారణం భజే పురాణ వారణమ్",
+       "kannada": "ಕಪೋಲ ದಾನವಾರಣಂ ಭಜೇ ಪುರಾಣ ವಾರಣಮ್",
+       "gujarati": "કપોલ દાનવારણં ભજે પુરાણ વારણમ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 5,
+     "lines": [
+      {
+       "iast": "nitānta kānti danta kānti manta kānti kātmajam",
+       "simple": "nitaanta kaanti danta kaanti manta kaanti kaatmajam",
+       "devanagari": "नितान्त कान्ति दन्त कान्ति मन्त कान्ति कात्मजम्",
+       "telugu": "నితాన్త కాన్తి దన్త కాన్తి మన్త కాన్తి కాత్మజమ్",
+       "kannada": "ನಿತಾನ್ತ ಕಾನ್ತಿ ದನ್ತ ಕಾನ್ತಿ ಮನ್ತ ಕಾನ್ತಿ ಕಾತ್ಮಜಮ್",
+       "gujarati": "નિતાન્ત કાન્તિ દન્ત કાન્તિ મન્ત કાન્તિ કાત્મજમ્"
+      },
+      {
+       "iast": "acintya rūpamanta hīna mantarāya kṛntanam",
+       "simple": "achintya roopamanta heena mantaraaya krintanam",
+       "devanagari": "अचिन्त्य रूपमन्त हीन मन्तराय कृन्तनम्",
+       "telugu": "అచిన్త్య రూపమన్త హీన మన్తరాయ కృన్తనమ్",
+       "kannada": "ಅಚಿನ್ತ್ಯ ರೂಪಮನ್ತ ಹೀನ ಮನ್ತರಾಯ ಕೃನ್ತನಮ್",
+       "gujarati": "અચિન્ત્ય રૂપમન્ત હીન મન્તરાય કૃન્તનમ્"
+      },
+      {
+       "iast": "hṛdantare nirantaraṃ vasantameva yoginām",
+       "simple": "hridantare nirantaram vasantameva yoginaam",
+       "devanagari": "हृदन्तरे निरन्तरं वसन्तमेव योगिनाम्",
+       "telugu": "హృదన్తరే నిరన్తరం వసన్తమేవ యోగినామ్",
+       "kannada": "ಹೃದನ್ತರೇ ನಿರನ್ತರಂ ವಸನ್ತಮೇವ ಯೋಗಿನಾಮ್",
+       "gujarati": "હૃદન્તરે નિરન્તરં વસન્તમેવ યોગિનામ્"
+      },
+      {
+       "iast": "tamekadantameva taṃ vicintayāmi santatam",
+       "simple": "tamekadantameva tam vichintayaami santatam",
+       "devanagari": "तमेकदन्तमेव तं विचिन्तयामि सन्ततम्",
+       "telugu": "తమేకదన్తమేవ తం విచిన్తయామి సన్తతమ్",
+       "kannada": "ತಮೇಕದನ್ತಮೇವ ತಂ ವಿಚಿನ್ತಯಾಮಿ ಸನ್ತತಮ್",
+       "gujarati": "તમેકદન્તમેવ તં વિચિન્તયામિ સન્તતમ્"
+      }
+     ]
+    },
+    {
+     "label": "Phalaśruti",
+     "number": null,
+     "lines": [
+      {
+       "iast": "mahāgaṇeśa pañcaratnamādareṇa yonvaham",
+       "simple": "mahaaganesha pancharatnamaadarena yonvaham",
+       "devanagari": "महागणेश पञ्चरत्नमादरेण योन्वहम्",
+       "telugu": "మహాగణేశ పఞ్చరత్నమాదరేణ యోన్వహమ్",
+       "kannada": "ಮಹಾಗಣೇಶ ಪಞ್ಚರತ್ನಮಾದರೇಣ ಯೋನ್ವಹಮ್",
+       "gujarati": "મહાગણેશ પઞ્ચરત્નમાદરેણ યોન્વહમ્"
+      },
+      {
+       "iast": "prajalpati prabhātake hṛdi smaran gaṇeśvaram",
+       "simple": "prajalpati prabhaatake hridi smaran ganeshvaram",
+       "devanagari": "प्रजल्पति प्रभातके हृदि स्मरन्गणेश्वरम्",
+       "telugu": "ప్రజల్పతి ప్రభాతకే హృది స్మరన్గణేశ్వరమ్",
+       "kannada": "ಪ್ರಜಲ್ಪತಿ ಪ್ರಭಾತಕೇ ಹೃದಿ ಸ್ಮರನ್ಗಣೇಶ್ವರಮ್",
+       "gujarati": "પ્રજલ્પતિ પ્રભાતકે હૃદિ સ્મરન્ગણેશ્વરમ્"
+      },
+      {
+       "iast": "arogatāmadoṣatāṃ susāhitīṃ suputratām",
+       "simple": "arogataamadoshataam susaahiteem suputrataam",
+       "devanagari": "अरोगतामदोषतां सुसाहितीं सुपुत्रताम्",
+       "telugu": "అరోగతామదోషతాం సుసాహితీం సుపుత్రతామ్",
+       "kannada": "ಅರೋಗತಾಮದೋಷತಾಂ ಸುಸಾಹಿತೀಂ ಸುಪುತ್ರತಾಮ್",
+       "gujarati": "અરોગતામદોષતાં સુસાહિતીં સુપુત્રતામ્"
+      },
+      {
+       "iast": "samāhitāyu raṣṭabhūti mabhyupaiti socirāt",
+       "simple": "samaahitaayu rashtabhooti mabhyupaiti sochiraat",
+       "devanagari": "समाहितायु रष्टभूति मभ्युपैति सोचिरात्",
+       "telugu": "సమాహితాయు రష్టభూతి మభ్యుపైతి సోచిరాత్",
+       "kannada": "ಸಮಾಹಿತಾಯು ರಷ್ಟಭೂತಿ ಮಭ್ಯುಪೈತಿ ಸೋಚಿರಾತ್",
+       "gujarati": "સમાહિતાયુ રષ્ટભૂતિ મભ્યુપૈતિ સોચિરાત્"
+      }
+     ]
+    }
+   ],
+   "meaning": null,
+   "tags": []
+  },
+  {
+   "id": "narayana-suktam",
+   "title": "Narayana Suktam",
+   "nativeTitle": "नारायण सूक्तम्",
+   "deity": "blue",
+   "kind": "stotra",
+   "about": "A Vedic hymn from the Taittiriya Aranyaka describing Narayana as the light that dwells in every heart.",
+   "verses": [
+    {
+     "label": "Śānti mantra",
+     "number": null,
+     "lines": [
+      {
+       "iast": "oṃ saha nāvavatu",
+       "simple": "om saha naavavatu",
+       "devanagari": "ॐ सह नाववतु",
+       "telugu": "ఓం సహ నావవతు",
+       "kannada": "ಓಂ ಸಹ ನಾವವತು",
+       "gujarati": "ૐ સહ નાવવતુ"
+      },
+      {
+       "iast": "saha nau bhunaktu",
+       "simple": "saha nau bhunaktu",
+       "devanagari": "सह नौ भुनक्तु",
+       "telugu": "సహ నౌ భునక్తు",
+       "kannada": "ಸಹ ನೌ ಭುನಕ್ತು",
+       "gujarati": "સહ નૌ ભુનક્તુ"
+      },
+      {
+       "iast": "saha vīryaṃ karavāvahai",
+       "simple": "saha veeryam karavaavahai",
+       "devanagari": "सह वीर्यं करवावहै",
+       "telugu": "సహ వీర్యం కరవావహై",
+       "kannada": "ಸಹ ವೀರ್ಯಂ ಕರವಾವಹೈ",
+       "gujarati": "સહ વીર્યં કરવાવહૈ"
+      },
+      {
+       "iast": "tejasvināvadhītamastu mā vidviṣāvahai",
+       "simple": "tejasvinaavadheetamastu maa vidvishaavahai",
+       "devanagari": "तेजस्विनावधीतमस्तु मा विद्विषावहै",
+       "telugu": "తేజస్వినావధీతమస్తు మా విద్విషావహై",
+       "kannada": "ತೇಜಸ್ವಿನಾವಧೀತಮಸ್ತು ಮಾ ವಿದ್ವಿಷಾವಹೈ",
+       "gujarati": "તેજસ્વિનાવધીતમસ્તુ મા વિદ્વિષાવહૈ"
+      }
+     ]
+    },
+    {
+     "label": "Śānti mantra",
+     "number": null,
+     "lines": [
+      {
+       "iast": "oṃ śāṃtiḥ śāṃtiḥ śāṃtiḥ",
+       "simple": "om shaamtih shaamtih shaamtih",
+       "devanagari": "ॐ शांतिः शांतिः शांतिः",
+       "telugu": "ఓం శాంతిః శాంతిః శాంతిః",
+       "kannada": "ಓಂ ಶಾಂತಿಃ ಶಾಂತಿಃ ಶಾಂತಿಃ",
+       "gujarati": "ૐ શાંતિઃ શાંતિઃ શાંતિઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 1,
+     "lines": [
+      {
+       "iast": "sahasraśīrṣaṃ devaṃ viśvākṣaṃ viśvaśaṃbhuvam",
+       "simple": "sahasrasheersham devam vishvaaksham vishvashambhuvam",
+       "devanagari": "सहस्रशीर्षं देवं विश्वाक्षं विश्वशंभुवम्",
+       "telugu": "సహస్రశీర్షం దేవం విశ్వాక్షం విశ్వశంభువమ్",
+       "kannada": "ಸಹಸ್ರಶೀರ್ಷಂ ದೇವಂ ವಿಶ್ವಾಕ್ಷಂ ವಿಶ್ವಶಂಭುವಮ್",
+       "gujarati": "સહસ્રશીર્ષં દેવં વિશ્વાક્ષં વિશ્વશંભુવમ્"
+      },
+      {
+       "iast": "viśvaṃ nārāyaṇaṃ devamakṣaraṃ paramaṃ padam",
+       "simple": "vishvam naaraayanam devamaksharam paramam padam",
+       "devanagari": "विश्वं नारायणं देवमक्षरं परमं पदम्",
+       "telugu": "విశ్వం నారాయణం దేవమక్షరం పరమం పదమ్",
+       "kannada": "ವಿಶ್ವಂ ನಾರಾಯಣಂ ದೇವಮಕ್ಷರಂ ಪರಮಂ ಪದಮ್",
+       "gujarati": "વિશ્વં નારાયણં દેવમક્ષરં પરમં પદમ્"
+      },
+      {
+       "iast": "viśvataḥ paramānnityaṃ viśvaṃ nārāyaṇaṃ harim",
+       "simple": "vishvatah paramaannityam vishvam naaraayanam harim",
+       "devanagari": "विश्वतः परमान्नित्यं विश्वं नारायणं हरिम्",
+       "telugu": "విశ్వతః పరమాన్నిత్యం విశ్వం నారాయణం హరిమ్",
+       "kannada": "ವಿಶ್ವತಃ ಪರಮಾನ್ನಿತ್ಯಂ ವಿಶ್ವಂ ನಾರಾಯಣಂ ಹರಿಮ್",
+       "gujarati": "વિશ્વતઃ પરમાન્નિત્યં વિશ્વં નારાયણં હરિમ્"
+      },
+      {
+       "iast": "viśvamevedaṃ puruṣa-stadviśva-mupajīvati",
+       "simple": "vishvamevedam purusha-stadvishva-mupajeevati",
+       "devanagari": "विश्वमेवेदं पुरुष-स्तद्विश्व-मुपजीवति",
+       "telugu": "విశ్వమేవేదం పురుష-స్తద్విశ్వ-ముపజీవతి",
+       "kannada": "ವಿಶ್ವಮೇವೇದಂ ಪುರುಷ-ಸ್ತದ್ವಿಶ್ವ-ಮುಪಜೀವತಿ",
+       "gujarati": "વિશ્વમેવેદં પુરુષ-સ્તદ્વિશ્વ-મુપજીવતિ"
+      },
+      {
+       "iast": "patiṃ viśvasyātmeśvaraṃ śāśvataṃ śiva-macyutam",
+       "simple": "patim vishvasyaatmeshvaram shaashvatam shiva-machyutam",
+       "devanagari": "पतिं विश्वस्यात्मेश्वरं शाश्वतं शिव-मच्युतम्",
+       "telugu": "పతిం విశ్వస్యాత్మేశ్వరం శాశ్వతం శివ-మచ్యుతమ్",
+       "kannada": "ಪತಿಂ ವಿಶ್ವಸ್ಯಾತ್ಮೇಶ್ವರಂ ಶಾಶ್ವತಂ ಶಿವ-ಮಚ್ಯುತಮ್",
+       "gujarati": "પતિં વિશ્વસ્યાત્મેશ્વરં શાશ્વતં શિવ-મચ્યુતમ્"
+      },
+      {
+       "iast": "nārāyaṇaṃ mahājñeyaṃ viśvātmānaṃ parāyaṇam",
+       "simple": "naaraayanam mahaagnyeyam vishvaatmaanam paraayanam",
+       "devanagari": "नारायणं महाज्ञेयं विश्वात्मानं परायणम्",
+       "telugu": "నారాయణం మహాజ్ఞేయం విశ్వాత్మానం పరాయణమ్",
+       "kannada": "ನಾರಾಯಣಂ ಮಹಾಜ್ಞೇಯಂ ವಿಶ್ವಾತ್ಮಾನಂ ಪರಾಯಣಮ್",
+       "gujarati": "નારાયણં મહાજ્ઞેયં વિશ્વાત્માનં પરાયણમ્"
+      },
+      {
+       "iast": "nārāyaṇaparo jyotirātmā nārāyaṇaḥ paraḥ",
+       "simple": "naaraayanaparo jyotiraatmaa naaraayanah parah",
+       "devanagari": "नारायणपरो ज्योतिरात्मा नारायणः परः",
+       "telugu": "నారాయణపరో జ్యోతిరాత్మా నారాయణః పరః",
+       "kannada": "ನಾರಾಯಣಪರೋ ಜ್ಯೋತಿರಾತ್ಮಾ ನಾರಾಯಣಃ ಪರಃ",
+       "gujarati": "નારાયણપરો જ્યોતિરાત્મા નારાયણઃ પરઃ"
+      },
+      {
+       "iast": "nārāyaṇaparaṃ brahma tattvaṃ nārāyaṇaḥ paraḥ",
+       "simple": "naaraayanaparam brahma tattvam naaraayanah parah",
+       "devanagari": "नारायणपरं ब्रह्म तत्त्वं नारायणः परः",
+       "telugu": "నారాయణపరం బ్రహ్మ తత్త్వం నారాయణః పరః",
+       "kannada": "ನಾರಾಯಣಪರಂ ಬ್ರಹ್ಮ ತತ್ತ್ವಂ ನಾರಾಯಣಃ ಪರಃ",
+       "gujarati": "નારાયણપરં બ્રહ્મ તત્ત્વં નારાયણઃ પરઃ"
+      },
+      {
+       "iast": "nārāyaṇaparo dhyātā dhyānaṃ nārāyaṇaḥ paraḥ",
+       "simple": "naaraayanaparo dhyaataa dhyaanam naaraayanah parah",
+       "devanagari": "नारायणपरो ध्याता ध्यानं नारायणः परः",
+       "telugu": "నారాయణపరో ధ్యాతా ధ్యానం నారాయణః పరః",
+       "kannada": "ನಾರಾಯಣಪರೋ ಧ್ಯಾತಾ ಧ್ಯಾನಂ ನಾರಾಯಣಃ ಪರಃ",
+       "gujarati": "નારાયણપરો ધ્યાતા ધ્યાનં નારાયણઃ પરઃ"
+      },
+      {
+       "iast": "yacca kiṃcijjagatsarvaṃ dṛśyate śrūyatepi vā",
+       "simple": "yachcha kimchijjagatsarvam drishyate shrooyatepi vaa",
+       "devanagari": "यच्च किंचिज्जगत्सर्वं दृश्यते श्रूयतेपि वा",
+       "telugu": "యచ్చ కించిజ్జగత్సర్వం దృశ్యతే శ్రూయతేపి వా",
+       "kannada": "ಯಚ್ಚ ಕಿಂಚಿಜ್ಜಗತ್ಸರ್ವಂ ದೃಶ್ಯತೇ ಶ್ರೂಯತೇಪಿ ವಾ",
+       "gujarati": "યચ્ચ કિંચિજ્જગત્સર્વં દૃશ્યતે શ્રૂયતેપિ વા"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 2,
+     "lines": [
+      {
+       "iast": "aṃtarbahiśca tatsarvaṃ vyāpya nārāyaṇaḥ sthitaḥ",
+       "simple": "amtarbahishcha tatsarvam vyaapya naaraayanah sthitah",
+       "devanagari": "अंतर्बहिश्च तत्सर्वं व्याप्य नारायणः स्थितः",
+       "telugu": "అంతర్బహిశ్చ తత్సర్వం వ్యాప్య నారాయణః స్థితః",
+       "kannada": "ಅಂತರ್ಬಹಿಶ್ಚ ತತ್ಸರ್ವಂ ವ್ಯಾಪ್ಯ ನಾರಾಯಣಃ ಸ್ಥಿತಃ",
+       "gujarati": "અંતર્બહિશ્ચ તત્સર્વં વ્યાપ્ય નારાયણઃ સ્થિતઃ"
+      },
+      {
+       "iast": "anaṃtamavyayaṃ kaviṃ samudreṃtaṃ viśvaśaṃbhuvam",
+       "simple": "anamtamavyayam kavim samudremtam vishvashambhuvam",
+       "devanagari": "अनंतमव्ययं कविं समुद्रेंतं विश्वशंभुवम्",
+       "telugu": "అనంతమవ్యయం కవిం సముద్రేంతం విశ్వశంభువమ్",
+       "kannada": "ಅನಂತಮವ್ಯಯಂ ಕವಿಂ ಸಮುದ್ರೇಂತಂ ವಿಶ್ವಶಂಭುವಮ್",
+       "gujarati": "અનંતમવ્યયં કવિં સમુદ્રેંતં વિશ્વશંભુવમ્"
+      },
+      {
+       "iast": "padmakośa-pratīkāśaṃ hṛdayaṃ cāpyadhomukham",
+       "simple": "padmakosha-prateekaasham hridayam chaapyadhomukham",
+       "devanagari": "पद्मकोश-प्रतीकाशं हृदयं चाप्यधोमुखम्",
+       "telugu": "పద్మకోశ-ప్రతీకాశం హృదయం చాప్యధోముఖమ్",
+       "kannada": "ಪದ್ಮಕೋಶ-ಪ್ರತೀಕಾಶಂ ಹೃದಯಂ ಚಾಪ್ಯಧೋಮುಖಮ್",
+       "gujarati": "પદ્મકોશ-પ્રતીકાશં હૃદયં ચાપ્યધોમુખમ્"
+      },
+      {
+       "iast": "adho niṣṭyā vitasyāṃte nābhyāmupari tiṣṭhati",
+       "simple": "adho nishtyaa vitasyaamte naabhyaamupari tishthati",
+       "devanagari": "अधो निष्ट्या वितस्यांते नाभ्यामुपरि तिष्ठति",
+       "telugu": "అధో నిష్ట్యా వితస్యాంతే నాభ్యాముపరి తిష్ఠతి",
+       "kannada": "ಅಧೋ ನಿಷ್ಟ್ಯಾ ವಿತಸ್ಯಾಂತೇ ನಾಭ್ಯಾಮುಪರಿ ತಿಷ್ಠತಿ",
+       "gujarati": "અધો નિષ્ટ્યા વિતસ્યાંતે નાભ્યામુપરિ તિષ્ઠતિ"
+      },
+      {
+       "iast": "jvālamālākulaṃ bhātī viśvasyāyatanaṃ mahat",
+       "simple": "jvaalamaalaakulam bhaatee vishvasyaayatanam mahat",
+       "devanagari": "ज्वालमालाकुलं भाती विश्वस्यायतनं महत्",
+       "telugu": "జ్వాలమాలాకులం భాతీ విశ్వస్యాయతనం మహత్",
+       "kannada": "ಜ್ವಾಲಮಾಲಾಕುಲಂ ಭಾತೀ ವಿಶ್ವಸ್ಯಾಯತನಂ ಮಹತ್",
+       "gujarati": "જ્વાલમાલાકુલં ભાતી વિશ્વસ્યાયતનં મહત્"
+      },
+      {
+       "iast": "santataṃ śilābhistu laṃbatyākośasannibham",
+       "simple": "santatam shilaabhistu lambatyaakoshasannibham",
+       "devanagari": "सन्ततं शिलाभिस्तु लंबत्याकोशसन्निभम्",
+       "telugu": "సన్తతం శిలాభిస్తు లంబత్యాకోశసన్నిభమ్",
+       "kannada": "ಸನ್ತತಂ ಶಿಲಾಭಿಸ್ತು ಲಂಬತ್ಯಾಕೋಶಸನ್ನಿಭಮ್",
+       "gujarati": "સન્તતં શિલાભિસ્તુ લંબત્યાકોશસન્નિભમ્"
+      },
+      {
+       "iast": "tasyāṃte suṣiraṃ sūkṣmaṃ tasmin sarvaṃ pratiṣṭhitam",
+       "simple": "tasyaamte sushiram sookshmam tasmin sarvam pratishthitam",
+       "devanagari": "तस्यांते सुषिरं सूक्ष्मं तस्मिन्सर्वं प्रतिष्ठितम्",
+       "telugu": "తస్యాంతే సుషిరం సూక్ష్మం తస్మిన్సర్వం ప్రతిష్ఠితమ్",
+       "kannada": "ತಸ್ಯಾಂತೇ ಸುಷಿರಂ ಸೂಕ್ಷ್ಮಂ ತಸ್ಮಿನ್ಸರ್ವಂ ಪ್ರತಿಷ್ಠಿತಮ್",
+       "gujarati": "તસ્યાંતે સુષિરં સૂક્ષ્મં તસ્મિન્સર્વં પ્રતિષ્ઠિતમ્"
+      },
+      {
+       "iast": "tasya madhye mahānagnir-viśvārcir-viśvatomukhaḥ",
+       "simple": "tasya madhye mahaanagnir-vishvaarchir-vishvatomukhah",
+       "devanagari": "तस्य मध्ये महानग्निर्-विश्वार्चिर्-विश्वतोमुखः",
+       "telugu": "తస్య మధ్యే మహానగ్నిర్-విశ్వార్చిర్-విశ్వతోముఖః",
+       "kannada": "ತಸ್ಯ ಮಧ್ಯೇ ಮಹಾನಗ್ನಿರ್-ವಿಶ್ವಾರ್ಚಿರ್-ವಿಶ್ವತೋಮುಖಃ",
+       "gujarati": "તસ્ય મધ્યે મહાનગ્નિર્-વિશ્વાર્ચિર્-વિશ્વતોમુખઃ"
+      },
+      {
+       "iast": "sograbhugvibhajaṃtiṣṭha-nnāhāramajaraḥ kaviḥ",
+       "simple": "sograbhugvibhajamtishtha-nnaahaaramajarah kavih",
+       "devanagari": "सोग्रभुग्विभजंतिष्ठ-न्नाहारमजरः कविः",
+       "telugu": "సోగ్రభుగ్విభజంతిష్ఠ-న్నాహారమజరః కవిః",
+       "kannada": "ಸೋಗ್ರಭುಗ್ವಿಭಜಂತಿಷ್ಠ-ನ್ನಾಹಾರಮಜರಃ ಕವಿಃ",
+       "gujarati": "સોગ્રભુગ્વિભજંતિષ્ઠ-ન્નાહારમજરઃ કવિઃ"
+      },
+      {
+       "iast": "tiryagūrdhvamadhaśśāyī raśmayastasya saṃtatā",
+       "simple": "tiryagoordhvamadhashshaayee rashmayastasya samtataa",
+       "devanagari": "तिर्यगूर्ध्वमधश्शायी रश्मयस्तस्य संतता",
+       "telugu": "తిర్యగూర్ధ్వమధశ్శాయీ రశ్మయస్తస్య సంతతా",
+       "kannada": "ತಿರ್ಯಗೂರ್ಧ್ವಮಧಶ್ಶಾಯೀ ರಶ್ಮಯಸ್ತಸ್ಯ ಸಂತತಾ",
+       "gujarati": "તિર્યગૂર્ધ્વમધશ્શાયી રશ્મયસ્તસ્ય સંતતા"
+      },
+      {
+       "iast": "saṃtāpayati svaṃ dehamāpādatalamastakaḥ",
+       "simple": "samtaapayati svam dehamaapaadatalamastakah",
+       "devanagari": "संतापयति स्वं देहमापादतलमस्तकः",
+       "telugu": "సంతాపయతి స్వం దేహమాపాదతలమస్తకః",
+       "kannada": "ಸಂತಾಪಯತಿ ಸ್ವಂ ದೇಹಮಾಪಾದತಲಮಸ್ತಕಃ",
+       "gujarati": "સંતાપયતિ સ્વં દેહમાપાદતલમસ્તકઃ"
+      },
+      {
+       "iast": "tasyamadhye vahniśikhā aṇīyordhvā vyavasthitaḥ",
+       "simple": "tasyamadhye vahnishikhaa aneeyordhvaa vyavasthitah",
+       "devanagari": "तस्यमध्ये वह्निशिखा अणीयोर्ध्वा व्यवस्थितः",
+       "telugu": "తస్యమధ్యే వహ్నిశిఖా అణీయోర్ధ్వా వ్యవస్థితః",
+       "kannada": "ತಸ್ಯಮಧ್ಯೇ ವಹ್ನಿಶಿಖಾ ಅಣೀಯೋರ್ಧ್ವಾ ವ್ಯವಸ್ಥಿತಃ",
+       "gujarati": "તસ્યમધ્યે વહ્નિશિખા અણીયોર્ધ્વા વ્યવસ્થિતઃ"
+      },
+      {
+       "iast": "nīlato-yadamadhyasthād-vidyullekheva bhāsvarā",
+       "simple": "neelato-yadamadhyasthaad-vidyullekheva bhaasvaraa",
+       "devanagari": "नीलतो-यदमध्यस्थाद्-विद्युल्लेखेव भास्वरा",
+       "telugu": "నీలతో-యదమధ్యస్థాద్-విద్యుల్లేఖేవ భాస్వరా",
+       "kannada": "ನೀಲತೋ-ಯದಮಧ್ಯಸ್ಥಾದ್-ವಿದ್ಯುಲ್ಲೇಖೇವ ಭಾಸ್ವರಾ",
+       "gujarati": "નીલતો-યદમધ્યસ્થાદ્-વિદ્યુલ્લેખેવ ભાસ્વરા"
+      },
+      {
+       "iast": "nīvāraśūkavattanvī pītā bhāsvatyaṇūpamā",
+       "simple": "neevaarashookavattanvee peetaa bhaasvatyanoopamaa",
+       "devanagari": "नीवारशूकवत्तन्वी पीता भास्वत्यणूपमा",
+       "telugu": "నీవారశూకవత్తన్వీ పీతా భాస్వత్యణూపమా",
+       "kannada": "ನೀವಾರಶೂಕವತ್ತನ್ವೀ ಪೀತಾ ಭಾಸ್ವತ್ಯಣೂಪಮಾ",
+       "gujarati": "નીવારશૂકવત્તન્વી પીતા ભાસ્વત્યણૂપમા"
+      },
+      {
+       "iast": "tasyāḥ śikhāyā madhye paramātmā vyavasthitaḥ",
+       "simple": "tasyaah shikhaayaa madhye paramaatmaa vyavasthitah",
+       "devanagari": "तस्याः शिखाया मध्ये परमात्मा व्यवस्थितः",
+       "telugu": "తస్యాః శిఖాయా మధ్యే పరమాత్మా వ్యవస్థితః",
+       "kannada": "ತಸ್ಯಾಃ ಶಿಖಾಯಾ ಮಧ್ಯೇ ಪರಮಾತ್ಮಾ ವ್ಯವಸ್ಥಿತಃ",
+       "gujarati": "તસ્યાઃ શિખાયા મધ્યે પરમાત્મા વ્યવસ્થિતઃ"
+      },
+      {
+       "iast": "sa brahma sa śivaḥ sa hariḥ seṃdraḥ sokṣaraḥ paramaḥ svarāṭ",
+       "simple": "sa brahma sa shivah sa harih semdrah soksharah paramah svaraat",
+       "devanagari": "स ब्रह्म स शिवः स हरिः सेंद्रः सोक्षरः परमः स्वराट्",
+       "telugu": "స బ్రహ్మ స శివః స హరిః సేంద్రః సోక్షరః పరమః స్వరాట్",
+       "kannada": "ಸ ಬ್ರಹ್ಮ ಸ ಶಿವಃ ಸ ಹರಿಃ ಸೇಂದ್ರಃ ಸೋಕ್ಷರಃ ಪರಮಃ ಸ್ವರಾಟ್",
+       "gujarati": "સ બ્રહ્મ સ શિવઃ સ હરિઃ સેંદ્રઃ સોક્ષરઃ પરમઃ સ્વરાટ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 3,
+     "lines": [
+      {
+       "iast": "ṛtaṃ satyaṃ paraṃ brahma puruṣaṃ kṛṣṇapiṃgalam",
+       "simple": "ritam satyam param brahma purusham krishnapimgalam",
+       "devanagari": "ऋतं सत्यं परं ब्रह्म पुरुषं कृष्णपिंगलम्",
+       "telugu": "ఋతం సత్యం పరం బ్రహ్మ పురుషం కృష్ణపింగలమ్",
+       "kannada": "ಋತಂ ಸತ್ಯಂ ಪರಂ ಬ್ರಹ್ಮ ಪುರುಷಂ ಕೃಷ್ಣಪಿಂಗಲಮ್",
+       "gujarati": "ઋતં સત્યં પરં બ્રહ્મ પુરુષં કૃષ્ણપિંગલમ્"
+      },
+      {
+       "iast": "ūrdhvaretaṃ virūpākṣaṃ viśvarūpāya vai namo namaḥ",
+       "simple": "oordhvaretam viroopaaksham vishvaroopaaya vai namo namah",
+       "devanagari": "ऊर्ध्वरेतं विरूपाक्षं विश्वरूपाय वै नमो नमः",
+       "telugu": "ఊర్ధ్వరేతం విరూపాక్షం విశ్వరూపాయ వై నమో నమః",
+       "kannada": "ಊರ್ಧ್ವರೇತಂ ವಿರೂಪಾಕ್ಷಂ ವಿಶ್ವರೂಪಾಯ ವೈ ನಮೋ ನಮಃ",
+       "gujarati": "ઊર્ધ્વરેતં વિરૂપાક્ષં વિશ્વરૂપાય વૈ નમો નમઃ"
+      }
+     ]
+    },
+    {
+     "label": "Gāyatrī",
+     "number": null,
+     "lines": [
+      {
+       "iast": "oṃ nārāyaṇāya vidmahe vāsudevāya dhīmahi",
+       "simple": "om naaraayanaaya vidmahe vaasudevaaya dheemahi",
+       "devanagari": "ॐ नारायणाय विद्महे वासुदेवाय धीमहि",
+       "telugu": "ఓం నారాయణాయ విద్మహే వాసుదేవాయ ధీమహి",
+       "kannada": "ಓಂ ನಾರಾಯಣಾಯ ವಿದ್ಮಹೇ ವಾಸುದೇವಾಯ ಧೀಮಹಿ",
+       "gujarati": "ૐ નારાયણાય વિદ્મહે વાસુદેવાય ધીમહિ"
+      },
+      {
+       "iast": "tanno viṣṇuḥ pracodayāt",
+       "simple": "tanno vishnuh prachodayaat",
+       "devanagari": "तन्नो विष्णुः प्रचोदयात्",
+       "telugu": "తన్నో విష్ణుః ప్రచోదయాత్",
+       "kannada": "ತನ್ನೋ ವಿಷ್ಣುಃ ಪ್ರಚೋದಯಾತ್",
+       "gujarati": "તન્નો વિષ્ણુઃ પ્રચોદયાત્"
+      }
+     ]
+    },
+    {
+     "label": "Śānti mantra",
+     "number": null,
+     "lines": [
+      {
+       "iast": "oṃ śāṃtiḥ śāṃtiḥ śāṃtiḥ",
+       "simple": "om shaamtih shaamtih shaamtih",
+       "devanagari": "ॐ शांतिः शांतिः शांतिः",
+       "telugu": "ఓం శాంతిః శాంతిః శాంతిః",
+       "kannada": "ಓಂ ಶಾಂತಿಃ ಶಾಂತಿಃ ಶಾಂತಿಃ",
+       "gujarati": "ૐ શાંતિઃ શાંતિઃ શાંતિઃ"
+      }
+     ]
+    }
+   ],
+   "meaning": null,
+   "tags": []
+  },
+  {
+   "id": "sri-suktam",
+   "title": "Sri Suktam",
+   "nativeTitle": "श्री सूक्तम्",
+   "deity": "pink",
+   "kind": "stotra",
+   "about": "The Rig Vedic hymn to Lakshmi, the goddess of abundance and grace, often chanted on Fridays.",
+   "verses": [
+    {
+     "label": null,
+     "number": 1,
+     "lines": [
+      {
+       "iast": "hiraṇyavarṇāṃ hariṇīṃ suvarṇarajatasrajām",
+       "simple": "hiranyavarnaam harineem suvarnarajatasrajaam",
+       "devanagari": "हिरण्यवर्णां हरिणीं सुवर्णरजतस्रजाम्",
+       "telugu": "హిరణ్యవర్ణాం హరిణీం సువర్ణరజతస్రజామ్",
+       "kannada": "ಹಿರಣ್ಯವರ್ಣಾಂ ಹರಿಣೀಂ ಸುವರ್ಣರಜತಸ್ರಜಾಮ್",
+       "gujarati": "હિરણ્યવર્ણાં હરિણીં સુવર્ણરજતસ્રજામ્"
+      },
+      {
+       "iast": "caṃdrāṃ hiraṇmayīṃ lakṣmīṃ jātavedo ma āvaha",
+       "simple": "chamdraam hiranmayeem lakshmeem jaatavedo ma aavaha",
+       "devanagari": "चंद्रां हिरण्मयीं लक्ष्मीं जातवेदो म आवह",
+       "telugu": "చంద్రాం హిరణ్మయీం లక్ష్మీం జాతవేదో మ ఆవహ",
+       "kannada": "ಚಂದ್ರಾಂ ಹಿರಣ್ಮಯೀಂ ಲಕ್ಷ್ಮೀಂ ಜಾತವೇದೋ ಮ ಆವಹ",
+       "gujarati": "ચંદ્રાં હિરણ્મયીં લક્ષ્મીં જાતવેદો મ આવહ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 2,
+     "lines": [
+      {
+       "iast": "tāṃ ma āvaha jātavedo lakṣmīmanapagāminīm",
+       "simple": "taam ma aavaha jaatavedo lakshmeemanapagaamineem",
+       "devanagari": "तां म आवह जातवेदो लक्ष्मीमनपगामिनीम्",
+       "telugu": "తాం మ ఆవహ జాతవేదో లక్ష్మీమనపగామినీమ్",
+       "kannada": "ತಾಂ ಮ ಆವಹ ಜಾತವೇದೋ ಲಕ್ಷ್ಮೀಮನಪಗಾಮಿನೀಮ್",
+       "gujarati": "તાં મ આવહ જાતવેદો લક્ષ્મીમનપગામિનીમ્"
+      },
+      {
+       "iast": "yasyāṃ hiraṇyaṃ viṃdeyaṃ gāmaśvaṃ puruṣānaham",
+       "simple": "yasyaam hiranyam vimdeyam gaamashvam purushaanaham",
+       "devanagari": "यस्यां हिरण्यं विंदेयं गामश्वं पुरुषानहम्",
+       "telugu": "యస్యాం హిరణ్యం విందేయం గామశ్వం పురుషానహమ్",
+       "kannada": "ಯಸ್ಯಾಂ ಹಿರಣ್ಯಂ ವಿಂದೇಯಂ ಗಾಮಶ್ವಂ ಪುರುಷಾನಹಮ್",
+       "gujarati": "યસ્યાં હિરણ્યં વિંદેયં ગામશ્વં પુરુષાનહમ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 3,
+     "lines": [
+      {
+       "iast": "aśvapūrvāṃ rathamadhyāṃ hastināda-prabodhinīm",
+       "simple": "ashvapoorvaam rathamadhyaam hastinaada-prabodhineem",
+       "devanagari": "अश्वपूर्वां रथमध्यां हस्तिनाद-प्रबोधिनीम्",
+       "telugu": "అశ్వపూర్వాం రథమధ్యాం హస్తినాద-ప్రబోధినీమ్",
+       "kannada": "ಅಶ್ವಪೂರ್ವಾಂ ರಥಮಧ್ಯಾಂ ಹಸ್ತಿನಾದ-ಪ್ರಬೋಧಿನೀಮ್",
+       "gujarati": "અશ્વપૂર્વાં રથમધ્યાં હસ્તિનાદ-પ્રબોધિનીમ્"
+      },
+      {
+       "iast": "śriyaṃ devīmupahvaye śrīrmā devīrjuṣatām",
+       "simple": "shriyam deveemupahvaye shreermaa deveerjushataam",
+       "devanagari": "श्रियं देवीमुपह्वये श्रीर्मा देवीर्जुषताम्",
+       "telugu": "శ్రియం దేవీముపహ్వయే శ్రీర్మా దేవీర్జుషతామ్",
+       "kannada": "ಶ್ರಿಯಂ ದೇವೀಮುಪಹ್ವಯೇ ಶ್ರೀರ್ಮಾ ದೇವೀರ್ಜುಷತಾಮ್",
+       "gujarati": "શ્રિયં દેવીમુપહ્વયે શ્રીર્મા દેવીર્જુષતામ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 4,
+     "lines": [
+      {
+       "iast": "kāṃ so'smitāṃ hiraṇyaprākārāmārdrāṃ jvalaṃtīṃ tṛptāṃ tarpayaṃtīm",
+       "simple": "kaam so'smitaam hiranyapraakaaraamaardraam jvalamteem triptaam tarpayamteem",
+       "devanagari": "कां सोऽस्मितां हिरण्यप्राकारामार्द्रां ज्वलंतीं तृप्तां तर्पयंतीम्",
+       "telugu": "కాం సోఽస్మితాం హిరణ్యప్రాకారామార్ద్రాం జ్వలంతీం తృప్తాం తర్పయంతీమ్",
+       "kannada": "ಕಾಂ ಸೋಽಸ್ಮಿತಾಂ ಹಿರಣ್ಯಪ್ರಾಕಾರಾಮಾರ್ದ್ರಾಂ ಜ್ವಲಂತೀಂ ತೃಪ್ತಾಂ ತರ್ಪಯಂತೀಮ್",
+       "gujarati": "કાં સોઽસ્મિતાં હિરણ્યપ્રાકારામાર્દ્રાં જ્વલંતીં તૃપ્તાં તર્પયંતીમ્"
+      },
+      {
+       "iast": "padme sthitāṃ padmavarṇāṃ tāmihopahvaye śriyam",
+       "simple": "padme sthitaam padmavarnaam taamihopahvaye shriyam",
+       "devanagari": "पद्मे स्थितां पद्मवर्णां तामिहोपह्वये श्रियम्",
+       "telugu": "పద్మే స్థితాం పద్మవర్ణాం తామిహోపహ్వయే శ్రియమ్",
+       "kannada": "ಪದ್ಮೇ ಸ್ಥಿತಾಂ ಪದ್ಮವರ್ಣಾಂ ತಾಮಿಹೋಪಹ್ವಯೇ ಶ್ರಿಯಮ್",
+       "gujarati": "પદ્મે સ્થિતાં પદ્મવર્ણાં તામિહોપહ્વયે શ્રિયમ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 5,
+     "lines": [
+      {
+       "iast": "caṃdrāṃ prabhāsāṃ yaśasā jvalaṃtīṃ śriyaṃ loke devajuṣṭāmudārām",
+       "simple": "chamdraam prabhaasaam yashasaa jvalamteem shriyam loke devajushtaamudaaraam",
+       "devanagari": "चंद्रां प्रभासां यशसा ज्वलंतीं श्रियं लोके देवजुष्टामुदाराम्",
+       "telugu": "చంద్రాం ప్రభాసాం యశసా జ్వలంతీం శ్రియం లోకే దేవజుష్టాముదారామ్",
+       "kannada": "ಚಂದ್ರಾಂ ಪ್ರಭಾಸಾಂ ಯಶಸಾ ಜ್ವಲಂತೀಂ ಶ್ರಿಯಂ ಲೋಕೇ ದೇವಜುಷ್ಟಾಮುದಾರಾಮ್",
+       "gujarati": "ચંદ્રાં પ્રભાસાં યશસા જ્વલંતીં શ્રિયં લોકે દેવજુષ્ટામુદારામ્"
+      },
+      {
+       "iast": "tāṃ padminīmīṃ śaraṇamahaṃ prapadye'lakṣmīrme naśyatāṃ tvāṃ vṛṇe",
+       "simple": "taam padmineemeem sharanamaham prapadye'lakshmeerme nashyataam tvaam vrine",
+       "devanagari": "तां पद्मिनीमीं शरणमहं प्रपद्येऽलक्ष्मीर्मे नश्यतां त्वां वृणे",
+       "telugu": "తాం పద్మినీమీం శరణమహం ప్రపద్యేఽలక్ష్మీర్మే నశ్యతాం త్వాం వృణే",
+       "kannada": "ತಾಂ ಪದ್ಮಿನೀಮೀಂ ಶರಣಮಹಂ ಪ್ರಪದ್ಯೇಽಲಕ್ಷ್ಮೀರ್ಮೇ ನಶ್ಯತಾಂ ತ್ವಾಂ ವೃಣೇ",
+       "gujarati": "તાં પદ્મિનીમીં શરણમહં પ્રપદ્યેઽલક્ષ્મીર્મે નશ્યતાં ત્વાં વૃણે"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 6,
+     "lines": [
+      {
+       "iast": "ādityavarṇe tapaso'dhijāto vanaspatistava vṛkṣo'tha bilvaḥ",
+       "simple": "aadityavarne tapaso'dhijaato vanaspatistava vriksho'tha bilvah",
+       "devanagari": "आदित्यवर्णे तपसोऽधिजातो वनस्पतिस्तव वृक्षोऽथ बिल्वः",
+       "telugu": "ఆదిత్యవర్ణే తపసోఽధిజాతో వనస్పతిస్తవ వృక్షోఽథ బిల్వః",
+       "kannada": "ಆದಿತ್ಯವರ್ಣೇ ತಪಸೋಽಧಿಜಾತೋ ವನಸ್ಪತಿಸ್ತವ ವೃಕ್ಷೋಽಥ ಬಿಲ್ವಃ",
+       "gujarati": "આદિત્યવર્ણે તપસોઽધિજાતો વનસ્પતિસ્તવ વૃક્ષોઽથ બિલ્વઃ"
+      },
+      {
+       "iast": "tasya phalāni tapasānudaṃtu māyāṃtarāyāśca bāhyā alakṣmīḥ",
+       "simple": "tasya phalaani tapasaanudamtu maayaamtaraayaashcha baahyaa alakshmeeh",
+       "devanagari": "तस्य फलानि तपसानुदंतु मायांतरायाश्च बाह्या अलक्ष्मीः",
+       "telugu": "తస్య ఫలాని తపసానుదంతు మాయాంతరాయాశ్చ బాహ్యా అలక్ష్మీః",
+       "kannada": "ತಸ್ಯ ಫಲಾನಿ ತಪಸಾನುದಂತು ಮಾಯಾಂತರಾಯಾಶ್ಚ ಬಾಹ್ಯಾ ಅಲಕ್ಷ್ಮೀಃ",
+       "gujarati": "તસ્ય ફલાનિ તપસાનુદંતુ માયાંતરાયાશ્ચ બાહ્યા અલક્ષ્મીઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 7,
+     "lines": [
+      {
+       "iast": "upaitu māṃ devasakhaḥ kīrtiśca maṇinā saha",
+       "simple": "upaitu maam devasakhah keertishcha maninaa saha",
+       "devanagari": "उपैतु मां देवसखः कीर्तिश्च मणिना सह",
+       "telugu": "ఉపైతు మాం దేవసఖః కీర్తిశ్చ మణినా సహ",
+       "kannada": "ಉಪೈತು ಮಾಂ ದೇವಸಖಃ ಕೀರ್ತಿಶ್ಚ ಮಣಿನಾ ಸಹ",
+       "gujarati": "ઉપૈતુ માં દેવસખઃ કીર્તિશ્ચ મણિના સહ"
+      },
+      {
+       "iast": "prādurbhūto'smi rāṣṭre'smin kīrtimṛddhiṃ dadādu me",
+       "simple": "praadurbhooto'smi raashtre'smin keertimriddhim dadaadu me",
+       "devanagari": "प्रादुर्भूतोऽस्मि राष्ट्रेऽस्मिन्कीर्तिमृद्धिं ददादु मे",
+       "telugu": "ప్రాదుర్భూతోఽస్మి రాష్ట్రేఽస్మిన్కీర్తిమృద్ధిం దదాదు మే",
+       "kannada": "ಪ್ರಾದುರ್ಭೂತೋಽಸ್ಮಿ ರಾಷ್ಟ್ರೇಽಸ್ಮಿನ್ಕೀರ್ತಿಮೃದ್ಧಿಂ ದದಾದು ಮೇ",
+       "gujarati": "પ્રાદુર્ભૂતોઽસ્મિ રાષ્ટ્રેઽસ્મિન્કીર્તિમૃદ્ધિં દદાદુ મે"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 8,
+     "lines": [
+      {
+       "iast": "kṣutpipāsāmalāṃ jyeṣṭhāmalakṣmīṃ nāśayāmyaham",
+       "simple": "kshutpipaasaamalaam jyeshthaamalakshmeem naashayaamyaham",
+       "devanagari": "क्षुत्पिपासामलां ज्येष्ठामलक्ष्मीं नाशयाम्यहम्",
+       "telugu": "క్షుత్పిపాసామలాం జ్యేష్ఠామలక్ష్మీం నాశయామ్యహమ్",
+       "kannada": "ಕ್ಷುತ್ಪಿಪಾಸಾಮಲಾಂ ಜ್ಯೇಷ್ಠಾಮಲಕ್ಷ್ಮೀಂ ನಾಶಯಾಮ್ಯಹಮ್",
+       "gujarati": "ક્ષુત્પિપાસામલાં જ્યેષ્ઠામલક્ષ્મીં નાશયામ્યહમ્"
+      },
+      {
+       "iast": "abhūtimasamṛddhiṃ ca sarvāṃ nirṇuda me gṛhāt",
+       "simple": "abhootimasamriddhim cha sarvaam nirnuda me grihaat",
+       "devanagari": "अभूतिमसमृद्धिं च सर्वां निर्णुद मे गृहात्",
+       "telugu": "అభూతిమసమృద్ధిం చ సర్వాం నిర్ణుద మే గృహాత్",
+       "kannada": "ಅಭೂತಿಮಸಮೃದ್ಧಿಂ ಚ ಸರ್ವಾಂ ನಿರ್ಣುದ ಮೇ ಗೃಹಾತ್",
+       "gujarati": "અભૂતિમસમૃદ્ધિં ચ સર્વાં નિર્ણુદ મે ગૃહાત્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 9,
+     "lines": [
+      {
+       "iast": "gaṃdhadvārāṃ durādharṣāṃ nityapuṣṭāṃ karīṣiṇīm",
+       "simple": "gamdhadvaaraam duraadharshaam nityapushtaam kareeshineem",
+       "devanagari": "गंधद्वारां दुराधर्षां नित्यपुष्टां करीषिणीम्",
+       "telugu": "గంధద్వారాం దురాధర్షాం నిత్యపుష్టాం కరీషిణీమ్",
+       "kannada": "ಗಂಧದ್ವಾರಾಂ ದುರಾಧರ್ಷಾಂ ನಿತ್ಯಪುಷ್ಟಾಂ ಕರೀಷಿಣೀಮ್",
+       "gujarati": "ગંધદ્વારાં દુરાધર્ષાં નિત્યપુષ્ટાં કરીષિણીમ્"
+      },
+      {
+       "iast": "īśvarīṃ sarvabhūtānāṃ tāmihopahvaye śriyam",
+       "simple": "eeshvareem sarvabhootaanaam taamihopahvaye shriyam",
+       "devanagari": "ईश्वरीं सर्वभूतानां तामिहोपह्वये श्रियम्",
+       "telugu": "ఈశ్వరీం సర్వభూతానాం తామిహోపహ్వయే శ్రియమ్",
+       "kannada": "ಈಶ್ವರೀಂ ಸರ್ವಭೂತಾನಾಂ ತಾಮಿಹೋಪಹ್ವಯೇ ಶ್ರಿಯಮ್",
+       "gujarati": "ઈશ્વરીં સર્વભૂતાનાં તામિહોપહ્વયે શ્રિયમ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 10,
+     "lines": [
+      {
+       "iast": "manasaḥ kāmamākūtiṃ vācaḥ satyamaśīmahi",
+       "simple": "manasah kaamamaakootim vaachah satyamasheemahi",
+       "devanagari": "मनसः काममाकूतिं वाचः सत्यमशीमहि",
+       "telugu": "మనసః కామమాకూతిం వాచః సత్యమశీమహి",
+       "kannada": "ಮನಸಃ ಕಾಮಮಾಕೂತಿಂ ವಾಚಃ ಸತ್ಯಮಶೀಮಹಿ",
+       "gujarati": "મનસઃ કામમાકૂતિં વાચઃ સત્યમશીમહિ"
+      },
+      {
+       "iast": "paśūnāṃ rūpamanyasya mayi śrīḥ śrayatāṃ yaśaḥ",
+       "simple": "pashoonaam roopamanyasya mayi shreeh shrayataam yashah",
+       "devanagari": "पशूनां रूपमन्यस्य मयि श्रीः श्रयतां यशः",
+       "telugu": "పశూనాం రూపమన్యస్య మయి శ్రీః శ్రయతాం యశః",
+       "kannada": "ಪಶೂನಾಂ ರೂಪಮನ್ಯಸ್ಯ ಮಯಿ ಶ್ರೀಃ ಶ್ರಯತಾಂ ಯಶಃ",
+       "gujarati": "પશૂનાં રૂપમન્યસ્ય મયિ શ્રીઃ શ્રયતાં યશઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 11,
+     "lines": [
+      {
+       "iast": "kardamena prajābhūtā mayi saṃbhava kardama",
+       "simple": "kardamena prajaabhootaa mayi sambhava kardama",
+       "devanagari": "कर्दमेन प्रजाभूता मयि संभव कर्दम",
+       "telugu": "కర్దమేన ప్రజాభూతా మయి సంభవ కర్దమ",
+       "kannada": "ಕರ್ದಮೇನ ಪ್ರಜಾಭೂತಾ ಮಯಿ ಸಂಭವ ಕರ್ದಮ",
+       "gujarati": "કર્દમેન પ્રજાભૂતા મયિ સંભવ કર્દમ"
+      },
+      {
+       "iast": "śriyaṃ vāsaya me kule mātaraṃ padmamālinīm",
+       "simple": "shriyam vaasaya me kule maataram padmamaalineem",
+       "devanagari": "श्रियं वासय मे कुले मातरं पद्ममालिनीम्",
+       "telugu": "శ్రియం వాసయ మే కులే మాతరం పద్మమాలినీమ్",
+       "kannada": "ಶ್ರಿಯಂ ವಾಸಯ ಮೇ ಕುಲೇ ಮಾತರಂ ಪದ್ಮಮಾಲಿನೀಮ್",
+       "gujarati": "શ્રિયં વાસય મે કુલે માતરં પદ્મમાલિનીમ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 12,
+     "lines": [
+      {
+       "iast": "āpaḥ sṛjaṃtu snigdhāni ciklīta vasa me gṛhe",
+       "simple": "aapah srijamtu snigdhaani chikleeta vasa me grihe",
+       "devanagari": "आपः सृजंतु स्निग्धानि चिक्लीत वस मे गृहे",
+       "telugu": "ఆపః సృజంతు స్నిగ్ధాని చిక్లీత వస మే గృహే",
+       "kannada": "ಆಪಃ ಸೃಜಂತು ಸ್ನಿಗ್ಧಾನಿ ಚಿಕ್ಲೀತ ವಸ ಮೇ ಗೃಹೇ",
+       "gujarati": "આપઃ સૃજંતુ સ્નિગ્ધાનિ ચિક્લીત વસ મે ગૃહે"
+      },
+      {
+       "iast": "ni ca devīṃ mātaraṃ śriyaṃ vāsaya me kule",
+       "simple": "ni cha deveem maataram shriyam vaasaya me kule",
+       "devanagari": "नि च देवीं मातरं श्रियं वासय मे कुले",
+       "telugu": "ని చ దేవీం మాతరం శ్రియం వాసయ మే కులే",
+       "kannada": "ನಿ ಚ ದೇವೀಂ ಮಾತರಂ ಶ್ರಿಯಂ ವಾಸಯ ಮೇ ಕುಲೇ",
+       "gujarati": "નિ ચ દેવીં માતરં શ્રિયં વાસય મે કુલે"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 13,
+     "lines": [
+      {
+       "iast": "ārdrāṃ puṣkariṇīṃ puṣṭiṃ suvarṇām hemamālinīm",
+       "simple": "aardraam pushkarineem pushtim suvarnaam hemamaalineem",
+       "devanagari": "आर्द्रां पुष्करिणीं पुष्टिं सुवर्णाम्हेममालिनीम्",
+       "telugu": "ఆర్ద్రాం పుష్కరిణీం పుష్టిం సువర్ణామ్హేమమాలినీమ్",
+       "kannada": "ಆರ್ದ್ರಾಂ ಪುಷ್ಕರಿಣೀಂ ಪುಷ್ಟಿಂ ಸುವರ್ಣಾಮ್ಹೇಮಮಾಲಿನೀಮ್",
+       "gujarati": "આર્દ્રાં પુષ્કરિણીં પુષ્ટિં સુવર્ણામ્હેમમાલિનીમ્"
+      },
+      {
+       "iast": "sūryāṃ hiraṇmayīṃ lakṣmīṃ jātavedo ma āvaha",
+       "simple": "sooryaam hiranmayeem lakshmeem jaatavedo ma aavaha",
+       "devanagari": "सूर्यां हिरण्मयीं लक्ष्मीं जातवेदो म आवह",
+       "telugu": "సూర్యాం హిరణ్మయీం లక్ష్మీం జాతవేదో మ ఆవహ",
+       "kannada": "ಸೂರ್ಯಾಂ ಹಿರಣ್ಮಯೀಂ ಲಕ್ಷ್ಮೀಂ ಜಾತವೇದೋ ಮ ಆವಹ",
+       "gujarati": "સૂર્યાં હિરણ્મયીં લક્ષ્મીં જાતવેદો મ આવહ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 14,
+     "lines": [
+      {
+       "iast": "ārdrāṃ yaḥ kariṇīṃ yaṣṭiṃ piṃgalām padmamālinīm",
+       "simple": "aardraam yah karineem yashtim pimgalaam padmamaalineem",
+       "devanagari": "आर्द्रां यः करिणीं यष्टिं पिंगलाम्पद्ममालिनीम्",
+       "telugu": "ఆర్ద్రాం యః కరిణీం యష్టిం పింగలామ్పద్మమాలినీమ్",
+       "kannada": "ಆರ್ದ್ರಾಂ ಯಃ ಕರಿಣೀಂ ಯಷ್ಟಿಂ ಪಿಂಗಲಾಮ್ಪದ್ಮಮಾಲಿನೀಮ್",
+       "gujarati": "આર્દ્રાં યઃ કરિણીં યષ્ટિં પિંગલામ્પદ્મમાલિનીમ્"
+      },
+      {
+       "iast": "caṃdrāṃ hiraṇmayīṃ lakṣmīṃ jātavedo ma āvaha",
+       "simple": "chamdraam hiranmayeem lakshmeem jaatavedo ma aavaha",
+       "devanagari": "चंद्रां हिरण्मयीं लक्ष्मीं जातवेदो म आवह",
+       "telugu": "చంద్రాం హిరణ్మయీం లక్ష్మీం జాతవేదో మ ఆవహ",
+       "kannada": "ಚಂದ್ರಾಂ ಹಿರಣ್ಮಯೀಂ ಲಕ್ಷ್ಮೀಂ ಜಾತವೇದೋ ಮ ಆವಹ",
+       "gujarati": "ચંદ્રાં હિરણ્મયીં લક્ષ્મીં જાતવેદો મ આવહ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 15,
+     "lines": [
+      {
+       "iast": "tāṃ ma āvaha jātavedo lakṣmīmanapagāminīm",
+       "simple": "taam ma aavaha jaatavedo lakshmeemanapagaamineem",
+       "devanagari": "तां म आवह जातवेदो लक्ष्मीमनपगामिनीम्",
+       "telugu": "తాం మ ఆవహ జాతవేదో లక్ష్మీమనపగామినీమ్",
+       "kannada": "ತಾಂ ಮ ಆವಹ ಜಾತವೇದೋ ಲಕ್ಷ್ಮೀಮನಪಗಾಮಿನೀಮ್",
+       "gujarati": "તાં મ આવહ જાતવેદો લક્ષ્મીમનપગામિનીમ્"
+      },
+      {
+       "iast": "yasyāṃ hiraṇyaṃ prabhūtaṃ gāvo dāsyo'śvān viṃdeyaṃ puruṣānaham",
+       "simple": "yasyaam hiranyam prabhootam gaavo daasyo'shvaan vimdeyam purushaanaham",
+       "devanagari": "यस्यां हिरण्यं प्रभूतं गावो दास्योऽश्वान्विंदेयं पुरुषानहम्",
+       "telugu": "యస్యాం హిరణ్యం ప్రభూతం గావో దాస్యోఽశ్వాన్విందేయం పురుషానహమ్",
+       "kannada": "ಯಸ್ಯಾಂ ಹಿರಣ್ಯಂ ಪ್ರಭೂತಂ ಗಾವೋ ದಾಸ್ಯೋಽಶ್ವಾನ್ವಿಂದೇಯಂ ಪುರುಷಾನಹಮ್",
+       "gujarati": "યસ્યાં હિરણ્યં પ્રભૂતં ગાવો દાસ્યોઽશ્વાન્વિંદેયં પુરુષાનહમ્"
+      }
+     ]
+    },
+    {
+     "label": "Gāyatrī",
+     "number": null,
+     "lines": [
+      {
+       "iast": "oṃ mahādevyai ca vidmahe viṣṇupatnī ca dhīmahi",
+       "simple": "om mahaadevyai cha vidmahe vishnupatnee cha dheemahi",
+       "devanagari": "ॐ महादेव्यै च विद्महे विष्णुपत्नी च धीमहि",
+       "telugu": "ఓం మహాదేవ్యై చ విద్మహే విష్ణుపత్నీ చ ధీమహి",
+       "kannada": "ಓಂ ಮಹಾದೇವ್ಯೈ ಚ ವಿದ್ಮಹೇ ವಿಷ್ಣುಪತ್ನೀ ಚ ಧೀಮಹಿ",
+       "gujarati": "ૐ મહાદેવ્યૈ ચ વિદ્મહે વિષ્ણુપત્ની ચ ધીમહિ"
+      },
+      {
+       "iast": "tanno lakṣmīḥ pracodayāt",
+       "simple": "tanno lakshmeeh prachodayaat",
+       "devanagari": "तन्नो लक्ष्मीः प्रचोदयात्",
+       "telugu": "తన్నో లక్ష్మీః ప్రచోదయాత్",
+       "kannada": "ತನ್ನೋ ಲಕ್ಷ್ಮೀಃ ಪ್ರಚೋದಯಾತ್",
+       "gujarati": "તન્નો લક્ષ્મીઃ પ્રચોદયાત્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 16,
+     "lines": [
+      {
+       "iast": "śrīrvarcasvamāyuṣyamārogyamāvīdhāt pavamānaṃ mahīyate",
+       "simple": "shreervarchasvamaayushyamaarogyamaaveedhaat pavamaanam maheeyate",
+       "devanagari": "श्रीर्वर्चस्वमायुष्यमारोग्यमावीधात्पवमानं महीयते",
+       "telugu": "శ్రీర్వర్చస్వమాయుష్యమారోగ్యమావీధాత్పవమానం మహీయతే",
+       "kannada": "ಶ್ರೀರ್ವರ್ಚಸ್ವಮಾಯುಷ್ಯಮಾರೋಗ್ಯಮಾವೀಧಾತ್ಪವಮಾನಂ ಮಹೀಯತೇ",
+       "gujarati": "શ્રીર્વર્ચસ્વમાયુષ્યમારોગ્યમાવીધાત્પવમાનં મહીયતે"
+      },
+      {
+       "iast": "dhānyaṃ dhanaṃ paśuṃ bahuputralābhaṃ śatasaṃvatsaraṃ dīrghamāyuḥ",
+       "simple": "dhaanyam dhanam pashum bahuputralaabham shatasamvatsaram deerghamaayuh",
+       "devanagari": "धान्यं धनं पशुं बहुपुत्रलाभं शतसंवत्सरं दीर्घमायुः",
+       "telugu": "ధాన్యం ధనం పశుం బహుపుత్రలాభం శతసంవత్సరం దీర్ఘమాయుః",
+       "kannada": "ಧಾನ್ಯಂ ಧನಂ ಪಶುಂ ಬಹುಪುತ್ರಲಾಭಂ ಶತಸಂವತ್ಸರಂ ದೀರ್ಘಮಾಯುಃ",
+       "gujarati": "ધાન્યં ધનં પશું બહુપુત્રલાભં શતસંવત્સરં દીર્ઘમાયુઃ"
+      }
+     ]
+    },
+    {
+     "label": "Śānti mantra",
+     "number": null,
+     "lines": [
+      {
+       "iast": "oṃ śāṃtiḥ śāṃtiḥ śāṃtiḥ",
+       "simple": "om shaamtih shaamtih shaamtih",
+       "devanagari": "ॐ शांतिः शांतिः शांतिः",
+       "telugu": "ఓం శాంతిః శాంతిః శాంతిః",
+       "kannada": "ಓಂ ಶಾಂತಿಃ ಶಾಂತಿಃ ಶಾಂತಿಃ",
+       "gujarati": "ૐ શાંતિઃ શાંતિઃ શાંતિઃ"
+      }
+     ]
+    }
+   ],
+   "meaning": null,
+   "tags": []
+  },
+  {
+   "id": "aditya-hrudayam",
+   "title": "Aditya Hrudayam",
+   "nativeTitle": "आदित्य हृदयम्",
+   "deity": "gold",
+   "kind": "stotra",
+   "about": "The hymn to the Sun that sage Agastya taught Rama before his battle, from the Valmiki Ramayana. Traditionally recited on Sundays at sunrise.",
+   "verses": [
+    {
+     "label": "Dhyānam",
+     "number": null,
+     "lines": [
+      {
+       "iast": "namassavitre jagadeka cakṣuṣe",
+       "simple": "namassavitre jagadeka chakshushe",
+       "devanagari": "नमस्सवित्रे जगदेक चक्षुषे",
+       "telugu": "నమస్సవిత్రే జగదేక చక్షుషే",
+       "kannada": "ನಮಸ್ಸವಿತ್ರೇ ಜಗದೇಕ ಚಕ್ಷುಷೇ",
+       "gujarati": "નમસ્સવિત્રે જગદેક ચક્ષુષે"
+      },
+      {
+       "iast": "jagatprasūti sthiti nāśahetave",
+       "simple": "jagatprasooti sthiti naashahetave",
+       "devanagari": "जगत्प्रसूति स्थिति नाशहेतवे",
+       "telugu": "జగత్ప్రసూతి స్థితి నాశహేతవే",
+       "kannada": "ಜಗತ್ಪ್ರಸೂತಿ ಸ್ಥಿತಿ ನಾಶಹೇತವೇ",
+       "gujarati": "જગત્પ્રસૂતિ સ્થિતિ નાશહેતવે"
+      },
+      {
+       "iast": "trayīmayāya triguṇātma dhāriṇe",
+       "simple": "trayeemayaaya trigunaatma dhaarine",
+       "devanagari": "त्रयीमयाय त्रिगुणात्म धारिणे",
+       "telugu": "త్రయీమయాయ త్రిగుణాత్మ ధారిణే",
+       "kannada": "ತ್ರಯೀಮಯಾಯ ತ್ರಿಗುಣಾತ್ಮ ಧಾರಿಣೇ",
+       "gujarati": "ત્રયીમયાય ત્રિગુણાત્મ ધારિણે"
+      },
+      {
+       "iast": "viriñci nārāyaṇa śaṅkarātmane",
+       "simple": "virinchi naaraayana shankaraatmane",
+       "devanagari": "विरिञ्चि नारायण शङ्करात्मने",
+       "telugu": "విరిఞ్చి నారాయణ శఙ్కరాత్మనే",
+       "kannada": "ವಿರಿಞ್ಚಿ ನಾರಾಯಣ ಶಙ್ಕರಾತ್ಮನೇ",
+       "gujarati": "વિરિઞ્ચિ નારાયણ શઙ્કરાત્મને"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 1,
+     "lines": [
+      {
+       "iast": "tato yuddha pariśrāntaṃ samare cintayā sthitam",
+       "simple": "tato yuddha parishraantam samare chintayaa sthitam",
+       "devanagari": "ततो युद्ध परिश्रान्तं समरे चिन्तया स्थितम्",
+       "telugu": "తతో యుద్ధ పరిశ్రాన్తం సమరే చిన్తయా స్థితమ్",
+       "kannada": "ತತೋ ಯುದ್ಧ ಪರಿಶ್ರಾನ್ತಂ ಸಮರೇ ಚಿನ್ತಯಾ ಸ್ಥಿತಮ್",
+       "gujarati": "તતો યુદ્ધ પરિશ્રાન્તં સમરે ચિન્તયા સ્થિતમ્"
+      },
+      {
+       "iast": "rāvaṇaṃ cāgrato dṛṣṭvā yuddhāya samupasthitam",
+       "simple": "raavanam chaagrato drishtvaa yuddhaaya samupasthitam",
+       "devanagari": "रावणं चाग्रतो दृष्ट्वा युद्धाय समुपस्थितम्",
+       "telugu": "రావణం చాగ్రతో దృష్ట్వా యుద్ధాయ సముపస్థితమ్",
+       "kannada": "ರಾವಣಂ ಚಾಗ್ರತೋ ದೃಷ್ಟ್ವಾ ಯುದ್ಧಾಯ ಸಮುಪಸ್ಥಿತಮ್",
+       "gujarati": "રાવણં ચાગ્રતો દૃષ્ટ્વા યુદ્ધાય સમુપસ્થિતમ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 2,
+     "lines": [
+      {
+       "iast": "daivataiśca samāgamya draṣṭumabhyāgato raṇam",
+       "simple": "daivataishcha samaagamya drashtumabhyaagato ranam",
+       "devanagari": "दैवतैश्च समागम्य द्रष्टुमभ्यागतो रणम्",
+       "telugu": "దైవతైశ్చ సమాగమ్య ద్రష్టుమభ్యాగతో రణమ్",
+       "kannada": "ದೈವತೈಶ್ಚ ಸಮಾಗಮ್ಯ ದ್ರಷ್ಟುಮಭ್ಯಾಗತೋ ರಣಮ್",
+       "gujarati": "દૈવતૈશ્ચ સમાગમ્ય દ્રષ્ટુમભ્યાગતો રણમ્"
+      },
+      {
+       "iast": "upagamyābravīdrāmam agastyo bhagavān ṛṣiḥ",
+       "simple": "upagamyaabraveedraamam agastyo bhagavaan rishih",
+       "devanagari": "उपगम्याब्रवीद्राममगस्त्यो भगवानृषिः",
+       "telugu": "ఉపగమ్యాబ్రవీద్రామమగస్త్యో భగవానృషిః",
+       "kannada": "ಉಪಗಮ್ಯಾಬ್ರವೀದ್ರಾಮಮಗಸ್ತ್ಯೋ ಭಗವಾನೃಷಿಃ",
+       "gujarati": "ઉપગમ્યાબ્રવીદ્રામમગસ્ત્યો ભગવાનૃષિઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 3,
+     "lines": [
+      {
+       "iast": "rāma rāma mahābāho śṛṇu guhyaṃ sanātanam",
+       "simple": "raama raama mahaabaaho shrinu guhyam sanaatanam",
+       "devanagari": "राम राम महाबाहो शृणु गुह्यं सनातनम्",
+       "telugu": "రామ రామ మహాబాహో శృణు గుహ్యం సనాతనమ్",
+       "kannada": "ರಾಮ ರಾಮ ಮಹಾಬಾಹೋ ಶೃಣು ಗುಹ್ಯಂ ಸನಾತನಮ್",
+       "gujarati": "રામ રામ મહાબાહો શૃણુ ગુહ્યં સનાતનમ્"
+      },
+      {
+       "iast": "yena sarvānarīn vatsa samare vijayiṣyasi",
+       "simple": "yena sarvaanareen vatsa samare vijayishyasi",
+       "devanagari": "येन सर्वानरीन्वत्स समरे विजयिष्यसि",
+       "telugu": "యేన సర్వానరీన్వత్స సమరే విజయిష్యసి",
+       "kannada": "ಯೇನ ಸರ್ವಾನರೀನ್ವತ್ಸ ಸಮರೇ ವಿಜಯಿಷ್ಯಸಿ",
+       "gujarati": "યેન સર્વાનરીન્વત્સ સમરે વિજયિષ્યસિ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 4,
+     "lines": [
+      {
+       "iast": "āditya hṛdayaṃ puṇyaṃ sarvaśatru vināśanam",
+       "simple": "aaditya hridayam punyam sarvashatru vinaashanam",
+       "devanagari": "आदित्य हृदयं पुण्यं सर्वशत्रु विनाशनम्",
+       "telugu": "ఆదిత్య హృదయం పుణ్యం సర్వశత్రు వినాశనమ్",
+       "kannada": "ಆದಿತ್ಯ ಹೃದಯಂ ಪುಣ್ಯಂ ಸರ್ವಶತ್ರು ವಿನಾಶನಮ್",
+       "gujarati": "આદિત્ય હૃદયં પુણ્યં સર્વશત્રુ વિનાશનમ્"
+      },
+      {
+       "iast": "jayāvahaṃ japennityam akṣayyaṃ paramaṃ śivam",
+       "simple": "jayaavaham japennityam akshayyam paramam shivam",
+       "devanagari": "जयावहं जपेन्नित्यमक्षय्यं परमं शिवम्",
+       "telugu": "జయావహం జపేన్నిత్యమక్షయ్యం పరమం శివమ్",
+       "kannada": "ಜಯಾವಹಂ ಜಪೇನ್ನಿತ್ಯಮಕ್ಷಯ್ಯಂ ಪರಮಂ ಶಿವಮ್",
+       "gujarati": "જયાવહં જપેન્નિત્યમક્ષય્યં પરમં શિવમ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 5,
+     "lines": [
+      {
+       "iast": "sarvamaṃgaḷa māṅgaḷyaṃ sarva pāpa praṇāśanam",
+       "simple": "sarvamamgala maangalyam sarva paapa pranaashanam",
+       "devanagari": "सर्वमंगऌअ माङ्गऌयं सर्व पाप प्रणाशनम्",
+       "telugu": "సర్వమంగఌఅ మాఙ్గఌయం సర్వ పాప ప్రణాశనమ్",
+       "kannada": "ಸರ್ವಮಂಗಌಅ ಮಾಙ್ಗಌಯಂ ಸರ್ವ ಪಾಪ ಪ್ರಣಾಶನಮ್",
+       "gujarati": "સર્વમંગઌઅ માઙ્ગઌયં સર્વ પાપ પ્રણાશનમ્"
+      },
+      {
+       "iast": "ciṃtāśoka praśamanam āyurvardhana muttamam",
+       "simple": "chimtaashoka prashamanam aayurvardhana muttamam",
+       "devanagari": "चिंताशोक प्रशमनमायुर्वर्धन मुत्तमम्",
+       "telugu": "చింతాశోక ప్రశమనమాయుర్వర్ధన ముత్తమమ్",
+       "kannada": "ಚಿಂತಾಶೋಕ ಪ್ರಶಮನಮಾಯುರ್ವರ್ಧನ ಮುತ್ತಮಮ್",
+       "gujarati": "ચિંતાશોક પ્રશમનમાયુર્વર્ધન મુત્તમમ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 6,
+     "lines": [
+      {
+       "iast": "raśmimaṃtaṃ samudyantaṃ devāsura namaskṛtam",
+       "simple": "rashmimamtam samudyantam devaasura namaskritam",
+       "devanagari": "रश्मिमंतं समुद्यन्तं देवासुर नमस्कृतम्",
+       "telugu": "రశ్మిమంతం సముద్యన్తం దేవాసుర నమస్కృతమ్",
+       "kannada": "ರಶ್ಮಿಮಂತಂ ಸಮುದ್ಯನ್ತಂ ದೇವಾಸುರ ನಮಸ್ಕೃತಮ್",
+       "gujarati": "રશ્મિમંતં સમુદ્યન્તં દેવાસુર નમસ્કૃતમ્"
+      },
+      {
+       "iast": "pūjayasva vivasvantaṃ bhāskaraṃ bhuvaneśvaram",
+       "simple": "poojayasva vivasvantam bhaaskaram bhuvaneshvaram",
+       "devanagari": "पूजयस्व विवस्वन्तं भास्करं भुवनेश्वरम्",
+       "telugu": "పూజయస్వ వివస్వన్తం భాస్కరం భువనేశ్వరమ్",
+       "kannada": "ಪೂಜಯಸ್ವ ವಿವಸ್ವನ್ತಂ ಭಾಸ್ಕರಂ ಭುವನೇಶ್ವರಮ್",
+       "gujarati": "પૂજયસ્વ વિવસ્વન્તં ભાસ્કરં ભુવનેશ્વરમ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 7,
+     "lines": [
+      {
+       "iast": "sarvadevātmako hyeṣa tejasvī raśmibhāvanaḥ",
+       "simple": "sarvadevaatmako hyesha tejasvee rashmibhaavanah",
+       "devanagari": "सर्वदेवात्मको ह्येष तेजस्वी रश्मिभावनः",
+       "telugu": "సర్వదేవాత్మకో హ్యేష తేజస్వీ రశ్మిభావనః",
+       "kannada": "ಸರ್ವದೇವಾತ್ಮಕೋ ಹ್ಯೇಷ ತೇಜಸ್ವೀ ರಶ್ಮಿಭಾವನಃ",
+       "gujarati": "સર્વદેવાત્મકો હ્યેષ તેજસ્વી રશ્મિભાવનઃ"
+      },
+      {
+       "iast": "eṣa devāsura gaṇān lokān pāti gabhastibhiḥ",
+       "simple": "esha devaasura ganaan lokaan paati gabhastibhih",
+       "devanagari": "एष देवासुर गणान्लोकान्पाति गभस्तिभिः",
+       "telugu": "ఏష దేవాసుర గణాన్లోకాన్పాతి గభస్తిభిః",
+       "kannada": "ಏಷ ದೇವಾಸುರ ಗಣಾನ್ಲೋಕಾನ್ಪಾತಿ ಗಭಸ್ತಿಭಿಃ",
+       "gujarati": "એષ દેવાસુર ગણાન્લોકાન્પાતિ ગભસ્તિભિઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 8,
+     "lines": [
+      {
+       "iast": "eṣa brahmā ca viṣṇuśca śivaḥ skandaḥ prajāpatiḥ",
+       "simple": "esha brahmaa cha vishnushcha shivah skandah prajaapatih",
+       "devanagari": "एष ब्रह्मा च विष्णुश्च शिवः स्कन्दः प्रजापतिः",
+       "telugu": "ఏష బ్రహ్మా చ విష్ణుశ్చ శివః స్కన్దః ప్రజాపతిః",
+       "kannada": "ಏಷ ಬ್ರಹ್ಮಾ ಚ ವಿಷ್ಣುಶ್ಚ ಶಿವಃ ಸ್ಕನ್ದಃ ಪ್ರಜಾಪತಿಃ",
+       "gujarati": "એષ બ્રહ્મા ચ વિષ્ણુશ્ચ શિવઃ સ્કન્દઃ પ્રજાપતિઃ"
+      },
+      {
+       "iast": "mahendro dhanadaḥ kālo yamaḥ somo hyapāṃ patiḥ",
+       "simple": "mahendro dhanadah kaalo yamah somo hyapaam patih",
+       "devanagari": "महेन्द्रो धनदः कालो यमः सोमो ह्यपां पतिः",
+       "telugu": "మహేన్ద్రో ధనదః కాలో యమః సోమో హ్యపాం పతిః",
+       "kannada": "ಮಹೇನ್ದ್ರೋ ಧನದಃ ಕಾಲೋ ಯಮಃ ಸೋಮೋ ಹ್ಯಪಾಂ ಪತಿಃ",
+       "gujarati": "મહેન્દ્રો ધનદઃ કાલો યમઃ સોમો હ્યપાં પતિઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 9,
+     "lines": [
+      {
+       "iast": "pitaro vasavaḥ sādhyā hyaśvinau maruto manuḥ",
+       "simple": "pitaro vasavah saadhyaa hyashvinau maruto manuh",
+       "devanagari": "पितरो वसवः साध्या ह्यश्विनौ मरुतो मनुः",
+       "telugu": "పితరో వసవః సాధ్యా హ్యశ్వినౌ మరుతో మనుః",
+       "kannada": "ಪಿತರೋ ವಸವಃ ಸಾಧ್ಯಾ ಹ್ಯಶ್ವಿನೌ ಮರುತೋ ಮನುಃ",
+       "gujarati": "પિતરો વસવઃ સાધ્યા હ્યશ્વિનૌ મરુતો મનુઃ"
+      },
+      {
+       "iast": "vāyurvahniḥ prajāprāṇaḥ ṛtukartā prabhākaraḥ",
+       "simple": "vaayurvahnih prajaapraanah ritukartaa prabhaakarah",
+       "devanagari": "वायुर्वह्निः प्रजाप्राणः ऋतुकर्ता प्रभाकरः",
+       "telugu": "వాయుర్వహ్నిః ప్రజాప్రాణః ఋతుకర్తా ప్రభాకరః",
+       "kannada": "ವಾಯುರ್ವಹ್ನಿಃ ಪ್ರಜಾಪ್ರಾಣಃ ಋತುಕರ್ತಾ ಪ್ರಭಾಕರಃ",
+       "gujarati": "વાયુર્વહ્નિઃ પ્રજાપ્રાણઃ ઋતુકર્તા પ્રભાકરઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 10,
+     "lines": [
+      {
+       "iast": "ādityaḥ savitā sūryaḥ khagaḥ pūṣā gabhastimān",
+       "simple": "aadityah savitaa sooryah khagah pooshaa gabhastimaan",
+       "devanagari": "आदित्यः सविता सूर्यः खगः पूषा गभस्तिमान्",
+       "telugu": "ఆదిత్యః సవితా సూర్యః ఖగః పూషా గభస్తిమాన్",
+       "kannada": "ಆದಿತ್ಯಃ ಸವಿತಾ ಸೂರ್ಯಃ ಖಗಃ ಪೂಷಾ ಗಭಸ್ತಿಮಾನ್",
+       "gujarati": "આદિત્યઃ સવિતા સૂર્યઃ ખગઃ પૂષા ગભસ્તિમાન્"
+      },
+      {
+       "iast": "suvarṇasadṛśo bhānuḥ hiraṇyaretā divākaraḥ",
+       "simple": "suvarnasadrisho bhaanuh hiranyaretaa divaakarah",
+       "devanagari": "सुवर्णसदृशो भानुः हिरण्यरेता दिवाकरः",
+       "telugu": "సువర్ణసదృశో భానుః హిరణ్యరేతా దివాకరః",
+       "kannada": "ಸುವರ್ಣಸದೃಶೋ ಭಾನುಃ ಹಿರಣ್ಯರೇತಾ ದಿವಾಕರಃ",
+       "gujarati": "સુવર્ણસદૃશો ભાનુઃ હિરણ્યરેતા દિવાકરઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 11,
+     "lines": [
+      {
+       "iast": "haridaśvaḥ sahasrārciḥ saptasapti-rmarīcimān",
+       "simple": "haridashvah sahasraarchih saptasapti-rmareechimaan",
+       "devanagari": "हरिदश्वः सहस्रार्चिः सप्तसप्ति-र्मरीचिमान्",
+       "telugu": "హరిదశ్వః సహస్రార్చిః సప్తసప్తి-ర్మరీచిమాన్",
+       "kannada": "ಹರಿದಶ್ವಃ ಸಹಸ್ರಾರ್ಚಿಃ ಸಪ್ತಸಪ್ತಿ-ರ್ಮರೀಚಿಮಾನ್",
+       "gujarati": "હરિદશ્વઃ સહસ્રાર્ચિઃ સપ્તસપ્તિ-ર્મરીચિમાન્"
+      },
+      {
+       "iast": "timironmathanaḥ śaṃbhuḥ tvaṣṭā mārtāṇḍakoṃśumān",
+       "simple": "timironmathanah shambhuh tvashtaa maartaandakomshumaan",
+       "devanagari": "तिमिरोन्मथनः शंभुः त्वष्टा मार्ताण्डकोंशुमान्",
+       "telugu": "తిమిరోన్మథనః శంభుః త్వష్టా మార్తాణ్డకోంశుమాన్",
+       "kannada": "ತಿಮಿರೋನ್ಮಥನಃ ಶಂಭುಃ ತ್ವಷ್ಟಾ ಮಾರ್ತಾಣ್ಡಕೋಂಶುಮಾನ್",
+       "gujarati": "તિમિરોન્મથનઃ શંભુઃ ત્વષ્ટા માર્તાણ્ડકોંશુમાન્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 12,
+     "lines": [
+      {
+       "iast": "hiraṇyagarbhaḥ śiśiraḥ tapano bhāskaro raviḥ",
+       "simple": "hiranyagarbhah shishirah tapano bhaaskaro ravih",
+       "devanagari": "हिरण्यगर्भः शिशिरः तपनो भास्करो रविः",
+       "telugu": "హిరణ్యగర్భః శిశిరః తపనో భాస్కరో రవిః",
+       "kannada": "ಹಿರಣ್ಯಗರ್ಭಃ ಶಿಶಿರಃ ತಪನೋ ಭಾಸ್ಕರೋ ರವಿಃ",
+       "gujarati": "હિરણ્યગર્ભઃ શિશિરઃ તપનો ભાસ્કરો રવિઃ"
+      },
+      {
+       "iast": "agnigarbhoditeḥ putraḥ śaṅkhaḥ śiśiranāśanaḥ",
+       "simple": "agnigarbhoditeh putrah shankhah shishiranaashanah",
+       "devanagari": "अग्निगर्भोदितेः पुत्रः शङ्खः शिशिरनाशनः",
+       "telugu": "అగ్నిగర్భోదితేః పుత్రః శఙ్ఖః శిశిరనాశనః",
+       "kannada": "ಅಗ್ನಿಗರ್ಭೋದಿತೇಃ ಪುತ್ರಃ ಶಙ್ಖಃ ಶಿಶಿರನಾಶನಃ",
+       "gujarati": "અગ્નિગર્ભોદિતેઃ પુત્રઃ શઙ્ખઃ શિશિરનાશનઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 13,
+     "lines": [
+      {
+       "iast": "vyomanātha stamobhedī ṛgyajuḥsāma-pāragaḥ",
+       "simple": "vyomanaatha stamobhedee rigyajuhsaama-paaragah",
+       "devanagari": "व्योमनाथ स्तमोभेदी ऋग्यजुःसाम-पारगः",
+       "telugu": "వ్యోమనాథ స్తమోభేదీ ఋగ్యజుఃసామ-పారగః",
+       "kannada": "ವ್ಯೋಮನಾಥ ಸ್ತಮೋಭೇದೀ ಋಗ್ಯಜುಃಸಾಮ-ಪಾರಗಃ",
+       "gujarati": "વ્યોમનાથ સ્તમોભેદી ઋગ્યજુઃસામ-પારગઃ"
+      },
+      {
+       "iast": "ghanāvṛṣṭi rapāṃ mitro vindhyavīthī plavaṅgamaḥ",
+       "simple": "ghanaavrishti rapaam mitro vindhyaveethee plavangamah",
+       "devanagari": "घनावृष्टि रपां मित्रो विन्ध्यवीथी प्लवङ्गमः",
+       "telugu": "ఘనావృష్టి రపాం మిత్రో విన్ధ్యవీథీ ప్లవఙ్గమః",
+       "kannada": "ಘನಾವೃಷ್ಟಿ ರಪಾಂ ಮಿತ್ರೋ ವಿನ್ಧ್ಯವೀಥೀ ಪ್ಲವಙ್ಗಮಃ",
+       "gujarati": "ઘનાવૃષ્ટિ રપાં મિત્રો વિન્ધ્યવીથી પ્લવઙ્ગમઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 14,
+     "lines": [
+      {
+       "iast": "ātapī maṃḍalī mṛtyuḥ piṅgaḷaḥ sarvatāpanaḥ",
+       "simple": "aatapee mamdalee mrityuh pingalah sarvataapanah",
+       "devanagari": "आतपी मंडली मृत्युः पिङ्गऌअः सर्वतापनः",
+       "telugu": "ఆతపీ మండలీ మృత్యుః పిఙ్గఌఅః సర్వతాపనః",
+       "kannada": "ಆತಪೀ ಮಂಡಲೀ ಮೃತ್ಯುಃ ಪಿಙ್ಗಌಅಃ ಸರ್ವತಾಪನಃ",
+       "gujarati": "આતપી મંડલી મૃત્યુઃ પિઙ્ગઌઅઃ સર્વતાપનઃ"
+      },
+      {
+       "iast": "kavirviśvo mahātejā raktaḥ sarvabhavodbhavaḥ",
+       "simple": "kavirvishvo mahaatejaa raktah sarvabhavodbhavah",
+       "devanagari": "कविर्विश्वो महातेजा रक्तः सर्वभवोद्भवः",
+       "telugu": "కవిర్విశ్వో మహాతేజా రక్తః సర్వభవోద్భవః",
+       "kannada": "ಕವಿರ್ವಿಶ್ವೋ ಮಹಾತೇಜಾ ರಕ್ತಃ ಸರ್ವಭವೋದ್ಭವಃ",
+       "gujarati": "કવિર્વિશ્વો મહાતેજા રક્તઃ સર્વભવોદ્ભવઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 15,
+     "lines": [
+      {
+       "iast": "nakṣatra graha tārāṇām adhipo viśvabhāvanaḥ",
+       "simple": "nakshatra graha taaraanaam adhipo vishvabhaavanah",
+       "devanagari": "नक्षत्र ग्रह ताराणामधिपो विश्वभावनः",
+       "telugu": "నక్షత్ర గ్రహ తారాణామధిపో విశ్వభావనః",
+       "kannada": "ನಕ್ಷತ್ರ ಗ್ರಹ ತಾರಾಣಾಮಧಿಪೋ ವಿಶ್ವಭಾವನಃ",
+       "gujarati": "નક્ષત્ર ગ્રહ તારાણામધિપો વિશ્વભાવનઃ"
+      },
+      {
+       "iast": "tejasāmapi tejasvī dvādaśātman-namostu te",
+       "simple": "tejasaamapi tejasvee dvaadashaatman-namostu te",
+       "devanagari": "तेजसामपि तेजस्वी द्वादशात्मन्-नमोस्तु ते",
+       "telugu": "తేజసామపి తేజస్వీ ద్వాదశాత్మన్-నమోస్తు తే",
+       "kannada": "ತೇಜಸಾಮಪಿ ತೇಜಸ್ವೀ ದ್ವಾದಶಾತ್ಮನ್-ನಮೋಸ್ತು ತೇ",
+       "gujarati": "તેજસામપિ તેજસ્વી દ્વાદશાત્મન્-નમોસ્તુ તે"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 16,
+     "lines": [
+      {
+       "iast": "namaḥ pūrvāya giraye paścimāyādraye namaḥ",
+       "simple": "namah poorvaaya giraye pashchimaayaadraye namah",
+       "devanagari": "नमः पूर्वाय गिरये पश्चिमायाद्रये नमः",
+       "telugu": "నమః పూర్వాయ గిరయే పశ్చిమాయాద్రయే నమః",
+       "kannada": "ನಮಃ ಪೂರ್ವಾಯ ಗಿರಯೇ ಪಶ್ಚಿಮಾಯಾದ್ರಯೇ ನಮಃ",
+       "gujarati": "નમઃ પૂર્વાય ગિરયે પશ્ચિમાયાદ્રયે નમઃ"
+      },
+      {
+       "iast": "jyotirgaṇānāṃ pataye dinādhipataye namaḥ",
+       "simple": "jyotirganaanaam pataye dinaadhipataye namah",
+       "devanagari": "ज्योतिर्गणानां पतये दिनाधिपतये नमः",
+       "telugu": "జ్యోతిర్గణానాం పతయే దినాధిపతయే నమః",
+       "kannada": "ಜ್ಯೋತಿರ್ಗಣಾನಾಂ ಪತಯೇ ದಿನಾಧಿಪತಯೇ ನಮಃ",
+       "gujarati": "જ્યોતિર્ગણાનાં પતયે દિનાધિપતયે નમઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 17,
+     "lines": [
+      {
+       "iast": "jayāya jayabhadrāya haryaśvāya namo namaḥ",
+       "simple": "jayaaya jayabhadraaya haryashvaaya namo namah",
+       "devanagari": "जयाय जयभद्राय हर्यश्वाय नमो नमः",
+       "telugu": "జయాయ జయభద్రాయ హర్యశ్వాయ నమో నమః",
+       "kannada": "ಜಯಾಯ ಜಯಭದ್ರಾಯ ಹರ್ಯಶ್ವಾಯ ನಮೋ ನಮಃ",
+       "gujarati": "જયાય જયભદ્રાય હર્યશ્વાય નમો નમઃ"
+      },
+      {
+       "iast": "namo namaḥ sahasrāṃśo ādityāya namo namaḥ",
+       "simple": "namo namah sahasraamsho aadityaaya namo namah",
+       "devanagari": "नमो नमः सहस्रांशो आदित्याय नमो नमः",
+       "telugu": "నమో నమః సహస్రాంశో ఆదిత్యాయ నమో నమః",
+       "kannada": "ನಮೋ ನಮಃ ಸಹಸ್ರಾಂಶೋ ಆದಿತ್ಯಾಯ ನಮೋ ನಮಃ",
+       "gujarati": "નમો નમઃ સહસ્રાંશો આદિત્યાય નમો નમઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 18,
+     "lines": [
+      {
+       "iast": "nama ugrāya vīrāya sāraṅgāya namo namaḥ",
+       "simple": "nama ugraaya veeraaya saarangaaya namo namah",
+       "devanagari": "नम उग्राय वीराय सारङ्गाय नमो नमः",
+       "telugu": "నమ ఉగ్రాయ వీరాయ సారఙ్గాయ నమో నమః",
+       "kannada": "ನಮ ಉಗ್ರಾಯ ವೀರಾಯ ಸಾರಙ್ಗಾಯ ನಮೋ ನಮಃ",
+       "gujarati": "નમ ઉગ્રાય વીરાય સારઙ્ગાય નમો નમઃ"
+      },
+      {
+       "iast": "namaḥ padmaprabodhāya mārtāṇḍāya namo namaḥ",
+       "simple": "namah padmaprabodhaaya maartaandaaya namo namah",
+       "devanagari": "नमः पद्मप्रबोधाय मार्ताण्डाय नमो नमः",
+       "telugu": "నమః పద్మప్రబోధాయ మార్తాణ్డాయ నమో నమః",
+       "kannada": "ನಮಃ ಪದ್ಮಪ್ರಬೋಧಾಯ ಮಾರ್ತಾಣ್ಡಾಯ ನಮೋ ನಮಃ",
+       "gujarati": "નમઃ પદ્મપ્રબોધાય માર્તાણ્ડાય નમો નમઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 19,
+     "lines": [
+      {
+       "iast": "brahmeśānācyuteśāya sūryāyāditya-varcase",
+       "simple": "brahmeshaanaachyuteshaaya sooryaayaaditya-varchase",
+       "devanagari": "ब्रह्मेशानाच्युतेशाय सूर्यायादित्य-वर्चसे",
+       "telugu": "బ్రహ్మేశానాచ్యుతేశాయ సూర్యాయాదిత్య-వర్చసే",
+       "kannada": "ಬ್ರಹ್ಮೇಶಾನಾಚ್ಯುತೇಶಾಯ ಸೂರ್ಯಾಯಾದಿತ್ಯ-ವರ್ಚಸೇ",
+       "gujarati": "બ્રહ્મેશાનાચ્યુતેશાય સૂર્યાયાદિત્ય-વર્ચસે"
+      },
+      {
+       "iast": "bhāsvate sarvabhakṣāya raudrāya vapuṣe namaḥ",
+       "simple": "bhaasvate sarvabhakshaaya raudraaya vapushe namah",
+       "devanagari": "भास्वते सर्वभक्षाय रौद्राय वपुषे नमः",
+       "telugu": "భాస్వతే సర్వభక్షాయ రౌద్రాయ వపుషే నమః",
+       "kannada": "ಭಾಸ್ವತೇ ಸರ್ವಭಕ್ಷಾಯ ರೌದ್ರಾಯ ವಪುಷೇ ನಮಃ",
+       "gujarati": "ભાસ્વતે સર્વભક્ષાય રૌદ્રાય વપુષે નમઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 20,
+     "lines": [
+      {
+       "iast": "tamoghnāya himaghnāya śatrughnāyā mitātmane",
+       "simple": "tamoghnaaya himaghnaaya shatrughnaayaa mitaatmane",
+       "devanagari": "तमोघ्नाय हिमघ्नाय शत्रुघ्नाया मितात्मने",
+       "telugu": "తమోఘ్నాయ హిమఘ్నాయ శత్రుఘ్నాయా మితాత్మనే",
+       "kannada": "ತಮೋಘ್ನಾಯ ಹಿಮಘ್ನಾಯ ಶತ್ರುಘ್ನಾಯಾ ಮಿತಾತ್ಮನೇ",
+       "gujarati": "તમોઘ્નાય હિમઘ્નાય શત્રુઘ્નાયા મિતાત્મને"
+      },
+      {
+       "iast": "kṛtaghnaghnāya devāya jyotiṣāṃ pataye namaḥ",
+       "simple": "kritaghnaghnaaya devaaya jyotishaam pataye namah",
+       "devanagari": "कृतघ्नघ्नाय देवाय ज्योतिषां पतये नमः",
+       "telugu": "కృతఘ్నఘ్నాయ దేవాయ జ్యోతిషాం పతయే నమః",
+       "kannada": "ಕೃತಘ್ನಘ್ನಾಯ ದೇವಾಯ ಜ್ಯೋತಿಷಾಂ ಪತಯೇ ನಮಃ",
+       "gujarati": "કૃતઘ્નઘ્નાય દેવાય જ્યોતિષાં પતયે નમઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 21,
+     "lines": [
+      {
+       "iast": "tapta cāmīkarābhāya vahnaye viśvakarmaṇe",
+       "simple": "tapta chaameekaraabhaaya vahnaye vishvakarmane",
+       "devanagari": "तप्त चामीकराभाय वह्नये विश्वकर्मणे",
+       "telugu": "తప్త చామీకరాభాయ వహ్నయే విశ్వకర్మణే",
+       "kannada": "ತಪ್ತ ಚಾಮೀಕರಾಭಾಯ ವಹ್ನಯೇ ವಿಶ್ವಕರ್ಮಣೇ",
+       "gujarati": "તપ્ત ચામીકરાભાય વહ્નયે વિશ્વકર્મણે"
+      },
+      {
+       "iast": "namastamobhi nighnāya rucaye lokasākṣiṇe",
+       "simple": "namastamobhi nighnaaya ruchaye lokasaakshine",
+       "devanagari": "नमस्तमोभि निघ्नाय रुचये लोकसाक्षिणे",
+       "telugu": "నమస్తమోభి నిఘ్నాయ రుచయే లోకసాక్షిణే",
+       "kannada": "ನಮಸ್ತಮೋಭಿ ನಿಘ್ನಾಯ ರುಚಯೇ ಲೋಕಸಾಕ್ಷಿಣೇ",
+       "gujarati": "નમસ્તમોભિ નિઘ્નાય રુચયે લોકસાક્ષિણે"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 22,
+     "lines": [
+      {
+       "iast": "nāśayatyeṣa vai bhūtaṃ tadeva sṛjati prabhuḥ",
+       "simple": "naashayatyesha vai bhootam tadeva srijati prabhuh",
+       "devanagari": "नाशयत्येष वै भूतं तदेव सृजति प्रभुः",
+       "telugu": "నాశయత్యేష వై భూతం తదేవ సృజతి ప్రభుః",
+       "kannada": "ನಾಶಯತ್ಯೇಷ ವೈ ಭೂತಂ ತದೇವ ಸೃಜತಿ ಪ್ರಭುಃ",
+       "gujarati": "નાશયત્યેષ વૈ ભૂતં તદેવ સૃજતિ પ્રભુઃ"
+      },
+      {
+       "iast": "pāyatyeṣa tapatyeṣa varṣatyeṣa gabhastibhiḥ",
+       "simple": "paayatyesha tapatyesha varshatyesha gabhastibhih",
+       "devanagari": "पायत्येष तपत्येष वर्षत्येष गभस्तिभिः",
+       "telugu": "పాయత్యేష తపత్యేష వర్షత్యేష గభస్తిభిః",
+       "kannada": "ಪಾಯತ್ಯೇಷ ತಪತ್ಯೇಷ ವರ್ಷತ್ಯೇಷ ಗಭಸ್ತಿಭಿಃ",
+       "gujarati": "પાયત્યેષ તપત્યેષ વર્ષત્યેષ ગભસ્તિભિઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 23,
+     "lines": [
+      {
+       "iast": "eṣa supteṣu jāgarti bhūteṣu pariniṣṭhitaḥ",
+       "simple": "esha supteshu jaagarti bhooteshu parinishthitah",
+       "devanagari": "एष सुप्तेषु जागर्ति भूतेषु परिनिष्ठितः",
+       "telugu": "ఏష సుప్తేషు జాగర్తి భూతేషు పరినిష్ఠితః",
+       "kannada": "ಏಷ ಸುಪ್ತೇಷು ಜಾಗರ್ತಿ ಭೂತೇಷು ಪರಿನಿಷ್ಠಿತಃ",
+       "gujarati": "એષ સુપ્તેષુ જાગર્તિ ભૂતેષુ પરિનિષ્ઠિતઃ"
+      },
+      {
+       "iast": "eṣa evāgnihotraṃ ca phalaṃ caivāgni hotriṇām",
+       "simple": "esha evaagnihotram cha phalam chaivaagni hotrinaam",
+       "devanagari": "एष एवाग्निहोत्रं च फलं चैवाग्नि होत्रिणाम्",
+       "telugu": "ఏష ఏవాగ్నిహోత్రం చ ఫలం చైవాగ్ని హోత్రిణామ్",
+       "kannada": "ಏಷ ಏವಾಗ್ನಿಹೋತ್ರಂ ಚ ಫಲಂ ಚೈವಾಗ್ನಿ ಹೋತ್ರಿಣಾಮ್",
+       "gujarati": "એષ એવાગ્નિહોત્રં ચ ફલં ચૈવાગ્નિ હોત્રિણામ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 24,
+     "lines": [
+      {
+       "iast": "vedāśca kratavaścaiva kratūnāṃ phalameva ca",
+       "simple": "vedaashcha kratavashchaiva kratoonaam phalameva cha",
+       "devanagari": "वेदाश्च क्रतवश्चैव क्रतूनां फलमेव च",
+       "telugu": "వేదాశ్చ క్రతవశ్చైవ క్రతూనాం ఫలమేవ చ",
+       "kannada": "ವೇದಾಶ್ಚ ಕ್ರತವಶ್ಚೈವ ಕ್ರತೂನಾಂ ಫಲಮೇವ ಚ",
+       "gujarati": "વેદાશ્ચ ક્રતવશ્ચૈવ ક્રતૂનાં ફલમેવ ચ"
+      },
+      {
+       "iast": "yāni kṛtyāni lokeṣu sarva eṣa raviḥ prabhuḥ",
+       "simple": "yaani krityaani lokeshu sarva esha ravih prabhuh",
+       "devanagari": "यानि कृत्यानि लोकेषु सर्व एष रविः प्रभुः",
+       "telugu": "యాని కృత్యాని లోకేషు సర్వ ఏష రవిః ప్రభుః",
+       "kannada": "ಯಾನಿ ಕೃತ್ಯಾನಿ ಲೋಕೇಷು ಸರ್ವ ಏಷ ರವಿಃ ಪ್ರಭುಃ",
+       "gujarati": "યાનિ કૃત્યાનિ લોકેષુ સર્વ એષ રવિઃ પ્રભુઃ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 25,
+     "lines": [
+      {
+       "iast": "enamāpatsu kṛcchreṣu kāntāreṣu bhayeṣu ca",
+       "simple": "enamaapatsu krichchhreshu kaantaareshu bhayeshu cha",
+       "devanagari": "एनमापत्सु कृच्छ्रेषु कान्तारेषु भयेषु च",
+       "telugu": "ఏనమాపత్సు కృచ్ఛ్రేషు కాన్తారేషు భయేషు చ",
+       "kannada": "ಏನಮಾಪತ್ಸು ಕೃಚ್ಛ್ರೇಷು ಕಾನ್ತಾರೇಷು ಭಯೇಷು ಚ",
+       "gujarati": "એનમાપત્સુ કૃચ્છ્રેષુ કાન્તારેષુ ભયેષુ ચ"
+      },
+      {
+       "iast": "kīrtayan puruṣaḥ kaścin-nāvasīdati rāghava",
+       "simple": "keertayan purushah kashchin-naavaseedati raaghava",
+       "devanagari": "कीर्तयन्पुरुषः कश्चिन्-नावसीदति राघव",
+       "telugu": "కీర్తయన్పురుషః కశ్చిన్-నావసీదతి రాఘవ",
+       "kannada": "ಕೀರ್ತಯನ್ಪುರುಷಃ ಕಶ್ಚಿನ್-ನಾವಸೀದತಿ ರಾಘವ",
+       "gujarati": "કીર્તયન્પુરુષઃ કશ્ચિન્-નાવસીદતિ રાઘવ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 26,
+     "lines": [
+      {
+       "iast": "pūjayasvaina mekāgro devadevaṃ jagatpatim",
+       "simple": "poojayasvaina mekaagro devadevam jagatpatim",
+       "devanagari": "पूजयस्वैन मेकाग्रो देवदेवं जगत्पतिम्",
+       "telugu": "పూజయస్వైన మేకాగ్రో దేవదేవం జగత్పతిమ్",
+       "kannada": "ಪೂಜಯಸ್ವೈನ ಮೇಕಾಗ್ರೋ ದೇವದೇವಂ ಜಗತ್ಪತಿಮ್",
+       "gujarati": "પૂજયસ્વૈન મેકાગ્રો દેવદેવં જગત્પતિમ્"
+      },
+      {
+       "iast": "etat triguṇitaṃ japtvā yuddheṣu vijayiṣyasi",
+       "simple": "etat trigunitam japtvaa yuddheshu vijayishyasi",
+       "devanagari": "एतत्त्रिगुणितं जप्त्वा युद्धेषु विजयिष्यसि",
+       "telugu": "ఏతత్త్రిగుణితం జప్త్వా యుద్ధేషు విజయిష్యసి",
+       "kannada": "ಏತತ್ತ್ರಿಗುಣಿತಂ ಜಪ್ತ್ವಾ ಯುದ್ಧೇಷು ವಿಜಯಿಷ್ಯಸಿ",
+       "gujarati": "એતત્ત્રિગુણિતં જપ્ત્વા યુદ્ધેષુ વિજયિષ્યસિ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 27,
+     "lines": [
+      {
+       "iast": "asmin kṣaṇe mahābāho rāvaṇaṃ tvaṃ vadhiṣyasi",
+       "simple": "asmin kshane mahaabaaho raavanam tvam vadhishyasi",
+       "devanagari": "अस्मिन्क्षणे महाबाहो रावणं त्वं वधिष्यसि",
+       "telugu": "అస్మిన్క్షణే మహాబాహో రావణం త్వం వధిష్యసి",
+       "kannada": "ಅಸ್ಮಿನ್ಕ್ಷಣೇ ಮಹಾಬಾಹೋ ರಾವಣಂ ತ್ವಂ ವಧಿಷ್ಯಸಿ",
+       "gujarati": "અસ્મિન્ક્ષણે મહાબાહો રાવણં ત્વં વધિષ્યસિ"
+      },
+      {
+       "iast": "evamuktvā tadāgastyo jagāma ca yathāgatam",
+       "simple": "evamuktvaa tadaagastyo jagaama cha yathaagatam",
+       "devanagari": "एवमुक्त्वा तदागस्त्यो जगाम च यथागतम्",
+       "telugu": "ఏవముక్త్వా తదాగస్త్యో జగామ చ యథాగతమ్",
+       "kannada": "ಏವಮುಕ್ತ್ವಾ ತದಾಗಸ್ತ್ಯೋ ಜಗಾಮ ಚ ಯಥಾಗತಮ್",
+       "gujarati": "એવમુક્ત્વા તદાગસ્ત્યો જગામ ચ યથાગતમ્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 28,
+     "lines": [
+      {
+       "iast": "etacchrutvā mahātejāḥ naṣṭaśokobhavat-tadā",
+       "simple": "etachchhrutvaa mahaatejaah nashtashokobhavat-tadaa",
+       "devanagari": "एतच्छ्रुत्वा महातेजाः नष्टशोकोभवत्-तदा",
+       "telugu": "ఏతచ్ఛ్రుత్వా మహాతేజాః నష్టశోకోభవత్-తదా",
+       "kannada": "ಏತಚ್ಛ್ರುತ್ವಾ ಮಹಾತೇಜಾಃ ನಷ್ಟಶೋಕೋಭವತ್-ತದಾ",
+       "gujarati": "એતચ્છ્રુત્વા મહાતેજાઃ નષ્ટશોકોભવત્-તદા"
+      },
+      {
+       "iast": "dhārayāmāsa suprīto rāghavaḥ prayatātmavān",
+       "simple": "dhaarayaamaasa supreeto raaghavah prayataatmavaan",
+       "devanagari": "धारयामास सुप्रीतो राघवः प्रयतात्मवान्",
+       "telugu": "ధారయామాస సుప్రీతో రాఘవః ప్రయతాత్మవాన్",
+       "kannada": "ಧಾರಯಾಮಾಸ ಸುಪ್ರೀತೋ ರಾಘವಃ ಪ್ರಯತಾತ್ಮವಾನ್",
+       "gujarati": "ધારયામાસ સુપ્રીતો રાઘવઃ પ્રયતાત્મવાન્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 29,
+     "lines": [
+      {
+       "iast": "ādityaṃ prekṣya japtvā tu paraṃ harṣamavāptavān",
+       "simple": "aadityam prekshya japtvaa tu param harshamavaaptavaan",
+       "devanagari": "आदित्यं प्रेक्ष्य जप्त्वा तु परं हर्षमवाप्तवान्",
+       "telugu": "ఆదిత్యం ప్రేక్ష్య జప్త్వా తు పరం హర్షమవాప్తవాన్",
+       "kannada": "ಆದಿತ್ಯಂ ಪ್ರೇಕ್ಷ್ಯ ಜಪ್ತ್ವಾ ತು ಪರಂ ಹರ್ಷಮವಾಪ್ತವಾನ್",
+       "gujarati": "આદિત્યં પ્રેક્ષ્ય જપ્ત્વા તુ પરં હર્ષમવાપ્તવાન્"
+      },
+      {
+       "iast": "trirācamya śucirbhūtvā dhanurādāya vīryavān",
+       "simple": "triraachamya shuchirbhootvaa dhanuraadaaya veeryavaan",
+       "devanagari": "त्रिराचम्य शुचिर्भूत्वा धनुरादाय वीर्यवान्",
+       "telugu": "త్రిరాచమ్య శుచిర్భూత్వా ధనురాదాయ వీర్యవాన్",
+       "kannada": "ತ್ರಿರಾಚಮ್ಯ ಶುಚಿರ್ಭೂತ್ವಾ ಧನುರಾದಾಯ ವೀರ್ಯವಾನ್",
+       "gujarati": "ત્રિરાચમ્ય શુચિર્ભૂત્વા ધનુરાદાય વીર્યવાન્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 30,
+     "lines": [
+      {
+       "iast": "rāvaṇaṃ prekṣya hṛṣṭātmā yuddhāya samupāgamat",
+       "simple": "raavanam prekshya hrishtaatmaa yuddhaaya samupaagamat",
+       "devanagari": "रावणं प्रेक्ष्य हृष्टात्मा युद्धाय समुपागमत्",
+       "telugu": "రావణం ప్రేక్ష్య హృష్టాత్మా యుద్ధాయ సముపాగమత్",
+       "kannada": "ರಾವಣಂ ಪ್ರೇಕ್ಷ್ಯ ಹೃಷ್ಟಾತ್ಮಾ ಯುದ್ಧಾಯ ಸಮುಪಾಗಮತ್",
+       "gujarati": "રાવણં પ્રેક્ષ્ય હૃષ્ટાત્મા યુદ્ધાય સમુપાગમત્"
+      },
+      {
+       "iast": "sarvayatnena mahatā vadhe tasya dhṛtobhavat",
+       "simple": "sarvayatnena mahataa vadhe tasya dhritobhavat",
+       "devanagari": "सर्वयत्नेन महता वधे तस्य धृतोभवत्",
+       "telugu": "సర్వయత్నేన మహతా వధే తస్య ధృతోభవత్",
+       "kannada": "ಸರ್ವಯತ್ನೇನ ಮಹತಾ ವಧೇ ತಸ್ಯ ಧೃತೋಭವತ್",
+       "gujarati": "સર્વયત્નેન મહતા વધે તસ્ય ધૃતોભવત્"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 31,
+     "lines": [
+      {
+       "iast": "atha raviravadan-nirīkṣya rāmaṃ muditamanāḥ paramaṃ prahṛṣyamāṇaḥ",
+       "simple": "atha raviravadan-nireekshya raamam muditamanaah paramam prahrishyamaanah",
+       "devanagari": "अथ रविरवदन्-निरीक्ष्य रामं मुदितमनाः परमं प्रहृष्यमाणः",
+       "telugu": "అథ రవిరవదన్-నిరీక్ష్య రామం ముదితమనాః పరమం ప్రహృష్యమాణః",
+       "kannada": "ಅಥ ರವಿರವದನ್-ನಿರೀಕ್ಷ್ಯ ರಾಮಂ ಮುದಿತಮನಾಃ ಪರಮಂ ಪ್ರಹೃಷ್ಯಮಾಣಃ",
+       "gujarati": "અથ રવિરવદન્-નિરીક્ષ્ય રામં મુદિતમનાઃ પરમં પ્રહૃષ્યમાણઃ"
+      },
+      {
+       "iast": "niśicarapati saṃkṣayaṃ viditvā suragaṇa madhyagato vacastvareti",
+       "simple": "nishicharapati samkshayam viditvaa suragana madhyagato vachastvareti",
+       "devanagari": "निशिचरपति संक्षयं विदित्वा सुरगण मध्यगतो वचस्त्वरेति",
+       "telugu": "నిశిచరపతి సంక్షయం విదిత్వా సురగణ మధ్యగతో వచస్త్వరేతి",
+       "kannada": "ನಿಶಿಚರಪತಿ ಸಂಕ್ಷಯಂ ವಿದಿತ್ವಾ ಸುರಗಣ ಮಧ್ಯಗತೋ ವಚಸ್ತ್ವರೇತಿ",
+       "gujarati": "નિશિચરપતિ સંક્ષયં વિદિત્વા સુરગણ મધ્યગતો વચસ્ત્વરેતિ"
+      }
+     ]
+    },
+    {
+     "label": "Colophon",
+     "number": null,
+     "lines": [
+      {
+       "iast": "ityārṣe śrīmadrāmāyaṇe vālmīkīye ādikāvye yuddhakāṇḍe pañcādhika śatatama sargaḥ",
+       "simple": "ityaarshe shreemadraamaayane vaalmeekeeye aadikaavye yuddhakaande panchaadhika shatatama sargah",
+       "devanagari": "इत्यार्षे श्रीमद्रामायणे वाल्मीकीये आदिकाव्ये युद्धकाण्डे पञ्चाधिक शततम सर्गः",
+       "telugu": "ఇత్యార్షే శ్రీమద్రామాయణే వాల్మీకీయే ఆదికావ్యే యుద్ధకాణ్డే పఞ్చాధిక శతతమ సర్గః",
+       "kannada": "ಇತ್ಯಾರ್ಷೇ ಶ್ರೀಮದ್ರಾಮಾಯಣೇ ವಾಲ್ಮೀಕೀಯೇ ಆದಿಕಾವ್ಯೇ ಯುದ್ಧಕಾಣ್ಡೇ ಪಞ್ಚಾಧಿಕ ಶತತಮ ಸರ್ಗಃ",
+       "gujarati": "ઇત્યાર્ષે શ્રીમદ્રામાયણે વાલ્મીકીયે આદિકાવ્યે યુદ્ધકાણ્ડે પઞ્ચાધિક શતતમ સર્ગઃ"
+      }
+     ]
+    }
+   ],
+   "meaning": null,
+   "tags": []
+  },
+  {
+   "id": "hanuman-chalisa",
+   "title": "Hanuman Chalisa",
+   "nativeTitle": "हनुमान चालीसा",
+   "deity": "saffron",
+   "kind": "stotra",
+   "about": "Goswami Tulsidas's forty verses in Awadhi praising Hanuman's strength, devotion and courage. Loved on Tuesdays and Saturdays.",
+   "verses": [
+    {
+     "label": "Dohā",
+     "number": null,
+     "lines": [
+      {
+       "iast": "śrī guru caraṇa saroja raja nijamana mukura sudhāri",
+       "simple": "shree guru charana saroja raja nijamana mukura sudhaari",
+       "devanagari": "श्री गुरु चरण सरोज रज निजमन मुकुर सुधारि",
+       "telugu": "శ్రీ గురు చరణ సరోజ రజ నిజమన ముకుర సుధారి",
+       "kannada": "ಶ್ರೀ ಗುರು ಚರಣ ಸರೋಜ ರಜ ನಿಜಮನ ಮುಕುರ ಸುಧಾರಿ",
+       "gujarati": "શ્રી ગુરુ ચરણ સરોજ રજ નિજમન મુકુર સુધારિ"
+      },
+      {
+       "iast": "varaṇau raghuvara vimalayaśa jo dāyaka phalacāri",
+       "simple": "varanau raghuvara vimalayasha jo daayaka phalachaari",
+       "devanagari": "वरणौ रघुवर विमलयश जो दायक फलचारि",
+       "telugu": "వరణౌ రఘువర విమలయశ జో దాయక ఫలచారి",
+       "kannada": "ವರಣೌ ರಘುವರ ವಿಮಲಯಶ ಜೋ ದಾಯಕ ಫಲಚಾರಿ",
+       "gujarati": "વરણૌ રઘુવર વિમલયશ જો દાયક ફલચારિ"
+      }
+     ]
+    },
+    {
+     "label": "Dohā",
+     "number": null,
+     "lines": [
+      {
+       "iast": "buddhihīna tanujānikai sumirau pavana kumāra",
+       "simple": "buddhiheena tanujaanikai sumirau pavana kumaara",
+       "devanagari": "बुद्धिहीन तनुजानिकै सुमिरौ पवन कुमार",
+       "telugu": "బుద్ధిహీన తనుజానికై సుమిరౌ పవన కుమార",
+       "kannada": "ಬುದ್ಧಿಹೀನ ತನುಜಾನಿಕೈ ಸುಮಿರೌ ಪವನ ಕುಮಾರ",
+       "gujarati": "બુદ્ધિહીન તનુજાનિકૈ સુમિરૌ પવન કુમાર"
+      },
+      {
+       "iast": "bala buddhi vidyā dehu mohi harahu kaleśa vikāra",
+       "simple": "bala buddhi vidyaa dehu mohi harahu kalesha vikaara",
+       "devanagari": "बल बुद्धि विद्या देहु मोहि हरहु कलेश विकार",
+       "telugu": "బల బుద్ధి విద్యా దేహు మోహి హరహు కలేశ వికార",
+       "kannada": "ಬಲ ಬುದ್ಧಿ ವಿದ್ಯಾ ದೇಹು ಮೋಹಿ ಹರಹು ಕಲೇಶ ವಿಕಾರ",
+       "gujarati": "બલ બુદ્ધિ વિદ્યા દેહુ મોહિ હરહુ કલેશ વિકાર"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 1,
+     "lines": [
+      {
+       "iast": "jaya hanumāna jñāna guṇa sāgara",
+       "simple": "jaya hanumaana gnyaana guna saagara",
+       "devanagari": "जय हनुमान ज्ञान गुण सागर",
+       "telugu": "జయ హనుమాన జ్ఞాన గుణ సాగర",
+       "kannada": "ಜಯ ಹನುಮಾನ ಜ್ಞಾನ ಗುಣ ಸಾಗರ",
+       "gujarati": "જય હનુમાન જ્ઞાન ગુણ સાગર"
+      },
+      {
+       "iast": "jaya kapīśa tihu loka ujāgara",
+       "simple": "jaya kapeesha tihu loka ujaagara",
+       "devanagari": "जय कपीश तिहु लोक उजागर",
+       "telugu": "జయ కపీశ తిహు లోక ఉజాగర",
+       "kannada": "ಜಯ ಕಪೀಶ ತಿಹು ಲೋಕ ಉಜಾಗರ",
+       "gujarati": "જય કપીશ તિહુ લોક ઉજાગર"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 2,
+     "lines": [
+      {
+       "iast": "rāmadūta atulita baladhāmā",
+       "simple": "raamadoota atulita baladhaamaa",
+       "devanagari": "रामदूत अतुलित बलधामा",
+       "telugu": "రామదూత అతులిత బలధామా",
+       "kannada": "ರಾಮದೂತ ಅತುಲಿತ ಬಲಧಾಮಾ",
+       "gujarati": "રામદૂત અતુલિત બલધામા"
+      },
+      {
+       "iast": "añjani putra pavanasuta nāmā",
+       "simple": "anjani putra pavanasuta naamaa",
+       "devanagari": "अञ्जनि पुत्र पवनसुत नामा",
+       "telugu": "అఞ్జని పుత్ర పవనసుత నామా",
+       "kannada": "ಅಞ್ಜನಿ ಪುತ್ರ ಪವನಸುತ ನಾಮಾ",
+       "gujarati": "અઞ્જનિ પુત્ર પવનસુત નામા"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 3,
+     "lines": [
+      {
+       "iast": "mahāvīra vikrama bajaraṅgī",
+       "simple": "mahaaveera vikrama bajarangee",
+       "devanagari": "महावीर विक्रम बजरङ्गी",
+       "telugu": "మహావీర విక్రమ బజరఙ్గీ",
+       "kannada": "ಮಹಾವೀರ ವಿಕ್ರಮ ಬಜರಙ್ಗೀ",
+       "gujarati": "મહાવીર વિક્રમ બજરઙ્ગી"
+      },
+      {
+       "iast": "kumati nivāra sumati ke saṅgī",
+       "simple": "kumati nivaara sumati ke sangee",
+       "devanagari": "कुमति निवार सुमति के सङ्गी",
+       "telugu": "కుమతి నివార సుమతి కే సఙ్గీ",
+       "kannada": "ಕುಮತಿ ನಿವಾರ ಸುಮತಿ ಕೇ ಸಙ್ಗೀ",
+       "gujarati": "કુમતિ નિવાર સુમતિ કે સઙ્ગી"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 4,
+     "lines": [
+      {
+       "iast": "kañcana varaṇa virāja suveśā",
+       "simple": "kanchana varana viraaja suveshaa",
+       "devanagari": "कञ्चन वरण विराज सुवेशा",
+       "telugu": "కఞ్చన వరణ విరాజ సువేశా",
+       "kannada": "ಕಞ್ಚನ ವರಣ ವಿರಾಜ ಸುವೇಶಾ",
+       "gujarati": "કઞ્ચન વરણ વિરાજ સુવેશા"
+      },
+      {
+       "iast": "kānana kuṇḍala kuñcita keśā",
+       "simple": "kaanana kundala kunchita keshaa",
+       "devanagari": "कानन कुण्डल कुञ्चित केशा",
+       "telugu": "కానన కుణ్డల కుఞ్చిత కేశా",
+       "kannada": "ಕಾನನ ಕುಣ್ಡಲ ಕುಞ್ಚಿತ ಕೇಶಾ",
+       "gujarati": "કાનન કુણ્ડલ કુઞ્ચિત કેશા"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 5,
+     "lines": [
+      {
+       "iast": "hāthavajra au dhvajā virājai",
+       "simple": "haathavajra au dhvajaa viraajai",
+       "devanagari": "हाथवज्र औ ध्वजा विराजै",
+       "telugu": "హాథవజ్ర ఔ ధ్వజా విరాజై",
+       "kannada": "ಹಾಥವಜ್ರ ಔ ಧ್ವಜಾ ವಿರಾಜೈ",
+       "gujarati": "હાથવજ્ર ઔ ધ્વજા વિરાજૈ"
+      },
+      {
+       "iast": "kāndhe mūñja janevū sājai",
+       "simple": "kaandhe moonja janevoo saajai",
+       "devanagari": "कान्धे मूञ्ज जनेवू साजै",
+       "telugu": "కాన్ధే మూఞ్జ జనేవూ సాజై",
+       "kannada": "ಕಾನ್ಧೇ ಮೂಞ್ಜ ಜನೇವೂ ಸಾಜೈ",
+       "gujarati": "કાન્ધે મૂઞ્જ જનેવૂ સાજૈ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 6,
+     "lines": [
+      {
+       "iast": "śaṅkara suvana kesarī nandana",
+       "simple": "shankara suvana kesaree nandana",
+       "devanagari": "शङ्कर सुवन केसरी नन्दन",
+       "telugu": "శఙ్కర సువన కేసరీ నన్దన",
+       "kannada": "ಶಙ್ಕರ ಸುವನ ಕೇಸರೀ ನನ್ದನ",
+       "gujarati": "શઙ્કર સુવન કેસરી નન્દન"
+      },
+      {
+       "iast": "teja pratāpa mahājaga vandana",
+       "simple": "teja prataapa mahaajaga vandana",
+       "devanagari": "तेज प्रताप महाजग वन्दन",
+       "telugu": "తేజ ప్రతాప మహాజగ వన్దన",
+       "kannada": "ತೇಜ ಪ್ರತಾಪ ಮಹಾಜಗ ವನ್ದನ",
+       "gujarati": "તેજ પ્રતાપ મહાજગ વન્દન"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 7,
+     "lines": [
+      {
+       "iast": "vidyāvāna guṇī ati cātura",
+       "simple": "vidyaavaana gunee ati chaatura",
+       "devanagari": "विद्यावान गुणी अति चातुर",
+       "telugu": "విద్యావాన గుణీ అతి చాతుర",
+       "kannada": "ವಿದ್ಯಾವಾನ ಗುಣೀ ಅತಿ ಚಾತುರ",
+       "gujarati": "વિદ્યાવાન ગુણી અતિ ચાતુર"
+      },
+      {
+       "iast": "rāma kāja karive ko ātura",
+       "simple": "raama kaaja karive ko aatura",
+       "devanagari": "राम काज करिवे को आतुर",
+       "telugu": "రామ కాజ కరివే కో ఆతుర",
+       "kannada": "ರಾಮ ಕಾಜ ಕರಿವೇ ಕೋ ಆತುರ",
+       "gujarati": "રામ કાજ કરિવે કો આતુર"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 8,
+     "lines": [
+      {
+       "iast": "prabhu caritra sunive ko rasiyā",
+       "simple": "prabhu charitra sunive ko rasiyaa",
+       "devanagari": "प्रभु चरित्र सुनिवे को रसिया",
+       "telugu": "ప్రభు చరిత్ర సునివే కో రసియా",
+       "kannada": "ಪ್ರಭು ಚರಿತ್ರ ಸುನಿವೇ ಕೋ ರಸಿಯಾ",
+       "gujarati": "પ્રભુ ચરિત્ર સુનિવે કો રસિયા"
+      },
+      {
+       "iast": "rāmalakhana sītā mana basiyā",
+       "simple": "raamalakhana seetaa mana basiyaa",
+       "devanagari": "रामलखन सीता मन बसिया",
+       "telugu": "రామలఖన సీతా మన బసియా",
+       "kannada": "ರಾಮಲಖನ ಸೀತಾ ಮನ ಬಸಿಯಾ",
+       "gujarati": "રામલખન સીતા મન બસિયા"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 9,
+     "lines": [
+      {
+       "iast": "sūkṣma rūpadhari siyahi dikhāvā",
+       "simple": "sookshma roopadhari siyahi dikhaavaa",
+       "devanagari": "सूक्ष्म रूपधरि सियहि दिखावा",
+       "telugu": "సూక్ష్మ రూపధరి సియహి దిఖావా",
+       "kannada": "ಸೂಕ್ಷ್ಮ ರೂಪಧರಿ ಸಿಯಹಿ ದಿಖಾವಾ",
+       "gujarati": "સૂક્ષ્મ રૂપધરિ સિયહિ દિખાવા"
+      },
+      {
+       "iast": "vikaṭa rūpadhari laṅka jarāvā",
+       "simple": "vikata roopadhari lanka jaraavaa",
+       "devanagari": "विकट रूपधरि लङ्क जरावा",
+       "telugu": "వికట రూపధరి లఙ్క జరావా",
+       "kannada": "ವಿಕಟ ರೂಪಧರಿ ಲಙ್ಕ ಜರಾವಾ",
+       "gujarati": "વિકટ રૂપધરિ લઙ્ક જરાવા"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 10,
+     "lines": [
+      {
+       "iast": "bhīma rūpadhari asura saṃhāre",
+       "simple": "bheema roopadhari asura samhaare",
+       "devanagari": "भीम रूपधरि असुर संहारे",
+       "telugu": "భీమ రూపధరి అసుర సంహారే",
+       "kannada": "ಭೀಮ ರೂಪಧರಿ ಅಸುರ ಸಂಹಾರೇ",
+       "gujarati": "ભીમ રૂપધરિ અસુર સંહારે"
+      },
+      {
+       "iast": "rāmacandra ke kāja saṃvāre",
+       "simple": "raamachandra ke kaaja samvaare",
+       "devanagari": "रामचन्द्र के काज संवारे",
+       "telugu": "రామచన్ద్ర కే కాజ సంవారే",
+       "kannada": "ರಾಮಚನ್ದ್ರ ಕೇ ಕಾಜ ಸಂವಾರೇ",
+       "gujarati": "રામચન્દ્ર કે કાજ સંવારે"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 11,
+     "lines": [
+      {
+       "iast": "lāya sañjīvana lakhana jiyāye",
+       "simple": "laaya sanjeevana lakhana jiyaaye",
+       "devanagari": "लाय सञ्जीवन लखन जियाये",
+       "telugu": "లాయ సఞ్జీవన లఖన జియాయే",
+       "kannada": "ಲಾಯ ಸಞ್ಜೀವನ ಲಖನ ಜಿಯಾಯೇ",
+       "gujarati": "લાય સઞ્જીવન લખન જિયાયે"
+      },
+      {
+       "iast": "śrī raghuvīra haraṣi uralāye",
+       "simple": "shree raghuveera harashi uralaaye",
+       "devanagari": "श्री रघुवीर हरषि उरलाये",
+       "telugu": "శ్రీ రఘువీర హరషి ఉరలాయే",
+       "kannada": "ಶ್ರೀ ರಘುವೀರ ಹರಷಿ ಉರಲಾಯೇ",
+       "gujarati": "શ્રી રઘુવીર હરષિ ઉરલાયે"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 12,
+     "lines": [
+      {
+       "iast": "raghupati kīnhī bahuta baḍāyī",
+       "simple": "raghupati keenhee bahuta badaayee",
+       "devanagari": "रघुपति कीन्ही बहुत बडायी",
+       "telugu": "రఘుపతి కీన్హీ బహుత బడాయీ",
+       "kannada": "ರಘುಪತಿ ಕೀನ್ಹೀ ಬಹುತ ಬಡಾಯೀ",
+       "gujarati": "રઘુપતિ કીન્હી બહુત બડાયી"
+      },
+      {
+       "iast": "tuma mama priya bharatahi sama bhāyī",
+       "simple": "tuma mama priya bharatahi sama bhaayee",
+       "devanagari": "तुम मम प्रिय भरतहि सम भायी",
+       "telugu": "తుమ మమ ప్రియ భరతహి సమ భాయీ",
+       "kannada": "ತುಮ ಮಮ ಪ್ರಿಯ ಭರತಹಿ ಸಮ ಭಾಯೀ",
+       "gujarati": "તુમ મમ પ્રિય ભરતહિ સમ ભાયી"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 13,
+     "lines": [
+      {
+       "iast": "sahasa vadana tumharo yaśagāvai",
+       "simple": "sahasa vadana tumharo yashagaavai",
+       "devanagari": "सहस वदन तुम्हरो यशगावै",
+       "telugu": "సహస వదన తుమ్హరో యశగావై",
+       "kannada": "ಸಹಸ ವದನ ತುಮ್ಹರೋ ಯಶಗಾವೈ",
+       "gujarati": "સહસ વદન તુમ્હરો યશગાવૈ"
+      },
+      {
+       "iast": "asa kahi śrīpati kaṇṭha lagāvai",
+       "simple": "asa kahi shreepati kantha lagaavai",
+       "devanagari": "अस कहि श्रीपति कण्ठ लगावै",
+       "telugu": "అస కహి శ్రీపతి కణ్ఠ లగావై",
+       "kannada": "ಅಸ ಕಹಿ ಶ್ರೀಪತಿ ಕಣ್ಠ ಲಗಾವೈ",
+       "gujarati": "અસ કહિ શ્રીપતિ કણ્ઠ લગાવૈ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 14,
+     "lines": [
+      {
+       "iast": "sanakādika brahmādi munīśā",
+       "simple": "sanakaadika brahmaadi muneeshaa",
+       "devanagari": "सनकादिक ब्रह्मादि मुनीशा",
+       "telugu": "సనకాదిక బ్రహ్మాది మునీశా",
+       "kannada": "ಸನಕಾದಿಕ ಬ್ರಹ್ಮಾದಿ ಮುನೀಶಾ",
+       "gujarati": "સનકાદિક બ્રહ્માદિ મુનીશા"
+      },
+      {
+       "iast": "nārada śārada sahita ahīśā",
+       "simple": "naarada shaarada sahita aheeshaa",
+       "devanagari": "नारद शारद सहित अहीशा",
+       "telugu": "నారద శారద సహిత అహీశా",
+       "kannada": "ನಾರದ ಶಾರದ ಸಹಿತ ಅಹೀಶಾ",
+       "gujarati": "નારદ શારદ સહિત અહીશા"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 15,
+     "lines": [
+      {
+       "iast": "yama kubera digapāla jahāṃ te",
+       "simple": "yama kubera digapaala jahaam te",
+       "devanagari": "यम कुबेर दिगपाल जहां ते",
+       "telugu": "యమ కుబేర దిగపాల జహాం తే",
+       "kannada": "ಯಮ ಕುಬೇರ ದಿಗಪಾಲ ಜಹಾಂ ತೇ",
+       "gujarati": "યમ કુબેર દિગપાલ જહાં તે"
+      },
+      {
+       "iast": "kavi kovida kahi sake kahāṃ te",
+       "simple": "kavi kovida kahi sake kahaam te",
+       "devanagari": "कवि कोविद कहि सके कहां ते",
+       "telugu": "కవి కోవిద కహి సకే కహాం తే",
+       "kannada": "ಕವಿ ಕೋವಿದ ಕಹಿ ಸಕೇ ಕಹಾಂ ತೇ",
+       "gujarati": "કવિ કોવિદ કહિ સકે કહાં તે"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 16,
+     "lines": [
+      {
+       "iast": "tuma upakāra sugrīvahi kīnhā",
+       "simple": "tuma upakaara sugreevahi keenhaa",
+       "devanagari": "तुम उपकार सुग्रीवहि कीन्हा",
+       "telugu": "తుమ ఉపకార సుగ్రీవహి కీన్హా",
+       "kannada": "ತುಮ ಉಪಕಾರ ಸುಗ್ರೀವಹಿ ಕೀನ್ಹಾ",
+       "gujarati": "તુમ ઉપકાર સુગ્રીવહિ કીન્હા"
+      },
+      {
+       "iast": "rāma milāya rājapada dīnhā",
+       "simple": "raama milaaya raajapada deenhaa",
+       "devanagari": "राम मिलाय राजपद दीन्हा",
+       "telugu": "రామ మిలాయ రాజపద దీన్హా",
+       "kannada": "ರಾಮ ಮಿಲಾಯ ರಾಜಪದ ದೀನ್ಹಾ",
+       "gujarati": "રામ મિલાય રાજપદ દીન્હા"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 17,
+     "lines": [
+      {
+       "iast": "tumharo mantra vibhīṣaṇa mānā",
+       "simple": "tumharo mantra vibheeshana maanaa",
+       "devanagari": "तुम्हरो मन्त्र विभीषण माना",
+       "telugu": "తుమ్హరో మన్త్ర విభీషణ మానా",
+       "kannada": "ತುಮ್ಹರೋ ಮನ್ತ್ರ ವಿಭೀಷಣ ಮಾನಾ",
+       "gujarati": "તુમ્હરો મન્ત્ર વિભીષણ માના"
+      },
+      {
+       "iast": "laṅkeśvara bhaye saba jaga jānā",
+       "simple": "lankeshvara bhaye saba jaga jaanaa",
+       "devanagari": "लङ्केश्वर भये सब जग जाना",
+       "telugu": "లఙ్కేశ్వర భయే సబ జగ జానా",
+       "kannada": "ಲಙ್ಕೇಶ್ವರ ಭಯೇ ಸಬ ಜಗ ಜಾನಾ",
+       "gujarati": "લઙ્કેશ્વર ભયે સબ જગ જાના"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 18,
+     "lines": [
+      {
+       "iast": "yuga sahasra yojana para bhānū",
+       "simple": "yuga sahasra yojana para bhaanoo",
+       "devanagari": "युग सहस्र योजन पर भानू",
+       "telugu": "యుగ సహస్ర యోజన పర భానూ",
+       "kannada": "ಯುಗ ಸಹಸ್ರ ಯೋಜನ ಪರ ಭಾನೂ",
+       "gujarati": "યુગ સહસ્ર યોજન પર ભાનૂ"
+      },
+      {
+       "iast": "līlyo tāhi madhura phala jānū",
+       "simple": "leelyo taahi madhura phala jaanoo",
+       "devanagari": "लील्यो ताहि मधुर फल जानू",
+       "telugu": "లీల్యో తాహి మధుర ఫల జానూ",
+       "kannada": "ಲೀಲ್ಯೋ ತಾಹಿ ಮಧುರ ಫಲ ಜಾನೂ",
+       "gujarati": "લીલ્યો તાહિ મધુર ફલ જાનૂ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 19,
+     "lines": [
+      {
+       "iast": "prabhu mudrikā meli mukha māhī",
+       "simple": "prabhu mudrikaa meli mukha maahee",
+       "devanagari": "प्रभु मुद्रिका मेलि मुख माही",
+       "telugu": "ప్రభు ముద్రికా మేలి ముఖ మాహీ",
+       "kannada": "ಪ್ರಭು ಮುದ್ರಿಕಾ ಮೇಲಿ ಮುಖ ಮಾಹೀ",
+       "gujarati": "પ્રભુ મુદ્રિકા મેલિ મુખ માહી"
+      },
+      {
+       "iast": "jaladhi lāṅghi gaye acaraja nāhī",
+       "simple": "jaladhi laanghi gaye acharaja naahee",
+       "devanagari": "जलधि लाङ्घि गये अचरज नाही",
+       "telugu": "జలధి లాఙ్ఘి గయే అచరజ నాహీ",
+       "kannada": "ಜಲಧಿ ಲಾಙ್ಘಿ ಗಯೇ ಅಚರಜ ನಾಹೀ",
+       "gujarati": "જલધિ લાઙ્ઘિ ગયે અચરજ નાહી"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 20,
+     "lines": [
+      {
+       "iast": "durgama kāja jagata ke jete",
+       "simple": "durgama kaaja jagata ke jete",
+       "devanagari": "दुर्गम काज जगत के जेते",
+       "telugu": "దుర్గమ కాజ జగత కే జేతే",
+       "kannada": "ದುರ್ಗಮ ಕಾಜ ಜಗತ ಕೇ ಜೇತೇ",
+       "gujarati": "દુર્ગમ કાજ જગત કે જેતે"
+      },
+      {
+       "iast": "sugama anugraha tumhare tete",
+       "simple": "sugama anugraha tumhare tete",
+       "devanagari": "सुगम अनुग्रह तुम्हरे तेते",
+       "telugu": "సుగమ అనుగ్రహ తుమ్హరే తేతే",
+       "kannada": "ಸುಗಮ ಅನುಗ್ರಹ ತುಮ್ಹರೇ ತೇತೇ",
+       "gujarati": "સુગમ અનુગ્રહ તુમ્હરે તેતે"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 21,
+     "lines": [
+      {
+       "iast": "rāma duāre tuma rakhavāre",
+       "simple": "raama duaare tuma rakhavaare",
+       "devanagari": "राम दुआरे तुम रखवारे",
+       "telugu": "రామ దుఆరే తుమ రఖవారే",
+       "kannada": "ರಾಮ ದುಆರೇ ತುಮ ರಖವಾರೇ",
+       "gujarati": "રામ દુઆરે તુમ રખવારે"
+      },
+      {
+       "iast": "hota na ājñā binu paisāre",
+       "simple": "hota na aagnyaa binu paisaare",
+       "devanagari": "होत न आज्ञा बिनु पैसारे",
+       "telugu": "హోత న ఆజ్ఞా బిను పైసారే",
+       "kannada": "ಹೋತ ನ ಆಜ್ಞಾ ಬಿನು ಪೈಸಾರೇ",
+       "gujarati": "હોત ન આજ્ઞા બિનુ પૈસારે"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 22,
+     "lines": [
+      {
+       "iast": "saba sukha lahai tumhārī śaraṇā",
+       "simple": "saba sukha lahai tumhaaree sharanaa",
+       "devanagari": "सब सुख लहै तुम्हारी शरणा",
+       "telugu": "సబ సుఖ లహై తుమ్హారీ శరణా",
+       "kannada": "ಸಬ ಸುಖ ಲಹೈ ತುಮ್ಹಾರೀ ಶರಣಾ",
+       "gujarati": "સબ સુખ લહૈ તુમ્હારી શરણા"
+      },
+      {
+       "iast": "tuma rakṣaka kāhū ko ḍara nā",
+       "simple": "tuma rakshaka kaahoo ko dara naa",
+       "devanagari": "तुम रक्षक काहू को डर ना",
+       "telugu": "తుమ రక్షక కాహూ కో డర నా",
+       "kannada": "ತುಮ ರಕ್ಷಕ ಕಾಹೂ ಕೋ ಡರ ನಾ",
+       "gujarati": "તુમ રક્ષક કાહૂ કો ડર ના"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 23,
+     "lines": [
+      {
+       "iast": "āpana teja tumhāro āpai",
+       "simple": "aapana teja tumhaaro aapai",
+       "devanagari": "आपन तेज तुम्हारो आपै",
+       "telugu": "ఆపన తేజ తుమ్హారో ఆపై",
+       "kannada": "ಆಪನ ತೇಜ ತುಮ್ಹಾರೋ ಆಪೈ",
+       "gujarati": "આપન તેજ તુમ્હારો આપૈ"
+      },
+      {
+       "iast": "tīnoṃ loka hāṅka te kāmpai",
+       "simple": "teenom loka haanka te kaampai",
+       "devanagari": "तीनों लोक हाङ्क ते काम्पै",
+       "telugu": "తీనోం లోక హాఙ్క తే కామ్పై",
+       "kannada": "ತೀನೋಂ ಲೋಕ ಹಾಙ್ಕ ತೇ ಕಾಮ್ಪೈ",
+       "gujarati": "તીનોં લોક હાઙ્ક તે કામ્પૈ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 24,
+     "lines": [
+      {
+       "iast": "bhūta piśāca nikaṭa nahi āvai",
+       "simple": "bhoota pishaacha nikata nahi aavai",
+       "devanagari": "भूत पिशाच निकट नहि आवै",
+       "telugu": "భూత పిశాచ నికట నహి ఆవై",
+       "kannada": "ಭೂತ ಪಿಶಾಚ ನಿಕಟ ನಹಿ ಆವೈ",
+       "gujarati": "ભૂત પિશાચ નિકટ નહિ આવૈ"
+      },
+      {
+       "iast": "mahāvīra jaba nāma sunāvai",
+       "simple": "mahaaveera jaba naama sunaavai",
+       "devanagari": "महावीर जब नाम सुनावै",
+       "telugu": "మహావీర జబ నామ సునావై",
+       "kannada": "ಮಹಾವೀರ ಜಬ ನಾಮ ಸುನಾವೈ",
+       "gujarati": "મહાવીર જબ નામ સુનાવૈ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 25,
+     "lines": [
+      {
+       "iast": "nāsai roga harai saba pīrā",
+       "simple": "naasai roga harai saba peeraa",
+       "devanagari": "नासै रोग हरै सब पीरा",
+       "telugu": "నాసై రోగ హరై సబ పీరా",
+       "kannada": "ನಾಸೈ ರೋಗ ಹರೈ ಸಬ ಪೀರಾ",
+       "gujarati": "નાસૈ રોગ હરૈ સબ પીરા"
+      },
+      {
+       "iast": "japata nirantara hanumata vīrā",
+       "simple": "japata nirantara hanumata veeraa",
+       "devanagari": "जपत निरन्तर हनुमत वीरा",
+       "telugu": "జపత నిరన్తర హనుమత వీరా",
+       "kannada": "ಜಪತ ನಿರನ್ತರ ಹನುಮತ ವೀರಾ",
+       "gujarati": "જપત નિરન્તર હનુમત વીરા"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 26,
+     "lines": [
+      {
+       "iast": "saṅkaṭa seṃ hanumāna chuḍāvai",
+       "simple": "sankata sem hanumaana chhudaavai",
+       "devanagari": "सङ्कट सें हनुमान छुडावै",
+       "telugu": "సఙ్కట సేం హనుమాన ఛుడావై",
+       "kannada": "ಸಙ್ಕಟ ಸೇಂ ಹನುಮಾನ ಛುಡಾವೈ",
+       "gujarati": "સઙ્કટ સેં હનુમાન છુડાવૈ"
+      },
+      {
+       "iast": "mana krama vacana dhyāna jo lāvai",
+       "simple": "mana krama vachana dhyaana jo laavai",
+       "devanagari": "मन क्रम वचन ध्यान जो लावै",
+       "telugu": "మన క్రమ వచన ధ్యాన జో లావై",
+       "kannada": "ಮನ ಕ್ರಮ ವಚನ ಧ್ಯಾನ ಜೋ ಲಾವೈ",
+       "gujarati": "મન ક્રમ વચન ધ્યાન જો લાવૈ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 27,
+     "lines": [
+      {
+       "iast": "saba para rāma tapasvī rājā",
+       "simple": "saba para raama tapasvee raajaa",
+       "devanagari": "सब पर राम तपस्वी राजा",
+       "telugu": "సబ పర రామ తపస్వీ రాజా",
+       "kannada": "ಸಬ ಪರ ರಾಮ ತಪಸ್ವೀ ರಾಜಾ",
+       "gujarati": "સબ પર રામ તપસ્વી રાજા"
+      },
+      {
+       "iast": "tinake kāja sakala tuma sājā",
+       "simple": "tinake kaaja sakala tuma saajaa",
+       "devanagari": "तिनके काज सकल तुम साजा",
+       "telugu": "తినకే కాజ సకల తుమ సాజా",
+       "kannada": "ತಿನಕೇ ಕಾಜ ಸಕಲ ತುಮ ಸಾಜಾ",
+       "gujarati": "તિનકે કાજ સકલ તુમ સાજા"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 28,
+     "lines": [
+      {
+       "iast": "aura manoratha jo koyi lāvai",
+       "simple": "aura manoratha jo koyi laavai",
+       "devanagari": "और मनोरथ जो कोयि लावै",
+       "telugu": "ఔర మనోరథ జో కోయి లావై",
+       "kannada": "ಔರ ಮನೋರಥ ಜೋ ಕೋಯಿ ಲಾವೈ",
+       "gujarati": "ઔર મનોરથ જો કોયિ લાવૈ"
+      },
+      {
+       "iast": "tāsu amita jīvana phala pāvai",
+       "simple": "taasu amita jeevana phala paavai",
+       "devanagari": "तासु अमित जीवन फल पावै",
+       "telugu": "తాసు అమిత జీవన ఫల పావై",
+       "kannada": "ತಾಸು ಅಮಿತ ಜೀವನ ಫಲ ಪಾವೈ",
+       "gujarati": "તાસુ અમિત જીવન ફલ પાવૈ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 29,
+     "lines": [
+      {
+       "iast": "cāro yuga paritāpa tumhārā",
+       "simple": "chaaro yuga paritaapa tumhaaraa",
+       "devanagari": "चारो युग परिताप तुम्हारा",
+       "telugu": "చారో యుగ పరితాప తుమ్హారా",
+       "kannada": "ಚಾರೋ ಯುಗ ಪರಿತಾಪ ತುಮ್ಹಾರಾ",
+       "gujarati": "ચારો યુગ પરિતાપ તુમ્હારા"
+      },
+      {
+       "iast": "hai parasiddha jagata ujiyārā",
+       "simple": "hai parasiddha jagata ujiyaaraa",
+       "devanagari": "है परसिद्ध जगत उजियारा",
+       "telugu": "హై పరసిద్ధ జగత ఉజియారా",
+       "kannada": "ಹೈ ಪರಸಿದ್ಧ ಜಗತ ಉಜಿಯಾರಾ",
+       "gujarati": "હૈ પરસિદ્ધ જગત ઉજિયારા"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 30,
+     "lines": [
+      {
+       "iast": "sādhu santa ke tuma rakhavāre",
+       "simple": "saadhu santa ke tuma rakhavaare",
+       "devanagari": "साधु सन्त के तुम रखवारे",
+       "telugu": "సాధు సన్త కే తుమ రఖవారే",
+       "kannada": "ಸಾಧು ಸನ್ತ ಕೇ ತುಮ ರಖವಾರೇ",
+       "gujarati": "સાધુ સન્ત કે તુમ રખવારે"
+      },
+      {
+       "iast": "asura nikandana rāma dulāre",
+       "simple": "asura nikandana raama dulaare",
+       "devanagari": "असुर निकन्दन राम दुलारे",
+       "telugu": "అసుర నికన్దన రామ దులారే",
+       "kannada": "ಅಸುರ ನಿಕನ್ದನ ರಾಮ ದುಲಾರೇ",
+       "gujarati": "અસુર નિકન્દન રામ દુલારે"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 31,
+     "lines": [
+      {
+       "iast": "aṣṭasiddhi nava nidhi ke dātā",
+       "simple": "ashtasiddhi nava nidhi ke daataa",
+       "devanagari": "अष्टसिद्धि नव निधि के दाता",
+       "telugu": "అష్టసిద్ధి నవ నిధి కే దాతా",
+       "kannada": "ಅಷ್ಟಸಿದ್ಧಿ ನವ ನಿಧಿ ಕೇ ದಾತಾ",
+       "gujarati": "અષ્ટસિદ્ધિ નવ નિધિ કે દાતા"
+      },
+      {
+       "iast": "asa vara dīnha jānakī mātā",
+       "simple": "asa vara deenha jaanakee maataa",
+       "devanagari": "अस वर दीन्ह जानकी माता",
+       "telugu": "అస వర దీన్హ జానకీ మాతా",
+       "kannada": "ಅಸ ವರ ದೀನ್ಹ ಜಾನಕೀ ಮಾತಾ",
+       "gujarati": "અસ વર દીન્હ જાનકી માતા"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 32,
+     "lines": [
+      {
+       "iast": "rāma rasāyana tumhāre pāsā",
+       "simple": "raama rasaayana tumhaare paasaa",
+       "devanagari": "राम रसायन तुम्हारे पासा",
+       "telugu": "రామ రసాయన తుమ్హారే పాసా",
+       "kannada": "ರಾಮ ರಸಾಯನ ತುಮ್ಹಾರೇ ಪಾಸಾ",
+       "gujarati": "રામ રસાયન તુમ્હારે પાસા"
+      },
+      {
+       "iast": "sadā raho raghupati ke dāsā",
+       "simple": "sadaa raho raghupati ke daasaa",
+       "devanagari": "सदा रहो रघुपति के दासा",
+       "telugu": "సదా రహో రఘుపతి కే దాసా",
+       "kannada": "ಸದಾ ರಹೋ ರಘುಪತಿ ಕೇ ದಾಸಾ",
+       "gujarati": "સદા રહો રઘુપતિ કે દાસા"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 33,
+     "lines": [
+      {
+       "iast": "tumhare bhajana rāmako pāvai",
+       "simple": "tumhare bhajana raamako paavai",
+       "devanagari": "तुम्हरे भजन रामको पावै",
+       "telugu": "తుమ్హరే భజన రామకో పావై",
+       "kannada": "ತುಮ್ಹರೇ ಭಜನ ರಾಮಕೋ ಪಾವೈ",
+       "gujarati": "તુમ્હરે ભજન રામકો પાવૈ"
+      },
+      {
+       "iast": "janma janma ke dukha bisarāvai",
+       "simple": "janma janma ke dukha bisaraavai",
+       "devanagari": "जन्म जन्म के दुख बिसरावै",
+       "telugu": "జన్మ జన్మ కే దుఖ బిసరావై",
+       "kannada": "ಜನ್ಮ ಜನ್ಮ ಕೇ ದುಖ ಬಿಸರಾವೈ",
+       "gujarati": "જન્મ જન્મ કે દુખ બિસરાવૈ"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 34,
+     "lines": [
+      {
+       "iast": "anta kāla raghuvara purajāyī",
+       "simple": "anta kaala raghuvara purajaayee",
+       "devanagari": "अन्त काल रघुवर पुरजायी",
+       "telugu": "అన్త కాల రఘువర పురజాయీ",
+       "kannada": "ಅನ್ತ ಕಾಲ ರಘುವರ ಪುರಜಾಯೀ",
+       "gujarati": "અન્ત કાલ રઘુવર પુરજાયી"
+      },
+      {
+       "iast": "jahāṃ janma haribhakta kahāyī",
+       "simple": "jahaam janma haribhakta kahaayee",
+       "devanagari": "जहां जन्म हरिभक्त कहायी",
+       "telugu": "జహాం జన్మ హరిభక్త కహాయీ",
+       "kannada": "ಜಹಾಂ ಜನ್ಮ ಹರಿಭಕ್ತ ಕಹಾಯೀ",
+       "gujarati": "જહાં જન્મ હરિભક્ત કહાયી"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 35,
+     "lines": [
+      {
+       "iast": "aura devatā citta na dharayī",
+       "simple": "aura devataa chitta na dharayee",
+       "devanagari": "और देवता चित्त न धरयी",
+       "telugu": "ఔర దేవతా చిత్త న ధరయీ",
+       "kannada": "ಔರ ದೇವತಾ ಚಿತ್ತ ನ ಧರಯೀ",
+       "gujarati": "ઔર દેવતા ચિત્ત ન ધરયી"
+      },
+      {
+       "iast": "hanumata seyi sarva sukha karayī",
+       "simple": "hanumata seyi sarva sukha karayee",
+       "devanagari": "हनुमत सेयि सर्व सुख करयी",
+       "telugu": "హనుమత సేయి సర్వ సుఖ కరయీ",
+       "kannada": "ಹನುಮತ ಸೇಯಿ ಸರ್ವ ಸುಖ ಕರಯೀ",
+       "gujarati": "હનુમત સેયિ સર્વ સુખ કરયી"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 36,
+     "lines": [
+      {
+       "iast": "saṅkaṭa kaṭai miṭai saba pīrā",
+       "simple": "sankata katai mitai saba peeraa",
+       "devanagari": "सङ्कट कटै मिटै सब पीरा",
+       "telugu": "సఙ్కట కటై మిటై సబ పీరా",
+       "kannada": "ಸಙ್ಕಟ ಕಟೈ ಮಿಟೈ ಸಬ ಪೀರಾ",
+       "gujarati": "સઙ્કટ કટૈ મિટૈ સબ પીરા"
+      },
+      {
+       "iast": "jo sumirai hanumata bala vīrā",
+       "simple": "jo sumirai hanumata bala veeraa",
+       "devanagari": "जो सुमिरै हनुमत बल वीरा",
+       "telugu": "జో సుమిరై హనుమత బల వీరా",
+       "kannada": "ಜೋ ಸುಮಿರೈ ಹನುಮತ ಬಲ ವೀರಾ",
+       "gujarati": "જો સુમિરૈ હનુમત બલ વીરા"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 37,
+     "lines": [
+      {
+       "iast": "jai jai jai hanumāna gosāyī",
+       "simple": "jai jai jai hanumaana gosaayee",
+       "devanagari": "जै जै जै हनुमान गोसायी",
+       "telugu": "జై జై జై హనుమాన గోసాయీ",
+       "kannada": "ಜೈ ಜೈ ಜೈ ಹನುಮಾನ ಗೋಸಾಯೀ",
+       "gujarati": "જૈ જૈ જૈ હનુમાન ગોસાયી"
+      },
+      {
+       "iast": "kṛpā karo gurudeva kī nāyī",
+       "simple": "kripaa karo gurudeva kee naayee",
+       "devanagari": "कृपा करो गुरुदेव की नायी",
+       "telugu": "కృపా కరో గురుదేవ కీ నాయీ",
+       "kannada": "ಕೃಪಾ ಕರೋ ಗುರುದೇವ ಕೀ ನಾಯೀ",
+       "gujarati": "કૃપા કરો ગુરુદેવ કી નાયી"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 38,
+     "lines": [
+      {
+       "iast": "jo śata vāra pāṭha kara koyī",
+       "simple": "jo shata vaara paatha kara koyee",
+       "devanagari": "जो शत वार पाठ कर कोयी",
+       "telugu": "జో శత వార పాఠ కర కోయీ",
+       "kannada": "ಜೋ ಶತ ವಾರ ಪಾಠ ಕರ ಕೋಯೀ",
+       "gujarati": "જો શત વાર પાઠ કર કોયી"
+      },
+      {
+       "iast": "chūṭahi bandi mahā sukha hoyī",
+       "simple": "chhootahi bandi mahaa sukha hoyee",
+       "devanagari": "छूटहि बन्दि महा सुख होयी",
+       "telugu": "ఛూటహి బన్ది మహా సుఖ హోయీ",
+       "kannada": "ಛೂಟಹಿ ಬನ್ದಿ ಮಹಾ ಸುಖ ಹೋಯೀ",
+       "gujarati": "છૂટહિ બન્દિ મહા સુખ હોયી"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 39,
+     "lines": [
+      {
+       "iast": "jo yaha paḍai hanumāna cālīsā",
+       "simple": "jo yaha padai hanumaana chaaleesaa",
+       "devanagari": "जो यह पडै हनुमान चालीसा",
+       "telugu": "జో యహ పడై హనుమాన చాలీసా",
+       "kannada": "ಜೋ ಯಹ ಪಡೈ ಹನುಮಾನ ಚಾಲೀಸಾ",
+       "gujarati": "જો યહ પડૈ હનુમાન ચાલીસા"
+      },
+      {
+       "iast": "hoya siddhi sākhī gaurīśā",
+       "simple": "hoya siddhi saakhee gaureeshaa",
+       "devanagari": "होय सिद्धि साखी गौरीशा",
+       "telugu": "హోయ సిద్ధి సాఖీ గౌరీశా",
+       "kannada": "ಹೋಯ ಸಿದ್ಧಿ ಸಾಖೀ ಗೌರೀಶಾ",
+       "gujarati": "હોય સિદ્ધિ સાખી ગૌરીશા"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 40,
+     "lines": [
+      {
+       "iast": "tulasīdāsa sadā hari cerā",
+       "simple": "tulaseedaasa sadaa hari cheraa",
+       "devanagari": "तुलसीदास सदा हरि चेरा",
+       "telugu": "తులసీదాస సదా హరి చేరా",
+       "kannada": "ತುಲಸೀದಾಸ ಸದಾ ಹರಿ ಚೇರಾ",
+       "gujarati": "તુલસીદાસ સદા હરિ ચેરા"
+      },
+      {
+       "iast": "kījai nātha hṛdaya maha ḍerā",
+       "simple": "keejai naatha hridaya maha deraa",
+       "devanagari": "कीजै नाथ हृदय मह डेरा",
+       "telugu": "కీజై నాథ హృదయ మహ డేరా",
+       "kannada": "ಕೀಜೈ ನಾಥ ಹೃದಯ ಮಹ ಡೇರಾ",
+       "gujarati": "કીજૈ નાથ હૃદય મહ ડેરા"
+      }
+     ]
+    },
+    {
+     "label": "Dohā",
+     "number": null,
+     "lines": [
+      {
+       "iast": "pavana tanaya saṅkaṭa haraṇa maṅgaḷa mūrati rūpa",
+       "simple": "pavana tanaya sankata harana mangala moorati roopa",
+       "devanagari": "पवन तनय सङ्कट हरण मङ्गऌअ मूरति रूप",
+       "telugu": "పవన తనయ సఙ్కట హరణ మఙ్గఌఅ మూరతి రూప",
+       "kannada": "ಪವನ ತನಯ ಸಙ್ಕಟ ಹರಣ ಮಙ್ಗಌಅ ಮೂರತಿ ರೂಪ",
+       "gujarati": "પવન તનય સઙ્કટ હરણ મઙ્ગઌઅ મૂરતિ રૂપ"
+      },
+      {
+       "iast": "rāma lakhana sītā sahita hṛdaya basahu surabhūpa",
+       "simple": "raama lakhana seetaa sahita hridaya basahu surabhoopa",
+       "devanagari": "राम लखन सीता सहित हृदय बसहु सुरभूप",
+       "telugu": "రామ లఖన సీతా సహిత హృదయ బసహు సురభూప",
+       "kannada": "ರಾಮ ಲಖನ ಸೀತಾ ಸಹಿತ ಹೃದಯ ಬಸಹು ಸುರಭೂಪ",
+       "gujarati": "રામ લખન સીતા સહિત હૃદય બસહુ સુરભૂપ"
+      }
+     ]
+    },
+    {
+     "label": "Jayakāra",
+     "number": null,
+     "lines": [
+      {
+       "iast": "siyāvara rāmacandrakī jaya",
+       "simple": "siyaavara raamachandrakee jaya",
+       "devanagari": "सियावर रामचन्द्रकी जय",
+       "telugu": "సియావర రామచన్ద్రకీ జయ",
+       "kannada": "ಸಿಯಾವರ ರಾಮಚನ್ದ್ರಕೀ ಜಯ",
+       "gujarati": "સિયાવર રામચન્દ્રકી જય"
+      },
+      {
+       "iast": "pavanasuta hanumānakī jaya",
+       "simple": "pavanasuta hanumaanakee jaya",
+       "devanagari": "पवनसुत हनुमानकी जय",
+       "telugu": "పవనసుత హనుమానకీ జయ",
+       "kannada": "ಪವನಸುತ ಹನುಮಾನಕೀ ಜಯ",
+       "gujarati": "પવનસુત હનુમાનકી જય"
+      },
+      {
+       "iast": "bolo bhāyī saba santanakī jaya",
+       "simple": "bolo bhaayee saba santanakee jaya",
+       "devanagari": "बोलो भायी सब सन्तनकी जय",
+       "telugu": "బోలో భాయీ సబ సన్తనకీ జయ",
+       "kannada": "ಬೋಲೋ ಭಾಯೀ ಸಬ ಸನ್ತನಕೀ ಜಯ",
+       "gujarati": "બોલો ભાયી સબ સન્તનકી જય"
+      }
+     ]
+    }
+   ],
+   "meaning": null,
+   "tags": []
+  },
+  {
+   "id": "om-jai-jagadish-hare",
+   "title": "Om Jai Jagadish Hare",
+   "nativeTitle": "ॐ जय जगदीश हरे",
+   "deity": "blue",
+   "kind": "aarti",
+   "about": "The best-loved Hindi aarti, sung while waving the lamp at the end of puja. Written by Pandit Shardha Ram Phillauri in the 1870s.",
+   "verses": [
+    {
+     "label": null,
+     "number": 1,
+     "lines": [
+      {
+       "iast": "oṃ jaya jagadīśa hare, svāmī jaya jagadīśa hare|",
+       "simple": "Om jai jagdish hare, swami jai jagdish hare",
+       "devanagari": "ॐ जय जगदीश हरे, स्वामी जय जगदीश हरे।",
+       "telugu": "ఓం జయ జగదీశ హరే, స్వామీ జయ జగదీశ హరే।",
+       "kannada": "ಓಂ ಜಯ ಜಗದೀಶ ಹರೇ, ಸ್ವಾಮೀ ಜಯ ಜಗದೀಶ ಹರೇ।",
+       "gujarati": "ૐ જય જગદીશ હરે, સ્વામી જય જગદીશ હરે।"
+      },
+      {
+       "iast": "bhakta janoṃ ke saṃkaṭa, dāsa janoṃ ke saṃkaṭa, kṣaṇa meṃ dūra kare||",
+       "simple": "Bhakt janon ke sankat, daas janon ke sankat, kshan mein door kare",
+       "devanagari": "भक्त जनों के संकट, दास जनों के संकट, क्षण में दूर करे॥",
+       "telugu": "భక్త జనోం కే సంకట, దాస జనోం కే సంకట, క్షణ మేం దూర కరే॥",
+       "kannada": "ಭಕ್ತ ಜನೋಂ ಕೇ ಸಂಕಟ, ದಾಸ ಜನೋಂ ಕೇ ಸಂಕಟ, ಕ್ಷಣ ಮೇಂ ದೂರ ಕರೇ॥",
+       "gujarati": "ભક્ત જનોં કે સંકટ, દાસ જનોં કે સંકટ, ક્ષણ મેં દૂર કરે॥"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 2,
+     "lines": [
+      {
+       "iast": "jo dhyāve phala pāve, duḥkha binase mana kā, svāmī duḥkha binase mana kā|",
+       "simple": "Jo dhyave phal pave, dukh binse man ka, swami dukh binse man ka",
+       "devanagari": "जो ध्यावे फल पावे, दुःख बिनसे मन का, स्वामी दुःख बिनसे मन का।",
+       "telugu": "జో ధ్యావే ఫల పావే, దుఃఖ బినసే మన కా, స్వామీ దుఃఖ బినసే మన కా।",
+       "kannada": "ಜೋ ಧ್ಯಾವೇ ಫಲ ಪಾವೇ, ದುಃಖ ಬಿನಸೇ ಮನ ಕಾ, ಸ್ವಾಮೀ ದುಃಖ ಬಿನಸೇ ಮನ ಕಾ।",
+       "gujarati": "જો ધ્યાવે ફલ પાવે, દુઃખ બિનસે મન કા, સ્વામી દુઃખ બિનસે મન કા।"
+      },
+      {
+       "iast": "sukha sampati ghara āve, kaṣṭa miṭe tana kā||",
+       "simple": "Sukh sampati ghar aave, kasht mite tan ka",
+       "devanagari": "सुख सम्पति घर आवे, कष्ट मिटे तन का॥",
+       "telugu": "సుఖ సమ్పతి ఘర ఆవే, కష్ట మిటే తన కా॥",
+       "kannada": "ಸುಖ ಸಮ್ಪತಿ ಘರ ಆವೇ, ಕಷ್ಟ ಮಿಟೇ ತನ ಕಾ॥",
+       "gujarati": "સુખ સમ્પતિ ઘર આવે, કષ્ટ મિટે તન કા॥"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 3,
+     "lines": [
+      {
+       "iast": "māta pitā tuma mere, śaraṇa gahū~ maiṃ kisakī, svāmī śaraṇa gahū~ maiṃ kisakī|",
+       "simple": "Maat pita tum mere, sharan gahoon main kiski, swami sharan gahoon main kiski",
+       "devanagari": "मात पिता तुम मेरे, शरण गहूँ मैं किसकी, स्वामी शरण गहूँ मैं किसकी।",
+       "telugu": "మాత పితా తుమ మేరే, శరణ గహూఁ మైం కిసకీ, స్వామీ శరణ గహూఁ మైం కిసకీ।",
+       "kannada": "ಮಾತ ಪಿತಾ ತುಮ ಮೇರೇ, ಶರಣ ಗಹೂಁ ಮೈಂ ಕಿಸಕೀ, ಸ್ವಾಮೀ ಶರಣ ಗಹೂಁ ಮೈಂ ಕಿಸಕೀ।",
+       "gujarati": "માત પિતા તુમ મેરે, શરણ ગહૂઁ મૈં કિસકી, સ્વામી શરણ ગહૂઁ મૈં કિસકી।"
+      },
+      {
+       "iast": "tuma bina aura na dūjā, āsa karū~ maiṃ jisakī||",
+       "simple": "Tum bin aur na dooja, aas karoon main jiski",
+       "devanagari": "तुम बिन और न दूजा, आस करूँ मैं जिसकी॥",
+       "telugu": "తుమ బిన ఔర న దూజా, ఆస కరూఁ మైం జిసకీ॥",
+       "kannada": "ತುಮ ಬಿನ ಔರ ನ ದೂಜಾ, ಆಸ ಕರೂಁ ಮೈಂ ಜಿಸಕೀ॥",
+       "gujarati": "તુમ બિન ઔર ન દૂજા, આસ કરૂઁ મૈં જિસકી॥"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 4,
+     "lines": [
+      {
+       "iast": "tuma pūraṇa paramātmā, tuma antaryāmī, svāmī tuma antaryāmī|",
+       "simple": "Tum pooran paramatma, tum antaryami, swami tum antaryami",
+       "devanagari": "तुम पूरण परमात्मा, तुम अन्तर्यामी, स्वामी तुम अन्तर्यामी।",
+       "telugu": "తుమ పూరణ పరమాత్మా, తుమ అన్తర్యామీ, స్వామీ తుమ అన్తర్యామీ।",
+       "kannada": "ತುಮ ಪೂರಣ ಪರಮಾತ್ಮಾ, ತುಮ ಅನ್ತರ್ಯಾಮೀ, ಸ್ವಾಮೀ ತುಮ ಅನ್ತರ್ಯಾಮೀ।",
+       "gujarati": "તુમ પૂરણ પરમાત્મા, તુમ અન્તર્યામી, સ્વામી તુમ અન્તર્યામી।"
+      },
+      {
+       "iast": "pārabrahma parameśvara, tuma saba ke svāmī||",
+       "simple": "Parabrahm parameshwar, tum sab ke swami",
+       "devanagari": "पारब्रह्म परमेश्वर, तुम सब के स्वामी॥",
+       "telugu": "పారబ్రహ్మ పరమేశ్వర, తుమ సబ కే స్వామీ॥",
+       "kannada": "ಪಾರಬ್ರಹ್ಮ ಪರಮೇಶ್ವರ, ತುಮ ಸಬ ಕೇ ಸ್ವಾಮೀ॥",
+       "gujarati": "પારબ્રહ્મ પરમેશ્વર, તુમ સબ કે સ્વામી॥"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 5,
+     "lines": [
+      {
+       "iast": "tuma karuṇā ke sāgara, tuma pālanakartā, svāmī tuma pālanakartā|",
+       "simple": "Tum karuna ke sagar, tum paalankarta, swami tum paalankarta",
+       "devanagari": "तुम करुणा के सागर, तुम पालनकर्ता, स्वामी तुम पालनकर्ता।",
+       "telugu": "తుమ కరుణా కే సాగర, తుమ పాలనకర్తా, స్వామీ తుమ పాలనకర్తా।",
+       "kannada": "ತುಮ ಕರುಣಾ ಕೇ ಸಾಗರ, ತುಮ ಪಾಲನಕರ್ತಾ, ಸ್ವಾಮೀ ತುಮ ಪಾಲನಕರ್ತಾ।",
+       "gujarati": "તુમ કરુણા કે સાગર, તુમ પાલનકર્તા, સ્વામી તુમ પાલનકર્તા।"
+      },
+      {
+       "iast": "maiṃ mūrakha phalakāmī, maiṃ sevaka tuma svāmī, kṛpā karo bhartā||",
+       "simple": "Main moorakh phalkami, main sevak tum swami, kripa karo bharta",
+       "devanagari": "मैं मूरख फलकामी, मैं सेवक तुम स्वामी, कृपा करो भर्ता॥",
+       "telugu": "మైం మూరఖ ఫలకామీ, మైం సేవక తుమ స్వామీ, కృపా కరో భర్తా॥",
+       "kannada": "ಮೈಂ ಮೂರಖ ಫಲಕಾಮೀ, ಮೈಂ ಸೇವಕ ತುಮ ಸ್ವಾಮೀ, ಕೃಪಾ ಕರೋ ಭರ್ತಾ॥",
+       "gujarati": "મૈં મૂરખ ફલકામી, મૈં સેવક તુમ સ્વામી, કૃપા કરો ભર્તા॥"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 6,
+     "lines": [
+      {
+       "iast": "tuma ho eka agocara, sabake prāṇapati, svāmī sabake prāṇapati|",
+       "simple": "Tum ho ek agochar, sabke praanpati, swami sabke praanpati",
+       "devanagari": "तुम हो एक अगोचर, सबके प्राणपति, स्वामी सबके प्राणपति।",
+       "telugu": "తుమ హో ఏక అగోచర, సబకే ప్రాణపతి, స్వామీ సబకే ప్రాణపతి।",
+       "kannada": "ತುಮ ಹೋ ಏಕ ಅಗೋಚರ, ಸಬಕೇ ಪ್ರಾಣಪತಿ, ಸ್ವಾಮೀ ಸಬಕೇ ಪ್ರಾಣಪತಿ।",
+       "gujarati": "તુમ હો એક અગોચર, સબકે પ્રાણપતિ, સ્વામી સબકે પ્રાણપતિ।"
+      },
+      {
+       "iast": "kisa vidhi milū~ dayāmaya, tumako maiṃ kumati||",
+       "simple": "Kis vidhi miloon dayamay, tumko main kumati",
+       "devanagari": "किस विधि मिलूँ दयामय, तुमको मैं कुमति॥",
+       "telugu": "కిస విధి మిలూఁ దయామయ, తుమకో మైం కుమతి॥",
+       "kannada": "ಕಿಸ ವಿಧಿ ಮಿಲೂಁ ದಯಾಮಯ, ತುಮಕೋ ಮೈಂ ಕುಮತಿ॥",
+       "gujarati": "કિસ વિધિ મિલૂઁ દયામય, તુમકો મૈં કુમતિ॥"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 7,
+     "lines": [
+      {
+       "iast": "dīnabandhu duḥkhahartā, ṭhākura tuma mere, svāmī rakṣaka tuma mere|",
+       "simple": "Deenbandhu dukhharta, thakur tum mere, swami rakshak tum mere",
+       "devanagari": "दीनबन्धु दुःखहर्ता, ठाकुर तुम मेरे, स्वामी रक्षक तुम मेरे।",
+       "telugu": "దీనబన్ధు దుఃఖహర్తా, ఠాకుర తుమ మేరే, స్వామీ రక్షక తుమ మేరే।",
+       "kannada": "ದೀನಬನ್ಧು ದುಃಖಹರ್ತಾ, ಠಾಕುರ ತುಮ ಮೇರೇ, ಸ್ವಾಮೀ ರಕ್ಷಕ ತುಮ ಮೇರೇ।",
+       "gujarati": "દીનબન્ધુ દુઃખહર્તા, ઠાકુર તુમ મેરે, સ્વામી રક્ષક તુમ મેરે।"
+      },
+      {
+       "iast": "apane hātha uṭhāo, apanī śaraṇa lagāo, dvāra par̤ā tere||",
+       "simple": "Apne haath uthao, apni sharan lagao, dwaar pada tere",
+       "devanagari": "अपने हाथ उठाओ, अपनी शरण लगाओ, द्वार पड़ा तेरे॥",
+       "telugu": "అపనే హాథ ఉఠాఓ, అపనీ శరణ లగాఓ, ద్వార పड़ా తేరే॥",
+       "kannada": "ಅಪನೇ ಹಾಥ ಉಠಾಓ, ಅಪನೀ ಶರಣ ಲಗಾಓ, ದ್ವಾರ ಪಡ಼ಾ ತೇರೇ॥",
+       "gujarati": "અપને હાથ ઉઠાઓ, અપની શરણ લગાઓ, દ્વાર પડ઼ા તેરે॥"
+      }
+     ]
+    },
+    {
+     "label": null,
+     "number": 8,
+     "lines": [
+      {
+       "iast": "viṣaya-vikāra miṭāo, pāpa haro devā, svāmī pāpa haro devā|",
+       "simple": "Vishay vikaar mitao, paap haro deva, swami paap haro deva",
+       "devanagari": "विषय-विकार मिटाओ, पाप हरो देवा, स्वामी पाप हरो देवा।",
+       "telugu": "విషయ-వికార మిటాఓ, పాప హరో దేవా, స్వామీ పాప హరో దేవా।",
+       "kannada": "ವಿಷಯ-ವಿಕಾರ ಮಿಟಾಓ, ಪಾಪ ಹರೋ ದೇವಾ, ಸ್ವಾಮೀ ಪಾಪ ಹರೋ ದೇವಾ।",
+       "gujarati": "વિષય-વિકાર મિટાઓ, પાપ હરો દેવા, સ્વામી પાપ હરો દેવા।"
+      },
+      {
+       "iast": "śraddhā bhakti bar̤hāo, santana kī sevā||",
+       "simple": "Shraddha bhakti badhao, santan ki seva",
+       "devanagari": "श्रद्धा भक्ति बढ़ाओ, सन्तन की सेवा॥",
+       "telugu": "శ్రద్ధా భక్తి బढ़ాఓ, సన్తన కీ సేవా॥",
+       "kannada": "ಶ್ರದ್ಧಾ ಭಕ್ತಿ ಬಢ಼ಾಓ, ಸನ್ತನ ಕೀ ಸೇವಾ॥",
+       "gujarati": "શ્રદ્ધા ભક્તિ બઢ઼ાઓ, સન્તન કી સેવા॥"
+      }
+     ]
+    }
+   ],
+   "meaning": null,
+   "tags": []
+  },
+  {
+   "id": "karagre-vasate",
+   "title": "Karagre Vasate",
+   "nativeTitle": "कराग्रे वसते",
+   "deity": "pink",
+   "kind": "mantra",
+   "about": "On waking, looking at your palms.",
+   "meaning": "Lakshmi dwells at the fingertips, Saraswati in the palm, and Govinda at its base: so look at your hands each morning.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "karāgre vasate lakṣmīḥ karamadhye sarasvatī",
+       "simple": "karaagre vasate lakshmeeh karamadhye sarasvatee",
+       "devanagari": "कराग्रे वसते लक्ष्मीः करमध्ये सरस्वती",
+       "telugu": "కరాగ్రే వసతే లక్ష్మీః కరమధ్యే సరస్వతీ",
+       "kannada": "ಕರಾಗ್ರೇ ವಸತೇ ಲಕ್ಷ್ಮೀಃ ಕರಮಧ್ಯೇ ಸರಸ್ವತೀ",
+       "gujarati": "કરાગ્રે વસતે લક્ષ્મીઃ કરમધ્યે સરસ્વતી"
+      },
+      {
+       "iast": "karamūle tu govindaḥ prabhāte karadarśanam",
+       "simple": "karamoole tu govindah prabhaate karadarshanam",
+       "devanagari": "करमूले तु गोविन्दः प्रभाते करदर्शनम्",
+       "telugu": "కరమూలే తు గోవిన్దః ప్రభాతే కరదర్శనమ్",
+       "kannada": "ಕರಮೂಲೇ ತು ಗೋವಿನ್ದಃ ಪ್ರಭಾತೇ ಕರದರ್ಶನಮ್",
+       "gujarati": "કરમૂલે તુ ગોવિન્દઃ પ્રભાતે કરદર્શનમ્"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "morning"
+   ]
+  },
+  {
+   "id": "samudra-vasane",
+   "title": "Samudra Vasane",
+   "nativeTitle": "समुद्रवसने देवि",
+   "deity": "teal",
+   "kind": "mantra",
+   "about": "Before your feet touch the ground.",
+   "meaning": "O Mother Earth, clothed by the oceans, bearing the mountains, consort of Vishnu: I bow to you; forgive me for touching you with my feet.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "samudravasane devi parvatastanamaṇḍale",
+       "simple": "samudravasane devi parvatastanamandale",
+       "devanagari": "समुद्रवसने देवि पर्वतस्तनमण्डले",
+       "telugu": "సముద్రవసనే దేవి పర్వతస్తనమణ్డలే",
+       "kannada": "ಸಮುದ್ರವಸನೇ ದೇವಿ ಪರ್ವತಸ್ತನಮಣ್ಡಲೇ",
+       "gujarati": "સમુદ્રવસને દેવિ પર્વતસ્તનમણ્ડલે"
+      },
+      {
+       "iast": "viṣṇupatni namastubhyaṃ pādasparśaṃ kṣamasva me",
+       "simple": "vishnupatni namastubhyam paadasparsham kshamasva me",
+       "devanagari": "विष्णुपत्नि नमस्तुभ्यं पादस्पर्शं क्षमस्व मे",
+       "telugu": "విష్ణుపత్ని నమస్తుభ్యం పాదస్పర్శం క్షమస్వ మే",
+       "kannada": "ವಿಷ್ಣುಪತ್ನಿ ನಮಸ್ತುಭ್ಯಂ ಪಾದಸ್ಪರ್ಶಂ ಕ್ಷಮಸ್ವ ಮೇ",
+       "gujarati": "વિષ્ણુપત્નિ નમસ્તુભ્યં પાદસ્પર્શં ક્ષમસ્વ મે"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "morning"
+   ]
+  },
+  {
+   "id": "gayatri",
+   "title": "Gayatri Mantra",
+   "nativeTitle": "गायत्री मन्त्र",
+   "deity": "gold",
+   "kind": "mantra",
+   "about": "At sunrise and sunset.",
+   "meaning": "We meditate on the radiant light of the divine Sun, who fills the earth, the sky and the heavens; may it inspire our minds.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "oṃ bhūr bhuvaḥ svaḥ",
+       "simple": "om bhoor bhuvah svah",
+       "devanagari": "ॐ भूर्भुवः स्वः",
+       "telugu": "ఓం భూర్భువః స్వః",
+       "kannada": "ಓಂ ಭೂರ್ಭುವಃ ಸ್ವಃ",
+       "gujarati": "ૐ ભૂર્ભુવઃ સ્વઃ"
+      },
+      {
+       "iast": "tat savitur vareṇyaṃ",
+       "simple": "tat savitur varenyam",
+       "devanagari": "तत्सवितुर्वरेण्यं",
+       "telugu": "తత్సవితుర్వరేణ్యం",
+       "kannada": "ತತ್ಸವಿತುರ್ವರೇಣ್ಯಂ",
+       "gujarati": "તત્સવિતુર્વરેણ્યં"
+      },
+      {
+       "iast": "bhargo devasya dhīmahi",
+       "simple": "bhargo devasya dheemahi",
+       "devanagari": "भर्गो देवस्य धीमहि",
+       "telugu": "భర్గో దేవస్య ధీమహి",
+       "kannada": "ಭರ್ಗೋ ದೇವಸ್ಯ ಧೀಮಹಿ",
+       "gujarati": "ભર્ગો દેવસ્ય ધીમહિ"
+      },
+      {
+       "iast": "dhiyo yo naḥ pracodayāt",
+       "simple": "dhiyo yo nah prachodayaat",
+       "devanagari": "धियो यो नः प्रचोदयात्",
+       "telugu": "ధియో యో నః ప్రచోదయాత్",
+       "kannada": "ಧಿಯೋ ಯೋ ನಃ ಪ್ರಚೋದಯಾತ್",
+       "gujarati": "ધિયો યો નઃ પ્રચોદયાત્"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "morning",
+    "evening"
+   ]
+  },
+  {
+   "id": "vakratunda",
+   "title": "Vakratunda Mahakaya",
+   "nativeTitle": "वक्रतुण्ड महाकाय",
+   "deity": "orange",
+   "kind": "mantra",
+   "about": "Before beginning any task.",
+   "meaning": "O Ganesha of the curved trunk and mighty form, bright as a million suns: remove the obstacles from all my work, always.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "vakratuṇḍa mahākāya sūryakoṭi samaprabha",
+       "simple": "vakratunda mahaakaaya sooryakoti samaprabha",
+       "devanagari": "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ",
+       "telugu": "వక్రతుణ్డ మహాకాయ సూర్యకోటి సమప్రభ",
+       "kannada": "ವಕ್ರತುಣ್ಡ ಮಹಾಕಾಯ ಸೂರ್ಯಕೋಟಿ ಸಮಪ್ರಭ",
+       "gujarati": "વક્રતુણ્ડ મહાકાય સૂર્યકોટિ સમપ્રભ"
+      },
+      {
+       "iast": "nirvighnaṃ kuru me deva sarvakāryeṣu sarvadā",
+       "simple": "nirvighnam kuru me deva sarvakaaryeshu sarvadaa",
+       "devanagari": "निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा",
+       "telugu": "నిర్విఘ్నం కురు మే దేవ సర్వకార్యేషు సర్వదా",
+       "kannada": "ನಿರ್ವಿಘ್ನಂ ಕುರು ಮೇ ದೇವ ಸರ್ವಕಾರ್ಯೇಷು ಸರ್ವದಾ",
+       "gujarati": "નિર્વિઘ્નં કુરુ મે દેવ સર્વકાર્યેષુ સર્વદા"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "morning"
+   ]
+  },
+  {
+   "id": "guru-brahma",
+   "title": "Guru Brahma",
+   "nativeTitle": "गुरुर्ब्रह्मा",
+   "deity": "indigo",
+   "kind": "mantra",
+   "about": "To honour your teachers.",
+   "meaning": "The teacher is Brahma, Vishnu and Shiva; the teacher is the Supreme itself. Salutations to that teacher.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "gurur brahmā gurur viṣṇuḥ gurur devo maheśvaraḥ",
+       "simple": "gurur brahmaa gurur vishnuh gurur devo maheshvarah",
+       "devanagari": "गुरुर्ब्रह्मा गुरुर्विष्णुः गुरुर्देवो महेश्वरः",
+       "telugu": "గురుర్బ్రహ్మా గురుర్విష్ణుః గురుర్దేవో మహేశ్వరః",
+       "kannada": "ಗುರುರ್ಬ್ರಹ್ಮಾ ಗುರುರ್ವಿಷ್ಣುಃ ಗುರುರ್ದೇವೋ ಮಹೇಶ್ವರಃ",
+       "gujarati": "ગુરુર્બ્રહ્મા ગુરુર્વિષ્ણુઃ ગુરુર્દેવો મહેશ્વરઃ"
+      },
+      {
+       "iast": "guruḥ sākṣāt paraṃ brahma tasmai śrī gurave namaḥ",
+       "simple": "guruh saakshaat param brahma tasmai shree gurave namah",
+       "devanagari": "गुरुः साक्षात्परं ब्रह्म तस्मै श्री गुरवे नमः",
+       "telugu": "గురుః సాక్షాత్పరం బ్రహ్మ తస్మై శ్రీ గురవే నమః",
+       "kannada": "ಗುರುಃ ಸಾಕ್ಷಾತ್ಪರಂ ಬ್ರಹ್ಮ ತಸ್ಮೈ ಶ್ರೀ ಗುರವೇ ನಮಃ",
+       "gujarati": "ગુરુઃ સાક્ષાત્પરં બ્રહ્મ તસ્મૈ શ્રી ગુરવે નમઃ"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "morning",
+    "study"
+   ]
+  },
+  {
+   "id": "saraswati-namastubhyam",
+   "title": "Saraswati Namastubhyam",
+   "nativeTitle": "सरस्वति नमस्तुभ्यम्",
+   "deity": "teal",
+   "kind": "mantra",
+   "about": "Before study.",
+   "meaning": "Salutations to Saraswati, giver of boons: as I begin to learn, may I always succeed.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "sarasvati namastubhyaṃ varade kāmarūpiṇi",
+       "simple": "sarasvati namastubhyam varade kaamaroopini",
+       "devanagari": "सरस्वति नमस्तुभ्यं वरदे कामरूपिणि",
+       "telugu": "సరస్వతి నమస్తుభ్యం వరదే కామరూపిణి",
+       "kannada": "ಸರಸ್ವತಿ ನಮಸ್ತುಭ್ಯಂ ವರದೇ ಕಾಮರೂಪಿಣಿ",
+       "gujarati": "સરસ્વતિ નમસ્તુભ્યં વરદે કામરૂપિણિ"
+      },
+      {
+       "iast": "vidyārambhaṃ kariṣyāmi siddhir bhavatu me sadā",
+       "simple": "vidyaarambham karishyaami siddhir bhavatu me sadaa",
+       "devanagari": "विद्यारम्भं करिष्यामि सिद्धिर्भवतु मे सदा",
+       "telugu": "విద్యారమ్భం కరిష్యామి సిద్ధిర్భవతు మే సదా",
+       "kannada": "ವಿದ್ಯಾರಮ್ಭಂ ಕರಿಷ್ಯಾಮಿ ಸಿದ್ಧಿರ್ಭವತು ಮೇ ಸದಾ",
+       "gujarati": "વિદ્યારમ્ભં કરિષ્યામિ સિદ્ધિર્ભવતુ મે સદા"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "study"
+   ]
+  },
+  {
+   "id": "saha-navavatu",
+   "title": "Saha Navavatu",
+   "nativeTitle": "सह नाववतु",
+   "deity": "indigo",
+   "kind": "mantra",
+   "about": "Before learning together.",
+   "meaning": "May we be protected together, nourished together, and work together with energy. May our learning shine, and may we never quarrel. Peace, peace, peace.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "oṃ saha nāvavatu",
+       "simple": "om saha naavavatu",
+       "devanagari": "ॐ सह नाववतु",
+       "telugu": "ఓం సహ నావవతు",
+       "kannada": "ಓಂ ಸಹ ನಾವವತು",
+       "gujarati": "ૐ સહ નાવવતુ"
+      },
+      {
+       "iast": "saha nau bhunaktu",
+       "simple": "saha nau bhunaktu",
+       "devanagari": "सह नौ भुनक्तु",
+       "telugu": "సహ నౌ భునక్తు",
+       "kannada": "ಸಹ ನೌ ಭುನಕ್ತು",
+       "gujarati": "સહ નૌ ભુનક્તુ"
+      },
+      {
+       "iast": "saha vīryaṃ karavāvahai",
+       "simple": "saha veeryam karavaavahai",
+       "devanagari": "सह वीर्यं करवावहै",
+       "telugu": "సహ వీర్యం కరవావహై",
+       "kannada": "ಸಹ ವೀರ್ಯಂ ಕರವಾವಹೈ",
+       "gujarati": "સહ વીર્યં કરવાવહૈ"
+      },
+      {
+       "iast": "tejasvi nāvadhītam astu mā vidviṣāvahai",
+       "simple": "tejasvi naavadheetam astu maa vidvishaavahai",
+       "devanagari": "तेजस्वि नावधीतमस्तु मा विद्विषावहै",
+       "telugu": "తేజస్వి నావధీతమస్తు మా విద్విషావహై",
+       "kannada": "ತೇಜಸ್ವಿ ನಾವಧೀತಮಸ್ತು ಮಾ ವಿದ್ವಿಷಾವಹೈ",
+       "gujarati": "તેજસ્વિ નાવધીતમસ્તુ મા વિદ્વિષાવહૈ"
+      },
+      {
+       "iast": "oṃ śāntiḥ śāntiḥ śāntiḥ",
+       "simple": "om shaantih shaantih shaantih",
+       "devanagari": "ॐ शान्तिः शान्तिः शान्तिः",
+       "telugu": "ఓం శాన్తిః శాన్తిః శాన్తిః",
+       "kannada": "ಓಂ ಶಾನ್ತಿಃ ಶಾನ್ತಿಃ ಶಾನ್ತಿಃ",
+       "gujarati": "ૐ શાન્તિઃ શાન્તિઃ શાન્તિઃ"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "study"
+   ]
+  },
+  {
+   "id": "brahmarpanam",
+   "title": "Brahmarpanam",
+   "nativeTitle": "ब्रह्मार्पणम्",
+   "deity": "saffron",
+   "kind": "mantra",
+   "about": "Before meals.",
+   "meaning": "The offering is the divine, the food is the divine, offered by the divine into the divine fire. One who sees the divine in every act reaches the divine. (Bhagavad Gita 4.24)",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "brahmārpaṇaṃ brahma havir brahmāgnau brahmaṇā hutam",
+       "simple": "brahmaarpanam brahma havir brahmaagnau brahmanaa hutam",
+       "devanagari": "ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतम्",
+       "telugu": "బ్రహ్మార్పణం బ్రహ్మ హవిర్బ్రహ్మాగ్నౌ బ్రహ్మణా హుతమ్",
+       "kannada": "ಬ್ರಹ್ಮಾರ್ಪಣಂ ಬ್ರಹ್ಮ ಹವಿರ್ಬ್ರಹ್ಮಾಗ್ನೌ ಬ್ರಹ್ಮಣಾ ಹುತಮ್",
+       "gujarati": "બ્રહ્માર્પણં બ્રહ્મ હવિર્બ્રહ્માગ્નૌ બ્રહ્મણા હુતમ્"
+      },
+      {
+       "iast": "brahmaiva tena gantavyaṃ brahmakarmasamādhinā",
+       "simple": "brahmaiva tena gantavyam brahmakarmasamaadhinaa",
+       "devanagari": "ब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना",
+       "telugu": "బ్రహ్మైవ తేన గన్తవ్యం బ్రహ్మకర్మసమాధినా",
+       "kannada": "ಬ್ರಹ್ಮೈವ ತೇನ ಗನ್ತವ್ಯಂ ಬ್ರಹ್ಮಕರ್ಮಸಮಾಧಿನಾ",
+       "gujarati": "બ્રહ્મૈવ તેન ગન્તવ્યં બ્રહ્મકર્મસમાધિના"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "meal"
+   ]
+  },
+  {
+   "id": "shubham-karoti",
+   "title": "Shubham Karoti",
+   "nativeTitle": "शुभं करोति",
+   "deity": "gold",
+   "kind": "mantra",
+   "about": "When lighting the evening lamp.",
+   "meaning": "Salutations to the lamp's light, which brings goodness, well-being, health and plenty, and removes ill will.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "śubhaṃ karoti kalyāṇam ārogyaṃ dhanasampadaḥ",
+       "simple": "shubham karoti kalyaanam aarogyam dhanasampadah",
+       "devanagari": "शुभं करोति कल्याणमारोग्यं धनसम्पदः",
+       "telugu": "శుభం కరోతి కల్యాణమారోగ్యం ధనసమ్పదః",
+       "kannada": "ಶುಭಂ ಕರೋತಿ ಕಲ್ಯಾಣಮಾರೋಗ್ಯಂ ಧನಸಮ್ಪದಃ",
+       "gujarati": "શુભં કરોતિ કલ્યાણમારોગ્યં ધનસમ્પદઃ"
+      },
+      {
+       "iast": "śatrubuddhivināśāya dīpajyotir namo'stu te",
+       "simple": "shatrubuddhivinaashaaya deepajyotir namo'stu te",
+       "devanagari": "शत्रुबुद्धिविनाशाय दीपज्योतिर्नमोऽस्तु ते",
+       "telugu": "శత్రుబుద్ధివినాశాయ దీపజ్యోతిర్నమోఽస్తు తే",
+       "kannada": "ಶತ್ರುಬುದ್ಧಿವಿನಾಶಾಯ ದೀಪಜ್ಯೋತಿರ್ನಮೋಽಸ್ತು ತೇ",
+       "gujarati": "શત્રુબુદ્ધિવિનાશાય દીપજ્યોતિર્નમોઽસ્તુ તે"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "evening"
+   ]
+  },
+  {
+   "id": "deepa-jyoti",
+   "title": "Deepa Jyoti",
+   "nativeTitle": "दीपज्योतिः",
+   "deity": "gold",
+   "kind": "mantra",
+   "about": "With the evening lamp.",
+   "meaning": "The lamp's light is the Supreme, the lamp's light is Vishnu. May the lamp take away my wrongs; salutations to its light.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "dīpajyotiḥ parabrahma dīpajyotir janārdanaḥ",
+       "simple": "deepajyotih parabrahma deepajyotir janaardanah",
+       "devanagari": "दीपज्योतिः परब्रह्म दीपज्योतिर्जनार्दनः",
+       "telugu": "దీపజ్యోతిః పరబ్రహ్మ దీపజ్యోతిర్జనార్దనః",
+       "kannada": "ದೀಪಜ್ಯೋತಿಃ ಪರಬ್ರಹ್ಮ ದೀಪಜ್ಯೋತಿರ್ಜನಾರ್ದನಃ",
+       "gujarati": "દીપજ્યોતિઃ પરબ્રહ્મ દીપજ્યોતિર્જનાર્દનઃ"
+      },
+      {
+       "iast": "dīpo haratu me pāpaṃ dīpajyotir namo'stu te",
+       "simple": "deepo haratu me paapam deepajyotir namo'stu te",
+       "devanagari": "दीपो हरतु मे पापं दीपज्योतिर्नमोऽस्तु ते",
+       "telugu": "దీపో హరతు మే పాపం దీపజ్యోతిర్నమోఽస్తు తే",
+       "kannada": "ದೀಪೋ ಹರತು ಮೇ ಪಾಪಂ ದೀಪಜ್ಯೋತಿರ್ನಮೋಽಸ್ತು ತೇ",
+       "gujarati": "દીપો હરતુ મે પાપં દીપજ્યોતિર્નમોઽસ્તુ તે"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "evening"
+   ]
+  },
+  {
+   "id": "mahamrityunjaya",
+   "title": "Mahamrityunjaya Mantra",
+   "nativeTitle": "महामृत्युञ्जय मन्त्र",
+   "deity": "indigo",
+   "kind": "mantra",
+   "about": "For healing and courage.",
+   "meaning": "We worship the three-eyed Shiva, fragrant, who nourishes all. As a ripe cucumber is freed from its vine, may we be freed from death, not from immortality.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "oṃ tryambakaṃ yajāmahe sugandhiṃ puṣṭivardhanam",
+       "simple": "om tryambakam yajaamahe sugandhim pushtivardhanam",
+       "devanagari": "ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम्",
+       "telugu": "ఓం త్ర్యమ్బకం యజామహే సుగన్ధిం పుష్టివర్ధనమ్",
+       "kannada": "ಓಂ ತ್ರ್ಯಮ್ಬಕಂ ಯಜಾಮಹೇ ಸುಗನ್ಧಿಂ ಪುಷ್ಟಿವರ್ಧನಮ್",
+       "gujarati": "ૐ ત્ર્યમ્બકં યજામહે સુગન્ધિં પુષ્ટિવર્ધનમ્"
+      },
+      {
+       "iast": "urvārukam iva bandhanān mṛtyor mukṣīya mā'mṛtāt",
+       "simple": "urvaarukam iva bandhanaan mrityor muksheeya maa'mritaat",
+       "devanagari": "उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात्",
+       "telugu": "ఉర్వారుకమివ బన్ధనాన్మృత్యోర్ముక్షీయ మాఽమృతాత్",
+       "kannada": "ಉರ್ವಾರುಕಮಿವ ಬನ್ಧನಾನ್ಮೃತ್ಯೋರ್ಮುಕ್ಷೀಯ ಮಾಽಮೃತಾತ್",
+       "gujarati": "ઉર્વારુકમિવ બન્ધનાન્મૃત્યોર્મુક્ષીય માઽમૃતાત્"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "evening",
+    "night"
+   ]
+  },
+  {
+   "id": "kara-charana",
+   "title": "Karacharana Kritam",
+   "nativeTitle": "करचरणकृतं",
+   "deity": "indigo",
+   "kind": "mantra",
+   "about": "Before sleep, asking forgiveness.",
+   "meaning": "Whatever wrongs I have done today, by hand or foot, speech or body, ears, eyes or mind, knowingly or not, forgive them all, O Shiva, ocean of compassion.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "karacaraṇakṛtaṃ vākkāyajaṃ karmajaṃ vā",
+       "simple": "karacharanakritam vaakkaayajam karmajam vaa",
+       "devanagari": "करचरणकृतं वाक्कायजं कर्मजं वा",
+       "telugu": "కరచరణకృతం వాక్కాయజం కర్మజం వా",
+       "kannada": "ಕರಚರಣಕೃತಂ ವಾಕ್ಕಾಯಜಂ ಕರ್ಮಜಂ ವಾ",
+       "gujarati": "કરચરણકૃતં વાક્કાયજં કર્મજં વા"
+      },
+      {
+       "iast": "śravaṇanayanajaṃ vā mānasaṃ vāparādham",
+       "simple": "shravananayanajam vaa maanasam vaaparaadham",
+       "devanagari": "श्रवणनयनजं वा मानसं वापराधम्",
+       "telugu": "శ్రవణనయనజం వా మానసం వాపరాధమ్",
+       "kannada": "ಶ್ರವಣನಯನಜಂ ವಾ ಮಾನಸಂ ವಾಪರಾಧಮ್",
+       "gujarati": "શ્રવણનયનજં વા માનસં વાપરાધમ્"
+      },
+      {
+       "iast": "vihitam avihitaṃ vā sarvam etat kṣamasva",
+       "simple": "vihitam avihitam vaa sarvam etat kshamasva",
+       "devanagari": "विहितमविहितं वा सर्वमेतत्क्षमस्व",
+       "telugu": "విహితమవిహితం వా సర్వమేతత్క్షమస్వ",
+       "kannada": "ವಿಹಿತಮವಿಹಿತಂ ವಾ ಸರ್ವಮೇತತ್ಕ್ಷಮಸ್ವ",
+       "gujarati": "વિહિતમવિહિતં વા સર્વમેતત્ક્ષમસ્વ"
+      },
+      {
+       "iast": "jaya jaya karuṇābdhe śrī mahādeva śambho",
+       "simple": "jaya jaya karunaabdhe shree mahaadeva shambho",
+       "devanagari": "जय जय करुणाब्धे श्री महादेव शम्भो",
+       "telugu": "జయ జయ కరుణాబ్ధే శ్రీ మహాదేవ శమ్భో",
+       "kannada": "ಜಯ ಜಯ ಕರುಣಾಬ್ಧೇ ಶ್ರೀ ಮಹಾದೇವ ಶಮ್ಭೋ",
+       "gujarati": "જય જય કરુણાબ્ધે શ્રી મહાદેવ શમ્ભો"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "night"
+   ]
+  },
+  {
+   "id": "sarve-bhavantu",
+   "title": "Sarve Bhavantu Sukhinah",
+   "nativeTitle": "सर्वे भवन्तु सुखिनः",
+   "deity": "teal",
+   "kind": "mantra",
+   "about": "A prayer for everyone.",
+   "meaning": "May all be happy, may all be free from illness, may all see what is good, and may no one suffer. Peace, peace, peace.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "sarve bhavantu sukhinaḥ sarve santu nirāmayāḥ",
+       "simple": "sarve bhavantu sukhinah sarve santu niraamayaah",
+       "devanagari": "सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः",
+       "telugu": "సర్వే భవన్తు సుఖినః సర్వే సన్తు నిరామయాః",
+       "kannada": "ಸರ್ವೇ ಭವನ್ತು ಸುಖಿನಃ ಸರ್ವೇ ಸನ್ತು ನಿರಾಮಯಾಃ",
+       "gujarati": "સર્વે ભવન્તુ સુખિનઃ સર્વે સન્તુ નિરામયાઃ"
+      },
+      {
+       "iast": "sarve bhadrāṇi paśyantu mā kaścid duḥkhabhāg bhavet",
+       "simple": "sarve bhadraani pashyantu maa kashchid duhkhabhaag bhavet",
+       "devanagari": "सर्वे भद्राणि पश्यन्तु मा कश्चिद्दुःखभाग्भवेत्",
+       "telugu": "సర్వే భద్రాణి పశ్యన్తు మా కశ్చిద్దుఃఖభాగ్భవేత్",
+       "kannada": "ಸರ್ವೇ ಭದ್ರಾಣಿ ಪಶ್ಯನ್ತು ಮಾ ಕಶ್ಚಿದ್ದುಃಖಭಾಗ್ಭವೇತ್",
+       "gujarati": "સર્વે ભદ્રાણિ પશ્યન્તુ મા કશ્ચિદ્દુઃખભાગ્ભવેત્"
+      },
+      {
+       "iast": "oṃ śāntiḥ śāntiḥ śāntiḥ",
+       "simple": "om shaantih shaantih shaantih",
+       "devanagari": "ॐ शान्तिः शान्तिः शान्तिः",
+       "telugu": "ఓం శాన్తిః శాన్తిః శాన్తిః",
+       "kannada": "ಓಂ ಶಾನ್ತಿಃ ಶಾನ್ತಿಃ ಶಾನ್ತಿಃ",
+       "gujarati": "ૐ શાન્તિઃ શાન્તિઃ શાન્તિઃ"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "evening",
+    "peace"
+   ]
+  },
+  {
+   "id": "asato-ma",
+   "title": "Asato Ma",
+   "nativeTitle": "असतो मा",
+   "deity": "gold",
+   "kind": "mantra",
+   "about": "A prayer for light.",
+   "meaning": "Lead me from the unreal to the real, from darkness to light, from death to immortality. Peace, peace, peace.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "asato mā sad gamaya",
+       "simple": "asato maa sad gamaya",
+       "devanagari": "असतो मा सद्गमय",
+       "telugu": "అసతో మా సద్గమయ",
+       "kannada": "ಅಸತೋ ಮಾ ಸದ್ಗಮಯ",
+       "gujarati": "અસતો મા સદ્ગમય"
+      },
+      {
+       "iast": "tamaso mā jyotir gamaya",
+       "simple": "tamaso maa jyotir gamaya",
+       "devanagari": "तमसो मा ज्योतिर्गमय",
+       "telugu": "తమసో మా జ్యోతిర్గమయ",
+       "kannada": "ತಮಸೋ ಮಾ ಜ್ಯೋತಿರ್ಗಮಯ",
+       "gujarati": "તમસો મા જ્યોતિર્ગમય"
+      },
+      {
+       "iast": "mṛtyor mā'mṛtaṃ gamaya",
+       "simple": "mrityor maa'mritam gamaya",
+       "devanagari": "मृत्योर्माऽमृतं गमय",
+       "telugu": "మృత్యోర్మాఽమృతం గమయ",
+       "kannada": "ಮೃತ್ಯೋರ್ಮಾಽಮೃತಂ ಗಮಯ",
+       "gujarati": "મૃત્યોર્માઽમૃતં ગમય"
+      },
+      {
+       "iast": "oṃ śāntiḥ śāntiḥ śāntiḥ",
+       "simple": "om shaantih shaantih shaantih",
+       "devanagari": "ॐ शान्तिः शान्तिः शान्तिः",
+       "telugu": "ఓం శాన్తిః శాన్తిః శాన్తిః",
+       "kannada": "ಓಂ ಶಾನ್ತಿಃ ಶಾನ್ತಿಃ ಶಾನ್ತಿಃ",
+       "gujarati": "ૐ શાન્તિઃ શાન્તિઃ શાન્તિઃ"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "peace"
+   ]
+  },
+  {
+   "id": "purnamadah",
+   "title": "Purnamadah",
+   "nativeTitle": "पूर्णमदः",
+   "deity": "blue",
+   "kind": "mantra",
+   "about": "A prayer of wholeness.",
+   "meaning": "That is whole, this is whole; from the whole the whole arises. Take the whole from the whole, and the whole remains. Peace, peace, peace.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "oṃ pūrṇam adaḥ pūrṇam idaṃ pūrṇāt pūrṇam udacyate",
+       "simple": "om poornam adah poornam idam poornaat poornam udachyate",
+       "devanagari": "ॐ पूर्णमदः पूर्णमिदं पूर्णात्पूर्णमुदच्यते",
+       "telugu": "ఓం పూర్ణమదః పూర్ణమిదం పూర్ణాత్పూర్ణముదచ్యతే",
+       "kannada": "ಓಂ ಪೂರ್ಣಮದಃ ಪೂರ್ಣಮಿದಂ ಪೂರ್ಣಾತ್ಪೂರ್ಣಮುದಚ್ಯತೇ",
+       "gujarati": "ૐ પૂર્ણમદઃ પૂર્ણમિદં પૂર્ણાત્પૂર્ણમુદચ્યતે"
+      },
+      {
+       "iast": "pūrṇasya pūrṇam ādāya pūrṇam evāvaśiṣyate",
+       "simple": "poornasya poornam aadaaya poornam evaavashishyate",
+       "devanagari": "पूर्णस्य पूर्णमादाय पूर्णमेवावशिष्यते",
+       "telugu": "పూర్ణస్య పూర్ణమాదాయ పూర్ణమేవావశిష్యతే",
+       "kannada": "ಪೂರ್ಣಸ್ಯ ಪೂರ್ಣಮಾದಾಯ ಪೂರ್ಣಮೇವಾವಶಿಷ್ಯತೇ",
+       "gujarati": "પૂર્ણસ્ય પૂર્ણમાદાય પૂર્ણમેવાવશિષ્યતે"
+      },
+      {
+       "iast": "oṃ śāntiḥ śāntiḥ śāntiḥ",
+       "simple": "om shaantih shaantih shaantih",
+       "devanagari": "ॐ शान्तिः शान्तिः शान्तिः",
+       "telugu": "ఓం శాన్తిః శాన్తిః శాన్తిః",
+       "kannada": "ಓಂ ಶಾನ್ತಿಃ ಶಾನ್ತಿಃ ಶಾನ್ತಿಃ",
+       "gujarati": "ૐ શાન્તિઃ શાન્તિઃ શાન્તિઃ"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "peace"
+   ]
+  },
+  {
+   "id": "tvameva-mata",
+   "title": "Tvameva Mata",
+   "nativeTitle": "त्वमेव माता",
+   "deity": "pink",
+   "kind": "mantra",
+   "about": "A prayer of surrender.",
+   "meaning": "You alone are my mother and father, my family and friend, my knowledge and my wealth. You are my everything, O Lord of lords.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "tvameva mātā ca pitā tvameva",
+       "simple": "tvameva maataa cha pitaa tvameva",
+       "devanagari": "त्वमेव माता च पिता त्वमेव",
+       "telugu": "త్వమేవ మాతా చ పితా త్వమేవ",
+       "kannada": "ತ್ವಮೇವ ಮಾತಾ ಚ ಪಿತಾ ತ್ವಮೇವ",
+       "gujarati": "ત્વમેવ માતા ચ પિતા ત્વમેવ"
+      },
+      {
+       "iast": "tvameva bandhuśca sakhā tvameva",
+       "simple": "tvameva bandhushcha sakhaa tvameva",
+       "devanagari": "त्वमेव बन्धुश्च सखा त्वमेव",
+       "telugu": "త్వమేవ బన్ధుశ్చ సఖా త్వమేవ",
+       "kannada": "ತ್ವಮೇವ ಬನ್ಧುಶ್ಚ ಸಖಾ ತ್ವಮೇವ",
+       "gujarati": "ત્વમેવ બન્ધુશ્ચ સખા ત્વમેવ"
+      },
+      {
+       "iast": "tvameva vidyā draviṇaṃ tvameva",
+       "simple": "tvameva vidyaa dravinam tvameva",
+       "devanagari": "त्वमेव विद्या द्रविणं त्वमेव",
+       "telugu": "త్వమేవ విద్యా ద్రవిణం త్వమేవ",
+       "kannada": "ತ್ವಮೇವ ವಿದ್ಯಾ ದ್ರವಿಣಂ ತ್ವಮೇವ",
+       "gujarati": "ત્વમેવ વિદ્યા દ્રવિણં ત્વમેવ"
+      },
+      {
+       "iast": "tvameva sarvaṃ mama deva deva",
+       "simple": "tvameva sarvam mama deva deva",
+       "devanagari": "त्वमेव सर्वं मम देव देव",
+       "telugu": "త్వమేవ సర్వం మమ దేవ దేవ",
+       "kannada": "ತ್ವಮೇವ ಸರ್ವಂ ಮಮ ದೇವ ದೇವ",
+       "gujarati": "ત્વમેવ સર્વં મમ દેવ દેવ"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "peace",
+    "night"
+   ]
+  },
+  {
+   "id": "hare-krishna",
+   "title": "Hare Krishna Mahamantra",
+   "nativeTitle": "हरे कृष्ण महामन्त्र",
+   "deity": "blue",
+   "kind": "mantra",
+   "about": "For japa, any time.",
+   "meaning": "A chant of the names of Rama and Krishna, repeated with a mala.",
+   "verses": [
+    {
+     "label": null,
+     "number": null,
+     "lines": [
+      {
+       "iast": "hare rāma hare rāma rāma rāma hare hare",
+       "simple": "hare raama hare raama raama raama hare hare",
+       "devanagari": "हरे राम हरे राम राम राम हरे हरे",
+       "telugu": "హరే రామ హరే రామ రామ రామ హరే హరే",
+       "kannada": "ಹರೇ ರಾಮ ಹರೇ ರಾಮ ರಾಮ ರಾಮ ಹರೇ ಹರೇ",
+       "gujarati": "હરે રામ હરે રામ રામ રામ હરે હરે"
+      },
+      {
+       "iast": "hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare",
+       "simple": "hare krishna hare krishna krishna krishna hare hare",
+       "devanagari": "हरे कृष्ण हरे कृष्ण कृष्ण कृष्ण हरे हरे",
+       "telugu": "హరే కృష్ణ హరే కృష్ణ కృష్ణ కృష్ణ హరే హరే",
+       "kannada": "ಹರೇ ಕೃಷ್ಣ ಹರೇ ಕೃಷ್ಣ ಕೃಷ್ಣ ಕೃಷ್ಣ ಹರೇ ಹರೇ",
+       "gujarati": "હરે કૃષ્ણ હરે કૃષ્ણ કૃષ્ણ કૃષ્ણ હરે હરે"
+      }
+     ]
+    }
+   ],
+   "tags": [
+    "peace"
+   ]
+  }
+ ],
+ "routines": [
+  {
+   "id": "morning",
+   "title": "Morning prayers",
+   "subtitle": "Begin the day gently",
+   "symbol": "sunrise.fill",
+   "prayers": [
+    "karagre-vasate",
+    "samudra-vasane",
+    "gayatri",
+    "vakratunda",
+    "guru-brahma"
+   ]
+  },
+  {
+   "id": "study",
+   "title": "Before study",
+   "subtitle": "For students of every age",
+   "symbol": "book.fill",
+   "prayers": [
+    "saraswati-namastubhyam",
+    "saha-navavatu",
+    "guru-brahma"
+   ]
+  },
+  {
+   "id": "meal",
+   "title": "Before meals",
+   "subtitle": "A moment of gratitude",
+   "symbol": "fork.knife",
+   "prayers": [
+    "brahmarpanam"
+   ]
+  },
+  {
+   "id": "evening",
+   "title": "Evening lamp",
+   "subtitle": "When you light the diya",
+   "symbol": "flame.fill",
+   "prayers": [
+    "shubham-karoti",
+    "deepa-jyoti",
+    "gayatri",
+    "sarve-bhavantu"
+   ]
+  },
+  {
+   "id": "night",
+   "title": "Before sleep",
+   "subtitle": "Let the day go",
+   "symbol": "moon.stars.fill",
+   "prayers": [
+    "kara-charana",
+    "mahamrityunjaya",
+    "tvameva-mata"
+   ]
+  }
+ ]
+}

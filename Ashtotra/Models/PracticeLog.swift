@@ -9,6 +9,18 @@ final class PracticeLog {
         var position: [String: Int] = [:]
         var completions: [String: Int] = [:]
         var practiceDays: Set<String> = []
+        var favorites: Set<String> = []
+
+        init() {}
+
+        // Decode older saves that predate favourites.
+        init(from decoder: Decoder) throws {
+            let c = try decoder.container(keyedBy: CodingKeys.self)
+            position = try c.decodeIfPresent([String: Int].self, forKey: .position) ?? [:]
+            completions = try c.decodeIfPresent([String: Int].self, forKey: .completions) ?? [:]
+            practiceDays = try c.decodeIfPresent(Set<String>.self, forKey: .practiceDays) ?? []
+            favorites = try c.decodeIfPresent(Set<String>.self, forKey: .favorites) ?? []
+        }
     }
 
     private(set) var state: State
@@ -31,6 +43,25 @@ final class PracticeLog {
 
     func completions(of collectionID: String) -> Int {
         state.completions[collectionID] ?? 0
+    }
+
+    func isFavorite(_ id: String) -> Bool {
+        state.favorites.contains(id)
+    }
+
+    func toggleFavorite(_ id: String) {
+        if state.favorites.remove(id) == nil { state.favorites.insert(id) }
+        save()
+    }
+
+    /// Marks today as a day of practice (finishing a prayer or a routine counts).
+    func recordPractice(on date: Date = .now) {
+        state.practiceDays.insert(Self.dayKey(date))
+        save()
+    }
+
+    func practiced(on date: Date = .now) -> Bool {
+        state.practiceDays.contains(Self.dayKey(date))
     }
 
     var totalCompletions: Int {

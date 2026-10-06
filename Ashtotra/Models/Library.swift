@@ -41,7 +41,7 @@ enum Script: String, CaseIterable, Identifiable, Codable {
     }
 }
 
-struct DivineName: Codable, Hashable {
+struct ScriptText: Codable, Hashable {
     let simple, iast, devanagari, telugu, kannada, gujarati: String
 
     func text(in script: Script) -> String {
@@ -63,7 +63,7 @@ struct NameCollection: Codable, Identifiable, Hashable {
     let subtitle: String
     let blurb: String
     let color: String
-    let names: [DivineName]
+    let names: [ScriptText]
 }
 
 struct Library: Codable {
@@ -91,7 +91,7 @@ struct Library: Codable {
     }
 
     /// "ॐ गजाननाय नमः" style line for chanting.
-    func chantLine(_ name: DivineName, script: Script) -> String {
+    func chantLine(_ name: ScriptText, script: Script) -> String {
         let om = om[script.rawValue] ?? "Om"
         let namah = namah[script.rawValue] ?? "namaha"
         return "\(om) \(name.text(in: script)) \(namah)"
