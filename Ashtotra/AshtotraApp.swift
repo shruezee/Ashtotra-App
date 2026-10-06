@@ -4,13 +4,42 @@ import SwiftUI
 struct AshtotraApp: App {
     @State private var log = PracticeLog()
     @State private var reciter = Reciter()
+    @State private var showSplash = AshtotraApp.wantsSplash
 
     var body: some Scene {
         WindowGroup {
-            RootView()
-                .environment(log)
-                .environment(reciter)
-                .tint(Theme.saffron)
+            ZStack {
+                RootView()
+                    .environment(log)
+                    .environment(reciter)
+                    .tint(Theme.saffron)
+                if showSplash {
+                    SplashView()
+                        .transition(.opacity)
+                        .zIndex(1)
+                }
+            }
+            .task {
+                guard showSplash else { return }
+                // Load the prayer texts while the splash is showing.
+                await Task.detached(priority: .userInitiated) {
+                    _ = PrayerBook.shared.prayers.count
+                    _ = Library.shared.collections.count
+                }.value
+                try? await Task.sleep(for: .seconds(1.8))
+                withAnimation(.easeInOut(duration: 0.5)) { showSplash = false }
+            }
         }
+    }
+
+    /// Screenshot runs open a screen directly, so they skip the splash.
+    private static var wantsSplash: Bool {
+        #if DEBUG
+        return UserDefaults.standard.string(forKey: "demoRoute") == nil
+            && !UserDefaults.standard.bool(forKey: "demoSeed")
+            && !UserDefaults.standard.bool(forKey: "skipSplash")
+        #else
+        return true
+        #endif
     }
 }
