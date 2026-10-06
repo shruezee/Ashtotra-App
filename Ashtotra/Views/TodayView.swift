@@ -14,6 +14,7 @@ struct TodayView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
                     greeting(now)
+                    checklist(now)
                     todaysDevotion(now)
                     routines(now)
                     continueChanting
@@ -64,6 +65,49 @@ struct TodayView: View {
         let streak = log.streak(today: now)
         let today = log.practiced(on: now) ? "Prayed today" : "Not yet today"
         return streak > 1 ? "\(today) · \(streak) days in a row" : today
+    }
+
+    private func checklist(_ now: Date) -> some View {
+        let list = DailyChecklist(date: now)
+        let activities = log.activities(on: now)
+        let done = list.doneCount(in: activities)
+        return VStack(alignment: .leading, spacing: 12) {
+            HStack(alignment: .firstTextBaseline) {
+                SectionTitle(text: "Today's practice")
+                Spacer()
+                Text(done == list.items.count ? "All done 🙏" : "\(done) of \(list.items.count)")
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(done == list.items.count ? .green : Theme.saffron)
+            }
+            VStack(spacing: 0) {
+                ForEach(list.items) { item in
+                    ChecklistRow(item: item, done: DailyChecklist.isDone(item, in: activities)) {
+                        if DailyChecklist.isDone(item, in: activities) {
+                            log.unrecord(item.activity)
+                            item.alsoCounts.forEach { log.unrecord($0) }
+                        } else {
+                            log.record(item.activity)
+                        }
+                    } open: {
+                        if case .meditate = item.destination { tab = .meditate }
+                    }
+                    if item != list.items.last { Divider().padding(.leading, 60) }
+                }
+            }
+            .background(Theme.card, in: .rect(cornerRadius: 20))
+            NavigationLink {
+                JourneyView()
+            } label: {
+                HStack {
+                    WeekStripPreview()
+                    Image(systemName: "chevron.right").foregroundStyle(.tertiary)
+                }
+                .padding(14)
+                .background(Theme.card, in: .rect(cornerRadius: 20))
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel("Your practice this week. Opens your prayer calendar.")
+        }
     }
 
     @ViewBuilder
@@ -188,6 +232,69 @@ struct TodayView: View {
                     .buttonStyle(.plain)
                 }
             }
+        }
+    }
+}
+
+struct ChecklistRow: View {
+    let item: DailyChecklist.Item
+    let done: Bool
+    let toggle: () -> Void
+    let open: () -> Void
+
+    var body: some View {
+        HStack(spacing: 14) {
+            Button(action: toggle) {
+                Image(systemName: done ? "checkmark.circle.fill" : "circle")
+                    .font(.system(size: 30))
+                    .foregroundStyle(done ? Color.green : Theme.saffron.opacity(0.6))
+                    .frame(width: 44, height: 44)
+                    .contentTransition(.symbolEffect(.replace))
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel(done ? "\(item.title), done" : "Mark \(item.title) as done")
+            .sensoryFeedback(.success, trigger: done) { _, new in new }
+
+            destinationLink
+        }
+        .padding(.horizontal, 10)
+        .padding(.vertical, 6)
+    }
+
+    @ViewBuilder
+    private var destinationLink: some View {
+        let label = HStack {
+            VStack(alignment: .leading, spacing: 2) {
+                Text(item.title)
+                    .font(.headline)
+                    .strikethrough(done, color: .secondary)
+                Text(item.detail)
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+            }
+            Spacer()
+            Image(systemName: item.symbol).foregroundStyle(Theme.saffron)
+            Image(systemName: "chevron.right").font(.footnote).foregroundStyle(.tertiary)
+        }
+        .frame(minHeight: 52)
+        .contentShape(.rect)
+        switch item.destination {
+        case .routine(let routine): NavigationLink(value: routine) { label }.buttonStyle(.plain)
+        case .prayer(let prayer): NavigationLink(value: prayer) { label }.buttonStyle(.plain)
+        case .meditate: Button(action: open) { label }.buttonStyle(.plain)
+        }
+    }
+}
+
+/// Compact week rings for the Today screen.
+struct WeekStripPreview: View {
+    @State private var day = Calendar.current.startOfDay(for: .now)
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("This week").font(.subheadline.weight(.semibold))
+            WeekStrip(selectedDay: $day)
+                .allowsHitTesting(false)
         }
     }
 }

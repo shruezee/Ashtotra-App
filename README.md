@@ -4,7 +4,7 @@
 
 <h1 align="center">Ashtotra</h1>
 
-<p align="center"><b>Daily prayers and 108 sacred names, in your script.</b><br>
+<p align="center"><b>Daily prayers, meditation and 108 sacred names, in your script.</b><br>
 Morning-to-night prayer routines, stotras like the Hanuman Chalisa and Aditya Hrudayam, the Om Jai Jagadish Hare aarti, and the 108 names of Ganesha, Shiva, Lakshmi and Saraswati. Read in English, IAST, Devanagari, Telugu, Kannada or Gujarati, or listen read aloud.</p>
 
 <p align="center">
@@ -19,10 +19,10 @@ Morning-to-night prayer routines, stotras like the Hanuman Chalisa and Aditya Hr
 </p>
 
 <p align="center">
-  <img src="images/01-today.jpg" width="200" alt="Today screen">
-  <img src="images/02-hanuman-chalisa.jpg" width="200" alt="Hanuman Chalisa in Devanagari with Listen">
-  <img src="images/03-morning-prayers.jpg" width="200" alt="Morning prayers with meanings">
-  <img src="images/04-chant-telugu.jpg" width="200" alt="Chant mode in Telugu">
+  <img src="images/01-today.jpg" width="200" alt="Today: daily practice checklist and week rings">
+  <img src="images/02-meditation.jpg" width="200" alt="Meditation: breathing circle">
+  <img src="images/05-your-practice.jpg" width="200" alt="Your practice: streak and calendar">
+  <img src="images/04-hanuman-chalisa.jpg" width="200" alt="Hanuman Chalisa in Devanagari with Listen">
 </p>
 
 ## Version 3.0: a ground-up rewrite
@@ -40,6 +40,9 @@ Ashtotra first shipped in 2019 as a UIKit app that displayed bundled PDFs, with 
 
 ## Features
 
+- **Today's practice:** a four-step daily checklist (morning prayers, the day's devotion, meditation, evening lamp) that fills in as you go, with a week of progress rings
+- **Your practice:** streak, days of prayer, minutes meditated, a month calendar of rings, and what you did each day
+- **Meditate:** 1–20 minutes (default 2), "gently close your eyes", a breathing circle, and a **haptic breath guide** that swells as you breathe in and fades as you breathe out; with a tanpura drone, singing bowl, silence, or your own devotional song from Apple Music, ending with a bell
 - **Today:** a greeting, the day's traditional devotion (Monday Shiva, Tuesday Hanuman, Friday Lakshmi…), the prayer routine for this time of day, and anything you were in the middle of
 - **Daily routines:** morning, before study, before meals, evening lamp, before sleep: 17 short mantras with meanings
 - **Stotras and aarti:** Hanuman Chalisa, Aditya Hrudayam, Ganesha Pancharatnam, Sri Suktam, Narayana Suktam, Om Jai Jagadish Hare
@@ -55,6 +58,9 @@ Ashtotra first shipped in 2019 as a UIKit app that displayed bundled PDFs, with 
 |---|---|
 | Prayers | Stotras converted from the 2019 app's texts (Vignanam romanisation → IAST), typos fixed, sandhi joined correctly in Indic scripts (गुरुर्ब्रह्मा, पूर्णमदः); daily mantras and the aarti written out by hand and transliterated |
 | Read aloud | `AVSpeechSynthesizer` with the best installed `hi-IN` voice speaking the Devanagari text, an `@Observable` `Reciter` publishing the current line so any screen can highlight and follow; replaces the 2019 app's third-party audio streams |
+| Meditation sound | Tanpura and singing bowl synthesised in real time with an `AVAudioSourceNode` (plucked strings with jawari-like harmonics; inharmonic bowl partials with beating), so no recordings are bundled. "My devotional song" plays a track the user picks with `MPMediaPickerController` via the application queue player |
+| Haptic breath | `CHHapticEngine` continuous events with intensity parameter curves: rising on the in-breath, still on the hold, fading on the out-breath, with a soft tap at each change |
+| Tracking | `PracticeLog` keeps per-day activity sets (`routine:morning`, `prayer:…`, `chant:…`, `meditation`) and meditation minutes; `DailyChecklist` turns them into progress for rings and the calendar |
 | Reminders | One repeating `UNCalendarNotificationTrigger`, scheduled only after the user turns it on |
 | Content pipeline | Names parsed from ITRANS-style romanisation → IAST → Devanagari, Telugu, Kannada and Gujarati with a deterministic transliterator. Typos corrected and every list cross-checked against a second source; Ganesha, Shiva, Lakshmi and Saraswati verified at all 108 positions |
 | Data | One bundled `Ashtottara.json`, decoded into `Codable` models |
@@ -70,9 +76,10 @@ Ashtotra first shipped in 2019 as a UIKit app that displayed bundled PDFs, with 
 Ashtotra/
 ├── AshtotraApp.swift
 ├── Models/        Library (108 names), PrayerBook (prayers, routines, weekdays),
-│                  PracticeLog, Reciter (read aloud), DailyReminder
-├── Views/         Root tabs, Today, Prayers, PrayerReader, Routine,
-│                  Names, Reader, Chant, Settings, Theme
+│                  PracticeLog, DailyChecklist, Reciter (read aloud), DailyReminder,
+│                  Meditation, DroneSynth, BreathHaptics, DevotionalSong
+├── Views/         Root tabs, Today, Prayers, PrayerReader, Routine, Meditate,
+│                  MeditationSession, Journey, Names, Reader, Chant, Settings, Theme
 └── Resources/     Ashtottara.json, Prayers.json
 AshtotraTests/     Swift Testing suite
 AppStore/          App Store screenshots and listing text

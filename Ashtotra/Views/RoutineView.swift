@@ -58,16 +58,17 @@ struct RoutineView: View {
                         .id(index)
                     }
                     Button {
-                        log.recordPractice()
+                        toggleDone()
                     } label: {
-                        Label(log.practiced() ? "Offered today" : "I've said these prayers",
-                              systemImage: log.practiced() ? "checkmark.seal.fill" : "hands.sparkles")
+                        Label(isDone ? "Done today" : "Mark as done today",
+                              systemImage: isDone ? "checkmark.seal.fill" : "hands.sparkles")
                             .font(.headline)
                             .frame(maxWidth: .infinity, minHeight: 56)
                     }
                     .buttonStyle(.bordered)
                     .buttonBorderShape(.roundedRectangle(radius: 16))
-                    .sensoryFeedback(.success, trigger: log.practiced())
+                    .tint(isDone ? .green : Theme.saffron)
+                    .sensoryFeedback(.success, trigger: isDone)
                 }
                 .padding(.horizontal, 20)
                 .padding(.bottom, 120)
@@ -92,6 +93,13 @@ struct RoutineView: View {
         .onDisappear {
             if reciter.isPlaying(routine.id) { reciter.stop() }
         }
+    }
+
+    private var activity: String { "routine:\(routine.id)" }
+    private var isDone: Bool { log.did(activity) }
+
+    private func toggleDone() {
+        if isDone { log.unrecord(activity) } else { log.record(activity) }
     }
 
     private var shareText: String {

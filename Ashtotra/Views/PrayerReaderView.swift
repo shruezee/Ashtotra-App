@@ -29,9 +29,7 @@ struct PrayerReaderView: View {
                                   highlighted: speaking.map { $0 >= offset && $0 < offset + verse.lines.count } ?? false)
                             .id(verseIndex)
                     }
-                    if prayer.kind != .mantra {
-                        doneButton
-                    }
+                    doneButton
                 }
                 .padding(.horizontal, 20)
                 .padding(.bottom, 120)
@@ -92,19 +90,22 @@ struct PrayerReaderView: View {
 
     private var doneButton: some View {
         Button {
-            log.recordPractice()
+            if isDone { log.unrecord(activity) } else { log.record(activity) }
         } label: {
-            Label(log.practiced() ? "Offered today" : "I've recited this today",
-                  systemImage: log.practiced() ? "checkmark.seal.fill" : "hands.sparkles")
+            Label(isDone ? "Done today" : "Mark as done today",
+                  systemImage: isDone ? "checkmark.seal.fill" : "hands.sparkles")
                 .font(.headline)
                 .frame(maxWidth: .infinity, minHeight: 56)
         }
         .buttonStyle(.bordered)
-        .tint(Theme.tint(for: prayer))
+        .tint(isDone ? .green : Theme.tint(for: prayer))
         .buttonBorderShape(.roundedRectangle(radius: 16))
-        .sensoryFeedback(.success, trigger: log.practiced())
+        .sensoryFeedback(.success, trigger: isDone)
         .padding(.top, 8)
     }
+
+    private var activity: String { "prayer:\(prayer.id)" }
+    private var isDone: Bool { log.did(activity) }
 
     private var shareText: String {
         let body = prayer.verses.map { verse in

@@ -1,7 +1,7 @@
 # Ashtotra – App Store listing (v3.0)
 
 **Name:** Ashtotra: Daily Prayers
-**Subtitle:** Mantras, Chalisa & 108 names
+**Subtitle:** Prayer, meditation & mantras
 **Category:** Lifestyle (secondary: Books)
 **Age rating:** 4+
 **Price:** Free · no in-app purchases
@@ -11,6 +11,15 @@ Rebuilt from scratch: daily prayer routines, Hanuman Chalisa, Aditya Hrudayam an
 
 **Description:**
 Ashtotra is a calm companion for daily Hindu prayer. Read, listen and chant in the script you read best.
+
+TODAY'S PRACTICE
+Four small steps a day: morning prayers, the day's devotion, a few minutes of meditation, and the evening lamp. Tick them off and watch your week fill with rings.
+
+MEDITATE
+Choose 1 to 20 minutes, gently close your eyes, and breathe. A haptic breath guide swells as you breathe in and fades as you breathe out, so you never need to look. Meditate to a tanpura drone, a singing bowl, silence, or your own favourite devotional song from your Music library. A soft bell tells you when it's time.
+
+YOUR PRACTICE
+Your streak, days of prayer, minutes meditated, and a calendar of every day you showed up.
 
 TODAY
 A gentle start each day: the day's traditional devotion (Shiva on Monday, Hanuman on Tuesday, Lakshmi on Friday…) and the prayers that suit this moment, from waking to sleep.
@@ -50,10 +59,10 @@ Every text is checked against more than one source. Spot something to correct? T
 PRIVATE
 No ads. No accounts. No tracking. Everything stays on your device.
 
-**Keywords:** hanuman chalisa,gayatri,mantra,stotra,aarti,puja,108 names,japa,mala,shiva,ganesha,lakshmi,hindu
+**Keywords:** hanuman chalisa,gayatri,mantra,meditation,aarti,puja,108 names,japa,mala,breathing,shiva,hindu
 
 **What's new in 3.0:**
-A complete rewrite. Daily prayer routines, stotras and aarti, read-aloud, six scripts, chant mode with a 108-bead mala, favourites, reminders, dark mode and full text-size and VoiceOver support. No ads.
+A complete rewrite. Daily prayer tracking, meditation with a haptic breath guide, daily prayer routines, stotras and aarti, read-aloud, six scripts, chant mode with a 108-bead mala, favourites, reminders, dark mode and full text-size and VoiceOver support. No ads.
 
 **Support URL:** https://shruezee.github.io/Ashtotra-App/
 **Privacy policy URL:** https://shruezee.github.io/Ashtotra-App/privacy.html

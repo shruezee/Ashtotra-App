@@ -1,7 +1,7 @@
 import SwiftUI
 
 enum AppTab: String {
-    case today, prayers, names
+    case today, prayers, meditate, names
 }
 
 struct RootView: View {
@@ -9,7 +9,9 @@ struct RootView: View {
     @State private var todayPath = NavigationPath()
     @State private var prayersPath = NavigationPath()
     @State private var namesPath = NavigationPath()
+    @State private var meditatePath = NavigationPath()
     @State private var showSettings = false
+    @Environment(PracticeLog.self) private var log
 
     var body: some View {
         TabView(selection: $tab) {
@@ -24,6 +26,12 @@ struct RootView: View {
             }
             .tabItem { Label("Prayers", systemImage: "book.closed.fill") }
             .tag(AppTab.prayers)
+
+            NavigationStack(path: $meditatePath) {
+                MeditateView().appDestinations()
+            }
+            .tabItem { Label("Meditate", systemImage: "leaf.fill") }
+            .tag(AppTab.meditate)
 
             NavigationStack(path: $namesPath) {
                 NamesView().appDestinations()
@@ -44,12 +52,17 @@ struct RootView: View {
     /// Screenshot hooks: `-demoRoute settings`, `-demoRoute shiva`, `-demoRoute prayer:hanuman-chalisa`,
     /// `-demoRoute routine:morning`, `-demoRoute tab:prayers`.
     private func openDemoRoute() {
+        if UserDefaults.standard.bool(forKey: "demoSeed") { seedDemoHistory() }
         guard let route = UserDefaults.standard.string(forKey: "demoRoute") else { return }
         let parts = route.split(separator: ":", maxSplits: 1).map(String.init)
         let book = PrayerBook.shared
         switch (parts.first, parts.count > 1 ? parts[1] : nil) {
         case ("settings", _):
             showSettings = true
+        case ("meditate", _):
+            tab = .meditate
+        case ("journey", _):
+            todayPath.append(JourneyRoute())
         case ("tab", let name?):
             tab = AppTab(rawValue: name) ?? .today
         case ("prayer", let id?):
@@ -70,8 +83,26 @@ struct RootView: View {
             break
         }
     }
+
+    /// `-demoSeed YES`: a believable fortnight of practice for screenshots.
+    private func seedDemoHistory() {
+        let calendar = Calendar.current
+        for offset in 1...16 {
+            guard let day = calendar.date(byAdding: .day, value: -offset, to: .now), offset != 9 else { continue }
+            let devotion = Weekday.devotion(for: calendar.component(.weekday, from: day))
+            log.record("routine:morning", on: day)
+            if offset % 3 != 0 { log.record("prayer:\(devotion.prayerID)", on: day) }
+            if offset % 4 != 1 { log.addMeditation(minutes: [2, 5, 2, 10][offset % 4], on: day) }
+            if offset % 2 == 0 { log.record("routine:evening", on: day) }
+        }
+        log.record("routine:morning")
+        log.addMeditation(minutes: 2)
+        log.setPosition(41, in: "shiva")
+    }
     #endif
 }
+
+struct JourneyRoute: Hashable {}
 
 extension View {
     /// Every tab can open prayers, routines and 108-name lists.
@@ -79,6 +110,7 @@ extension View {
         navigationDestination(for: Prayer.self) { PrayerReaderView(prayer: $0) }
             .navigationDestination(for: Routine.self) { RoutineView(routine: $0) }
             .navigationDestination(for: NameCollection.self) { ReaderView(collection: $0) }
+            .navigationDestination(for: JourneyRoute.self) { _ in JourneyView() }
     }
 
     /// Gear button that opens Settings.

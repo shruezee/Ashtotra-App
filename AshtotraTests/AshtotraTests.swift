@@ -168,8 +168,81 @@ struct FavoritesTests {
         let defaults = UserDefaults(suiteName: "FavoritesTests.\(UUID().uuidString)")!
         let log = PracticeLog(defaults: defaults)
         #expect(!log.practiced())
-        log.recordPractice()
+        log.record("prayer:gayatri")
         #expect(log.practiced())
         #expect(log.streak() == 1)
+    }
+}
+
+struct MeditationTests {
+    @Test func calmBreathCyclesThroughInHoldOut() {
+        let calm = BreathPattern.calm   // in 4, hold 2, out 6
+        #expect(calm.cycle == 12)
+        #expect(calm.phase(at: 1).phase == .inhale)
+        #expect(calm.phase(at: 2).progress == 0.5)
+        #expect(calm.phase(at: 5).phase == .hold)
+        #expect(calm.phase(at: 7).phase == .exhale)
+        #expect(calm.phase(at: 13).phase == .inhale)   // wraps into the next breath
+    }
+
+    @Test func patternWithoutHoldSkipsIt() {
+        #expect(BreathPattern.gentle.phase(at: 4.5).phase == .exhale)
+        #expect(BreathPattern.gentle.summary == "In 4 · out 4")
+    }
+
+    @Test func lengthDefaultsToTwoMinutesWithinOneToTwenty() {
+        #expect(MeditationLength.defaultMinutes == 2)
+        #expect(MeditationLength.range == 1...20)
+    }
+
+    @Test func meditationMinutesAddUpAndCountAsPractice() {
+        let log = PracticeLog(defaults: UserDefaults(suiteName: "MeditationTests.\(UUID().uuidString)")!)
+        log.addMeditation(minutes: 2)
+        log.addMeditation(minutes: 5)
+        #expect(log.meditationMinutes(on: .now) == 7)
+        #expect(log.totalMeditationMinutes == 7)
+        #expect(log.did(PracticeLog.meditation))
+        #expect(log.practiced())
+    }
+}
+
+struct DailyChecklistTests {
+    let calendar = Calendar(identifier: .gregorian)
+    var tuesday: Date { calendar.date(from: DateComponents(year: 2026, month: 10, day: 6, hour: 8))! }
+
+    @Test func checklistHasMorningDevotionMeditationAndEvening() {
+        let list = DailyChecklist(date: tuesday, calendar: calendar)
+        #expect(list.items.map(\.id) == ["morning", "devotion", "meditation", "evening"])
+        #expect(list.items[1].activity == "prayer:hanuman-chalisa")
+    }
+
+    @Test func progressFillsAsPracticesAreDone() {
+        let list = DailyChecklist(date: tuesday, calendar: calendar)
+        #expect(list.progress(in: []) == 0)
+        #expect(list.doneCount(in: ["routine:morning", "meditation"]) == 2)
+        #expect(list.progress(in: ["routine:morning", "prayer:hanuman-chalisa", "meditation", "routine:evening"]) == 1)
+    }
+
+    @Test func chantingTheDaysNamesCountsAsTheDevotion() {
+        let monday = calendar.date(byAdding: .day, value: -1, to: tuesday)!
+        let list = DailyChecklist(date: monday, calendar: calendar)
+        let devotion = list.items.first { $0.id == "devotion" }!
+        #expect(DailyChecklist.isDone(devotion, in: ["chant:shiva"]))
+    }
+
+    @Test func unmarkingTheOnlyActivityClearsTheDay() {
+        let log = PracticeLog(defaults: UserDefaults(suiteName: "DailyChecklistTests.\(UUID().uuidString)")!)
+        log.record("routine:morning")
+        #expect(log.practiced())
+        log.unrecord("routine:morning")
+        #expect(!log.practiced())
+        #expect(log.activities(on: .now).isEmpty)
+    }
+
+    @Test func journeyDescribesActivities() {
+        #expect(JourneyView.describe("routine:evening", minutes: 0) == "Evening lamp")
+        #expect(JourneyView.describe("prayer:gayatri", minutes: 0) == "Gayatri Mantra")
+        #expect(JourneyView.describe("chant:lakshmi", minutes: 0) == "108 names of Lakshmi")
+        #expect(JourneyView.describe("meditation", minutes: 1) == "Meditated 1 minute")
     }
 }
