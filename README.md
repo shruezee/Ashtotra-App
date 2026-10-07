@@ -116,6 +116,6 @@ More 108-name lists (Hanuman, Rama, Krishna, Durga, Subrahmanya), each added onl
 
 ## About
 
-Designed and built by **[Shruthi](https://github.com/shruezee)**, an iOS developer in Sydney. See also [KindDose](https://github.com/shruezee/KindDose) and [MiniMingle Games](https://github.com/shruezee/MiniMingle-Games).
+Designed and built by **Shruezee Studio**, the app studio of **[Shruthi](https://github.com/shruezee)**, an iOS developer in Sydney. See also [KindDose](https://github.com/shruezee/KindDose) and [MiniMingle Games](https://github.com/shruezee/MiniMingle-Games).
 
 © 2026 Shruezee Studio
