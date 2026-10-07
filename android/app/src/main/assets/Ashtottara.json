@@ -1,0 +1,3516 @@
+{
+ "om": {
+  "devanagari": "ॐ",
+  "telugu": "ఓం",
+  "kannada": "ಓಂ",
+  "gujarati": "ૐ",
+  "iast": "oṃ",
+  "simple": "Om"
+ },
+ "namah": {
+  "devanagari": "नमः",
+  "telugu": "నమః",
+  "kannada": "ನಮಃ",
+  "gujarati": "નમઃ",
+  "iast": "namaḥ",
+  "simple": "namaha"
+ },
+ "collections": [
+  {
+   "id": "ganesha",
+   "title": "Ganesha",
+   "nativeTitle": "गणेश",
+   "subtitle": "Ashtottara Shatanamavali · 108 names",
+   "blurb": "Remover of obstacles, honoured first before every beginning.",
+   "color": "orange",
+   "names": [
+    {
+     "iast": "gajānanāya",
+     "simple": "gajaananaaya",
+     "devanagari": "गजाननाय",
+     "telugu": "గజాననాయ",
+     "kannada": "ಗಜಾನನಾಯ",
+     "gujarati": "ગજાનનાય"
+    },
+    {
+     "iast": "gaṇādhyakṣāya",
+     "simple": "ganaadhyakshaaya",
+     "devanagari": "गणाध्यक्षाय",
+     "telugu": "గణాధ్యక్షాయ",
+     "kannada": "ಗಣಾಧ್ಯಕ್ಷಾಯ",
+     "gujarati": "ગણાધ્યક્ષાય"
+    },
+    {
+     "iast": "vighnārājāya",
+     "simple": "vighnaaraajaaya",
+     "devanagari": "विघ्नाराजाय",
+     "telugu": "విఘ్నారాజాయ",
+     "kannada": "ವಿಘ್ನಾರಾಜಾಯ",
+     "gujarati": "વિઘ્નારાજાય"
+    },
+    {
+     "iast": "vināyakāya",
+     "simple": "vinaayakaaya",
+     "devanagari": "विनायकाय",
+     "telugu": "వినాయకాయ",
+     "kannada": "ವಿನಾಯಕಾಯ",
+     "gujarati": "વિનાયકાય"
+    },
+    {
+     "iast": "dvaimāturāya",
+     "simple": "dvaimaaturaaya",
+     "devanagari": "द्वैमातुराय",
+     "telugu": "ద్వైమాతురాయ",
+     "kannada": "ದ್ವೈಮಾತುರಾಯ",
+     "gujarati": "દ્વૈમાતુરાય"
+    },
+    {
+     "iast": "dvimukhāya",
+     "simple": "dvimukhaaya",
+     "devanagari": "द्विमुखाय",
+     "telugu": "ద్విముఖాయ",
+     "kannada": "ದ್ವಿಮುಖಾಯ",
+     "gujarati": "દ્વિમુખાય"
+    },
+    {
+     "iast": "pramukhāya",
+     "simple": "pramukhaaya",
+     "devanagari": "प्रमुखाय",
+     "telugu": "ప్రముఖాయ",
+     "kannada": "ಪ್ರಮುಖಾಯ",
+     "gujarati": "પ્રમુખાય"
+    },
+    {
+     "iast": "sumukhāya",
+     "simple": "sumukhaaya",
+     "devanagari": "सुमुखाय",
+     "telugu": "సుముఖాయ",
+     "kannada": "ಸುಮುಖಾಯ",
+     "gujarati": "સુમુખાય"
+    },
+    {
+     "iast": "kṛtine",
+     "simple": "kritine",
+     "devanagari": "कृतिने",
+     "telugu": "కృతినే",
+     "kannada": "ಕೃತಿನೇ",
+     "gujarati": "કૃતિને"
+    },
+    {
+     "iast": "supradīpāya",
+     "simple": "supradeepaaya",
+     "devanagari": "सुप्रदीपाय",
+     "telugu": "సుప్రదీపాయ",
+     "kannada": "ಸುಪ್ರದೀಪಾಯ",
+     "gujarati": "સુપ્રદીપાય"
+    },
+    {
+     "iast": "sukha nidhaye",
+     "simple": "sukha nidhaye",
+     "devanagari": "सुख निधये",
+     "telugu": "సుఖ నిధయే",
+     "kannada": "ಸುಖ ನಿಧಯೇ",
+     "gujarati": "સુખ નિધયે"
+    },
+    {
+     "iast": "surādhyakṣāya",
+     "simple": "suraadhyakshaaya",
+     "devanagari": "सुराध्यक्षाय",
+     "telugu": "సురాధ్యక్షాయ",
+     "kannada": "ಸುರಾಧ್ಯಕ್ಷಾಯ",
+     "gujarati": "સુરાધ્યક્ષાય"
+    },
+    {
+     "iast": "surārighnāya",
+     "simple": "suraarighnaaya",
+     "devanagari": "सुरारिघ्नाय",
+     "telugu": "సురారిఘ్నాయ",
+     "kannada": "ಸುರಾರಿಘ್ನಾಯ",
+     "gujarati": "સુરારિઘ્નાય"
+    },
+    {
+     "iast": "mahāgaṇapataye",
+     "simple": "mahaaganapataye",
+     "devanagari": "महागणपतये",
+     "telugu": "మహాగణపతయే",
+     "kannada": "ಮಹಾಗಣಪತಯೇ",
+     "gujarati": "મહાગણપતયે"
+    },
+    {
+     "iast": "mānyāya",
+     "simple": "maanyaaya",
+     "devanagari": "मान्याय",
+     "telugu": "మాన్యాయ",
+     "kannada": "ಮಾನ್ಯಾಯ",
+     "gujarati": "માન્યાય"
+    },
+    {
+     "iast": "mahā kālāya",
+     "simple": "mahaa kaalaaya",
+     "devanagari": "महा कालाय",
+     "telugu": "మహా కాలాయ",
+     "kannada": "ಮಹಾ ಕಾಲಾಯ",
+     "gujarati": "મહા કાલાય"
+    },
+    {
+     "iast": "mahā balāya",
+     "simple": "mahaa balaaya",
+     "devanagari": "महा बलाय",
+     "telugu": "మహా బలాయ",
+     "kannada": "ಮಹಾ ಬಲಾಯ",
+     "gujarati": "મહા બલાય"
+    },
+    {
+     "iast": "herambāya",
+     "simple": "herambaaya",
+     "devanagari": "हेरंबाय",
+     "telugu": "హేరంబాయ",
+     "kannada": "ಹೇರಂಬಾಯ",
+     "gujarati": "હેરંબાય"
+    },
+    {
+     "iast": "lamba jaṭharāya",
+     "simple": "lamba jatharaaya",
+     "devanagari": "लंब जठराय",
+     "telugu": "లంబ జఠరాయ",
+     "kannada": "ಲಂಬ ಜಠರಾಯ",
+     "gujarati": "લંબ જઠરાય"
+    },
+    {
+     "iast": "hrasva grīvāya",
+     "simple": "hrasva greevaaya",
+     "devanagari": "ह्रस्व ग्रीवाय",
+     "telugu": "హ్రస్వ గ్రీవాయ",
+     "kannada": "ಹ್ರಸ್ವ ಗ್ರೀವಾಯ",
+     "gujarati": "હ્રસ્વ ગ્રીવાય"
+    },
+    {
+     "iast": "mahodarāya",
+     "simple": "mahodaraaya",
+     "devanagari": "महोदराय",
+     "telugu": "మహోదరాయ",
+     "kannada": "ಮಹೋದರಾಯ",
+     "gujarati": "મહોદરાય"
+    },
+    {
+     "iast": "madotkaṭāya",
+     "simple": "madotkataaya",
+     "devanagari": "मदोत्कटाय",
+     "telugu": "మదోత్కటాయ",
+     "kannada": "ಮದೋತ್ಕಟಾಯ",
+     "gujarati": "મદોત્કટાય"
+    },
+    {
+     "iast": "mahāvīrāya",
+     "simple": "mahaaveeraaya",
+     "devanagari": "महावीराय",
+     "telugu": "మహావీరాయ",
+     "kannada": "ಮಹಾವೀರಾಯ",
+     "gujarati": "મહાવીરાય"
+    },
+    {
+     "iast": "mantriṇe",
+     "simple": "mantrine",
+     "devanagari": "मंत्रिणे",
+     "telugu": "మంత్రిణే",
+     "kannada": "ಮಂತ್ರಿಣೇ",
+     "gujarati": "મંત્રિણે"
+    },
+    {
+     "iast": "maṅgaḷa svarāya",
+     "simple": "mangala svaraaya",
+     "devanagari": "मंगऌअ स्वराय",
+     "telugu": "మంగఌఅ స్వరాయ",
+     "kannada": "ಮಂಗಌಅ ಸ್ವರಾಯ",
+     "gujarati": "મંગઌઅ સ્વરાય"
+    },
+    {
+     "iast": "pramathāya",
+     "simple": "pramathaaya",
+     "devanagari": "प्रमथाय",
+     "telugu": "ప్రమథాయ",
+     "kannada": "ಪ್ರಮಥಾಯ",
+     "gujarati": "પ્રમથાય"
+    },
+    {
+     "iast": "prathamāya",
+     "simple": "prathamaaya",
+     "devanagari": "प्रथमाय",
+     "telugu": "ప్రథమాయ",
+     "kannada": "ಪ್ರಥಮಾಯ",
+     "gujarati": "પ્રથમાય"
+    },
+    {
+     "iast": "prājñāya",
+     "simple": "praagnyaaya",
+     "devanagari": "प्राज्ञाय",
+     "telugu": "ప్రాజ్ఞాయ",
+     "kannada": "ಪ್ರಾಜ್ಞಾಯ",
+     "gujarati": "પ્રાજ્ઞાય"
+    },
+    {
+     "iast": "vighnakartre",
+     "simple": "vighnakartre",
+     "devanagari": "विघ्नकर्त्रे",
+     "telugu": "విఘ్నకర్త్రే",
+     "kannada": "ವಿಘ್ನಕರ್ತ್ರೇ",
+     "gujarati": "વિઘ્નકર્ત્રે"
+    },
+    {
+     "iast": "vighnahantre",
+     "simple": "vighnahantre",
+     "devanagari": "विघ्नहंत्रे",
+     "telugu": "విఘ్నహంత్రే",
+     "kannada": "ವಿಘ್ನಹಂತ್ರೇ",
+     "gujarati": "વિઘ્નહંત્રે"
+    },
+    {
+     "iast": "viśva netre",
+     "simple": "vishva netre",
+     "devanagari": "विश्व नेत्रे",
+     "telugu": "విశ్వ నేత్రే",
+     "kannada": "ವಿಶ್ವ ನೇತ್ರೇ",
+     "gujarati": "વિશ્વ નેત્રે"
+    },
+    {
+     "iast": "virāṭpataye",
+     "simple": "viraatpataye",
+     "devanagari": "विराट्पतये",
+     "telugu": "విరాట్పతయే",
+     "kannada": "ವಿರಾಟ್ಪತಯೇ",
+     "gujarati": "વિરાટ્પતયે"
+    },
+    {
+     "iast": "śrīpataye",
+     "simple": "shreepataye",
+     "devanagari": "श्रीपतये",
+     "telugu": "శ్రీపతయే",
+     "kannada": "ಶ್ರೀಪತಯೇ",
+     "gujarati": "શ્રીપતયે"
+    },
+    {
+     "iast": "vākpataye",
+     "simple": "vaakpataye",
+     "devanagari": "वाक्पतये",
+     "telugu": "వాక్పతయే",
+     "kannada": "ವಾಕ್ಪತಯೇ",
+     "gujarati": "વાક્પતયે"
+    },
+    {
+     "iast": "śṛṅgāriṇe",
+     "simple": "shringaarine",
+     "devanagari": "शृंगारिणे",
+     "telugu": "శృంగారిణే",
+     "kannada": "ಶೃಂಗಾರಿಣೇ",
+     "gujarati": "શૃંગારિણે"
+    },
+    {
+     "iast": "aśrita vatsalāya",
+     "simple": "ashrita vatsalaaya",
+     "devanagari": "अश्रित वत्सलाय",
+     "telugu": "అశ్రిత వత్సలాయ",
+     "kannada": "ಅಶ್ರಿತ ವತ್ಸಲಾಯ",
+     "gujarati": "અશ્રિત વત્સલાય"
+    },
+    {
+     "iast": "śivapriyāya",
+     "simple": "shivapriyaaya",
+     "devanagari": "शिवप्रियाय",
+     "telugu": "శివప్రియాయ",
+     "kannada": "ಶಿವಪ್ರಿಯಾಯ",
+     "gujarati": "શિવપ્રિયાય"
+    },
+    {
+     "iast": "śīghrakāriṇe",
+     "simple": "sheeghrakaarine",
+     "devanagari": "शीघ्रकारिणे",
+     "telugu": "శీఘ్రకారిణే",
+     "kannada": "ಶೀಘ್ರಕಾರಿಣೇ",
+     "gujarati": "શીઘ્રકારિણે"
+    },
+    {
+     "iast": "śāśvatāya",
+     "simple": "shaashvataaya",
+     "devanagari": "शाश्वताय",
+     "telugu": "శాశ్వతాయ",
+     "kannada": "ಶಾಶ್ವತಾಯ",
+     "gujarati": "શાશ્વતાય"
+    },
+    {
+     "iast": "balāya",
+     "simple": "balaaya",
+     "devanagari": "बलाय",
+     "telugu": "బలాయ",
+     "kannada": "ಬಲಾಯ",
+     "gujarati": "બલાય"
+    },
+    {
+     "iast": "balotthitāya",
+     "simple": "balotthitaaya",
+     "devanagari": "बलोत्थिताय",
+     "telugu": "బలోత్థితాయ",
+     "kannada": "ಬಲೋತ್ಥಿತಾಯ",
+     "gujarati": "બલોત્થિતાય"
+    },
+    {
+     "iast": "bhavātmajāya",
+     "simple": "bhavaatmajaaya",
+     "devanagari": "भवात्मजाय",
+     "telugu": "భవాత్మజాయ",
+     "kannada": "ಭವಾತ್ಮಜಾಯ",
+     "gujarati": "ભવાત્મજાય"
+    },
+    {
+     "iast": "purāṇa puruṣāya",
+     "simple": "puraana purushaaya",
+     "devanagari": "पुराण पुरुषाय",
+     "telugu": "పురాణ పురుషాయ",
+     "kannada": "ಪುರಾಣ ಪುರುಷಾಯ",
+     "gujarati": "પુરાણ પુરુષાય"
+    },
+    {
+     "iast": "pūṣṇe",
+     "simple": "pooshne",
+     "devanagari": "पूष्णे",
+     "telugu": "పూష్ణే",
+     "kannada": "ಪೂಷ್ಣೇ",
+     "gujarati": "પૂષ્ણે"
+    },
+    {
+     "iast": "puṣkarotkṣipta vāriṇe",
+     "simple": "pushkarotkshipta vaarine",
+     "devanagari": "पुष्करोत्क्षिप्त वारिणे",
+     "telugu": "పుష్కరోత్క్షిప్త వారిణే",
+     "kannada": "ಪುಷ್ಕರೋತ್ಕ್ಷಿಪ್ತ ವಾರಿಣೇ",
+     "gujarati": "પુષ્કરોત્ક્ષિપ્ત વારિણે"
+    },
+    {
+     "iast": "agragaṇyāya",
+     "simple": "agraganyaaya",
+     "devanagari": "अग्रगण्याय",
+     "telugu": "అగ్రగణ్యాయ",
+     "kannada": "ಅಗ್ರಗಣ್ಯಾಯ",
+     "gujarati": "અગ્રગણ્યાય"
+    },
+    {
+     "iast": "agrapūjyāya",
+     "simple": "agrapoojyaaya",
+     "devanagari": "अग्रपूज्याय",
+     "telugu": "అగ్రపూజ్యాయ",
+     "kannada": "ಅಗ್ರಪೂಜ್ಯಾಯ",
+     "gujarati": "અગ્રપૂજ્યાય"
+    },
+    {
+     "iast": "agragāmine",
+     "simple": "agragaamine",
+     "devanagari": "अग्रगामिने",
+     "telugu": "అగ్రగామినే",
+     "kannada": "ಅಗ್ರಗಾಮಿನೇ",
+     "gujarati": "અગ્રગામિને"
+    },
+    {
+     "iast": "mantrakṛte",
+     "simple": "mantrakrite",
+     "devanagari": "मंत्रकृते",
+     "telugu": "మంత్రకృతే",
+     "kannada": "ಮಂತ್ರಕೃತೇ",
+     "gujarati": "મંત્રકૃતે"
+    },
+    {
+     "iast": "cāmīkara prabhāya",
+     "simple": "chaameekara prabhaaya",
+     "devanagari": "चामीकर प्रभाय",
+     "telugu": "చామీకర ప్రభాయ",
+     "kannada": "ಚಾಮೀಕರ ಪ್ರಭಾಯ",
+     "gujarati": "ચામીકર પ્રભાય"
+    },
+    {
+     "iast": "sarvāya",
+     "simple": "sarvaaya",
+     "devanagari": "सर्वाय",
+     "telugu": "సర్వాయ",
+     "kannada": "ಸರ್ವಾಯ",
+     "gujarati": "સર્વાય"
+    },
+    {
+     "iast": "sarvopāsyāya",
+     "simple": "sarvopaasyaaya",
+     "devanagari": "सर्वोपास्याय",
+     "telugu": "సర్వోపాస్యాయ",
+     "kannada": "ಸರ್ವೋಪಾಸ್ಯಾಯ",
+     "gujarati": "સર્વોપાસ્યાય"
+    },
+    {
+     "iast": "sarva kartre",
+     "simple": "sarva kartre",
+     "devanagari": "सर्व कर्त्रे",
+     "telugu": "సర్వ కర్త్రే",
+     "kannada": "ಸರ್ವ ಕರ್ತ್ರೇ",
+     "gujarati": "સર્વ કર્ત્રે"
+    },
+    {
+     "iast": "sarvanetre",
+     "simple": "sarvanetre",
+     "devanagari": "सर्वनेत्रे",
+     "telugu": "సర్వనేత్రే",
+     "kannada": "ಸರ್ವನೇತ್ರೇ",
+     "gujarati": "સર્વનેત્રે"
+    },
+    {
+     "iast": "sarvasiddhi pradāya",
+     "simple": "sarvasiddhi pradaaya",
+     "devanagari": "सर्वसिद्धि प्रदाय",
+     "telugu": "సర్వసిద్ధి ప్రదాయ",
+     "kannada": "ಸರ್ವಸಿದ್ಧಿ ಪ್ರದಾಯ",
+     "gujarati": "સર્વસિદ્ધિ પ્રદાય"
+    },
+    {
+     "iast": "sarva siddhaye",
+     "simple": "sarva siddhaye",
+     "devanagari": "सर्व सिद्धये",
+     "telugu": "సర్వ సిద్ధయే",
+     "kannada": "ಸರ್ವ ಸಿದ್ಧಯೇ",
+     "gujarati": "સર્વ સિદ્ધયે"
+    },
+    {
+     "iast": "pañcahastāya",
+     "simple": "panchahastaaya",
+     "devanagari": "पंचहस्ताय",
+     "telugu": "పంచహస్తాయ",
+     "kannada": "ಪಂಚಹಸ್ತಾಯ",
+     "gujarati": "પંચહસ્તાય"
+    },
+    {
+     "iast": "pārvatīnandanāya",
+     "simple": "paarvateenandanaaya",
+     "devanagari": "पार्वतीनंदनाय",
+     "telugu": "పార్వతీనందనాయ",
+     "kannada": "ಪಾರ್ವತೀನಂದನಾಯ",
+     "gujarati": "પાર્વતીનંદનાય"
+    },
+    {
+     "iast": "prabhave",
+     "simple": "prabhave",
+     "devanagari": "प्रभवे",
+     "telugu": "ప్రభవే",
+     "kannada": "ಪ್ರಭವೇ",
+     "gujarati": "પ્રભવે"
+    },
+    {
+     "iast": "kumāra gurave",
+     "simple": "kumaara gurave",
+     "devanagari": "कुमार गुरवे",
+     "telugu": "కుమార గురవే",
+     "kannada": "ಕುಮಾರ ಗುರವೇ",
+     "gujarati": "કુમાર ગુરવે"
+    },
+    {
+     "iast": "akṣobhyāya",
+     "simple": "akshobhyaaya",
+     "devanagari": "अक्षोभ्याय",
+     "telugu": "అక్షోభ్యాయ",
+     "kannada": "ಅಕ್ಷೋಭ್ಯಾಯ",
+     "gujarati": "અક્ષોભ્યાય"
+    },
+    {
+     "iast": "kuñjarāsura bhañjanāya",
+     "simple": "kunjaraasura bhanjanaaya",
+     "devanagari": "कुंजरासुर भंजनाय",
+     "telugu": "కుంజరాసుర భంజనాయ",
+     "kannada": "ಕುಂಜರಾಸುರ ಭಂಜನಾಯ",
+     "gujarati": "કુંજરાસુર ભંજનાય"
+    },
+    {
+     "iast": "pramodāya",
+     "simple": "pramodaaya",
+     "devanagari": "प्रमोदाय",
+     "telugu": "ప్రమోదాయ",
+     "kannada": "ಪ್ರಮೋದಾಯ",
+     "gujarati": "પ્રમોદાય"
+    },
+    {
+     "iast": "modakapriyāya",
+     "simple": "modakapriyaaya",
+     "devanagari": "मोदकप्रियाय",
+     "telugu": "మోదకప్రియాయ",
+     "kannada": "ಮೋದಕಪ್ರಿಯಾಯ",
+     "gujarati": "મોદકપ્રિયાય"
+    },
+    {
+     "iast": "kāntimate",
+     "simple": "kaantimate",
+     "devanagari": "कांतिमते",
+     "telugu": "కాంతిమతే",
+     "kannada": "ಕಾಂತಿಮತೇ",
+     "gujarati": "કાંતિમતે"
+    },
+    {
+     "iast": "dhṛtimate",
+     "simple": "dhritimate",
+     "devanagari": "धृतिमते",
+     "telugu": "ధృతిమతే",
+     "kannada": "ಧೃತಿಮತೇ",
+     "gujarati": "ધૃતિમતે"
+    },
+    {
+     "iast": "kāmine",
+     "simple": "kaamine",
+     "devanagari": "कामिने",
+     "telugu": "కామినే",
+     "kannada": "ಕಾಮಿನೇ",
+     "gujarati": "કામિને"
+    },
+    {
+     "iast": "kapitthavana priyāya",
+     "simple": "kapitthavana priyaaya",
+     "devanagari": "कपित्थवन प्रियाय",
+     "telugu": "కపిత్థవన ప్రియాయ",
+     "kannada": "ಕಪಿತ್ಥವನ ಪ್ರಿಯಾಯ",
+     "gujarati": "કપિત્થવન પ્રિયાય"
+    },
+    {
+     "iast": "brahmacāriṇe",
+     "simple": "brahmachaarine",
+     "devanagari": "ब्रह्मचारिणे",
+     "telugu": "బ్రహ్మచారిణే",
+     "kannada": "ಬ್ರಹ್ಮಚಾರಿಣೇ",
+     "gujarati": "બ્રહ્મચારિણે"
+    },
+    {
+     "iast": "brahmarūpiṇe",
+     "simple": "brahmaroopine",
+     "devanagari": "ब्रह्मरूपिणे",
+     "telugu": "బ్రహ్మరూపిణే",
+     "kannada": "ಬ್ರಹ್ಮರೂಪಿಣೇ",
+     "gujarati": "બ્રહ્મરૂપિણે"
+    },
+    {
+     "iast": "brahmavidyādi dānabhuve",
+     "simple": "brahmavidyaadi daanabhuve",
+     "devanagari": "ब्रह्मविद्यादि दानभुवे",
+     "telugu": "బ్రహ్మవిద్యాది దానభువే",
+     "kannada": "ಬ್ರಹ್ಮವಿದ್ಯಾದಿ ದಾನಭುವೇ",
+     "gujarati": "બ્રહ્મવિદ્યાદિ દાનભુવે"
+    },
+    {
+     "iast": "jiṣṇave",
+     "simple": "jishnave",
+     "devanagari": "जिष्णवे",
+     "telugu": "జిష్ణవే",
+     "kannada": "ಜಿಷ್ಣವೇ",
+     "gujarati": "જિષ્ણવે"
+    },
+    {
+     "iast": "viṣṇupriyāya",
+     "simple": "vishnupriyaaya",
+     "devanagari": "विष्णुप्रियाय",
+     "telugu": "విష్ణుప్రియాయ",
+     "kannada": "ವಿಷ್ಣುಪ್ರಿಯಾಯ",
+     "gujarati": "વિષ્ણુપ્રિયાય"
+    },
+    {
+     "iast": "bhakta jīvitāya",
+     "simple": "bhakta jeevitaaya",
+     "devanagari": "भक्त जीविताय",
+     "telugu": "భక్త జీవితాయ",
+     "kannada": "ಭಕ್ತ ಜೀವಿತಾಯ",
+     "gujarati": "ભક્ત જીવિતાય"
+    },
+    {
+     "iast": "jita manmathāya",
+     "simple": "jita manmathaaya",
+     "devanagari": "जित मन्मथाय",
+     "telugu": "జిత మన్మథాయ",
+     "kannada": "ಜಿತ ಮನ್ಮಥಾಯ",
+     "gujarati": "જિત મન્મથાય"
+    },
+    {
+     "iast": "aiśvarya kāraṇāya",
+     "simple": "aishvarya kaaranaaya",
+     "devanagari": "ऐश्वर्य कारणाय",
+     "telugu": "ఐశ్వర్య కారణాయ",
+     "kannada": "ಐಶ್ವರ್ಯ ಕಾರಣಾಯ",
+     "gujarati": "ઐશ્વર્ય કારણાય"
+    },
+    {
+     "iast": "jyāyase",
+     "simple": "jyaayase",
+     "devanagari": "ज्यायसे",
+     "telugu": "జ్యాయసే",
+     "kannada": "ಜ್ಯಾಯಸೇ",
+     "gujarati": "જ્યાયસે"
+    },
+    {
+     "iast": "yakṣakinnara sevitāya",
+     "simple": "yakshakinnara sevitaaya",
+     "devanagari": "यक्षकिन्नर सेविताय",
+     "telugu": "యక్షకిన్నర సేవితాయ",
+     "kannada": "ಯಕ್ಷಕಿನ್ನರ ಸೇವಿತಾಯ",
+     "gujarati": "યક્ષકિન્નર સેવિતાય"
+    },
+    {
+     "iast": "gaṅgā sutāya",
+     "simple": "gangaa sutaaya",
+     "devanagari": "गंगा सुताय",
+     "telugu": "గంగా సుతాయ",
+     "kannada": "ಗಂಗಾ ಸುತಾಯ",
+     "gujarati": "ગંગા સુતાય"
+    },
+    {
+     "iast": "gaṇādhīśāya",
+     "simple": "ganaadheeshaaya",
+     "devanagari": "गणाधीशाय",
+     "telugu": "గణాధీశాయ",
+     "kannada": "ಗಣಾಧೀಶಾಯ",
+     "gujarati": "ગણાધીશાય"
+    },
+    {
+     "iast": "gambhīra ninadāya",
+     "simple": "gambheera ninadaaya",
+     "devanagari": "गंभीर निनदाय",
+     "telugu": "గంభీర నినదాయ",
+     "kannada": "ಗಂಭೀರ ನಿನದಾಯ",
+     "gujarati": "ગંભીર નિનદાય"
+    },
+    {
+     "iast": "vaṭave",
+     "simple": "vatave",
+     "devanagari": "वटवे",
+     "telugu": "వటవే",
+     "kannada": "ವಟವೇ",
+     "gujarati": "વટવે"
+    },
+    {
+     "iast": "abhīṣṭa varadāyine",
+     "simple": "abheeshta varadaayine",
+     "devanagari": "अभीष्ट वरदायिने",
+     "telugu": "అభీష్ట వరదాయినే",
+     "kannada": "ಅಭೀಷ್ಟ ವರದಾಯಿನೇ",
+     "gujarati": "અભીષ્ટ વરદાયિને"
+    },
+    {
+     "iast": "jyotiṣe",
+     "simple": "jyotishe",
+     "devanagari": "ज्योतिषे",
+     "telugu": "జ్యోతిషే",
+     "kannada": "ಜ್ಯೋತಿಷೇ",
+     "gujarati": "જ્યોતિષે"
+    },
+    {
+     "iast": "bhakta nidhaye",
+     "simple": "bhakta nidhaye",
+     "devanagari": "भक्त निधये",
+     "telugu": "భక్త నిధయే",
+     "kannada": "ಭಕ್ತ ನಿಧಯೇ",
+     "gujarati": "ભક્ત નિધયે"
+    },
+    {
+     "iast": "bhāva gamyāya",
+     "simple": "bhaava gamyaaya",
+     "devanagari": "भाव गम्याय",
+     "telugu": "భావ గమ్యాయ",
+     "kannada": "ಭಾವ ಗಮ್ಯಾಯ",
+     "gujarati": "ભાવ ગમ્યાય"
+    },
+    {
+     "iast": "maṅgaḷa pradāya",
+     "simple": "mangala pradaaya",
+     "devanagari": "मंगऌअ प्रदाय",
+     "telugu": "మంగఌఅ ప్రదాయ",
+     "kannada": "ಮಂಗಌಅ ಪ್ರದಾಯ",
+     "gujarati": "મંગઌઅ પ્રદાય"
+    },
+    {
+     "iast": "avyaktāya",
+     "simple": "avyaktaaya",
+     "devanagari": "अव्यक्ताय",
+     "telugu": "అవ్యక్తాయ",
+     "kannada": "ಅವ್ಯಕ್ತಾಯ",
+     "gujarati": "અવ્યક્તાય"
+    },
+    {
+     "iast": "aprākṛta parākramāya",
+     "simple": "apraakrita paraakramaaya",
+     "devanagari": "अप्राकृत पराक्रमाय",
+     "telugu": "అప్రాకృత పరాక్రమాయ",
+     "kannada": "ಅಪ್ರಾಕೃತ ಪರಾಕ್ರಮಾಯ",
+     "gujarati": "અપ્રાકૃત પરાક્રમાય"
+    },
+    {
+     "iast": "satya dharmiṇe",
+     "simple": "satya dharmine",
+     "devanagari": "सत्य धर्मिणे",
+     "telugu": "సత్య ధర్మిణే",
+     "kannada": "ಸತ್ಯ ಧರ್ಮಿಣೇ",
+     "gujarati": "સત્ય ધર્મિણે"
+    },
+    {
+     "iast": "sakhaye",
+     "simple": "sakhaye",
+     "devanagari": "सखये",
+     "telugu": "సఖయే",
+     "kannada": "ಸಖಯೇ",
+     "gujarati": "સખયે"
+    },
+    {
+     "iast": "sarasāmbu nidhaye",
+     "simple": "sarasaambu nidhaye",
+     "devanagari": "सरसांबु निधये",
+     "telugu": "సరసాంబు నిధయే",
+     "kannada": "ಸರಸಾಂಬು ನಿಧಯೇ",
+     "gujarati": "સરસાંબુ નિધયે"
+    },
+    {
+     "iast": "maheśāya",
+     "simple": "maheshaaya",
+     "devanagari": "महेशाय",
+     "telugu": "మహేశాయ",
+     "kannada": "ಮಹೇಶಾಯ",
+     "gujarati": "મહેશાય"
+    },
+    {
+     "iast": "divyāṅgāya",
+     "simple": "divyaangaaya",
+     "devanagari": "दिव्यांगाय",
+     "telugu": "దివ్యాంగాయ",
+     "kannada": "ದಿವ್ಯಾಂಗಾಯ",
+     "gujarati": "દિવ્યાંગાય"
+    },
+    {
+     "iast": "maṇikiṅkiṇī mekhalāya",
+     "simple": "manikinkinee mekhalaaya",
+     "devanagari": "मणिकिंकिणी मेखलाय",
+     "telugu": "మణికింకిణీ మేఖలాయ",
+     "kannada": "ಮಣಿಕಿಂಕಿಣೀ ಮೇಖಲಾಯ",
+     "gujarati": "મણિકિંકિણી મેખલાય"
+    },
+    {
+     "iast": "samasta devatā mūrtaye",
+     "simple": "samasta devataa moortaye",
+     "devanagari": "समस्त देवता मूर्तये",
+     "telugu": "సమస్త దేవతా మూర్తయే",
+     "kannada": "ಸಮಸ್ತ ದೇವತಾ ಮೂರ್ತಯೇ",
+     "gujarati": "સમસ્ત દેવતા મૂર્તયે"
+    },
+    {
+     "iast": "sahiṣṇave",
+     "simple": "sahishnave",
+     "devanagari": "सहिष्णवे",
+     "telugu": "సహిష్ణవే",
+     "kannada": "ಸಹಿಷ್ಣವೇ",
+     "gujarati": "સહિષ્ણવે"
+    },
+    {
+     "iast": "satatotthitāya",
+     "simple": "satatotthitaaya",
+     "devanagari": "सततोत्थिताय",
+     "telugu": "సతతోత్థితాయ",
+     "kannada": "ಸತತೋತ್ಥಿತಾಯ",
+     "gujarati": "સતતોત્થિતાય"
+    },
+    {
+     "iast": "vighāta kāriṇe",
+     "simple": "vighaata kaarine",
+     "devanagari": "विघात कारिणे",
+     "telugu": "విఘాత కారిణే",
+     "kannada": "ವಿಘಾತ ಕಾರಿಣೇ",
+     "gujarati": "વિઘાત કારિણે"
+    },
+    {
+     "iast": "viśvagdṛśe",
+     "simple": "vishvagdrishe",
+     "devanagari": "विश्वग्दृशे",
+     "telugu": "విశ్వగ్దృశే",
+     "kannada": "ವಿಶ್ವಗ್ದೃಶೇ",
+     "gujarati": "વિશ્વગ્દૃશે"
+    },
+    {
+     "iast": "viśvarakṣākṛte",
+     "simple": "vishvarakshaakrite",
+     "devanagari": "विश्वरक्षाकृते",
+     "telugu": "విశ్వరక్షాకృతే",
+     "kannada": "ವಿಶ್ವರಕ್ಷಾಕೃತೇ",
+     "gujarati": "વિશ્વરક્ષાકૃતે"
+    },
+    {
+     "iast": "kaḷyāṇa gurave",
+     "simple": "kalyaana gurave",
+     "devanagari": "कऌयाण गुरवे",
+     "telugu": "కఌయాణ గురవే",
+     "kannada": "ಕಌಯಾಣ ಗುರವೇ",
+     "gujarati": "કઌયાણ ગુરવે"
+    },
+    {
+     "iast": "unmatta veṣāya",
+     "simple": "unmatta veshaaya",
+     "devanagari": "उन्मत्त वेषाय",
+     "telugu": "ఉన్మత్త వేషాయ",
+     "kannada": "ಉನ್ಮತ್ತ ವೇಷಾಯ",
+     "gujarati": "ઉન્મત્ત વેષાય"
+    },
+    {
+     "iast": "aparājite",
+     "simple": "aparaajite",
+     "devanagari": "अपराजिते",
+     "telugu": "అపరాజితే",
+     "kannada": "ಅಪರಾಜಿತೇ",
+     "gujarati": "અપરાજિતે"
+    },
+    {
+     "iast": "samasta jagadādhārāya",
+     "simple": "samasta jagadaadhaaraaya",
+     "devanagari": "समस्त जगदाधाराय",
+     "telugu": "సమస్త జగదాధారాయ",
+     "kannada": "ಸಮಸ್ತ ಜಗದಾಧಾರಾಯ",
+     "gujarati": "સમસ્ત જગદાધારાય"
+    },
+    {
+     "iast": "sarvaiśvarya pradāya",
+     "simple": "sarvaishvarya pradaaya",
+     "devanagari": "सर्वैश्वर्य प्रदाय",
+     "telugu": "సర్వైశ్వర్య ప్రదాయ",
+     "kannada": "ಸರ್ವೈಶ್ವರ್ಯ ಪ್ರದಾಯ",
+     "gujarati": "સર્વૈશ્વર્ય પ્રદાય"
+    },
+    {
+     "iast": "ākrānta cidacitprabhave",
+     "simple": "aakraanta chidachitprabhave",
+     "devanagari": "आक्रांत चिदचित्प्रभवे",
+     "telugu": "ఆక్రాంత చిదచిత్ప్రభవే",
+     "kannada": "ಆಕ್ರಾಂತ ಚಿದಚಿತ್ಪ್ರಭವೇ",
+     "gujarati": "આક્રાંત ચિદચિત્પ્રભવે"
+    },
+    {
+     "iast": "śrī vighneśvarāya",
+     "simple": "shree vighneshvaraaya",
+     "devanagari": "श्री विघ्नेश्वराय",
+     "telugu": "శ్రీ విఘ్నేశ్వరాయ",
+     "kannada": "ಶ್ರೀ ವಿಘ್ನೇಶ್ವರಾಯ",
+     "gujarati": "શ્રી વિઘ્નેશ્વરાય"
+    }
+   ]
+  },
+  {
+   "id": "shiva",
+   "title": "Shiva",
+   "nativeTitle": "शिव",
+   "subtitle": "Ashtottara Shatanamavali · 108 names",
+   "blurb": "The auspicious one: stillness, compassion and renewal.",
+   "color": "indigo",
+   "names": [
+    {
+     "iast": "śivāya",
+     "simple": "shivaaya",
+     "devanagari": "शिवाय",
+     "telugu": "శివాయ",
+     "kannada": "ಶಿವಾಯ",
+     "gujarati": "શિવાય"
+    },
+    {
+     "iast": "maheśvarāya",
+     "simple": "maheshvaraaya",
+     "devanagari": "महेश्वराय",
+     "telugu": "మహేశ్వరాయ",
+     "kannada": "ಮಹೇಶ್ವರಾಯ",
+     "gujarati": "મહેશ્વરાય"
+    },
+    {
+     "iast": "śambhave",
+     "simple": "shambhave",
+     "devanagari": "शंभवे",
+     "telugu": "శంభవే",
+     "kannada": "ಶಂಭವೇ",
+     "gujarati": "શંભવે"
+    },
+    {
+     "iast": "pinākine",
+     "simple": "pinaakine",
+     "devanagari": "पिनाकिने",
+     "telugu": "పినాకినే",
+     "kannada": "ಪಿನಾಕಿನೇ",
+     "gujarati": "પિનાકિને"
+    },
+    {
+     "iast": "śaśiśekharāya",
+     "simple": "shashishekharaaya",
+     "devanagari": "शशिशेखराय",
+     "telugu": "శశిశేఖరాయ",
+     "kannada": "ಶಶಿಶೇಖರಾಯ",
+     "gujarati": "શશિશેખરાય"
+    },
+    {
+     "iast": "vāmadevāya",
+     "simple": "vaamadevaaya",
+     "devanagari": "वामदेवाय",
+     "telugu": "వామదేవాయ",
+     "kannada": "ವಾಮದೇವಾಯ",
+     "gujarati": "વામદેવાય"
+    },
+    {
+     "iast": "virūpākṣāya",
+     "simple": "viroopaakshaaya",
+     "devanagari": "विरूपाक्षाय",
+     "telugu": "విరూపాక్షాయ",
+     "kannada": "ವಿರೂಪಾಕ್ಷಾಯ",
+     "gujarati": "વિરૂપાક્ષાય"
+    },
+    {
+     "iast": "kapardine",
+     "simple": "kapardine",
+     "devanagari": "कपर्दिने",
+     "telugu": "కపర్దినే",
+     "kannada": "ಕಪರ್ದಿನೇ",
+     "gujarati": "કપર્દિને"
+    },
+    {
+     "iast": "nīlalohitāya",
+     "simple": "neelalohitaaya",
+     "devanagari": "नीललोहिताय",
+     "telugu": "నీలలోహితాయ",
+     "kannada": "ನೀಲಲೋಹಿತಾಯ",
+     "gujarati": "નીલલોહિતાય"
+    },
+    {
+     "iast": "śaṅkarāya",
+     "simple": "shankaraaya",
+     "devanagari": "शंकराय",
+     "telugu": "శంకరాయ",
+     "kannada": "ಶಂಕರಾಯ",
+     "gujarati": "શંકરાય"
+    },
+    {
+     "iast": "śūlapāṇaye",
+     "simple": "shoolapaanaye",
+     "devanagari": "शूलपाणये",
+     "telugu": "శూలపాణయే",
+     "kannada": "ಶೂಲಪಾಣಯೇ",
+     "gujarati": "શૂલપાણયે"
+    },
+    {
+     "iast": "khaṭvāṅgine",
+     "simple": "khatvaangine",
+     "devanagari": "खट्वांगिने",
+     "telugu": "ఖట్వాంగినే",
+     "kannada": "ಖಟ್ವಾಂಗಿನೇ",
+     "gujarati": "ખટ્વાંગિને"
+    },
+    {
+     "iast": "viṣṇuvallabhāya",
+     "simple": "vishnuvallabhaaya",
+     "devanagari": "विष्णुवल्लभाय",
+     "telugu": "విష్ణువల్లభాయ",
+     "kannada": "ವಿಷ್ಣುವಲ್ಲಭಾಯ",
+     "gujarati": "વિષ્ણુવલ્લભાય"
+    },
+    {
+     "iast": "śipiviṣṭāya",
+     "simple": "shipivishtaaya",
+     "devanagari": "शिपिविष्टाय",
+     "telugu": "శిపివిష్టాయ",
+     "kannada": "ಶಿಪಿವಿಷ್ಟಾಯ",
+     "gujarati": "શિપિવિષ્ટાય"
+    },
+    {
+     "iast": "ambikānāthāya",
+     "simple": "ambikaanaathaaya",
+     "devanagari": "अंबिकानाथाय",
+     "telugu": "అంబికానాథాయ",
+     "kannada": "ಅಂಬಿಕಾನಾಥಾಯ",
+     "gujarati": "અંબિકાનાથાય"
+    },
+    {
+     "iast": "śrīkaṇṭhāya",
+     "simple": "shreekanthaaya",
+     "devanagari": "श्रीकंठाय",
+     "telugu": "శ్రీకంఠాయ",
+     "kannada": "ಶ್ರೀಕಂಠಾಯ",
+     "gujarati": "શ્રીકંઠાય"
+    },
+    {
+     "iast": "bhaktavatsalāya",
+     "simple": "bhaktavatsalaaya",
+     "devanagari": "भक्तवत्सलाय",
+     "telugu": "భక్తవత్సలాయ",
+     "kannada": "ಭಕ್ತವತ್ಸಲಾಯ",
+     "gujarati": "ભક્તવત્સલાય"
+    },
+    {
+     "iast": "bhavāya",
+     "simple": "bhavaaya",
+     "devanagari": "भवाय",
+     "telugu": "భవాయ",
+     "kannada": "ಭವಾಯ",
+     "gujarati": "ભવાય"
+    },
+    {
+     "iast": "śarvāya",
+     "simple": "sharvaaya",
+     "devanagari": "शर्वाय",
+     "telugu": "శర్వాయ",
+     "kannada": "ಶರ್ವಾಯ",
+     "gujarati": "શર્વાય"
+    },
+    {
+     "iast": "trilokeśāya",
+     "simple": "trilokeshaaya",
+     "devanagari": "त्रिलोकेशाय",
+     "telugu": "త్రిలోకేశాయ",
+     "kannada": "ತ್ರಿಲೋಕೇಶಾಯ",
+     "gujarati": "ત્રિલોકેશાય"
+    },
+    {
+     "iast": "śitikaṇṭhāya",
+     "simple": "shitikanthaaya",
+     "devanagari": "शितिकंठाय",
+     "telugu": "శితికంఠాయ",
+     "kannada": "ಶಿತಿಕಂಠಾಯ",
+     "gujarati": "શિતિકંઠાય"
+    },
+    {
+     "iast": "śivāpriyāya",
+     "simple": "shivaapriyaaya",
+     "devanagari": "शिवाप्रियाय",
+     "telugu": "శివాప్రియాయ",
+     "kannada": "ಶಿವಾಪ್ರಿಯಾಯ",
+     "gujarati": "શિવાપ્રિયાય"
+    },
+    {
+     "iast": "ugrāya",
+     "simple": "ugraaya",
+     "devanagari": "उग्राय",
+     "telugu": "ఉగ్రాయ",
+     "kannada": "ಉಗ್ರಾಯ",
+     "gujarati": "ઉગ્રાય"
+    },
+    {
+     "iast": "kapāline",
+     "simple": "kapaaline",
+     "devanagari": "कपालिने",
+     "telugu": "కపాలినే",
+     "kannada": "ಕಪಾಲಿನೇ",
+     "gujarati": "કપાલિને"
+    },
+    {
+     "iast": "kāmāraye",
+     "simple": "kaamaaraye",
+     "devanagari": "कामारये",
+     "telugu": "కామారయే",
+     "kannada": "ಕಾಮಾರಯೇ",
+     "gujarati": "કામારયે"
+    },
+    {
+     "iast": "andhakāsura sūdanāya",
+     "simple": "andhakaasura soodanaaya",
+     "devanagari": "अंधकासुर सूदनाय",
+     "telugu": "అంధకాసుర సూదనాయ",
+     "kannada": "ಅಂಧಕಾಸುರ ಸೂದನಾಯ",
+     "gujarati": "અંધકાસુર સૂદનાય"
+    },
+    {
+     "iast": "gaṅgādharāya",
+     "simple": "gangaadharaaya",
+     "devanagari": "गंगाधराय",
+     "telugu": "గంగాధరాయ",
+     "kannada": "ಗಂಗಾಧರಾಯ",
+     "gujarati": "ગંગાધરાય"
+    },
+    {
+     "iast": "lalāṭākṣāya",
+     "simple": "lalaataakshaaya",
+     "devanagari": "ललाटाक्षाय",
+     "telugu": "లలాటాక్షాయ",
+     "kannada": "ಲಲಾಟಾಕ್ಷಾಯ",
+     "gujarati": "લલાટાક્ષાય"
+    },
+    {
+     "iast": "kālakālāya",
+     "simple": "kaalakaalaaya",
+     "devanagari": "कालकालाय",
+     "telugu": "కాలకాలాయ",
+     "kannada": "ಕಾಲಕಾಲಾಯ",
+     "gujarati": "કાલકાલાય"
+    },
+    {
+     "iast": "kṛpānidhaye",
+     "simple": "kripaanidhaye",
+     "devanagari": "कृपानिधये",
+     "telugu": "కృపానిధయే",
+     "kannada": "ಕೃಪಾನಿಧಯೇ",
+     "gujarati": "કૃપાનિધયે"
+    },
+    {
+     "iast": "bhīmāya",
+     "simple": "bheemaaya",
+     "devanagari": "भीमाय",
+     "telugu": "భీమాయ",
+     "kannada": "ಭೀಮಾಯ",
+     "gujarati": "ભીમાય"
+    },
+    {
+     "iast": "paraśuhastāya",
+     "simple": "parashuhastaaya",
+     "devanagari": "परशुहस्ताय",
+     "telugu": "పరశుహస్తాయ",
+     "kannada": "ಪರಶುಹಸ್ತಾಯ",
+     "gujarati": "પરશુહસ્તાય"
+    },
+    {
+     "iast": "mṛgapāṇaye",
+     "simple": "mrigapaanaye",
+     "devanagari": "मृगपाणये",
+     "telugu": "మృగపాణయే",
+     "kannada": "ಮೃಗಪಾಣಯೇ",
+     "gujarati": "મૃગપાણયે"
+    },
+    {
+     "iast": "jaṭādharāya",
+     "simple": "jataadharaaya",
+     "devanagari": "जटाधराय",
+     "telugu": "జటాధరాయ",
+     "kannada": "ಜಟಾಧರಾಯ",
+     "gujarati": "જટાધરાય"
+    },
+    {
+     "iast": "kailāsavāsine",
+     "simple": "kailaasavaasine",
+     "devanagari": "कैलासवासिने",
+     "telugu": "కైలాసవాసినే",
+     "kannada": "ಕೈಲಾಸವಾಸಿನೇ",
+     "gujarati": "કૈલાસવાસિને"
+    },
+    {
+     "iast": "kavacine",
+     "simple": "kavachine",
+     "devanagari": "कवचिने",
+     "telugu": "కవచినే",
+     "kannada": "ಕವಚಿನೇ",
+     "gujarati": "કવચિને"
+    },
+    {
+     "iast": "kaṭhorāya",
+     "simple": "kathoraaya",
+     "devanagari": "कठोराय",
+     "telugu": "కఠోరాయ",
+     "kannada": "ಕಠೋರಾಯ",
+     "gujarati": "કઠોરાય"
+    },
+    {
+     "iast": "tripurāntakāya",
+     "simple": "tripuraantakaaya",
+     "devanagari": "त्रिपुरांतकाय",
+     "telugu": "త్రిపురాంతకాయ",
+     "kannada": "ತ್ರಿಪುರಾಂತಕಾಯ",
+     "gujarati": "ત્રિપુરાંતકાય"
+    },
+    {
+     "iast": "vṛṣāṅkāya",
+     "simple": "vrishaankaaya",
+     "devanagari": "वृषांकाय",
+     "telugu": "వృషాంకాయ",
+     "kannada": "ವೃಷಾಂಕಾಯ",
+     "gujarati": "વૃષાંકાય"
+    },
+    {
+     "iast": "vṛṣabhārūḍhāya",
+     "simple": "vrishabhaaroodhaaya",
+     "devanagari": "वृषभारूढाय",
+     "telugu": "వృషభారూఢాయ",
+     "kannada": "ವೃಷಭಾರೂಢಾಯ",
+     "gujarati": "વૃષભારૂઢાય"
+    },
+    {
+     "iast": "bhasmoddhūḷita vigrahāya",
+     "simple": "bhasmoddhoolita vigrahaaya",
+     "devanagari": "भस्मोद्धूऌइत विग्रहाय",
+     "telugu": "భస్మోద్ధూఌఇత విగ్రహాయ",
+     "kannada": "ಭಸ್ಮೋದ್ಧೂಌಇತ ವಿಗ್ರಹಾಯ",
+     "gujarati": "ભસ્મોદ્ધૂઌઇત વિગ્રહાય"
+    },
+    {
+     "iast": "sāmapriyāya",
+     "simple": "saamapriyaaya",
+     "devanagari": "सामप्रियाय",
+     "telugu": "సామప్రియాయ",
+     "kannada": "ಸಾಮಪ್ರಿಯಾಯ",
+     "gujarati": "સામપ્રિયાય"
+    },
+    {
+     "iast": "svaramayāya",
+     "simple": "svaramayaaya",
+     "devanagari": "स्वरमयाय",
+     "telugu": "స్వరమయాయ",
+     "kannada": "ಸ್ವರಮಯಾಯ",
+     "gujarati": "સ્વરમયાય"
+    },
+    {
+     "iast": "trayīmūrtaye",
+     "simple": "trayeemoortaye",
+     "devanagari": "त्रयीमूर्तये",
+     "telugu": "త్రయీమూర్తయే",
+     "kannada": "ತ್ರಯೀಮೂರ್ತಯೇ",
+     "gujarati": "ત્રયીમૂર્તયે"
+    },
+    {
+     "iast": "anīśvarāya",
+     "simple": "aneeshvaraaya",
+     "devanagari": "अनीश्वराय",
+     "telugu": "అనీశ్వరాయ",
+     "kannada": "ಅನೀಶ್ವರಾಯ",
+     "gujarati": "અનીશ્વરાય"
+    },
+    {
+     "iast": "sarvajñāya",
+     "simple": "sarvagnyaaya",
+     "devanagari": "सर्वज्ञाय",
+     "telugu": "సర్వజ్ఞాయ",
+     "kannada": "ಸರ್ವಜ್ಞಾಯ",
+     "gujarati": "સર્વજ્ઞાય"
+    },
+    {
+     "iast": "paramātmane",
+     "simple": "paramaatmane",
+     "devanagari": "परमात्मने",
+     "telugu": "పరమాత్మనే",
+     "kannada": "ಪರಮಾತ್ಮನೇ",
+     "gujarati": "પરમાત્મને"
+    },
+    {
+     "iast": "somasūryāgni locanāya",
+     "simple": "somasooryaagni lochanaaya",
+     "devanagari": "सोमसूर्याग्नि लोचनाय",
+     "telugu": "సోమసూర్యాగ్ని లోచనాయ",
+     "kannada": "ಸೋಮಸೂರ್ಯಾಗ್ನಿ ಲೋಚನಾಯ",
+     "gujarati": "સોમસૂર્યાગ્નિ લોચનાય"
+    },
+    {
+     "iast": "haviṣe",
+     "simple": "havishe",
+     "devanagari": "हविषे",
+     "telugu": "హవిషే",
+     "kannada": "ಹವಿಷೇ",
+     "gujarati": "હવિષે"
+    },
+    {
+     "iast": "yajñamayāya",
+     "simple": "yagnyamayaaya",
+     "devanagari": "यज्ञमयाय",
+     "telugu": "యజ్ఞమయాయ",
+     "kannada": "ಯಜ್ಞಮಯಾಯ",
+     "gujarati": "યજ્ઞમયાય"
+    },
+    {
+     "iast": "somāya",
+     "simple": "somaaya",
+     "devanagari": "सोमाय",
+     "telugu": "సోమాయ",
+     "kannada": "ಸೋಮಾಯ",
+     "gujarati": "સોમાય"
+    },
+    {
+     "iast": "pañcavaktrāya",
+     "simple": "panchavaktraaya",
+     "devanagari": "पंचवक्त्राय",
+     "telugu": "పంచవక్త్రాయ",
+     "kannada": "ಪಂಚವಕ್ತ್ರಾಯ",
+     "gujarati": "પંચવક્ત્રાય"
+    },
+    {
+     "iast": "sadāśivāya",
+     "simple": "sadaashivaaya",
+     "devanagari": "सदाशिवाय",
+     "telugu": "సదాశివాయ",
+     "kannada": "ಸದಾಶಿವಾಯ",
+     "gujarati": "સદાશિવાય"
+    },
+    {
+     "iast": "viśveśvarāya",
+     "simple": "vishveshvaraaya",
+     "devanagari": "विश्वेश्वराय",
+     "telugu": "విశ్వేశ్వరాయ",
+     "kannada": "ವಿಶ್ವೇಶ್ವರಾಯ",
+     "gujarati": "વિશ્વેશ્વરાય"
+    },
+    {
+     "iast": "vīrabhadrāya",
+     "simple": "veerabhadraaya",
+     "devanagari": "वीरभद्राय",
+     "telugu": "వీరభద్రాయ",
+     "kannada": "ವೀರಭದ್ರಾಯ",
+     "gujarati": "વીરભદ્રાય"
+    },
+    {
+     "iast": "gaṇanāthāya",
+     "simple": "gananaathaaya",
+     "devanagari": "गणनाथाय",
+     "telugu": "గణనాథాయ",
+     "kannada": "ಗಣನಾಥಾಯ",
+     "gujarati": "ગણનાથાય"
+    },
+    {
+     "iast": "prajāpataye",
+     "simple": "prajaapataye",
+     "devanagari": "प्रजापतये",
+     "telugu": "ప్రజాపతయే",
+     "kannada": "ಪ್ರಜಾಪತಯೇ",
+     "gujarati": "પ્રજાપતયે"
+    },
+    {
+     "iast": "hiraṇyaretase",
+     "simple": "hiranyaretase",
+     "devanagari": "हिरण्यरेतसे",
+     "telugu": "హిరణ్యరేతసే",
+     "kannada": "ಹಿರಣ್ಯರೇತಸೇ",
+     "gujarati": "હિરણ્યરેતસે"
+    },
+    {
+     "iast": "durdharṣāya",
+     "simple": "durdharshaaya",
+     "devanagari": "दुर्धर्षाय",
+     "telugu": "దుర్ధర్షాయ",
+     "kannada": "ದುರ್ಧರ್ಷಾಯ",
+     "gujarati": "દુર્ધર્ષાય"
+    },
+    {
+     "iast": "girīśāya",
+     "simple": "gireeshaaya",
+     "devanagari": "गिरीशाय",
+     "telugu": "గిరీశాయ",
+     "kannada": "ಗಿರೀಶಾಯ",
+     "gujarati": "ગિરીશાય"
+    },
+    {
+     "iast": "giriśāya",
+     "simple": "girishaaya",
+     "devanagari": "गिरिशाय",
+     "telugu": "గిరిశాయ",
+     "kannada": "ಗಿರಿಶಾಯ",
+     "gujarati": "ગિરિશાય"
+    },
+    {
+     "iast": "anaghāya",
+     "simple": "anaghaaya",
+     "devanagari": "अनघाय",
+     "telugu": "అనఘాయ",
+     "kannada": "ಅನಘಾಯ",
+     "gujarati": "અનઘાય"
+    },
+    {
+     "iast": "bhujaṅga bhūṣaṇāya",
+     "simple": "bhujanga bhooshanaaya",
+     "devanagari": "भुजंग भूषणाय",
+     "telugu": "భుజంగ భూషణాయ",
+     "kannada": "ಭುಜಂಗ ಭೂಷಣಾಯ",
+     "gujarati": "ભુજંગ ભૂષણાય"
+    },
+    {
+     "iast": "bhargāya",
+     "simple": "bhargaaya",
+     "devanagari": "भर्गाय",
+     "telugu": "భర్గాయ",
+     "kannada": "ಭರ್ಗಾಯ",
+     "gujarati": "ભર્ગાય"
+    },
+    {
+     "iast": "giridhanvane",
+     "simple": "giridhanvane",
+     "devanagari": "गिरिधन्वने",
+     "telugu": "గిరిధన్వనే",
+     "kannada": "ಗಿರಿಧನ್ವನೇ",
+     "gujarati": "ગિરિધન્વને"
+    },
+    {
+     "iast": "giripriyāya",
+     "simple": "giripriyaaya",
+     "devanagari": "गिरिप्रियाय",
+     "telugu": "గిరిప్రియాయ",
+     "kannada": "ಗಿರಿಪ್ರಿಯಾಯ",
+     "gujarati": "ગિરિપ્રિયાય"
+    },
+    {
+     "iast": "kṛttivāsase",
+     "simple": "krittivaasase",
+     "devanagari": "कृत्तिवाससे",
+     "telugu": "కృత్తివాససే",
+     "kannada": "ಕೃತ್ತಿವಾಸಸೇ",
+     "gujarati": "કૃત્તિવાસસે"
+    },
+    {
+     "iast": "purārātaye",
+     "simple": "puraaraataye",
+     "devanagari": "पुरारातये",
+     "telugu": "పురారాతయే",
+     "kannada": "ಪುರಾರಾತಯೇ",
+     "gujarati": "પુરારાતયે"
+    },
+    {
+     "iast": "bhagavate",
+     "simple": "bhagavate",
+     "devanagari": "भगवते",
+     "telugu": "భగవతే",
+     "kannada": "ಭಗವತೇ",
+     "gujarati": "ભગવતે"
+    },
+    {
+     "iast": "pramathādhipāya",
+     "simple": "pramathaadhipaaya",
+     "devanagari": "प्रमथाधिपाय",
+     "telugu": "ప్రమథాధిపాయ",
+     "kannada": "ಪ್ರಮಥಾಧಿಪಾಯ",
+     "gujarati": "પ્રમથાધિપાય"
+    },
+    {
+     "iast": "mṛtyuñjayāya",
+     "simple": "mrityunjayaaya",
+     "devanagari": "मृत्युंजयाय",
+     "telugu": "మృత్యుంజయాయ",
+     "kannada": "ಮೃತ್ಯುಂಜಯಾಯ",
+     "gujarati": "મૃત્યુંજયાય"
+    },
+    {
+     "iast": "sūkṣmatanave",
+     "simple": "sookshmatanave",
+     "devanagari": "सूक्ष्मतनवे",
+     "telugu": "సూక్ష్మతనవే",
+     "kannada": "ಸೂಕ್ಷ್ಮತನವೇ",
+     "gujarati": "સૂક્ષ્મતનવે"
+    },
+    {
+     "iast": "jagadvyāpine",
+     "simple": "jagadvyaapine",
+     "devanagari": "जगद्व्यापिने",
+     "telugu": "జగద్వ్యాపినే",
+     "kannada": "ಜಗದ್ವ್ಯಾಪಿನೇ",
+     "gujarati": "જગદ્વ્યાપિને"
+    },
+    {
+     "iast": "jagadgurave",
+     "simple": "jagadgurave",
+     "devanagari": "जगद्गुरवे",
+     "telugu": "జగద్గురవే",
+     "kannada": "ಜಗದ್ಗುರವೇ",
+     "gujarati": "જગદ્ગુરવે"
+    },
+    {
+     "iast": "vyomakeśāya",
+     "simple": "vyomakeshaaya",
+     "devanagari": "व्योमकेशाय",
+     "telugu": "వ్యోమకేశాయ",
+     "kannada": "ವ್ಯೋಮಕೇಶಾಯ",
+     "gujarati": "વ્યોમકેશાય"
+    },
+    {
+     "iast": "mahāsena janakāya",
+     "simple": "mahaasena janakaaya",
+     "devanagari": "महासेन जनकाय",
+     "telugu": "మహాసేన జనకాయ",
+     "kannada": "ಮಹಾಸೇನ ಜನಕಾಯ",
+     "gujarati": "મહાસેન જનકાય"
+    },
+    {
+     "iast": "cāruvikramāya",
+     "simple": "chaaruvikramaaya",
+     "devanagari": "चारुविक्रमाय",
+     "telugu": "చారువిక్రమాయ",
+     "kannada": "ಚಾರುವಿಕ್ರಮಾಯ",
+     "gujarati": "ચારુવિક્રમાય"
+    },
+    {
+     "iast": "rudrāya",
+     "simple": "rudraaya",
+     "devanagari": "रुद्राय",
+     "telugu": "రుద్రాయ",
+     "kannada": "ರುದ್ರಾಯ",
+     "gujarati": "રુદ્રાય"
+    },
+    {
+     "iast": "bhūtapataye",
+     "simple": "bhootapataye",
+     "devanagari": "भूतपतये",
+     "telugu": "భూతపతయే",
+     "kannada": "ಭೂತಪತಯೇ",
+     "gujarati": "ભૂતપતયે"
+    },
+    {
+     "iast": "sthāṇave",
+     "simple": "sthaanave",
+     "devanagari": "स्थाणवे",
+     "telugu": "స్థాణవే",
+     "kannada": "ಸ್ಥಾಣವೇ",
+     "gujarati": "સ્થાણવે"
+    },
+    {
+     "iast": "ahirbudhnyāya",
+     "simple": "ahirbudhnyaaya",
+     "devanagari": "अहिर्बुध्न्याय",
+     "telugu": "అహిర్బుధ్న్యాయ",
+     "kannada": "ಅಹಿರ್ಬುಧ್ನ್ಯಾಯ",
+     "gujarati": "અહિર્બુધ્ન્યાય"
+    },
+    {
+     "iast": "digambarāya",
+     "simple": "digambaraaya",
+     "devanagari": "दिगंबराय",
+     "telugu": "దిగంబరాయ",
+     "kannada": "ದಿಗಂಬರಾಯ",
+     "gujarati": "દિગંબરાય"
+    },
+    {
+     "iast": "aṣṭamūrtaye",
+     "simple": "ashtamoortaye",
+     "devanagari": "अष्टमूर्तये",
+     "telugu": "అష్టమూర్తయే",
+     "kannada": "ಅಷ್ಟಮೂರ್ತಯೇ",
+     "gujarati": "અષ્ટમૂર્તયે"
+    },
+    {
+     "iast": "anekātmane",
+     "simple": "anekaatmane",
+     "devanagari": "अनेकात्मने",
+     "telugu": "అనేకాత్మనే",
+     "kannada": "ಅನೇಕಾತ್ಮನೇ",
+     "gujarati": "અનેકાત્મને"
+    },
+    {
+     "iast": "sāttvikāya",
+     "simple": "saattvikaaya",
+     "devanagari": "सात्त्विकाय",
+     "telugu": "సాత్త్వికాయ",
+     "kannada": "ಸಾತ್ತ್ವಿಕಾಯ",
+     "gujarati": "સાત્ત્વિકાય"
+    },
+    {
+     "iast": "śuddhavigrahāya",
+     "simple": "shuddhavigrahaaya",
+     "devanagari": "शुद्धविग्रहाय",
+     "telugu": "శుద్ధవిగ్రహాయ",
+     "kannada": "ಶುದ್ಧವಿಗ್ರಹಾಯ",
+     "gujarati": "શુદ્ધવિગ્રહાય"
+    },
+    {
+     "iast": "śāśvatāya",
+     "simple": "shaashvataaya",
+     "devanagari": "शाश्वताय",
+     "telugu": "శాశ్వతాయ",
+     "kannada": "ಶಾಶ್ವತಾಯ",
+     "gujarati": "શાશ્વતાય"
+    },
+    {
+     "iast": "khaṇḍaparaśave",
+     "simple": "khandaparashave",
+     "devanagari": "खंडपरशवे",
+     "telugu": "ఖండపరశవే",
+     "kannada": "ಖಂಡಪರಶವೇ",
+     "gujarati": "ખંડપરશવે"
+    },
+    {
+     "iast": "ajāya",
+     "simple": "ajaaya",
+     "devanagari": "अजाय",
+     "telugu": "అజాయ",
+     "kannada": "ಅಜಾಯ",
+     "gujarati": "અજાય"
+    },
+    {
+     "iast": "pāśavimocanāya",
+     "simple": "paashavimochanaaya",
+     "devanagari": "पाशविमोचनाय",
+     "telugu": "పాశవిమోచనాయ",
+     "kannada": "ಪಾಶವಿಮೋಚನಾಯ",
+     "gujarati": "પાશવિમોચનાય"
+    },
+    {
+     "iast": "mṛḍāya",
+     "simple": "mridaaya",
+     "devanagari": "मृडाय",
+     "telugu": "మృడాయ",
+     "kannada": "ಮೃಡಾಯ",
+     "gujarati": "મૃડાય"
+    },
+    {
+     "iast": "paśupataye",
+     "simple": "pashupataye",
+     "devanagari": "पशुपतये",
+     "telugu": "పశుపతయే",
+     "kannada": "ಪಶುಪತಯೇ",
+     "gujarati": "પશુપતયે"
+    },
+    {
+     "iast": "devāya",
+     "simple": "devaaya",
+     "devanagari": "देवाय",
+     "telugu": "దేవాయ",
+     "kannada": "ದೇವಾಯ",
+     "gujarati": "દેવાય"
+    },
+    {
+     "iast": "mahādevāya",
+     "simple": "mahaadevaaya",
+     "devanagari": "महादेवाय",
+     "telugu": "మహాదేవాయ",
+     "kannada": "ಮಹಾದೇವಾಯ",
+     "gujarati": "મહાદેવાય"
+    },
+    {
+     "iast": "avyayāya",
+     "simple": "avyayaaya",
+     "devanagari": "अव्ययाय",
+     "telugu": "అవ్యయాయ",
+     "kannada": "ಅವ್ಯಯಾಯ",
+     "gujarati": "અવ્યયાય"
+    },
+    {
+     "iast": "haraye",
+     "simple": "haraye",
+     "devanagari": "हरये",
+     "telugu": "హరయే",
+     "kannada": "ಹರಯೇ",
+     "gujarati": "હરયે"
+    },
+    {
+     "iast": "pūṣadantabhide",
+     "simple": "pooshadantabhide",
+     "devanagari": "पूषदंतभिदे",
+     "telugu": "పూషదంతభిదే",
+     "kannada": "ಪೂಷದಂತಭಿದೇ",
+     "gujarati": "પૂષદંતભિદે"
+    },
+    {
+     "iast": "avyagrāya",
+     "simple": "avyagraaya",
+     "devanagari": "अव्यग्राय",
+     "telugu": "అవ్యగ్రాయ",
+     "kannada": "ಅವ್ಯಗ್ರಾಯ",
+     "gujarati": "અવ્યગ્રાય"
+    },
+    {
+     "iast": "dakṣādhvaraharāya",
+     "simple": "dakshaadhvaraharaaya",
+     "devanagari": "दक्षाध्वरहराय",
+     "telugu": "దక్షాధ్వరహరాయ",
+     "kannada": "ದಕ್ಷಾಧ್ವರಹರಾಯ",
+     "gujarati": "દક્ષાધ્વરહરાય"
+    },
+    {
+     "iast": "harāya",
+     "simple": "haraaya",
+     "devanagari": "हराय",
+     "telugu": "హరాయ",
+     "kannada": "ಹರಾಯ",
+     "gujarati": "હરાય"
+    },
+    {
+     "iast": "bhaganetrabhide",
+     "simple": "bhaganetrabhide",
+     "devanagari": "भगनेत्रभिदे",
+     "telugu": "భగనేత్రభిదే",
+     "kannada": "ಭಗನೇತ್ರಭಿದೇ",
+     "gujarati": "ભગનેત્રભિદે"
+    },
+    {
+     "iast": "avyaktāya",
+     "simple": "avyaktaaya",
+     "devanagari": "अव्यक्ताय",
+     "telugu": "అవ్యక్తాయ",
+     "kannada": "ಅವ್ಯಕ್ತಾಯ",
+     "gujarati": "અવ્યક્તાય"
+    },
+    {
+     "iast": "sahasrākṣāya",
+     "simple": "sahasraakshaaya",
+     "devanagari": "सहस्राक्षाय",
+     "telugu": "సహస్రాక్షాయ",
+     "kannada": "ಸಹಸ್ರಾಕ್ಷಾಯ",
+     "gujarati": "સહસ્રાક્ષાય"
+    },
+    {
+     "iast": "sahasrapade",
+     "simple": "sahasrapade",
+     "devanagari": "सहस्रपदे",
+     "telugu": "సహస్రపదే",
+     "kannada": "ಸಹಸ್ರಪದೇ",
+     "gujarati": "સહસ્રપદે"
+    },
+    {
+     "iast": "apavargapradāya",
+     "simple": "apavargapradaaya",
+     "devanagari": "अपवर्गप्रदाय",
+     "telugu": "అపవర్గప్రదాయ",
+     "kannada": "ಅಪವರ್ಗಪ್ರದಾಯ",
+     "gujarati": "અપવર્ગપ્રદાય"
+    },
+    {
+     "iast": "anantāya",
+     "simple": "anantaaya",
+     "devanagari": "अनंताय",
+     "telugu": "అనంతాయ",
+     "kannada": "ಅನಂತಾಯ",
+     "gujarati": "અનંતાય"
+    },
+    {
+     "iast": "tārakāya",
+     "simple": "taarakaaya",
+     "devanagari": "तारकाय",
+     "telugu": "తారకాయ",
+     "kannada": "ತಾರಕಾಯ",
+     "gujarati": "તારકાય"
+    },
+    {
+     "iast": "parameśvarāya",
+     "simple": "parameshvaraaya",
+     "devanagari": "परमेश्वराय",
+     "telugu": "పరమేశ్వరాయ",
+     "kannada": "ಪರಮೇಶ್ವರಾಯ",
+     "gujarati": "પરમેશ્વરાય"
+    }
+   ]
+  },
+  {
+   "id": "lakshmi",
+   "title": "Lakshmi",
+   "nativeTitle": "लक्ष्मी",
+   "subtitle": "Ashtottara Shatanamavali · 108 names",
+   "blurb": "Goddess of abundance, grace and well-being.",
+   "color": "pink",
+   "names": [
+    {
+     "iast": "prakṛtyai",
+     "simple": "prakrityai",
+     "devanagari": "प्रकृत्यै",
+     "telugu": "ప్రకృత్యై",
+     "kannada": "ಪ್ರಕೃತ್ಯೈ",
+     "gujarati": "પ્રકૃત્યૈ"
+    },
+    {
+     "iast": "vikṛtyai",
+     "simple": "vikrityai",
+     "devanagari": "विकृत्यै",
+     "telugu": "వికృత్యై",
+     "kannada": "ವಿಕೃತ್ಯೈ",
+     "gujarati": "વિકૃત્યૈ"
+    },
+    {
+     "iast": "vidyāyai",
+     "simple": "vidyaayai",
+     "devanagari": "विद्यायै",
+     "telugu": "విద్యాయై",
+     "kannada": "ವಿದ್ಯಾಯೈ",
+     "gujarati": "વિદ્યાયૈ"
+    },
+    {
+     "iast": "sarvabhūtahitapradāyai",
+     "simple": "sarvabhootahitapradaayai",
+     "devanagari": "सर्वभूतहितप्रदायै",
+     "telugu": "సర్వభూతహితప్రదాయై",
+     "kannada": "ಸರ್ವಭೂತಹಿತಪ್ರದಾಯೈ",
+     "gujarati": "સર્વભૂતહિતપ્રદાયૈ"
+    },
+    {
+     "iast": "śraddhāyai",
+     "simple": "shraddhaayai",
+     "devanagari": "श्रद्धायै",
+     "telugu": "శ్రద్ధాయై",
+     "kannada": "ಶ್ರದ್ಧಾಯೈ",
+     "gujarati": "શ્રદ્ધાયૈ"
+    },
+    {
+     "iast": "vibhūtyai",
+     "simple": "vibhootyai",
+     "devanagari": "विभूत्यै",
+     "telugu": "విభూత్యై",
+     "kannada": "ವಿಭೂತ್ಯೈ",
+     "gujarati": "વિભૂત્યૈ"
+    },
+    {
+     "iast": "surabhyai",
+     "simple": "surabhyai",
+     "devanagari": "सुरभ्यै",
+     "telugu": "సురభ్యై",
+     "kannada": "ಸುರಭ್ಯೈ",
+     "gujarati": "સુરભ્યૈ"
+    },
+    {
+     "iast": "paramātmikāyai",
+     "simple": "paramaatmikaayai",
+     "devanagari": "परमात्मिकायै",
+     "telugu": "పరమాత్మికాయై",
+     "kannada": "ಪರಮಾತ್ಮಿಕಾಯೈ",
+     "gujarati": "પરમાત્મિકાયૈ"
+    },
+    {
+     "iast": "vāce",
+     "simple": "vaache",
+     "devanagari": "वाचे",
+     "telugu": "వాచే",
+     "kannada": "ವಾಚೇ",
+     "gujarati": "વાચે"
+    },
+    {
+     "iast": "padmālayāyai",
+     "simple": "padmaalayaayai",
+     "devanagari": "पद्मालयायै",
+     "telugu": "పద్మాలయాయై",
+     "kannada": "ಪದ್ಮಾಲಯಾಯೈ",
+     "gujarati": "પદ્માલયાયૈ"
+    },
+    {
+     "iast": "padmāyai",
+     "simple": "padmaayai",
+     "devanagari": "पद्मायै",
+     "telugu": "పద్మాయై",
+     "kannada": "ಪದ್ಮಾಯೈ",
+     "gujarati": "પદ્માયૈ"
+    },
+    {
+     "iast": "śucyai",
+     "simple": "shuchyai",
+     "devanagari": "शुच्यै",
+     "telugu": "శుచ్యై",
+     "kannada": "ಶುಚ್ಯೈ",
+     "gujarati": "શુચ્યૈ"
+    },
+    {
+     "iast": "svāhāyai",
+     "simple": "svaahaayai",
+     "devanagari": "स्वाहायै",
+     "telugu": "స్వాహాయై",
+     "kannada": "ಸ್ವಾಹಾಯೈ",
+     "gujarati": "સ્વાહાયૈ"
+    },
+    {
+     "iast": "svadhāyai",
+     "simple": "svadhaayai",
+     "devanagari": "स्वधायै",
+     "telugu": "స్వధాయై",
+     "kannada": "ಸ್ವಧಾಯೈ",
+     "gujarati": "સ્વધાયૈ"
+    },
+    {
+     "iast": "sudhāyai",
+     "simple": "sudhaayai",
+     "devanagari": "सुधायै",
+     "telugu": "సుధాయై",
+     "kannada": "ಸುಧಾಯೈ",
+     "gujarati": "સુધાયૈ"
+    },
+    {
+     "iast": "dhanyāyai",
+     "simple": "dhanyaayai",
+     "devanagari": "धन्यायै",
+     "telugu": "ధన్యాయై",
+     "kannada": "ಧನ್ಯಾಯೈ",
+     "gujarati": "ધન્યાયૈ"
+    },
+    {
+     "iast": "hiraṇmayyai",
+     "simple": "hiranmayyai",
+     "devanagari": "हिरण्मय्यै",
+     "telugu": "హిరణ్మయ్యై",
+     "kannada": "ಹಿರಣ್ಮಯ್ಯೈ",
+     "gujarati": "હિરણ્મય્યૈ"
+    },
+    {
+     "iast": "lakṣmyai",
+     "simple": "lakshmyai",
+     "devanagari": "लक्ष्म्यै",
+     "telugu": "లక్ష్మ్యై",
+     "kannada": "ಲಕ್ಷ್ಮ್ಯೈ",
+     "gujarati": "લક્ષ્મ્યૈ"
+    },
+    {
+     "iast": "nityapuṣṭāyai",
+     "simple": "nityapushtaayai",
+     "devanagari": "नित्यपुष्टायै",
+     "telugu": "నిత్యపుష్టాయై",
+     "kannada": "ನಿತ್ಯಪುಷ್ಟಾಯೈ",
+     "gujarati": "નિત્યપુષ્ટાયૈ"
+    },
+    {
+     "iast": "vibhāvaryai",
+     "simple": "vibhaavaryai",
+     "devanagari": "विभावर्यै",
+     "telugu": "విభావర్యై",
+     "kannada": "ವಿಭಾವರ್ಯೈ",
+     "gujarati": "વિભાવર્યૈ"
+    },
+    {
+     "iast": "adityai",
+     "simple": "adityai",
+     "devanagari": "अदित्यै",
+     "telugu": "అదిత్యై",
+     "kannada": "ಅದಿತ್ಯೈ",
+     "gujarati": "અદિત્યૈ"
+    },
+    {
+     "iast": "dityai",
+     "simple": "dityai",
+     "devanagari": "दित्यै",
+     "telugu": "దిత్యై",
+     "kannada": "ದಿತ್ಯೈ",
+     "gujarati": "દિત્યૈ"
+    },
+    {
+     "iast": "dīptāyai",
+     "simple": "deeptaayai",
+     "devanagari": "दीप्तायै",
+     "telugu": "దీప్తాయై",
+     "kannada": "ದೀಪ್ತಾಯೈ",
+     "gujarati": "દીપ્તાયૈ"
+    },
+    {
+     "iast": "vasudhāyai",
+     "simple": "vasudhaayai",
+     "devanagari": "वसुधायै",
+     "telugu": "వసుధాయై",
+     "kannada": "ವಸುಧಾಯೈ",
+     "gujarati": "વસુધાયૈ"
+    },
+    {
+     "iast": "vasudhāriṇyai",
+     "simple": "vasudhaarinyai",
+     "devanagari": "वसुधारिण्यै",
+     "telugu": "వసుధారిణ్యై",
+     "kannada": "ವಸುಧಾರಿಣ್ಯೈ",
+     "gujarati": "વસુધારિણ્યૈ"
+    },
+    {
+     "iast": "kamalāyai",
+     "simple": "kamalaayai",
+     "devanagari": "कमलायै",
+     "telugu": "కమలాయై",
+     "kannada": "ಕಮಲಾಯೈ",
+     "gujarati": "કમલાયૈ"
+    },
+    {
+     "iast": "kāntāyai",
+     "simple": "kaantaayai",
+     "devanagari": "कांतायै",
+     "telugu": "కాంతాయై",
+     "kannada": "ಕಾಂತಾಯೈ",
+     "gujarati": "કાંતાયૈ"
+    },
+    {
+     "iast": "kāmākṣyai",
+     "simple": "kaamaakshyai",
+     "devanagari": "कामाक्ष्यै",
+     "telugu": "కామాక్ష్యై",
+     "kannada": "ಕಾಮಾಕ್ಷ್ಯೈ",
+     "gujarati": "કામાક્ષ્યૈ"
+    },
+    {
+     "iast": "krodhasambhavāyai",
+     "simple": "krodhasambhavaayai",
+     "devanagari": "क्रोधसंभवायै",
+     "telugu": "క్రోధసంభవాయై",
+     "kannada": "ಕ್ರೋಧಸಂಭವಾಯೈ",
+     "gujarati": "ક્રોધસંભવાયૈ"
+    },
+    {
+     "iast": "anugrahaparāyai",
+     "simple": "anugrahaparaayai",
+     "devanagari": "अनुग्रहपरायै",
+     "telugu": "అనుగ్రహపరాయై",
+     "kannada": "ಅನುಗ್ರಹಪರಾಯೈ",
+     "gujarati": "અનુગ્રહપરાયૈ"
+    },
+    {
+     "iast": "ṛddhaye",
+     "simple": "riddhaye",
+     "devanagari": "ऋद्धये",
+     "telugu": "ఋద్ధయే",
+     "kannada": "ಋದ್ಧಯೇ",
+     "gujarati": "ઋદ્ધયે"
+    },
+    {
+     "iast": "anaghāyai",
+     "simple": "anaghaayai",
+     "devanagari": "अनघायै",
+     "telugu": "అనఘాయై",
+     "kannada": "ಅನಘಾಯೈ",
+     "gujarati": "અનઘાયૈ"
+    },
+    {
+     "iast": "harivallabhāyai",
+     "simple": "harivallabhaayai",
+     "devanagari": "हरिवल्लभायै",
+     "telugu": "హరివల్లభాయై",
+     "kannada": "ಹರಿವಲ್ಲಭಾಯೈ",
+     "gujarati": "હરિવલ્લભાયૈ"
+    },
+    {
+     "iast": "aśokāyai",
+     "simple": "ashokaayai",
+     "devanagari": "अशोकायै",
+     "telugu": "అశోకాయై",
+     "kannada": "ಅಶೋಕಾಯೈ",
+     "gujarati": "અશોકાયૈ"
+    },
+    {
+     "iast": "amṛtāyai",
+     "simple": "amritaayai",
+     "devanagari": "अमृतायै",
+     "telugu": "అమృతాయై",
+     "kannada": "ಅಮೃತಾಯೈ",
+     "gujarati": "અમૃતાયૈ"
+    },
+    {
+     "iast": "dīptāyai",
+     "simple": "deeptaayai",
+     "devanagari": "दीप्तायै",
+     "telugu": "దీప్తాయై",
+     "kannada": "ದೀಪ್ತಾಯೈ",
+     "gujarati": "દીપ્તાયૈ"
+    },
+    {
+     "iast": "lokaśoka vināśinyai",
+     "simple": "lokashoka vinaashinyai",
+     "devanagari": "लोकशोक विनाशिन्यै",
+     "telugu": "లోకశోక వినాశిన్యై",
+     "kannada": "ಲೋಕಶೋಕ ವಿನಾಶಿನ್ಯೈ",
+     "gujarati": "લોકશોક વિનાશિન્યૈ"
+    },
+    {
+     "iast": "dharmanilayāyai",
+     "simple": "dharmanilayaayai",
+     "devanagari": "धर्मनिलयायै",
+     "telugu": "ధర్మనిలయాయై",
+     "kannada": "ಧರ್ಮನಿಲಯಾಯೈ",
+     "gujarati": "ધર્મનિલયાયૈ"
+    },
+    {
+     "iast": "karuṇāyai",
+     "simple": "karunaayai",
+     "devanagari": "करुणायै",
+     "telugu": "కరుణాయై",
+     "kannada": "ಕರುಣಾಯೈ",
+     "gujarati": "કરુણાયૈ"
+    },
+    {
+     "iast": "lokamātre",
+     "simple": "lokamaatre",
+     "devanagari": "लोकमात्रे",
+     "telugu": "లోకమాత్రే",
+     "kannada": "ಲೋಕಮಾತ್ರೇ",
+     "gujarati": "લોકમાત્રે"
+    },
+    {
+     "iast": "padmapriyāyai",
+     "simple": "padmapriyaayai",
+     "devanagari": "पद्मप्रियायै",
+     "telugu": "పద్మప్రియాయై",
+     "kannada": "ಪದ್ಮಪ್ರಿಯಾಯೈ",
+     "gujarati": "પદ્મપ્રિયાયૈ"
+    },
+    {
+     "iast": "padmahastāyai",
+     "simple": "padmahastaayai",
+     "devanagari": "पद्महस्तायै",
+     "telugu": "పద్మహస్తాయై",
+     "kannada": "ಪದ್ಮಹಸ್ತಾಯೈ",
+     "gujarati": "પદ્મહસ્તાયૈ"
+    },
+    {
+     "iast": "padmākṣyai",
+     "simple": "padmaakshyai",
+     "devanagari": "पद्माक्ष्यै",
+     "telugu": "పద్మాక్ష్యై",
+     "kannada": "ಪದ್ಮಾಕ್ಷ್ಯೈ",
+     "gujarati": "પદ્માક્ષ્યૈ"
+    },
+    {
+     "iast": "padmasundaryai",
+     "simple": "padmasundaryai",
+     "devanagari": "पद्मसुंदर्यै",
+     "telugu": "పద్మసుందర్యై",
+     "kannada": "ಪದ್ಮಸುಂದರ್ಯೈ",
+     "gujarati": "પદ્મસુંદર્યૈ"
+    },
+    {
+     "iast": "padmodbhavāyai",
+     "simple": "padmodbhavaayai",
+     "devanagari": "पद्मोद्भवायै",
+     "telugu": "పద్మోద్భవాయై",
+     "kannada": "ಪದ್ಮೋದ್ಭವಾಯೈ",
+     "gujarati": "પદ્મોદ્ભવાયૈ"
+    },
+    {
+     "iast": "padmamukhyai",
+     "simple": "padmamukhyai",
+     "devanagari": "पद्ममुख्यै",
+     "telugu": "పద్మముఖ్యై",
+     "kannada": "ಪದ್ಮಮುಖ್ಯೈ",
+     "gujarati": "પદ્મમુખ્યૈ"
+    },
+    {
+     "iast": "padmanābhapriyāyai",
+     "simple": "padmanaabhapriyaayai",
+     "devanagari": "पद्मनाभप्रियायै",
+     "telugu": "పద్మనాభప్రియాయై",
+     "kannada": "ಪದ್ಮನಾಭಪ್ರಿಯಾಯೈ",
+     "gujarati": "પદ્મનાભપ્રિયાયૈ"
+    },
+    {
+     "iast": "ramāyai",
+     "simple": "ramaayai",
+     "devanagari": "रमायै",
+     "telugu": "రమాయై",
+     "kannada": "ರಮಾಯೈ",
+     "gujarati": "રમાયૈ"
+    },
+    {
+     "iast": "padmamālādharāyai",
+     "simple": "padmamaalaadharaayai",
+     "devanagari": "पद्ममालाधरायै",
+     "telugu": "పద్మమాలాధరాయై",
+     "kannada": "ಪದ್ಮಮಾಲಾಧರಾಯೈ",
+     "gujarati": "પદ્મમાલાધરાયૈ"
+    },
+    {
+     "iast": "devyai",
+     "simple": "devyai",
+     "devanagari": "देव्यै",
+     "telugu": "దేవ్యై",
+     "kannada": "ದೇವ್ಯೈ",
+     "gujarati": "દેવ્યૈ"
+    },
+    {
+     "iast": "padminyai",
+     "simple": "padminyai",
+     "devanagari": "पद्मिन्यै",
+     "telugu": "పద్మిన్యై",
+     "kannada": "ಪದ್ಮಿನ್ಯೈ",
+     "gujarati": "પદ્મિન્યૈ"
+    },
+    {
+     "iast": "padmagandhinyai",
+     "simple": "padmagandhinyai",
+     "devanagari": "पद्मगंधिन्यै",
+     "telugu": "పద్మగంధిన్యై",
+     "kannada": "ಪದ್ಮಗಂಧಿನ್ಯೈ",
+     "gujarati": "પદ્મગંધિન્યૈ"
+    },
+    {
+     "iast": "puṇyagandhāyai",
+     "simple": "punyagandhaayai",
+     "devanagari": "पुण्यगंधायै",
+     "telugu": "పుణ్యగంధాయై",
+     "kannada": "ಪುಣ್ಯಗಂಧಾಯೈ",
+     "gujarati": "પુણ્યગંધાયૈ"
+    },
+    {
+     "iast": "suprasannāyai",
+     "simple": "suprasannaayai",
+     "devanagari": "सुप्रसन्नायै",
+     "telugu": "సుప్రసన్నాయై",
+     "kannada": "ಸುಪ್ರಸನ್ನಾಯೈ",
+     "gujarati": "સુપ્રસન્નાયૈ"
+    },
+    {
+     "iast": "prasādābhimukhyai",
+     "simple": "prasaadaabhimukhyai",
+     "devanagari": "प्रसादाभिमुख्यै",
+     "telugu": "ప్రసాదాభిముఖ్యై",
+     "kannada": "ಪ್ರಸಾದಾಭಿಮುಖ್ಯೈ",
+     "gujarati": "પ્રસાદાભિમુખ્યૈ"
+    },
+    {
+     "iast": "prabhāyai",
+     "simple": "prabhaayai",
+     "devanagari": "प्रभायै",
+     "telugu": "ప్రభాయై",
+     "kannada": "ಪ್ರಭಾಯೈ",
+     "gujarati": "પ્રભાયૈ"
+    },
+    {
+     "iast": "candravadanāyai",
+     "simple": "chandravadanaayai",
+     "devanagari": "चंद्रवदनायै",
+     "telugu": "చంద్రవదనాయై",
+     "kannada": "ಚಂದ್ರವದನಾಯೈ",
+     "gujarati": "ચંદ્રવદનાયૈ"
+    },
+    {
+     "iast": "candrāyai",
+     "simple": "chandraayai",
+     "devanagari": "चंद्रायै",
+     "telugu": "చంద్రాయై",
+     "kannada": "ಚಂದ್ರಾಯೈ",
+     "gujarati": "ચંદ્રાયૈ"
+    },
+    {
+     "iast": "candrasahodaryai",
+     "simple": "chandrasahodaryai",
+     "devanagari": "चंद्रसहोदर्यै",
+     "telugu": "చంద్రసహోదర్యై",
+     "kannada": "ಚಂದ್ರಸಹೋದರ್ಯೈ",
+     "gujarati": "ચંદ્રસહોદર્યૈ"
+    },
+    {
+     "iast": "caturbhujāyai",
+     "simple": "chaturbhujaayai",
+     "devanagari": "चतुर्भुजायै",
+     "telugu": "చతుర్భుజాయై",
+     "kannada": "ಚತುರ್ಭುಜಾಯೈ",
+     "gujarati": "ચતુર્ભુજાયૈ"
+    },
+    {
+     "iast": "candrarūpāyai",
+     "simple": "chandraroopaayai",
+     "devanagari": "चंद्ररूपायै",
+     "telugu": "చంద్రరూపాయై",
+     "kannada": "ಚಂದ್ರರೂಪಾಯೈ",
+     "gujarati": "ચંદ્રરૂપાયૈ"
+    },
+    {
+     "iast": "indirāyai",
+     "simple": "indiraayai",
+     "devanagari": "इंदिरायै",
+     "telugu": "ఇందిరాయై",
+     "kannada": "ಇಂದಿರಾಯೈ",
+     "gujarati": "ઇંદિરાયૈ"
+    },
+    {
+     "iast": "induśītalāyai",
+     "simple": "indusheetalaayai",
+     "devanagari": "इंदुशीतलायै",
+     "telugu": "ఇందుశీతలాయై",
+     "kannada": "ಇಂದುಶೀತಲಾಯೈ",
+     "gujarati": "ઇંદુશીતલાયૈ"
+    },
+    {
+     "iast": "āhlādajananyai",
+     "simple": "aahlaadajananyai",
+     "devanagari": "आह्लादजनन्यै",
+     "telugu": "ఆహ్లాదజనన్యై",
+     "kannada": "ಆಹ್ಲಾದಜನನ್ಯೈ",
+     "gujarati": "આહ્લાદજનન્યૈ"
+    },
+    {
+     "iast": "puṣṭyai",
+     "simple": "pushtyai",
+     "devanagari": "पुष्ट्यै",
+     "telugu": "పుష్ట్యై",
+     "kannada": "ಪುಷ್ಟ್ಯೈ",
+     "gujarati": "પુષ્ટ્યૈ"
+    },
+    {
+     "iast": "śivāyai",
+     "simple": "shivaayai",
+     "devanagari": "शिवायै",
+     "telugu": "శివాయై",
+     "kannada": "ಶಿವಾಯೈ",
+     "gujarati": "શિવાયૈ"
+    },
+    {
+     "iast": "śivakaryai",
+     "simple": "shivakaryai",
+     "devanagari": "शिवकर्यै",
+     "telugu": "శివకర్యై",
+     "kannada": "ಶಿವಕರ್ಯೈ",
+     "gujarati": "શિવકર્યૈ"
+    },
+    {
+     "iast": "satyai",
+     "simple": "satyai",
+     "devanagari": "सत्यै",
+     "telugu": "సత్యై",
+     "kannada": "ಸತ್ಯೈ",
+     "gujarati": "સત્યૈ"
+    },
+    {
+     "iast": "vimalāyai",
+     "simple": "vimalaayai",
+     "devanagari": "विमलायै",
+     "telugu": "విమలాయై",
+     "kannada": "ವಿಮಲಾಯೈ",
+     "gujarati": "વિમલાયૈ"
+    },
+    {
+     "iast": "viśvajananyai",
+     "simple": "vishvajananyai",
+     "devanagari": "विश्वजनन्यै",
+     "telugu": "విశ్వజనన్యై",
+     "kannada": "ವಿಶ್ವಜನನ್ಯೈ",
+     "gujarati": "વિશ્વજનન્યૈ"
+    },
+    {
+     "iast": "tuṣṭyai",
+     "simple": "tushtyai",
+     "devanagari": "तुष्ट्यै",
+     "telugu": "తుష్ట్యై",
+     "kannada": "ತುಷ್ಟ್ಯೈ",
+     "gujarati": "તુષ્ટ્યૈ"
+    },
+    {
+     "iast": "dāridrya nāśinyai",
+     "simple": "daaridrya naashinyai",
+     "devanagari": "दारिद्र्य नाशिन्यै",
+     "telugu": "దారిద్ర్య నాశిన్యై",
+     "kannada": "ದಾರಿದ್ರ್ಯ ನಾಶಿನ್ಯೈ",
+     "gujarati": "દારિદ્ર્ય નાશિન્યૈ"
+    },
+    {
+     "iast": "prītipuṣkariṇyai",
+     "simple": "preetipushkarinyai",
+     "devanagari": "प्रीतिपुष्करिण्यै",
+     "telugu": "ప్రీతిపుష్కరిణ్యై",
+     "kannada": "ಪ್ರೀತಿಪುಷ್ಕರಿಣ್ಯೈ",
+     "gujarati": "પ્રીતિપુષ્કરિણ્યૈ"
+    },
+    {
+     "iast": "śāntāyai",
+     "simple": "shaantaayai",
+     "devanagari": "शांतायै",
+     "telugu": "శాంతాయై",
+     "kannada": "ಶಾಂತಾಯೈ",
+     "gujarati": "શાંતાયૈ"
+    },
+    {
+     "iast": "śuklamālyāmbarāyai",
+     "simple": "shuklamaalyaambaraayai",
+     "devanagari": "शुक्लमाल्यांबरायै",
+     "telugu": "శుక్లమాల్యాంబరాయై",
+     "kannada": "ಶುಕ್ಲಮಾಲ್ಯಾಂಬರಾಯೈ",
+     "gujarati": "શુક્લમાલ્યાંબરાયૈ"
+    },
+    {
+     "iast": "śriyai",
+     "simple": "shriyai",
+     "devanagari": "श्रियै",
+     "telugu": "శ్రియై",
+     "kannada": "ಶ್ರಿಯೈ",
+     "gujarati": "શ્રિયૈ"
+    },
+    {
+     "iast": "bhāskaryai",
+     "simple": "bhaaskaryai",
+     "devanagari": "भास्कर्यै",
+     "telugu": "భాస్కర్యై",
+     "kannada": "ಭಾಸ್ಕರ್ಯೈ",
+     "gujarati": "ભાસ્કર્યૈ"
+    },
+    {
+     "iast": "bilvanilayāyai",
+     "simple": "bilvanilayaayai",
+     "devanagari": "बिल्वनिलयायै",
+     "telugu": "బిల్వనిలయాయై",
+     "kannada": "ಬಿಲ್ವನಿಲಯಾಯೈ",
+     "gujarati": "બિલ્વનિલયાયૈ"
+    },
+    {
+     "iast": "varārohāyai",
+     "simple": "varaarohaayai",
+     "devanagari": "वरारोहायै",
+     "telugu": "వరారోహాయై",
+     "kannada": "ವರಾರೋಹಾಯೈ",
+     "gujarati": "વરારોહાયૈ"
+    },
+    {
+     "iast": "yaśasvinyai",
+     "simple": "yashasvinyai",
+     "devanagari": "यशस्विन्यै",
+     "telugu": "యశస్విన్యై",
+     "kannada": "ಯಶಸ್ವಿನ್ಯೈ",
+     "gujarati": "યશસ્વિન્યૈ"
+    },
+    {
+     "iast": "vasundharāyai",
+     "simple": "vasundharaayai",
+     "devanagari": "वसुंधरायै",
+     "telugu": "వసుంధరాయై",
+     "kannada": "ವಸುಂಧರಾಯೈ",
+     "gujarati": "વસુંધરાયૈ"
+    },
+    {
+     "iast": "udārāṅgāyai",
+     "simple": "udaaraangaayai",
+     "devanagari": "उदारांगायै",
+     "telugu": "ఉదారాంగాయై",
+     "kannada": "ಉದಾರಾಂಗಾಯೈ",
+     "gujarati": "ઉદારાંગાયૈ"
+    },
+    {
+     "iast": "hariṇyai",
+     "simple": "harinyai",
+     "devanagari": "हरिण्यै",
+     "telugu": "హరిణ్యై",
+     "kannada": "ಹರಿಣ್ಯೈ",
+     "gujarati": "હરિણ્યૈ"
+    },
+    {
+     "iast": "hemamālinyai",
+     "simple": "hemamaalinyai",
+     "devanagari": "हेममालिन्यै",
+     "telugu": "హేమమాలిన్యై",
+     "kannada": "ಹೇಮಮಾಲಿನ್ಯೈ",
+     "gujarati": "હેમમાલિન્યૈ"
+    },
+    {
+     "iast": "dhanadhānya karyai",
+     "simple": "dhanadhaanya karyai",
+     "devanagari": "धनधान्य कर्यै",
+     "telugu": "ధనధాన్య కర్యై",
+     "kannada": "ಧನಧಾನ್ಯ ಕರ್ಯೈ",
+     "gujarati": "ધનધાન્ય કર્યૈ"
+    },
+    {
+     "iast": "siddhaye",
+     "simple": "siddhaye",
+     "devanagari": "सिद्धये",
+     "telugu": "సిద్ధయే",
+     "kannada": "ಸಿದ್ಧಯೇ",
+     "gujarati": "સિદ્ધયે"
+    },
+    {
+     "iast": "straiṇa saumyāyai",
+     "simple": "straina saumyaayai",
+     "devanagari": "स्त्रैण सौम्यायै",
+     "telugu": "స్త్రైణ సౌమ్యాయై",
+     "kannada": "ಸ್ತ್ರೈಣ ಸೌಮ್ಯಾಯೈ",
+     "gujarati": "સ્ત્રૈણ સૌમ્યાયૈ"
+    },
+    {
+     "iast": "śubhapradāyai",
+     "simple": "shubhapradaayai",
+     "devanagari": "शुभप्रदायै",
+     "telugu": "శుభప్రదాయై",
+     "kannada": "ಶುಭಪ್ರದಾಯೈ",
+     "gujarati": "શુભપ્રદાયૈ"
+    },
+    {
+     "iast": "nṛpaveśma gatānandāyai",
+     "simple": "nripaveshma gataanandaayai",
+     "devanagari": "नृपवेश्म गतानंदायै",
+     "telugu": "నృపవేశ్మ గతానందాయై",
+     "kannada": "ನೃಪವೇಶ್ಮ ಗತಾನಂದಾಯೈ",
+     "gujarati": "નૃપવેશ્મ ગતાનંદાયૈ"
+    },
+    {
+     "iast": "varalakṣmyai",
+     "simple": "varalakshmyai",
+     "devanagari": "वरलक्ष्म्यै",
+     "telugu": "వరలక్ష్మ్యై",
+     "kannada": "ವರಲಕ್ಷ್ಮ್ಯೈ",
+     "gujarati": "વરલક્ષ્મ્યૈ"
+    },
+    {
+     "iast": "vasupradāyai",
+     "simple": "vasupradaayai",
+     "devanagari": "वसुप्रदायै",
+     "telugu": "వసుప్రదాయై",
+     "kannada": "ವಸುಪ್ರದಾಯೈ",
+     "gujarati": "વસુપ્રદાયૈ"
+    },
+    {
+     "iast": "śubhāyai",
+     "simple": "shubhaayai",
+     "devanagari": "शुभायै",
+     "telugu": "శుభాయై",
+     "kannada": "ಶುಭಾಯೈ",
+     "gujarati": "શુભાયૈ"
+    },
+    {
+     "iast": "hiraṇyaprākārāyai",
+     "simple": "hiranyapraakaaraayai",
+     "devanagari": "हिरण्यप्राकारायै",
+     "telugu": "హిరణ్యప్రాకారాయై",
+     "kannada": "ಹಿರಣ್ಯಪ್ರಾಕಾರಾಯೈ",
+     "gujarati": "હિરણ્યપ્રાકારાયૈ"
+    },
+    {
+     "iast": "samudra tanayāyai",
+     "simple": "samudra tanayaayai",
+     "devanagari": "समुद्र तनयायै",
+     "telugu": "సముద్ర తనయాయై",
+     "kannada": "ಸಮುದ್ರ ತನಯಾಯೈ",
+     "gujarati": "સમુદ્ર તનયાયૈ"
+    },
+    {
+     "iast": "jayāyai",
+     "simple": "jayaayai",
+     "devanagari": "जयायै",
+     "telugu": "జయాయై",
+     "kannada": "ಜಯಾಯೈ",
+     "gujarati": "જયાયૈ"
+    },
+    {
+     "iast": "maṅgaḷāyai",
+     "simple": "mangalaayai",
+     "devanagari": "मंगऌआयै",
+     "telugu": "మంగఌఆయై",
+     "kannada": "ಮಂಗಌಆಯೈ",
+     "gujarati": "મંગઌઆયૈ"
+    },
+    {
+     "iast": "devyai",
+     "simple": "devyai",
+     "devanagari": "देव्यै",
+     "telugu": "దేవ్యై",
+     "kannada": "ದೇವ್ಯೈ",
+     "gujarati": "દેવ્યૈ"
+    },
+    {
+     "iast": "viṣṇu vakṣaḥsthala sthitāyai",
+     "simple": "vishnu vakshahsthala sthitaayai",
+     "devanagari": "विष्णु वक्षःस्थल स्थितायै",
+     "telugu": "విష్ణు వక్షఃస్థల స్థితాయై",
+     "kannada": "ವಿಷ್ಣು ವಕ್ಷಃಸ್ಥಲ ಸ್ಥಿತಾಯೈ",
+     "gujarati": "વિષ્ણુ વક્ષઃસ્થલ સ્થિતાયૈ"
+    },
+    {
+     "iast": "viṣṇupatnyai",
+     "simple": "vishnupatnyai",
+     "devanagari": "विष्णुपत्न्यै",
+     "telugu": "విష్ణుపత్న్యై",
+     "kannada": "ವಿಷ್ಣುಪತ್ನ್ಯೈ",
+     "gujarati": "વિષ્ણુપત્ન્યૈ"
+    },
+    {
+     "iast": "prasannākṣyai",
+     "simple": "prasannaakshyai",
+     "devanagari": "प्रसन्नाक्ष्यै",
+     "telugu": "ప్రసన్నాక్ష్యై",
+     "kannada": "ಪ್ರಸನ್ನಾಕ್ಷ್ಯೈ",
+     "gujarati": "પ્રસન્નાક્ષ્યૈ"
+    },
+    {
+     "iast": "nārāyaṇa samāśritāyai",
+     "simple": "naaraayana samaashritaayai",
+     "devanagari": "नारायण समाश्रितायै",
+     "telugu": "నారాయణ సమాశ్రితాయై",
+     "kannada": "ನಾರಾಯಣ ಸಮಾಶ್ರಿತಾಯೈ",
+     "gujarati": "નારાયણ સમાશ્રિતાયૈ"
+    },
+    {
+     "iast": "dāridrya dhvaṃsinyai",
+     "simple": "daaridrya dhvamsinyai",
+     "devanagari": "दारिद्र्य ध्वंसिन्यै",
+     "telugu": "దారిద్ర్య ధ్వంసిన్యై",
+     "kannada": "ದಾರಿದ್ರ್ಯ ಧ್ವಂಸಿನ್ಯೈ",
+     "gujarati": "દારિદ્ર્ય ધ્વંસિન્યૈ"
+    },
+    {
+     "iast": "sarvopadrava vāriṇyai",
+     "simple": "sarvopadrava vaarinyai",
+     "devanagari": "सर्वोपद्रव वारिण्यै",
+     "telugu": "సర్వోపద్రవ వారిణ్యై",
+     "kannada": "ಸರ್ವೋಪದ್ರವ ವಾರಿಣ್ಯೈ",
+     "gujarati": "સર્વોપદ્રવ વારિણ્યૈ"
+    },
+    {
+     "iast": "navadurgāyai",
+     "simple": "navadurgaayai",
+     "devanagari": "नवदुर्गायै",
+     "telugu": "నవదుర్గాయై",
+     "kannada": "ನವದುರ್ಗಾಯೈ",
+     "gujarati": "નવદુર્ગાયૈ"
+    },
+    {
+     "iast": "mahākāḷyai",
+     "simple": "mahaakaalyai",
+     "devanagari": "महाकाऌयै",
+     "telugu": "మహాకాఌయై",
+     "kannada": "ಮಹಾಕಾಌಯೈ",
+     "gujarati": "મહાકાઌયૈ"
+    },
+    {
+     "iast": "brahma viṣṇu śivātmikāyai",
+     "simple": "brahma vishnu shivaatmikaayai",
+     "devanagari": "ब्रह्म विष्णु शिवात्मिकायै",
+     "telugu": "బ్రహ్మ విష్ణు శివాత్మికాయై",
+     "kannada": "ಬ್ರಹ್ಮ ವಿಷ್ಣು ಶಿವಾತ್ಮಿಕಾಯೈ",
+     "gujarati": "બ્રહ્મ વિષ્ણુ શિવાત્મિકાયૈ"
+    },
+    {
+     "iast": "trikāla jñāna sampannāyai",
+     "simple": "trikaala gnyaana sampannaayai",
+     "devanagari": "त्रिकाल ज्ञान संपन्नायै",
+     "telugu": "త్రికాల జ్ఞాన సంపన్నాయై",
+     "kannada": "ತ್ರಿಕಾಲ ಜ್ಞಾನ ಸಂಪನ್ನಾಯೈ",
+     "gujarati": "ત્રિકાલ જ્ઞાન સંપન્નાયૈ"
+    },
+    {
+     "iast": "bhuvaneśvaryai",
+     "simple": "bhuvaneshvaryai",
+     "devanagari": "भुवनेश्वर्यै",
+     "telugu": "భువనేశ్వర్యై",
+     "kannada": "ಭುವನೇಶ್ವರ್ಯೈ",
+     "gujarati": "ભુવનેશ્વર્યૈ"
+    }
+   ]
+  },
+  {
+   "id": "saraswati",
+   "title": "Saraswati",
+   "nativeTitle": "सरस्वती",
+   "subtitle": "Ashtottara Shatanamavali · 108 names",
+   "blurb": "Goddess of knowledge, music and the arts.",
+   "color": "teal",
+   "names": [
+    {
+     "iast": "sarasvatyai",
+     "simple": "sarasvatyai",
+     "devanagari": "सरस्वत्यै",
+     "telugu": "సరస్వత్యై",
+     "kannada": "ಸರಸ್ವತ್ಯೈ",
+     "gujarati": "સરસ્વત્યૈ"
+    },
+    {
+     "iast": "mahābhadrāyai",
+     "simple": "mahaabhadraayai",
+     "devanagari": "महाभद्रायै",
+     "telugu": "మహాభద్రాయై",
+     "kannada": "ಮಹಾಭದ್ರಾಯೈ",
+     "gujarati": "મહાભદ્રાયૈ"
+    },
+    {
+     "iast": "mahāmāyāyai",
+     "simple": "mahaamaayaayai",
+     "devanagari": "महामायायै",
+     "telugu": "మహామాయాయై",
+     "kannada": "ಮಹಾಮಾಯಾಯೈ",
+     "gujarati": "મહામાયાયૈ"
+    },
+    {
+     "iast": "varapradāyai",
+     "simple": "varapradaayai",
+     "devanagari": "वरप्रदायै",
+     "telugu": "వరప్రదాయై",
+     "kannada": "ವರಪ್ರದಾಯೈ",
+     "gujarati": "વરપ્રદાયૈ"
+    },
+    {
+     "iast": "padmanilayāyai",
+     "simple": "padmanilayaayai",
+     "devanagari": "पद्मनिलयायै",
+     "telugu": "పద్మనిలయాయై",
+     "kannada": "ಪದ್ಮನಿಲಯಾಯೈ",
+     "gujarati": "પદ્મનિલયાયૈ"
+    },
+    {
+     "iast": "padmākṣyai",
+     "simple": "padmaakshyai",
+     "devanagari": "पद्माक्ष्यै",
+     "telugu": "పద్మాక్ష్యై",
+     "kannada": "ಪದ್ಮಾಕ್ಷ್ಯೈ",
+     "gujarati": "પદ્માક્ષ્યૈ"
+    },
+    {
+     "iast": "padmavaktrāyai",
+     "simple": "padmavaktraayai",
+     "devanagari": "पद्मवक्त्रायै",
+     "telugu": "పద్మవక్త్రాయై",
+     "kannada": "ಪದ್ಮವಕ್ತ್ರಾಯೈ",
+     "gujarati": "પદ્મવક્ત્રાયૈ"
+    },
+    {
+     "iast": "śivānujāyai",
+     "simple": "shivaanujaayai",
+     "devanagari": "शिवानुजायै",
+     "telugu": "శివానుజాయై",
+     "kannada": "ಶಿವಾನುಜಾಯೈ",
+     "gujarati": "શિવાનુજાયૈ"
+    },
+    {
+     "iast": "pustakabhṛte",
+     "simple": "pustakabhrite",
+     "devanagari": "पुस्तकभृते",
+     "telugu": "పుస్తకభృతే",
+     "kannada": "ಪುಸ್ತಕಭೃತೇ",
+     "gujarati": "પુસ્તકભૃતે"
+    },
+    {
+     "iast": "jñānamudrāyai",
+     "simple": "gnyaanamudraayai",
+     "devanagari": "ज्ञानमुद्रायै",
+     "telugu": "జ్ఞానముద్రాయై",
+     "kannada": "ಜ್ಞಾನಮುದ್ರಾಯೈ",
+     "gujarati": "જ્ઞાનમુદ્રાયૈ"
+    },
+    {
+     "iast": "ramāyai",
+     "simple": "ramaayai",
+     "devanagari": "रमायै",
+     "telugu": "రమాయై",
+     "kannada": "ರಮಾಯೈ",
+     "gujarati": "રમાયૈ"
+    },
+    {
+     "iast": "parāyai",
+     "simple": "paraayai",
+     "devanagari": "परायै",
+     "telugu": "పరాయై",
+     "kannada": "ಪರಾಯೈ",
+     "gujarati": "પરાયૈ"
+    },
+    {
+     "iast": "kāmarūpāyai",
+     "simple": "kaamaroopaayai",
+     "devanagari": "कामरूपायै",
+     "telugu": "కామరూపాయై",
+     "kannada": "ಕಾಮರೂಪಾಯೈ",
+     "gujarati": "કામરૂપાયૈ"
+    },
+    {
+     "iast": "mahā vidyāyai",
+     "simple": "mahaa vidyaayai",
+     "devanagari": "महा विद्यायै",
+     "telugu": "మహా విద్యాయై",
+     "kannada": "ಮಹಾ ವಿದ್ಯಾಯೈ",
+     "gujarati": "મહા વિદ્યાયૈ"
+    },
+    {
+     "iast": "mahāpātakanāśinyai",
+     "simple": "mahaapaatakanaashinyai",
+     "devanagari": "महापातकनाशिन्यै",
+     "telugu": "మహాపాతకనాశిన్యై",
+     "kannada": "ಮಹಾಪಾತಕನಾಶಿನ್ಯೈ",
+     "gujarati": "મહાપાતકનાશિન્યૈ"
+    },
+    {
+     "iast": "mahāśrayāyai",
+     "simple": "mahaashrayaayai",
+     "devanagari": "महाश्रयायै",
+     "telugu": "మహాశ్రయాయై",
+     "kannada": "ಮಹಾಶ್ರಯಾಯೈ",
+     "gujarati": "મહાશ્રયાયૈ"
+    },
+    {
+     "iast": "mālinyai",
+     "simple": "maalinyai",
+     "devanagari": "मालिन्यै",
+     "telugu": "మాలిన్యై",
+     "kannada": "ಮಾಲಿನ್ಯೈ",
+     "gujarati": "માલિન્યૈ"
+    },
+    {
+     "iast": "mahābhogāyai",
+     "simple": "mahaabhogaayai",
+     "devanagari": "महाभोगायै",
+     "telugu": "మహాభోగాయై",
+     "kannada": "ಮಹಾಭೋಗಾಯೈ",
+     "gujarati": "મહાભોગાયૈ"
+    },
+    {
+     "iast": "mahābhujāyai",
+     "simple": "mahaabhujaayai",
+     "devanagari": "महाभुजायै",
+     "telugu": "మహాభుజాయై",
+     "kannada": "ಮಹಾಭುಜಾಯೈ",
+     "gujarati": "મહાભુજાયૈ"
+    },
+    {
+     "iast": "mahābhāgāyai",
+     "simple": "mahaabhaagaayai",
+     "devanagari": "महाभागायै",
+     "telugu": "మహాభాగాయై",
+     "kannada": "ಮಹಾಭಾಗಾಯೈ",
+     "gujarati": "મહાભાગાયૈ"
+    },
+    {
+     "iast": "mahotsāhāyai",
+     "simple": "mahotsaahaayai",
+     "devanagari": "महोत्साहायै",
+     "telugu": "మహోత్సాహాయై",
+     "kannada": "ಮಹೋತ್ಸಾಹಾಯೈ",
+     "gujarati": "મહોત્સાહાયૈ"
+    },
+    {
+     "iast": "divyāṅgāyai",
+     "simple": "divyaangaayai",
+     "devanagari": "दिव्यांगायै",
+     "telugu": "దివ్యాంగాయై",
+     "kannada": "ದಿವ್ಯಾಂಗಾಯೈ",
+     "gujarati": "દિવ્યાંગાયૈ"
+    },
+    {
+     "iast": "suravanditāyai",
+     "simple": "suravanditaayai",
+     "devanagari": "सुरवंदितायै",
+     "telugu": "సురవందితాయై",
+     "kannada": "ಸುರವಂದಿತಾಯೈ",
+     "gujarati": "સુરવંદિતાયૈ"
+    },
+    {
+     "iast": "mahākāḷyai",
+     "simple": "mahaakaalyai",
+     "devanagari": "महाकाऌयै",
+     "telugu": "మహాకాఌయై",
+     "kannada": "ಮಹಾಕಾಌಯೈ",
+     "gujarati": "મહાકાઌયૈ"
+    },
+    {
+     "iast": "mahāpāśāyai",
+     "simple": "mahaapaashaayai",
+     "devanagari": "महापाशायै",
+     "telugu": "మహాపాశాయై",
+     "kannada": "ಮಹಾಪಾಶಾಯೈ",
+     "gujarati": "મહાપાશાયૈ"
+    },
+    {
+     "iast": "mahākārāyai",
+     "simple": "mahaakaaraayai",
+     "devanagari": "महाकारायै",
+     "telugu": "మహాకారాయై",
+     "kannada": "ಮಹಾಕಾರಾಯೈ",
+     "gujarati": "મહાકારાયૈ"
+    },
+    {
+     "iast": "mahāṅkuśāyai",
+     "simple": "mahaankushaayai",
+     "devanagari": "महांकुशायै",
+     "telugu": "మహాంకుశాయై",
+     "kannada": "ಮಹಾಂಕುಶಾಯೈ",
+     "gujarati": "મહાંકુશાયૈ"
+    },
+    {
+     "iast": "sītāyai",
+     "simple": "seetaayai",
+     "devanagari": "सीतायै",
+     "telugu": "సీతాయై",
+     "kannada": "ಸೀತಾಯೈ",
+     "gujarati": "સીતાયૈ"
+    },
+    {
+     "iast": "vimalāyai",
+     "simple": "vimalaayai",
+     "devanagari": "विमलायै",
+     "telugu": "విమలాయై",
+     "kannada": "ವಿಮಲಾಯೈ",
+     "gujarati": "વિમલાયૈ"
+    },
+    {
+     "iast": "viśvāyai",
+     "simple": "vishvaayai",
+     "devanagari": "विश्वायै",
+     "telugu": "విశ్వాయై",
+     "kannada": "ವಿಶ್ವಾಯೈ",
+     "gujarati": "વિશ્વાયૈ"
+    },
+    {
+     "iast": "vidyunmālāyai",
+     "simple": "vidyunmaalaayai",
+     "devanagari": "विद्युन्मालायै",
+     "telugu": "విద్యున్మాలాయై",
+     "kannada": "ವಿದ್ಯುನ್ಮಾಲಾಯೈ",
+     "gujarati": "વિદ્યુન્માલાયૈ"
+    },
+    {
+     "iast": "vaiṣṇavyai",
+     "simple": "vaishnavyai",
+     "devanagari": "वैष्णव्यै",
+     "telugu": "వైష్ణవ్యై",
+     "kannada": "ವೈಷ್ಣವ್ಯೈ",
+     "gujarati": "વૈષ્ણવ્યૈ"
+    },
+    {
+     "iast": "candrikāyai",
+     "simple": "chandrikaayai",
+     "devanagari": "चंद्रिकायै",
+     "telugu": "చంద్రికాయై",
+     "kannada": "ಚಂದ್ರಿಕಾಯೈ",
+     "gujarati": "ચંદ્રિકાયૈ"
+    },
+    {
+     "iast": "candravadanāyai",
+     "simple": "chandravadanaayai",
+     "devanagari": "चंद्रवदनायै",
+     "telugu": "చంద్రవదనాయై",
+     "kannada": "ಚಂದ್ರವದನಾಯೈ",
+     "gujarati": "ચંદ્રવદનાયૈ"
+    },
+    {
+     "iast": "candra lekhāvibhūṣitāyai",
+     "simple": "chandra lekhaavibhooshitaayai",
+     "devanagari": "चंद्र लेखाविभूषितायै",
+     "telugu": "చంద్ర లేఖావిభూషితాయై",
+     "kannada": "ಚಂದ್ರ ಲೇಖಾವಿಭೂಷಿತಾಯೈ",
+     "gujarati": "ચંદ્ર લેખાવિભૂષિતાયૈ"
+    },
+    {
+     "iast": "sāvitryai",
+     "simple": "saavitryai",
+     "devanagari": "सावित्र्यै",
+     "telugu": "సావిత్ర్యై",
+     "kannada": "ಸಾವಿತ್ರ್ಯೈ",
+     "gujarati": "સાવિત્ર્યૈ"
+    },
+    {
+     "iast": "surasāyai",
+     "simple": "surasaayai",
+     "devanagari": "सुरसायै",
+     "telugu": "సురసాయై",
+     "kannada": "ಸುರಸಾಯೈ",
+     "gujarati": "સુરસાયૈ"
+    },
+    {
+     "iast": "devyai",
+     "simple": "devyai",
+     "devanagari": "देव्यै",
+     "telugu": "దేవ్యై",
+     "kannada": "ದೇವ್ಯೈ",
+     "gujarati": "દેવ્યૈ"
+    },
+    {
+     "iast": "divyālaṅkāra bhūṣitāyai",
+     "simple": "divyaalankaara bhooshitaayai",
+     "devanagari": "दिव्यालंकार भूषितायै",
+     "telugu": "దివ్యాలంకార భూషితాయై",
+     "kannada": "ದಿವ್ಯಾಲಂಕಾರ ಭೂಷಿತಾಯೈ",
+     "gujarati": "દિવ્યાલંકાર ભૂષિતાયૈ"
+    },
+    {
+     "iast": "vāgdevyai",
+     "simple": "vaagdevyai",
+     "devanagari": "वाग्देव्यै",
+     "telugu": "వాగ్దేవ్యై",
+     "kannada": "ವಾಗ್ದೇವ್ಯೈ",
+     "gujarati": "વાગ્દેવ્યૈ"
+    },
+    {
+     "iast": "vasudhāyai",
+     "simple": "vasudhaayai",
+     "devanagari": "वसुधायै",
+     "telugu": "వసుధాయై",
+     "kannada": "ವಸುಧಾಯೈ",
+     "gujarati": "વસુધાયૈ"
+    },
+    {
+     "iast": "tīvrāyai",
+     "simple": "teevraayai",
+     "devanagari": "तीव्रायै",
+     "telugu": "తీవ్రాయై",
+     "kannada": "ತೀವ್ರಾಯೈ",
+     "gujarati": "તીવ્રાયૈ"
+    },
+    {
+     "iast": "mahābhadrāyai",
+     "simple": "mahaabhadraayai",
+     "devanagari": "महाभद्रायै",
+     "telugu": "మహాభద్రాయై",
+     "kannada": "ಮಹಾಭದ್ರಾಯೈ",
+     "gujarati": "મહાભદ્રાયૈ"
+    },
+    {
+     "iast": "mahā balāyai",
+     "simple": "mahaa balaayai",
+     "devanagari": "महा बलायै",
+     "telugu": "మహా బలాయై",
+     "kannada": "ಮಹಾ ಬಲಾಯೈ",
+     "gujarati": "મહા બલાયૈ"
+    },
+    {
+     "iast": "bhogadāyai",
+     "simple": "bhogadaayai",
+     "devanagari": "भोगदायै",
+     "telugu": "భోగదాయై",
+     "kannada": "ಭೋಗದಾಯೈ",
+     "gujarati": "ભોગદાયૈ"
+    },
+    {
+     "iast": "bhāratyai",
+     "simple": "bhaaratyai",
+     "devanagari": "भारत्यै",
+     "telugu": "భారత్యై",
+     "kannada": "ಭಾರತ್ಯೈ",
+     "gujarati": "ભારત્યૈ"
+    },
+    {
+     "iast": "bhāmāyai",
+     "simple": "bhaamaayai",
+     "devanagari": "भामायै",
+     "telugu": "భామాయై",
+     "kannada": "ಭಾಮಾಯೈ",
+     "gujarati": "ભામાયૈ"
+    },
+    {
+     "iast": "govindāyai",
+     "simple": "govindaayai",
+     "devanagari": "गोविंदायै",
+     "telugu": "గోవిందాయై",
+     "kannada": "ಗೋವಿಂದಾಯೈ",
+     "gujarati": "ગોવિંદાયૈ"
+    },
+    {
+     "iast": "gomatyai",
+     "simple": "gomatyai",
+     "devanagari": "गोमत्यै",
+     "telugu": "గోమత్యై",
+     "kannada": "ಗೋಮತ್ಯೈ",
+     "gujarati": "ગોમત્યૈ"
+    },
+    {
+     "iast": "śivāyai",
+     "simple": "shivaayai",
+     "devanagari": "शिवायै",
+     "telugu": "శివాయై",
+     "kannada": "ಶಿವಾಯೈ",
+     "gujarati": "શિવાયૈ"
+    },
+    {
+     "iast": "jaṭilāyai",
+     "simple": "jatilaayai",
+     "devanagari": "जटिलायै",
+     "telugu": "జటిలాయై",
+     "kannada": "ಜಟಿಲಾಯೈ",
+     "gujarati": "જટિલાયૈ"
+    },
+    {
+     "iast": "vindhyāvāsāyai",
+     "simple": "vindhyaavaasaayai",
+     "devanagari": "विंध्यावासायै",
+     "telugu": "వింధ్యావాసాయై",
+     "kannada": "ವಿಂಧ್ಯಾವಾಸಾಯೈ",
+     "gujarati": "વિંધ્યાવાસાયૈ"
+    },
+    {
+     "iast": "vindhyācala virājitāyai",
+     "simple": "vindhyaachala viraajitaayai",
+     "devanagari": "विंध्याचल विराजितायै",
+     "telugu": "వింధ్యాచల విరాజితాయై",
+     "kannada": "ವಿಂಧ್ಯಾಚಲ ವಿರಾಜಿತಾಯೈ",
+     "gujarati": "વિંધ્યાચલ વિરાજિતાયૈ"
+    },
+    {
+     "iast": "caṇḍikāyai",
+     "simple": "chandikaayai",
+     "devanagari": "चंडिकायै",
+     "telugu": "చండికాయై",
+     "kannada": "ಚಂಡಿಕಾಯೈ",
+     "gujarati": "ચંડિકાયૈ"
+    },
+    {
+     "iast": "vaiṣṇavyai",
+     "simple": "vaishnavyai",
+     "devanagari": "वैष्णव्यै",
+     "telugu": "వైష్ణవ్యై",
+     "kannada": "ವೈಷ್ಣವ್ಯೈ",
+     "gujarati": "વૈષ્ણવ્યૈ"
+    },
+    {
+     "iast": "brāhmyai",
+     "simple": "braahmyai",
+     "devanagari": "ब्राह्म्यै",
+     "telugu": "బ్రాహ్మ్యై",
+     "kannada": "ಬ್ರಾಹ್ಮ್ಯೈ",
+     "gujarati": "બ્રાહ્મ્યૈ"
+    },
+    {
+     "iast": "brahmajñānaikasādhanāyai",
+     "simple": "brahmagnyaanaikasaadhanaayai",
+     "devanagari": "ब्रह्मज्ञानैकसाधनायै",
+     "telugu": "బ్రహ్మజ్ఞానైకసాధనాయై",
+     "kannada": "ಬ್ರಹ್ಮಜ್ಞಾನೈಕಸಾಧನಾಯೈ",
+     "gujarati": "બ્રહ્મજ્ઞાનૈકસાધનાયૈ"
+    },
+    {
+     "iast": "saudāminyai",
+     "simple": "saudaaminyai",
+     "devanagari": "सौदामिन्यै",
+     "telugu": "సౌదామిన్యై",
+     "kannada": "ಸೌದಾಮಿನ್ಯೈ",
+     "gujarati": "સૌદામિન્યૈ"
+    },
+    {
+     "iast": "sudhā mūrtyai",
+     "simple": "sudhaa moortyai",
+     "devanagari": "सुधा मूर्त्यै",
+     "telugu": "సుధా మూర్త్యై",
+     "kannada": "ಸುಧಾ ಮೂರ್ತ್ಯೈ",
+     "gujarati": "સુધા મૂર્ત્યૈ"
+    },
+    {
+     "iast": "subhadrāyai",
+     "simple": "subhadraayai",
+     "devanagari": "सुभद्रायै",
+     "telugu": "సుభద్రాయై",
+     "kannada": "ಸುಭದ್ರಾಯೈ",
+     "gujarati": "સુભદ્રાયૈ"
+    },
+    {
+     "iast": "sura pūjitāyai",
+     "simple": "sura poojitaayai",
+     "devanagari": "सुर पूजितायै",
+     "telugu": "సుర పూజితాయై",
+     "kannada": "ಸುರ ಪೂಜಿತಾಯೈ",
+     "gujarati": "સુર પૂજિતાયૈ"
+    },
+    {
+     "iast": "suvāsinyai",
+     "simple": "suvaasinyai",
+     "devanagari": "सुवासिन्यै",
+     "telugu": "సువాసిన్యై",
+     "kannada": "ಸುವಾಸಿನ್ಯೈ",
+     "gujarati": "સુવાસિન્યૈ"
+    },
+    {
+     "iast": "sunāsāyai",
+     "simple": "sunaasaayai",
+     "devanagari": "सुनासायै",
+     "telugu": "సునాసాయై",
+     "kannada": "ಸುನಾಸಾಯೈ",
+     "gujarati": "સુનાસાયૈ"
+    },
+    {
+     "iast": "vinidrāyai",
+     "simple": "vinidraayai",
+     "devanagari": "विनिद्रायै",
+     "telugu": "వినిద్రాయై",
+     "kannada": "ವಿನಿದ್ರಾಯೈ",
+     "gujarati": "વિનિદ્રાયૈ"
+    },
+    {
+     "iast": "padmalocanāyai",
+     "simple": "padmalochanaayai",
+     "devanagari": "पद्मलोचनायै",
+     "telugu": "పద్మలోచనాయై",
+     "kannada": "ಪದ್ಮಲೋಚನಾಯೈ",
+     "gujarati": "પદ્મલોચનાયૈ"
+    },
+    {
+     "iast": "vidyā rūpāyai",
+     "simple": "vidyaa roopaayai",
+     "devanagari": "विद्या रूपायै",
+     "telugu": "విద్యా రూపాయై",
+     "kannada": "ವಿದ್ಯಾ ರೂಪಾಯೈ",
+     "gujarati": "વિદ્યા રૂપાયૈ"
+    },
+    {
+     "iast": "viśālākṣyai",
+     "simple": "vishaalaakshyai",
+     "devanagari": "विशालाक्ष्यै",
+     "telugu": "విశాలాక్ష్యై",
+     "kannada": "ವಿಶಾಲಾಕ್ಷ್ಯೈ",
+     "gujarati": "વિશાલાક્ષ્યૈ"
+    },
+    {
+     "iast": "brahmajāyāyai",
+     "simple": "brahmajaayaayai",
+     "devanagari": "ब्रह्मजायायै",
+     "telugu": "బ్రహ్మజాయాయై",
+     "kannada": "ಬ್ರಹ್ಮಜಾಯಾಯೈ",
+     "gujarati": "બ્રહ્મજાયાયૈ"
+    },
+    {
+     "iast": "mahā phalāyai",
+     "simple": "mahaa phalaayai",
+     "devanagari": "महा फलायै",
+     "telugu": "మహా ఫలాయై",
+     "kannada": "ಮಹಾ ಫಲಾಯೈ",
+     "gujarati": "મહા ફલાયૈ"
+    },
+    {
+     "iast": "trayīmūrtyai",
+     "simple": "trayeemoortyai",
+     "devanagari": "त्रयीमूर्त्यै",
+     "telugu": "త్రయీమూర్త్యై",
+     "kannada": "ತ್ರಯೀಮೂರ್ತ್ಯೈ",
+     "gujarati": "ત્રયીમૂર્ત્યૈ"
+    },
+    {
+     "iast": "trikālajñāyai",
+     "simple": "trikaalagnyaayai",
+     "devanagari": "त्रिकालज्ञायै",
+     "telugu": "త్రికాలజ్ఞాయై",
+     "kannada": "ತ್ರಿಕಾಲಜ್ಞಾಯೈ",
+     "gujarati": "ત્રિકાલજ્ઞાયૈ"
+    },
+    {
+     "iast": "triguṇāyai",
+     "simple": "trigunaayai",
+     "devanagari": "त्रिगुणायै",
+     "telugu": "త్రిగుణాయై",
+     "kannada": "ತ್ರಿಗುಣಾಯೈ",
+     "gujarati": "ત્રિગુણાયૈ"
+    },
+    {
+     "iast": "śāstra rūpiṇyai",
+     "simple": "shaastra roopinyai",
+     "devanagari": "शास्त्र रूपिण्यै",
+     "telugu": "శాస్త్ర రూపిణ్యై",
+     "kannada": "ಶಾಸ್ತ್ರ ರೂಪಿಣ್ಯೈ",
+     "gujarati": "શાસ્ત્ર રૂપિણ્યૈ"
+    },
+    {
+     "iast": "śumbhāsurapramathinyai",
+     "simple": "shumbhaasurapramathinyai",
+     "devanagari": "शुंभासुरप्रमथिन्यै",
+     "telugu": "శుంభాసురప్రమథిన్యై",
+     "kannada": "ಶುಂಭಾಸುರಪ್ರಮಥಿನ್ಯೈ",
+     "gujarati": "શુંભાસુરપ્રમથિન્યૈ"
+    },
+    {
+     "iast": "śubhadāyai",
+     "simple": "shubhadaayai",
+     "devanagari": "शुभदायै",
+     "telugu": "శుభదాయై",
+     "kannada": "ಶುಭದಾಯೈ",
+     "gujarati": "શુભદાયૈ"
+    },
+    {
+     "iast": "svarātmikāyai",
+     "simple": "svaraatmikaayai",
+     "devanagari": "स्वरात्मिकायै",
+     "telugu": "స్వరాత్మికాయై",
+     "kannada": "ಸ್ವರಾತ್ಮಿಕಾಯೈ",
+     "gujarati": "સ્વરાત્મિકાયૈ"
+    },
+    {
+     "iast": "raktabījanihantryai",
+     "simple": "raktabeejanihantryai",
+     "devanagari": "रक्तबीजनिहंत्र्यै",
+     "telugu": "రక్తబీజనిహంత్ర్యై",
+     "kannada": "ರಕ್ತಬೀಜನಿಹಂತ್ರ್ಯೈ",
+     "gujarati": "રક્તબીજનિહંત્ર્યૈ"
+    },
+    {
+     "iast": "cāmuṇḍāyai",
+     "simple": "chaamundaayai",
+     "devanagari": "चामुंडायै",
+     "telugu": "చాముండాయై",
+     "kannada": "ಚಾಮುಂಡಾಯೈ",
+     "gujarati": "ચામુંડાયૈ"
+    },
+    {
+     "iast": "ambikāyai",
+     "simple": "ambikaayai",
+     "devanagari": "अंबिकायै",
+     "telugu": "అంబికాయై",
+     "kannada": "ಅಂಬಿಕಾಯೈ",
+     "gujarati": "અંબિકાયૈ"
+    },
+    {
+     "iast": "muṇḍakāyapraharaṇāyai",
+     "simple": "mundakaayapraharanaayai",
+     "devanagari": "मुंडकायप्रहरणायै",
+     "telugu": "ముండకాయప్రహరణాయై",
+     "kannada": "ಮುಂಡಕಾಯಪ್ರಹರಣಾಯೈ",
+     "gujarati": "મુંડકાયપ્રહરણાયૈ"
+    },
+    {
+     "iast": "dhūmralocanamardanāyai",
+     "simple": "dhoomralochanamardanaayai",
+     "devanagari": "धूम्रलोचनमर्दनायै",
+     "telugu": "ధూమ్రలోచనమర్దనాయై",
+     "kannada": "ಧೂಮ್ರಲೋಚನಮರ್ದನಾಯೈ",
+     "gujarati": "ધૂમ્રલોચનમર્દનાયૈ"
+    },
+    {
+     "iast": "sarvadevastutāyai",
+     "simple": "sarvadevastutaayai",
+     "devanagari": "सर्वदेवस्तुतायै",
+     "telugu": "సర్వదేవస్తుతాయై",
+     "kannada": "ಸರ್ವದೇವಸ್ತುತಾಯೈ",
+     "gujarati": "સર્વદેવસ્તુતાયૈ"
+    },
+    {
+     "iast": "saumyāyai",
+     "simple": "saumyaayai",
+     "devanagari": "सौम्यायै",
+     "telugu": "సౌమ్యాయై",
+     "kannada": "ಸೌಮ್ಯಾಯೈ",
+     "gujarati": "સૌમ્યાયૈ"
+    },
+    {
+     "iast": "surāsuranamaskṛtāyai",
+     "simple": "suraasuranamaskritaayai",
+     "devanagari": "सुरासुरनमस्कृतायै",
+     "telugu": "సురాసురనమస్కృతాయై",
+     "kannada": "ಸುರಾಸುರನಮಸ್ಕೃತಾಯೈ",
+     "gujarati": "સુરાસુરનમસ્કૃતાયૈ"
+    },
+    {
+     "iast": "kāḷarātryai",
+     "simple": "kaalaraatryai",
+     "devanagari": "काऌअरात्र्यै",
+     "telugu": "కాఌఅరాత్ర్యై",
+     "kannada": "ಕಾಌಅರಾತ್ರ್ಯೈ",
+     "gujarati": "કાઌઅરાત્ર્યૈ"
+    },
+    {
+     "iast": "kalādhārāyai",
+     "simple": "kalaadhaaraayai",
+     "devanagari": "कलाधारायै",
+     "telugu": "కలాధారాయై",
+     "kannada": "ಕಲಾಧಾರಾಯೈ",
+     "gujarati": "કલાધારાયૈ"
+    },
+    {
+     "iast": "rūpasaubhāgyadāyinyai",
+     "simple": "roopasaubhaagyadaayinyai",
+     "devanagari": "रूपसौभाग्यदायिन्यै",
+     "telugu": "రూపసౌభాగ్యదాయిన్యై",
+     "kannada": "ರೂಪಸೌಭಾಗ್ಯದಾಯಿನ್ಯೈ",
+     "gujarati": "રૂપસૌભાગ્યદાયિન્યૈ"
+    },
+    {
+     "iast": "vāgdevyai",
+     "simple": "vaagdevyai",
+     "devanagari": "वाग्देव्यै",
+     "telugu": "వాగ్దేవ్యై",
+     "kannada": "ವಾಗ್ದೇವ್ಯೈ",
+     "gujarati": "વાગ્દેવ્યૈ"
+    },
+    {
+     "iast": "varārohāyai",
+     "simple": "varaarohaayai",
+     "devanagari": "वरारोहायै",
+     "telugu": "వరారోహాయై",
+     "kannada": "ವರಾರೋಹಾಯೈ",
+     "gujarati": "વરારોહાયૈ"
+    },
+    {
+     "iast": "vārāhyai",
+     "simple": "vaaraahyai",
+     "devanagari": "वाराह्यै",
+     "telugu": "వారాహ్యై",
+     "kannada": "ವಾರಾಹ್ಯೈ",
+     "gujarati": "વારાહ્યૈ"
+    },
+    {
+     "iast": "vārijāsanāyai",
+     "simple": "vaarijaasanaayai",
+     "devanagari": "वारिजासनायै",
+     "telugu": "వారిజాసనాయై",
+     "kannada": "ವಾರಿಜಾಸನಾಯೈ",
+     "gujarati": "વારિજાસનાયૈ"
+    },
+    {
+     "iast": "citrāmbarāyai",
+     "simple": "chitraambaraayai",
+     "devanagari": "चित्रांबरायै",
+     "telugu": "చిత్రాంబరాయై",
+     "kannada": "ಚಿತ್ರಾಂಬರಾಯೈ",
+     "gujarati": "ચિત્રાંબરાયૈ"
+    },
+    {
+     "iast": "citragandhāyai",
+     "simple": "chitragandhaayai",
+     "devanagari": "चित्रगंधायै",
+     "telugu": "చిత్రగంధాయై",
+     "kannada": "ಚಿತ್ರಗಂಧಾಯೈ",
+     "gujarati": "ચિત્રગંધાયૈ"
+    },
+    {
+     "iast": "citra mālya vibhūṣitāyai",
+     "simple": "chitra maalya vibhooshitaayai",
+     "devanagari": "चित्र माल्य विभूषितायै",
+     "telugu": "చిత్ర మాల్య విభూషితాయై",
+     "kannada": "ಚಿತ್ರ ಮಾಲ್ಯ ವಿಭೂಷಿತಾಯೈ",
+     "gujarati": "ચિત્ર માલ્ય વિભૂષિતાયૈ"
+    },
+    {
+     "iast": "kāntāyai",
+     "simple": "kaantaayai",
+     "devanagari": "कांतायै",
+     "telugu": "కాంతాయై",
+     "kannada": "ಕಾಂತಾಯೈ",
+     "gujarati": "કાંતાયૈ"
+    },
+    {
+     "iast": "kāmapradāyai",
+     "simple": "kaamapradaayai",
+     "devanagari": "कामप्रदायै",
+     "telugu": "కామప్రదాయై",
+     "kannada": "ಕಾಮಪ್ರದಾಯೈ",
+     "gujarati": "કામપ્રદાયૈ"
+    },
+    {
+     "iast": "vandyāyai",
+     "simple": "vandyaayai",
+     "devanagari": "वंद्यायै",
+     "telugu": "వంద్యాయై",
+     "kannada": "ವಂದ್ಯಾಯೈ",
+     "gujarati": "વંદ્યાયૈ"
+    },
+    {
+     "iast": "vidyādhara supūjitāyai",
+     "simple": "vidyaadhara supoojitaayai",
+     "devanagari": "विद्याधर सुपूजितायै",
+     "telugu": "విద్యాధర సుపూజితాయై",
+     "kannada": "ವಿದ್ಯಾಧರ ಸುಪೂಜಿತಾಯೈ",
+     "gujarati": "વિદ્યાધર સુપૂજિતાયૈ"
+    },
+    {
+     "iast": "śvetānanāyai",
+     "simple": "shvetaananaayai",
+     "devanagari": "श्वेताननायै",
+     "telugu": "శ్వేతాననాయై",
+     "kannada": "ಶ್ವೇತಾನನಾಯೈ",
+     "gujarati": "શ્વેતાનનાયૈ"
+    },
+    {
+     "iast": "nīlabhujāyai",
+     "simple": "neelabhujaayai",
+     "devanagari": "नीलभुजायै",
+     "telugu": "నీలభుజాయై",
+     "kannada": "ನೀಲಭುಜಾಯೈ",
+     "gujarati": "નીલભુજાયૈ"
+    },
+    {
+     "iast": "caturvarga phalapradāyai",
+     "simple": "chaturvarga phalapradaayai",
+     "devanagari": "चतुर्वर्ग फलप्रदायै",
+     "telugu": "చతుర్వర్గ ఫలప్రదాయై",
+     "kannada": "ಚತುರ್ವರ್ಗ ಫಲಪ್ರದಾಯೈ",
+     "gujarati": "ચતુર્વર્ગ ફલપ્રદાયૈ"
+    },
+    {
+     "iast": "caturānanasāmrājyāyai",
+     "simple": "chaturaananasaamraajyaayai",
+     "devanagari": "चतुराननसाम्राज्यायै",
+     "telugu": "చతురాననసామ్రాజ్యాయై",
+     "kannada": "ಚತುರಾನನಸಾಮ್ರಾಜ್ಯಾಯೈ",
+     "gujarati": "ચતુરાનનસામ્રાજ્યાયૈ"
+    },
+    {
+     "iast": "rakta madhyāyai",
+     "simple": "rakta madhyaayai",
+     "devanagari": "रक्त मध्यायै",
+     "telugu": "రక్త మధ్యాయై",
+     "kannada": "ರಕ್ತ ಮಧ್ಯಾಯೈ",
+     "gujarati": "રક્ત મધ્યાયૈ"
+    },
+    {
+     "iast": "nirañjanāyai",
+     "simple": "niranjanaayai",
+     "devanagari": "निरंजनायै",
+     "telugu": "నిరంజనాయై",
+     "kannada": "ನಿರಂಜನಾಯೈ",
+     "gujarati": "નિરંજનાયૈ"
+    },
+    {
+     "iast": "haṃsāsanāyai",
+     "simple": "hamsaasanaayai",
+     "devanagari": "हंसासनायै",
+     "telugu": "హంసాసనాయై",
+     "kannada": "ಹಂಸಾಸನಾಯೈ",
+     "gujarati": "હંસાસનાયૈ"
+    },
+    {
+     "iast": "nīlajaṅghāyai",
+     "simple": "neelajanghaayai",
+     "devanagari": "नीलजंघायै",
+     "telugu": "నీలజంఘాయై",
+     "kannada": "ನೀಲಜಂಘಾಯೈ",
+     "gujarati": "નીલજંઘાયૈ"
+    },
+    {
+     "iast": "śrī pradāyai",
+     "simple": "shree pradaayai",
+     "devanagari": "श्री प्रदायै",
+     "telugu": "శ్రీ ప్రదాయై",
+     "kannada": "ಶ್ರೀ ಪ್ರದಾಯೈ",
+     "gujarati": "શ્રી પ્રદાયૈ"
+    },
+    {
+     "iast": "brahmaviṣṇu śivātmikāyai",
+     "simple": "brahmavishnu shivaatmikaayai",
+     "devanagari": "ब्रह्मविष्णु शिवात्मिकायै",
+     "telugu": "బ్రహ్మవిష్ణు శివాత్మికాయై",
+     "kannada": "ಬ್ರಹ್ಮವಿಷ್ಣು ಶಿವಾತ್ಮಿಕಾಯೈ",
+     "gujarati": "બ્રહ્મવિષ્ણુ શિવાત્મિકાયૈ"
+    }
+   ]
+  }
+ ]
+}

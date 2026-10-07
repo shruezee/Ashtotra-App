@@ -4,7 +4,7 @@
 
 <h1 align="center">Ashtotra</h1>
 
-<p align="center"><b>Daily prayers, meditation and 108 sacred names, in your script.</b><br>
+<p align="center"><b>Daily prayers, meditation and 108 sacred names, in your script. For iPhone, iPad and Android.</b><br>
 Morning-to-night prayer routines, stotras like the Hanuman Chalisa and Aditya Hrudayam, the Om Jai Jagadish Hare aarti, and the 108 names of Ganesha, Shiva, Lakshmi and Saraswati. Read in English, IAST, Devanagari, Telugu, Kannada or Gujarati, or listen read aloud.</p>
 
 <p align="center">
@@ -84,6 +84,24 @@ Ashtotra/
 AshtotraTests/     Swift Testing suite
 AppStore/          App Store screenshots and listing text
 ```
+
+## Android
+
+The Android app in [`android/`](android) is a native **Kotlin + Jetpack Compose** port with the same features and data:
+
+| iOS | Android |
+|---|---|
+| SwiftUI, Observation | Jetpack Compose, Material 3, StateFlow |
+| `Codable` JSON | kotlinx.serialization (same `Ashtottara.json` and `Prayers.json`) |
+| `AVSpeechSynthesizer` (Hindi voice) | `TextToSpeech` with `UtteranceProgressListener` for line highlighting |
+| `AVAudioSourceNode` synth | `AudioTrack` streaming the same tanpura and singing-bowl synthesis |
+| Core Haptics breath curves | `VibrationEffect` amplitude waveforms (pulse fallback on phones without amplitude control) |
+| `MPMediaPickerController` | Storage Access Framework picker with a persisted URI grant |
+| `UNCalendarNotificationTrigger` | `AlarmManager` inexact daily alarm, re-armed after reboot |
+| Launch screen + SwiftUI splash | Android 12 SplashScreen API + Compose splash |
+| Swift Testing | JUnit tests over the shared JSON, practice log, checklist and breath phases |
+
+Android 8.0+ (API 26), targets API 36. Build with `./gradlew assembleDebug` or open `android/` in Android Studio.
 
 ## Running it
 

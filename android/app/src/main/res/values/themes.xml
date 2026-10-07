@@ -1,0 +1,15 @@
+<resources>
+    <style name="Theme.Ashtotra" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Android 12+ splash: the app icon on the warm background, then the in-app splash takes over. -->
+    <style name="Theme.Ashtotra.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/paper</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_icon</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/icon_mid</item>
+        <item name="postSplashScreenTheme">@style/Theme.Ashtotra</item>
+    </style>
+</resources>
