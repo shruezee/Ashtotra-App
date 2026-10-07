@@ -66,7 +66,7 @@ A complete rewrite. Daily prayer tracking, meditation with a haptic breath guide
 
 **Support URL:** https://shruezee.github.io/Ashtotra-App/
 **Privacy policy URL:** https://shruezee.github.io/Ashtotra-App/privacy.html
-**Copyright:** 2026 ShruthiRamKum
+**Copyright:** 2026 Shruezee Studio
 
 **App Privacy:** Data Not Collected
 **Export compliance:** no encryption (ITSAppUsesNonExemptEncryption = NO)

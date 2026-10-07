@@ -150,7 +150,7 @@ fun SettingsScreen(container: AppContainer, go: Navigator) {
             }) { Text("🔒  Privacy policy", color = Saffron) }
             Text("No ads, no accounts, no tracking. Your progress stays on this device.",
                 style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            Text("© 2026 ShruthiRamKum", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Text("© 2026 Shruezee Studio", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
         Spacer(Modifier.size(24.dp))
     }

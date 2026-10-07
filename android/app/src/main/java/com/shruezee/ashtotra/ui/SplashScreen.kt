@@ -72,7 +72,7 @@ fun SplashScreen() {
             .fillMaxSize()
             .background(colorResource(R.color.paper))
             .semantics(mergeDescendants = true) {
-                contentDescription = "Ashtotra. ${messages[index]} Copyright 2026 ShruthiRamKum."
+                contentDescription = "Ashtotra. ${messages[index]} Copyright 2026 Shruezee Studio."
             },
         contentAlignment = Alignment.Center,
     ) {
@@ -106,7 +106,7 @@ fun SplashScreen() {
             CircularProgressIndicator(Modifier.size(22.dp), color = Saffron, strokeWidth = 2.dp)
         }
         Text(
-            "© 2026 ShruthiRamKum",
+            "© 2026 Shruezee Studio",
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = Modifier.align(Alignment.BottomCenter).navigationBarsPadding().padding(bottom = 16.dp).alpha(glow),

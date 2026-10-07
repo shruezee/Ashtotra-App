@@ -47,7 +47,7 @@ struct SplashView: View {
 
             VStack {
                 Spacer()
-                Text("© 2026 ShruthiRamKum")
+                Text("© 2026 Shruezee Studio")
                     .font(.footnote)
                     .foregroundStyle(.secondary)
                     .padding(.bottom, 12)
@@ -55,7 +55,7 @@ struct SplashView: View {
             .opacity(glow ? 1 : 0)
         }
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Ashtotra. \(messages[messageIndex]) Copyright 2026 ShruthiRamKum.")
+        .accessibilityLabel("Ashtotra. \(messages[messageIndex]) Copyright 2026 Shruezee Studio.")
         .task {
             withAnimation(reduceMotion ? .easeIn(duration: 0.3) : .easeOut(duration: 0.9)) { glow = true }
             for index in 1..<messages.count {
