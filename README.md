@@ -15,7 +15,8 @@ Morning-to-night prayer routines, stotras like the Hanuman Chalisa and Aditya Hr
 </p>
 
 <p align="center">
-  🌐 <a href="https://shruezee.github.io/Ashtotra-App/">Website</a> · 🔒 <a href="https://shruezee.github.io/Ashtotra-App/privacy.html">Privacy policy</a> · 🧪 Status: submitted to the App Store (in review)
+  🌐 <a href="https://shruezee.github.io/Ashtotra-App/">Website</a> · 🔒 <a href="https://shruezee.github.io/Ashtotra-App/privacy.html">Privacy policy</a> · 🧪 Status: live 
+https://apps.apple.com/au/app/ashtotra-daily-prayers/id1474584223
 </p>
 
 <p align="center">
