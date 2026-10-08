@@ -400,3 +400,53 @@ struct DevotionalSongTests {
         #expect(DevotionalSong.fileTypes.contains(.mpeg4Audio))
     }
 }
+
+struct SatsangChatTests {
+    private let host = UUID(), guest = UUID()
+    private var state: SatsangState {
+        var s = SatsangState()
+        s.hostID = host
+        return s
+    }
+
+    @Test func guestsCanChatUnlessTheHostPausesIt() {
+        let line = SatsangChat(senderID: guest, senderName: "Asha", text: "Jai Shri Ram 🙏")
+        #expect(SatsangRules.acceptsChat(line, from: guest, state: state, hidden: []))
+        var paused = state
+        paused.chatEnabled = false
+        #expect(!SatsangRules.acceptsChat(line, from: guest, state: paused, hidden: []))
+        let fromHost = SatsangChat(senderID: host, senderName: "Host", text: "Next we chant Gayatri")
+        #expect(SatsangRules.acceptsChat(fromHost, from: host, state: paused, hidden: []))
+    }
+
+    @Test func hiddenPeopleAndImpersonationAreIgnored() {
+        let line = SatsangChat(senderID: guest, senderName: "Asha", text: "Hello")
+        #expect(!SatsangRules.acceptsChat(line, from: guest, state: state, hidden: [guest]))
+        // A message claiming to be from someone else is dropped.
+        #expect(!SatsangRules.acceptsChat(line, from: host, state: state, hidden: []))
+    }
+
+    @Test func emptyOrTooLongMessagesAreRejected() {
+        #expect(SatsangRules.cleaned("   \n ") == nil)
+        #expect(SatsangRules.cleaned("  Om  ") == "Om")
+        #expect(SatsangRules.cleaned(String(repeating: "a", count: 500))?.count == SatsangChat.maxLength)
+        let long = SatsangChat(senderID: guest, senderName: "Asha", text: String(repeating: "a", count: 400))
+        #expect(!SatsangRules.acceptsChat(long, from: guest, state: state, hidden: []))
+    }
+
+    @Test func onlyTheHostCanRemoveMessages() {
+        #expect(SatsangRules.acceptsRemoval(from: host, state: state))
+        #expect(!SatsangRules.acceptsRemoval(from: guest, state: state))
+    }
+
+    @Test func chatAndReactionsSurviveTheTrip() throws {
+        let line = SatsangChat(senderID: guest, senderName: "Asha", text: "🌸")
+        for message in [SatsangMessage.chat(line), .reaction(.lamp), .removeChat(line.id)] {
+            let data = try JSONEncoder().encode(message)
+            _ = try JSONDecoder().decode(SatsangMessage.self, from: data)
+        }
+        if case .chat(let decoded) = try JSONDecoder().decode(SatsangMessage.self, from: JSONEncoder().encode(SatsangMessage.chat(line))) {
+            #expect(decoded == line)
+        }
+    }
+}

@@ -208,6 +208,7 @@ struct SatsangRoomView: View {
     @State private var localMuted = false
     @State private var choosing = false
     @State private var showPaywall = false
+    @State private var showChat = false
 
     private let book = PrayerBook.shared
     private let library = Library.shared
@@ -219,7 +220,11 @@ struct SatsangRoomView: View {
                 statusBar
                 content(state)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
-                if satsang.isHost { hostControls(state) } else if state.content.isPlayable { followerMediaBar }
+                    .overlay { FloatingReactionsOverlay() }
+                if satsang.isHost { hostControls(state) } else {
+                    if state.content.isPlayable { followerMediaBar }
+                    ReactionStrip().padding(.vertical, 10).frame(maxWidth: .infinity).background(.thinMaterial)
+                }
             }
             .background(Theme.background.ignoresSafeArea())
             .navigationTitle(title(for: state.content))
@@ -242,6 +247,9 @@ struct SatsangRoomView: View {
                 }
             }
             .sheet(isPresented: $choosing) { SatsangChooser() }
+            .sheet(isPresented: $showChat) {
+                SatsangChatView().presentationDetents([.medium, .large]).presentationBackgroundInteraction(.enabled(upThrough: .medium))
+            }
             .sheet(isPresented: $showPaywall) { SatsangPaywall() }
             .alert("Satsang", isPresented: Binding(get: { satsang.lastError != nil }, set: { if !$0 { satsang.clearError() } })) {
                 Button("OK", role: .cancel) {}
@@ -249,7 +257,14 @@ struct SatsangRoomView: View {
                 Text(satsang.lastError ?? "")
             }
             .onChange(of: satsang.isActive) { _, active in if !active { dismiss() } }
-            .onAppear { UIApplication.shared.isIdleTimerDisabled = true }
+            .onAppear {
+                UIApplication.shared.isIdleTimerDisabled = true
+                #if DEBUG
+                if UserDefaults.standard.string(forKey: "demoRoute")?.contains("chat") == true {
+                    Task { try? await Task.sleep(for: .seconds(1)); showChat = true }
+                }
+                #endif
+            }
             .onDisappear { UIApplication.shared.isIdleTimerDisabled = false }
         }
     }
@@ -260,6 +275,25 @@ struct SatsangRoomView: View {
         HStack(spacing: 10) {
             Image(systemName: "shareplay").foregroundStyle(Theme.saffron)
             Text("\(satsang.participantCount) in satsang").font(.subheadline.weight(.semibold))
+            Button {
+                showChat = true
+            } label: {
+                Image(systemName: satsang.state.chatEnabled ? "bubble.left.and.bubble.right.fill" : "bubble.left.and.exclamationmark.bubble.right")
+                    .font(.body)
+                    .foregroundStyle(Theme.saffron)
+                    .frame(width: 44, height: 32)
+                    .overlay(alignment: .topTrailing) {
+                        if satsang.unreadChat > 0 {
+                            Text("\(min(satsang.unreadChat, 99))")
+                                .font(.caption2.weight(.bold))
+                                .foregroundStyle(.white)
+                                .padding(.horizontal, 5)
+                                .background(Color.red, in: .capsule)
+                                .offset(x: 4, y: -4)
+                        }
+                    }
+            }
+            .accessibilityLabel(satsang.unreadChat > 0 ? "Chat, \(satsang.unreadChat) new" : "Chat")
             Spacer()
             if satsang.isHost {
                 Label("You're the host", systemImage: "crown.fill").font(.footnote.weight(.semibold)).foregroundStyle(Theme.saffron)

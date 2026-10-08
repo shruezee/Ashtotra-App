@@ -13,7 +13,7 @@ Rebuilt from scratch: daily prayer routines, Hanuman Chalisa, Aditya Hrudayam an
 Ashtotra is a calm companion for daily Hindu prayer. Read, listen and chant in the script you read best.
 
 SATSANG TOGETHER
-Pray with family and friends over FaceTime or Messages. The host shares a prayer, the 108 names, a YouTube bhajan, a video, a PDF or a photo, and everyone follows in sync: the same verse highlighted, the same chant bead, the video playing together. The host can mute a video for everyone else so the group can chant over it. Joining is always free; becoming a Satsang Host is a one-time purchase, and your first satsang as host is free.
+Pray with family and friends over FaceTime or Messages. The host shares a prayer, the 108 names, a YouTube bhajan, a video, a PDF or a photo, and everyone follows in sync: the same verse highlighted, the same chant bead, the video playing together. The host can mute a video for everyone else so the group can chant over it. Chat and send blessings (🙏 🌸 🪔 🕉️) during the satsang; the host can pause chat while everyone chants. Joining is always free; becoming a Satsang Host is a one-time purchase, and your first satsang as host is free.
 
 TODAY'S PRACTICE
 Four small steps a day: morning prayers, the day's devotion, a few minutes of meditation, and the evening lamp. Tick them off and watch your week fill with rings.

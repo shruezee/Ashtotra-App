@@ -56,6 +56,8 @@ struct SatsangState: Codable, Equatable {
     var mediaUpdatedAt = Date(timeIntervalSince1970: 0)
     /// When true, everyone except the host hears the video silently (so the group can chant over it).
     var mediaMutedForOthers = false
+    /// The host can pause chat during chanting.
+    var chatEnabled = true
     /// Increases with every host change so stale messages are ignored.
     var revision = 0
 
@@ -69,6 +71,35 @@ struct SatsangState: Codable, Equatable {
 enum SatsangMessage: Codable {
     case state(SatsangState)
     case requestState
+    case chat(SatsangChat)
+    case reaction(SatsangReaction)
+    /// Host only: remove a chat message for everyone.
+    case removeChat(UUID)
+}
+
+/// A chat line in the satsang. Lives only on the participants' devices and disappears when the satsang ends.
+struct SatsangChat: Codable, Identifiable, Equatable {
+    var id = UUID()
+    var senderID: UUID
+    var senderName: String
+    var text: String
+    var sentAt = Date()
+
+    static let maxLength = 300
+}
+
+/// A one-tap blessing that floats across everyone's screen.
+enum SatsangReaction: String, Codable, CaseIterable, Identifiable {
+    case namaste = "🙏", flower = "🌸", lamp = "🪔", om = "🕉️"
+    var id: String { rawValue }
+    var label: String {
+        switch self {
+        case .namaste: "Namaste"
+        case .flower: "Flower"
+        case .lamp: "Lamp"
+        case .om: "Om"
+        }
+    }
 }
 
 /// Pure decisions about who leads, kept separate so they can be tested without SharePlay.
@@ -81,6 +112,26 @@ enum SatsangRules {
             return incoming.revision > current.revision
         }
         return current.hostID == nil || !present.contains(current.hostID!)
+    }
+
+    /// Whether to show an incoming chat message.
+    static func acceptsChat(_ chat: SatsangChat, from sender: UUID, state: SatsangState, hidden: Set<UUID>) -> Bool {
+        guard chat.senderID == sender, !hidden.contains(sender) else { return false }
+        let text = chat.text.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !text.isEmpty, text.count <= SatsangChat.maxLength else { return false }
+        return state.chatEnabled || sender == state.hostID
+    }
+
+    /// Only the host may remove messages.
+    static func acceptsRemoval(from sender: UUID, state: SatsangState) -> Bool {
+        sender == state.hostID
+    }
+
+    /// Tidy what someone typed before sending; nil if there's nothing to send.
+    static func cleaned(_ text: String) -> String? {
+        let trimmed = text.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else { return nil }
+        return String(trimmed.prefix(SatsangChat.maxLength))
     }
 
     /// How far a follower may drift from the host before jumping to catch up.

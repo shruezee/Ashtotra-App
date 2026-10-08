@@ -41,7 +41,7 @@ Ashtotra first shipped in 2019 as a UIKit app that displayed bundled PDFs, with 
 
 ## Features
 
-- **Satsang together (SharePlay):** pray with family over FaceTime or Messages. The host shares a prayer (verse highlighted for everyone), the 108-name chant ring, a YouTube link, a video, a PDF or a photo; everyone follows in sync, and the host can mute a video for everyone else so the group can chant over it. Joining is free; hosting is a one-time **Satsang Host** purchase, with the first satsang free
+- **Satsang together (SharePlay):** pray with family over FaceTime or Messages. The host shares a prayer (verse highlighted for everyone), the 108-name chant ring, a YouTube link, a video, a PDF or a photo; everyone follows in sync, and the host can mute a video for everyone else so the group can chant over it. A **satsang chat** with one-tap reactions (🙏 🌸 🪔 🕉️) runs over the same encrypted SharePlay channel; the host can pause chat or remove messages, and anyone can hide or report a participant. Joining is free; hosting is a one-time **Satsang Host** purchase, with the first satsang free
 - **Today's practice:** a four-step daily checklist (morning prayers, the day's devotion, meditation, evening lamp) that fills in as you go, with a week of progress rings
 - **Your practice:** streak, days of prayer, minutes meditated, a month calendar of rings, and what you did each day
 - **Meditate:** 1–20 minutes (default 2), "gently close your eyes", a breathing circle, and a **haptic breath guide** that swells as you breathe in and fades as you breathe out; with a tanpura drone, singing bowl, silence, or your own devotional song (an MP3/M4A/MP4 from Files, or from Apple Music), ending with a bell

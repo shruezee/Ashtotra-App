@@ -14,6 +14,22 @@ final class SatsangSession {
     /// Shared files, loaded and ready to show.
     private(set) var files: [UUID: URL] = [:]
     private(set) var lastError: String?
+    /// Chat lines, newest last (kept to the most recent 200).
+    private(set) var chat: [SatsangChat] = []
+    /// Messages the user hasn't seen because the chat panel was closed.
+    private(set) var unreadChat = 0
+    var isChatOpen = false { didSet { if isChatOpen { unreadChat = 0 } } }
+    /// Reactions to float across the screen.
+    private(set) var reactions: [FloatingReaction] = []
+    /// People whose messages this user has chosen to hide.
+    private(set) var hiddenSenders = Set<UUID>()
+
+    struct FloatingReaction: Identifiable, Equatable {
+        let id = UUID()
+        let reaction: SatsangReaction
+        let lane: Double
+    }
+
     /// True while the device is in a FaceTime call where SharePlay can start directly.
     private(set) var isEligibleInCall = false
 
@@ -135,6 +151,63 @@ final class SatsangSession {
 
     func clearError() { lastError = nil }
 
+    // MARK: Chat
+
+    func sendChat(_ text: String, name: String) {
+        guard let localID, let cleaned = SatsangRules.cleaned(text) else { return }
+        guard state.chatEnabled || isHost else {
+            lastError = "The host has paused chat for now."
+            return
+        }
+        let line = SatsangChat(senderID: localID, senderName: name.isEmpty ? "Guest" : name, text: cleaned)
+        append(line)
+        send(.chat(line), to: .all)
+    }
+
+    func react(_ reaction: SatsangReaction) {
+        float(reaction)
+        send(.reaction(reaction), to: .all)
+    }
+
+    /// Host only: pause or resume chat for everyone.
+    func setChatEnabled(_ enabled: Bool) {
+        guard isHost else { return }
+        state.chatEnabled = enabled
+        broadcast()
+    }
+
+    /// Host only: remove a message for everyone.
+    func removeChat(_ id: UUID) {
+        guard isHost else { return }
+        chat.removeAll { $0.id == id }
+        send(.removeChat(id), to: .all)
+    }
+
+    /// Hide everything from one person, on this device only.
+    func hideMessages(from sender: UUID) {
+        guard sender != localID else { return }
+        hiddenSenders.insert(sender)
+        chat.removeAll { $0.senderID == sender }
+    }
+
+    func isFromMe(_ line: SatsangChat) -> Bool { line.senderID == localID }
+    func isFromHost(_ line: SatsangChat) -> Bool { line.senderID == state.hostID }
+
+    private func append(_ line: SatsangChat) {
+        chat.append(line)
+        if chat.count > 200 { chat.removeFirst(chat.count - 200) }
+        if !isChatOpen && !isFromMe(line) { unreadChat += 1 }
+    }
+
+    private func float(_ reaction: SatsangReaction) {
+        let item = FloatingReaction(reaction: reaction, lane: .random(in: 0.15...0.85))
+        reactions.append(item)
+        Task { [weak self] in
+            try? await Task.sleep(for: .seconds(3))
+            self?.reactions.removeAll { $0.id == item.id }
+        }
+    }
+
     #if DEBUG
     /// Screenshot and layout checks without a FaceTime call.
     func debugSimulate(asHost: Bool, content: SatsangContent, position: Int = 0, people: Int = 5) {
@@ -142,7 +215,14 @@ final class SatsangSession {
         localID = me
         presentIDs = [me, UUID()]
         participantCount = people
-        state = SatsangState(hostID: asHost ? me : presentIDs.first { $0 != me }, content: content, position: position)
+        let hostID = asHost ? me : presentIDs.first { $0 != me }!
+        state = SatsangState(hostID: hostID, content: content, position: position)
+        chat = [
+            SatsangChat(senderID: hostID, senderName: asHost ? "Shruthi" : "Lakshmi aunty", text: "Welcome everyone 🙏 We'll start with the Hanuman Chalisa."),
+            SatsangChat(senderID: UUID(), senderName: "Ravi", text: "Jai Shri Ram! Joining from Melbourne 🌸"),
+            SatsangChat(senderID: me, senderName: "Me", text: "Namaste 🙏 ready when you are"),
+        ]
+        unreadChat = asHost ? 0 : 2
         isActive = true
     }
     #endif
@@ -216,6 +296,12 @@ final class SatsangSession {
             }
         case .requestState:
             if isHost { send(.state(state), to: .only(sender)) }
+        case .chat(let line):
+            if SatsangRules.acceptsChat(line, from: sender.id, state: state, hidden: hiddenSenders) { append(line) }
+        case .reaction(let reaction):
+            if !hiddenSenders.contains(sender.id) { float(reaction) }
+        case .removeChat(let id):
+            if SatsangRules.acceptsRemoval(from: sender.id, state: state) { chat.removeAll { $0.id == id } }
         }
     }
 
@@ -248,6 +334,11 @@ final class SatsangSession {
         presentIDs = []
         localID = nil
         files = [:]
+        chat = []
+        unreadChat = 0
+        isChatOpen = false
+        reactions = []
+        hiddenSenders = []
         state = SatsangState()
     }
 }
