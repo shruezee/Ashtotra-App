@@ -12,7 +12,7 @@ struct MeditationSessionView: View {
     let sound: MeditationSound
     let pattern: BreathPattern
     let haptics: Bool
-    let songID: String
+    let song: DevotionalSong.Choice
 
     @State private var startedAt = Date()
     @State private var pausedAt: Date?
@@ -174,7 +174,8 @@ struct MeditationSessionView: View {
 
     private func begin() {
         UIApplication.shared.isIdleTimerDisabled = true
-        try? AVAudioSession.sharedInstance().setCategory(.playback, options: sound == .myMusic ? [.mixWithOthers] : [])
+        // The Music app plays in its own process, so let it mix with ours; files play inside Ashtotra.
+        try? AVAudioSession.sharedInstance().setCategory(.playback, options: sound == .myMusic && song.source == .music ? [.mixWithOthers] : [])
         try? AVAudioSession.sharedInstance().setActive(true)
         switch sound {
         case .tanpura: synth.start(.tanpura)
@@ -182,7 +183,7 @@ struct MeditationSessionView: View {
         case .silence: synth.start(.none)
         case .myMusic:
             synth.start(.none)
-            songMissing = !DevotionalSong.play(persistentID: songID)
+            songMissing = !DevotionalSong.play(song)
         }
         if haptics { breath.prepare() }
         startedAt = .now

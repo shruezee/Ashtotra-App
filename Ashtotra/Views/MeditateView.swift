@@ -8,7 +8,12 @@ struct MeditateView: View {
     @AppStorage("breathHaptics") private var hapticsOn = true
     @AppStorage(DevotionalSong.idKey) private var songID = ""
     @AppStorage(DevotionalSong.titleKey) private var songTitle = ""
+    @AppStorage(DevotionalSong.sourceKey) private var songSource = DevotionalSong.Source.music.rawValue
+    @AppStorage(DevotionalSong.fileKey) private var songFile = ""
     @State private var showPicker = false
+    @State private var showSourceChoice = false
+    @State private var showFileImporter = false
+    @State private var fileError: String?
     @State private var libraryDenied = false
     @State private var sessionOpen = false
 
@@ -43,15 +48,39 @@ struct MeditateView: View {
         .settingsToolbar()
         .fullScreenCover(isPresented: $sessionOpen) {
             MeditationSessionView(minutes: minutes, sound: sound, pattern: .named(patternID),
-                                  haptics: hapticsOn && BreathHaptics.isSupported, songID: songID)
+                                  haptics: hapticsOn && BreathHaptics.isSupported, song: choice)
         }
         .sheet(isPresented: $showPicker) {
             SongPicker { item in
                 songID = String(item.persistentID)
                 songTitle = [item.title, item.artist].compactMap { $0 }.joined(separator: " · ")
+                songSource = DevotionalSong.Source.music.rawValue
                 sound = .myMusic
             }
             .ignoresSafeArea()
+        }
+        .confirmationDialog("Choose your devotional song", isPresented: $showSourceChoice, titleVisibility: .visible) {
+            Button("From Files (MP3, M4A or MP4)") { showFileImporter = true }
+            Button("From my Music library") { chooseFromMusic() }
+            Button("Cancel", role: .cancel) {}
+        } message: {
+            Text("Pick a song saved on your phone or in iCloud Drive, or one from Apple Music.")
+        }
+        .fileImporter(isPresented: $showFileImporter, allowedContentTypes: DevotionalSong.fileTypes) { result in
+            switch result {
+            case .success(let url):
+                do {
+                    songFile = try DevotionalSong.importFile(from: url)
+                    songTitle = DevotionalSong.title(forFile: songFile)
+                    songSource = DevotionalSong.Source.file.rawValue
+                    sound = .myMusic
+                    fileError = nil
+                } catch {
+                    fileError = "That file couldn't be added. Try another MP3, M4A or MP4."
+                }
+            case .failure:
+                break
+            }
         }
         #if DEBUG
         .onAppear {
@@ -103,7 +132,7 @@ struct MeditateView: View {
         Card(title: "Sound") {
             ForEach(MeditationSound.allCases) { option in
                 Button {
-                    if option == .myMusic && songID.isEmpty { chooseSong() } else { sound = option }
+                    if option == .myMusic && !choice.isChosen { showSourceChoice = true } else { sound = option }
                 } label: {
                     HStack(spacing: 14) {
                         Image(systemName: option.symbol)
@@ -112,10 +141,17 @@ struct MeditateView: View {
                         VStack(alignment: .leading, spacing: 2) {
                             Text(option.title).font(.headline)
                             if option == .myMusic {
-                                Text(songTitle.isEmpty ? "Choose a song from your Music library" : songTitle)
-                                    .font(.footnote)
-                                    .foregroundStyle(.secondary)
-                                    .lineLimit(2)
+                                if choice.isChosen {
+                                    Label(songTitle, systemImage: choice.source == .file ? "folder" : "music.note")
+                                        .font(.footnote)
+                                        .foregroundStyle(.secondary)
+                                        .lineLimit(2)
+                                } else {
+                                    Text("Choose an MP3 or MP4 from Files, or a song from your Music library")
+                                        .font(.footnote)
+                                        .foregroundStyle(.secondary)
+                                        .lineLimit(2)
+                                }
                             }
                         }
                         Spacer()
@@ -130,9 +166,14 @@ struct MeditateView: View {
                 }
                 .buttonStyle(.plain)
             }
-            if sound == .myMusic || !songID.isEmpty {
-                Button(songID.isEmpty ? "Choose song" : "Change song", action: chooseSong)
+            if sound == .myMusic || choice.isChosen {
+                Button(choice.isChosen ? "Change song" : "Choose song") { showSourceChoice = true }
                     .font(.subheadline.weight(.semibold))
+            }
+            if let fileError {
+                Text(fileError)
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
             }
             if libraryDenied {
                 Text("Ashtotra needs access to your Music library to play your song. You can allow it in the Settings app.")
@@ -174,7 +215,11 @@ struct MeditateView: View {
         }
     }
 
-    private func chooseSong() {
+    private var choice: DevotionalSong.Choice {
+        DevotionalSong.Choice(source: DevotionalSong.Source(rawValue: songSource) ?? .music, persistentID: songID, fileName: songFile)
+    }
+
+    private func chooseFromMusic() {
         Task {
             if await DevotionalSong.requestAccess() {
                 libraryDenied = false

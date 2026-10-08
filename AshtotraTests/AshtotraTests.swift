@@ -1,3 +1,4 @@
+import AVFoundation
 import Foundation
 import Testing
 @testable import Ashtotra
@@ -347,5 +348,55 @@ struct SatsangTests {
         store.spendFreeSatsangIfNeeded()
         #expect(!store.canHost)
         #expect(!SatsangStore(defaults: defaults, observeTransactions: false).canHost)
+    }
+}
+
+@MainActor
+struct DevotionalSongTests {
+    /// A short silent M4A, written for the test.
+    private func makeAudioFile(named name: String) throws -> URL {
+        let url = FileManager.default.temporaryDirectory.appendingPathComponent(name)
+        try? FileManager.default.removeItem(at: url)
+        let format = AVAudioFormat(standardFormatWithSampleRate: 44_100, channels: 1)!
+        let file = try AVAudioFile(forWriting: url, settings: [AVFormatIDKey: kAudioFormatMPEG4AAC,
+                                                              AVSampleRateKey: 44_100, AVNumberOfChannelsKey: 1])
+        let buffer = AVAudioPCMBuffer(pcmFormat: format, frameCapacity: 44_100)!
+        buffer.frameLength = 44_100
+        try file.write(from: buffer)
+        return url
+    }
+
+    @Test func importedSongReplacesTheEarlierOneAndPlays() throws {
+        let first = try makeAudioFile(named: "Om Namah Shivaya.m4a")
+        let second = try makeAudioFile(named: "Hanuman Chalisa.m4a")
+
+        let firstName = try DevotionalSong.importFile(from: first)
+        #expect(firstName == "Om Namah Shivaya.m4a")
+        let secondName = try DevotionalSong.importFile(from: second)
+        let stored = try FileManager.default.contentsOfDirectory(atPath: DevotionalSong.folder.path)
+        #expect(stored == [secondName])
+        #expect(DevotionalSong.title(forFile: secondName) == "Hanuman Chalisa")
+
+        let choice = DevotionalSong.Choice(source: .file, persistentID: "", fileName: secondName)
+        #expect(choice.isChosen)
+        #expect(DevotionalSong.play(choice))
+        DevotionalSong.stop()
+    }
+
+    @Test func missingFileIsReportedNotPlayed() {
+        let choice = DevotionalSong.Choice(source: .file, persistentID: "", fileName: "gone.mp3")
+        #expect(!DevotionalSong.play(choice))
+    }
+
+    @Test func nothingChosenUntilASongIsPicked() {
+        #expect(!DevotionalSong.Choice(source: .file, persistentID: "123", fileName: "").isChosen)
+        #expect(!DevotionalSong.Choice(source: .music, persistentID: "", fileName: "a.mp3").isChosen)
+        #expect(DevotionalSong.Choice(source: .music, persistentID: "123", fileName: "").isChosen)
+    }
+
+    @Test func mp3AndMp4AreAccepted() {
+        #expect(DevotionalSong.fileTypes.contains(.mp3))
+        #expect(DevotionalSong.fileTypes.contains(.mpeg4Movie))
+        #expect(DevotionalSong.fileTypes.contains(.mpeg4Audio))
     }
 }
