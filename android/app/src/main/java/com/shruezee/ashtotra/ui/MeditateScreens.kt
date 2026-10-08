@@ -156,7 +156,7 @@ fun MeditateScreen(container: AppContainer, go: Navigator) {
             MeditationSound.entries.forEach { option ->
                 Row(
                     Modifier.fillMaxWidth().heightIn(min = 52.dp).clickable {
-                        if (option == MeditationSound.MySong && songUri.isBlank()) picker.launch(arrayOf("audio/*"))
+                        if (option == MeditationSound.MySong && songUri.isBlank()) picker.launch(arrayOf("audio/*", "video/mp4"))
                         else s.meditationSound.value = option
                     },
                     verticalAlignment = Alignment.CenterVertically,
@@ -164,7 +164,7 @@ fun MeditateScreen(container: AppContainer, go: Navigator) {
                     Column(Modifier.weight(1f)) {
                         Text(option.title, style = MaterialTheme.typography.titleMedium)
                         if (option == MeditationSound.MySong) {
-                            Text(songTitle.ifBlank { "Choose an audio file from your phone" },
+                            Text(songTitle.ifBlank { "Choose an MP3 or MP4 from your phone" },
                                 style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         }
                     }
@@ -172,7 +172,7 @@ fun MeditateScreen(container: AppContainer, go: Navigator) {
                 }
             }
             if (sound == MeditationSound.MySong || songUri.isNotBlank()) {
-                TextButton(onClick = { picker.launch(arrayOf("audio/*")) }) {
+                TextButton(onClick = { picker.launch(arrayOf("audio/*", "video/mp4")) }) {
                     Text(if (songUri.isBlank()) "Choose song" else "Change song", color = Saffron)
                 }
             }
