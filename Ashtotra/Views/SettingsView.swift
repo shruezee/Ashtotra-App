@@ -1,3 +1,4 @@
+import StoreKit
 import SwiftUI
 
 struct SettingsView: View {
@@ -8,6 +9,10 @@ struct SettingsView: View {
     @AppStorage("reminderOn") private var reminderOn = false
     @AppStorage("reminderMinutes") private var reminderMinutes = 6 * 60 + 30
     @State private var notificationsDenied = false
+    @Environment(PlusStore.self) private var plus
+    @State private var showPaywall = false
+    @State private var manageSubscription = false
+    @State private var restoreMessage: String?
 
     private let sample = Library.shared.collections[0].names[0]
 
@@ -32,6 +37,14 @@ struct SettingsView: View {
         }
     }
 
+    private func freeText(_ feature: PlusStore.Feature) -> String {
+        switch plus.status(of: feature) {
+        case .notStarted: feature == .hosting ? "First day free" : "First month free"
+        case .active(let end): "Free, " + PlusStore.timeLeft(until: end, from: .now).lowercased()
+        case .ended: "Needs Plus"
+        }
+    }
+
     var body: some View {
         NavigationStack {
             Form {
@@ -52,6 +65,34 @@ struct SettingsView: View {
                 } footer: {
                     Text("Example: \(Library.shared.chantLine(sample, script: script))", script: script)
                 }
+
+                Section {
+                    if plus.isSubscribed {
+                        Label("Ashtotra Plus is active. Thank you! 🙏", systemImage: "checkmark.seal.fill")
+                            .foregroundStyle(.green)
+                        Button("Manage subscription") { manageSubscription = true }
+                    } else {
+                        LabeledContent("Hosting satsangs", value: freeText(.hosting))
+                        LabeledContent("Meditation and Sleep", value: freeText(.meditation))
+                        Button("See Ashtotra Plus plans") { showPaywall = true }
+                    }
+                    Button("Restore purchases") {
+                        Task {
+                            try? await AppStore.sync()
+                            await plus.refresh()
+                            restoreMessage = plus.isSubscribed ? "Ashtotra Plus restored." : "No active subscription found for this Apple Account."
+                        }
+                    }
+                    if let restoreMessage {
+                        Text(restoreMessage).font(.footnote).foregroundStyle(.secondary)
+                    }
+                } header: {
+                    Text("Ashtotra Plus")
+                } footer: {
+                    Text("Hosting a satsang is free for your first day and meditation for your first month. Prayers, the 108 names and joining satsangs are always free.")
+                }
+                .sheet(isPresented: $showPaywall) { PlusPaywall(reason: .general) }
+                .manageSubscriptionsSheet(isPresented: $manageSubscription)
 
                 Section("Reading") {
                     Toggle("Show “Om … namaha” on every name", isOn: $showOmNamah)

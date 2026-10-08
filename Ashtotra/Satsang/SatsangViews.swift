@@ -7,11 +7,11 @@ import UniformTypeIdentifiers
 
 // MARK: - Start screen
 
-/// Explains satsang, starts it (FaceTime or Messages), and handles the host purchase.
+/// Explains satsang, starts it (FaceTime or Messages), and checks hosting access.
 struct SatsangStartView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(SatsangSession.self) private var satsang
-    @Environment(SatsangStore.self) private var store
+    @Environment(PlusStore.self) private var plus
     @State private var showPaywall = false
     @State private var showShareSheet = false
 
@@ -70,7 +70,7 @@ struct SatsangStartView: View {
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) { Button("Close") { dismiss() } }
             }
-            .sheet(isPresented: $showPaywall) { SatsangPaywall() }
+            .sheet(isPresented: $showPaywall) { PlusPaywall(reason: .hostingEnded) }
             .sheet(isPresented: $showShareSheet) {
                 ActivitySharingSheet { satsang.prepareToHost() }
                     .ignoresSafeArea()
@@ -81,27 +81,34 @@ struct SatsangStartView: View {
 
     @ViewBuilder
     private var hostStatus: some View {
-        if store.isUnlocked {
-            Label("You're a Satsang Host. Thank you! 🙏", systemImage: "checkmark.seal.fill")
+        if plus.isSubscribed {
+            Label("Hosting is included in your Ashtotra Plus. Thank you! 🙏", systemImage: "checkmark.seal.fill")
                 .font(.subheadline.weight(.semibold))
                 .foregroundStyle(.green)
-        } else if !store.freeSatsangUsed {
-            Label("Your first satsang as host is free.", systemImage: "gift.fill")
-                .font(.subheadline.weight(.semibold))
-                .foregroundStyle(Theme.saffron)
         } else {
-            Button {
-                showPaywall = true
-            } label: {
-                Label("Become a Satsang Host", systemImage: "crown.fill")
+            switch plus.status(of: .hosting) {
+            case .notStarted:
+                Label("Hosting is free for your first day.", systemImage: "gift.fill")
                     .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(Theme.saffron)
+            case .active(let end):
+                Label("Free hosting: \(PlusStore.timeLeft(until: end, from: .now).lowercased()).", systemImage: "gift.fill")
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(Theme.saffron)
+            case .ended:
+                Button {
+                    showPaywall = true
+                } label: {
+                    Label("Keep hosting with Ashtotra Plus", systemImage: "crown.fill")
+                        .font(.subheadline.weight(.semibold))
+                }
+                .tint(Theme.saffron)
             }
-            .tint(Theme.saffron)
         }
     }
 
     private func start(inCall: Bool) {
-        guard store.canHost else {
+        guard plus.canUse(.hosting) else {
             showPaywall = true
             return
         }
@@ -138,81 +145,13 @@ private struct ActivitySharingSheet: UIViewControllerRepresentable {
     func updateUIViewController(_ controller: UIViewController, context: Context) {}
 }
 
-// MARK: - Paywall
-
-struct SatsangPaywall: View {
-    @Environment(\.dismiss) private var dismiss
-    @Environment(SatsangStore.self) private var store
-    /// Shown right after the free satsang ends.
-    var afterFreeSatsang = false
-
-    var body: some View {
-        NavigationStack {
-            VStack(spacing: 18) {
-                Spacer()
-                if afterFreeSatsang {
-                    Text("🙏").font(.system(size: 56)).accessibilityHidden(true)
-                    Text("Hope your satsang was beautiful").font(.title.weight(.bold)).multilineTextAlignment(.center)
-                } else {
-                    Image(systemName: "crown.fill").font(.system(size: 56)).foregroundStyle(Theme.saffron)
-                    Text("Become a Satsang Host").font(.title.weight(.bold))
-                }
-                Text(afterFreeSatsang
-                     ? "That was your free satsang as host. Become a Satsang Host to lead as many as you like, with prayers, chanting, chat, YouTube, videos, PDFs and photos in sync for everyone."
-                     : "Lead satsangs over FaceTime and Messages as often as you like: prayers, chanting, chat, YouTube, videos, PDFs and photos, in sync for everyone.")
-                    .multilineTextAlignment(.center)
-                    .foregroundStyle(.secondary)
-                VStack(alignment: .leading, spacing: 8) {
-                    Label("One-time purchase, yours forever", systemImage: "checkmark.circle.fill")
-                    Label("Shared with your Family Sharing group", systemImage: "checkmark.circle.fill")
-                    Label("Joining is always free for everyone", systemImage: "checkmark.circle.fill")
-                    Label("Supports an ad-free, private app", systemImage: "checkmark.circle.fill")
-                }
-                .font(.callout)
-                .foregroundStyle(.primary)
-                Spacer()
-                Button {
-                    Task {
-                        await store.purchase()
-                        if store.isUnlocked { dismiss() }
-                    }
-                } label: {
-                    Group {
-                        if store.isPurchasing {
-                            ProgressView()
-                        } else {
-                            Text(store.product.map { "Unlock for \($0.displayPrice)" } ?? "Unlock")
-                        }
-                    }
-                    .font(.headline)
-                    .frame(maxWidth: .infinity, minHeight: 56)
-                }
-                .buttonStyle(.borderedProminent)
-                .tint(Theme.saffron)
-                .disabled(store.isPurchasing)
-                Button("Restore purchase") { Task { await store.restore() } }
-                    .font(.subheadline)
-                if let message = store.message {
-                    Text(message).font(.footnote).foregroundStyle(.secondary).multilineTextAlignment(.center)
-                }
-            }
-            .padding(24)
-            .frame(maxWidth: 520)
-            .frame(maxWidth: .infinity)
-            .background(Theme.background.ignoresSafeArea())
-            .toolbar { ToolbarItem(placement: .cancellationAction) { Button("Not now") { dismiss() } } }
-            .onDisappear { store.clearMessage() }
-        }
-    }
-}
-
 // MARK: - The room
 
 /// What everyone sees during a satsang. The host gets controls; others follow.
 struct SatsangRoomView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(SatsangSession.self) private var satsang
-    @Environment(SatsangStore.self) private var store
+    @Environment(PlusStore.self) private var plus
     @AppStorage("script") private var script: Script = .simple
     @State private var localMuted = false
     @State private var choosing = false
@@ -259,7 +198,7 @@ struct SatsangRoomView: View {
             .sheet(isPresented: $showChat) {
                 SatsangChatView().presentationDetents([.medium, .large]).presentationBackgroundInteraction(.enabled(upThrough: .medium))
             }
-            .sheet(isPresented: $showPaywall) { SatsangPaywall() }
+            .sheet(isPresented: $showPaywall) { PlusPaywall(reason: .hostingEnded) }
             .alert("Satsang", isPresented: Binding(get: { satsang.lastError != nil }, set: { if !$0 { satsang.clearError() } })) {
                 Button("OK", role: .cancel) {}
             } message: {
@@ -310,7 +249,7 @@ struct SatsangRoomView: View {
                 Text("Following the host").font(.footnote).foregroundStyle(.secondary)
             } else if satsang.state.hostID != nil {
                 Button("Host left. Lead now") {
-                    if store.canHost { satsang.claimHost(); store.spendFreeSatsangIfNeeded() } else { showPaywall = true }
+                    if plus.canUse(.hosting) { satsang.claimHost() } else { showPaywall = true }
                 }
                 .font(.footnote.weight(.semibold))
             } else {

@@ -1,30 +1,75 @@
 {
-  "identifier" : "4C1E6E2A-8F0A-4B7B-9C41-5A1F0D2B7E11",
-  "nonRenewingSubscriptions" : [],
-  "products" : [
+  "identifier": "4C1E6E2A-8F0A-4B7B-9C41-5A1F0D2B7E11",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_applicationInternalID": "1474584223",
+    "_developerTeamID": "73RC6SBX5Y",
+    "_locale": "en_AU",
+    "_storefront": "AUS",
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [
     {
-      "displayPrice" : "9.99",
-      "familyShareable" : true,
-      "internalID" : "6740000001",
-      "localizations" : [
+      "id": "21500001",
+      "localizations": [
         {
-          "description" : "Host satsangs over FaceTime and Messages with SharePlay.",
-          "displayName" : "Satsang Host",
-          "locale" : "en_AU"
+          "description": "Ashtotra Plus",
+          "displayName": "Ashtotra Plus",
+          "locale": "en_AU"
         }
       ],
-      "productID" : "com.shruezee.ashtotra.satsanghost",
-      "referenceName" : "Satsang Host",
-      "type" : "NonConsumable"
+      "name": "Ashtotra Plus",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "29.99",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "6740000003",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Host satsangs, meditate and play sleep sounds.",
+              "displayName": "Ashtotra Plus Yearly",
+              "locale": "en_AU"
+            }
+          ],
+          "productID": "com.shruezee.ashtotra.plus.yearly",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "Ashtotra Plus Yearly",
+          "subscriptionGroupID": "21500001",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "3.99",
+          "familyShareable": true,
+          "groupNumber": 2,
+          "internalID": "6740000002",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Host satsangs, meditate and play sleep sounds.",
+              "displayName": "Ashtotra Plus Monthly",
+              "locale": "en_AU"
+            }
+          ],
+          "productID": "com.shruezee.ashtotra.plus.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Ashtotra Plus Monthly",
+          "subscriptionGroupID": "21500001",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        }
+      ]
     }
   ],
-  "settings" : {
-    "_applicationInternalID" : "1474584223",
-    "_developerTeamID" : "73RC6SBX5Y",
-    "_locale" : "en_AU",
-    "_storefront" : "AUS",
-    "_storeKitErrors" : []
-  },
-  "subscriptionGroups" : [],
-  "version" : { "major" : 4, "minor" : 0 }
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
 }

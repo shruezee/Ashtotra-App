@@ -17,6 +17,8 @@ struct MeditateView: View {
     @State private var libraryDenied = false
     @State private var sessionOpen = false
     @AppStorage("meditateMode") private var mode = "meditate"
+    @Environment(PlusStore.self) private var plus
+    @State private var showPaywall = false
 
     var body: some View {
         ScrollView {
@@ -26,6 +28,7 @@ struct MeditateView: View {
                     Label("Sleep", systemImage: "moon.zzz.fill").tag("sleep")
                 }
                 .pickerStyle(.segmented)
+                PlusFreePeriodBanner(feature: .meditation) { showPaywall = true }
                 if mode == "sleep" {
                     SleepView()
                 } else {
@@ -36,7 +39,12 @@ struct MeditateView: View {
                     soundCard
                     breathCard
                     Button {
-                        sessionOpen = true
+                        if plus.canUse(.meditation) {
+                            plus.beginFreePeriodIfNeeded(.meditation)
+                            sessionOpen = true
+                        } else {
+                            showPaywall = true
+                        }
                     } label: {
                         Label("Begin \(minutes)-minute meditation", systemImage: "leaf.fill")
                             .font(.title3.weight(.semibold))
@@ -60,6 +68,7 @@ struct MeditateView: View {
             MeditationSessionView(minutes: minutes, sound: sound, pattern: .named(patternID),
                                   haptics: hapticsOn && BreathHaptics.isSupported, song: choice)
         }
+        .sheet(isPresented: $showPaywall) { PlusPaywall(reason: .meditationEnded) }
         .sheet(isPresented: $showPicker) {
             SongPicker { item in
                 songID = String(item.persistentID)

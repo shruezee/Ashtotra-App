@@ -5,7 +5,7 @@ struct AshtotraApp: App {
     @State private var log = PracticeLog()
     @State private var reciter = Reciter()
     @State private var satsang = SatsangSession()
-    @State private var store = SatsangStore()
+    @State private var store = PlusStore()
     @State private var sleep = SleepPlayer()
     @State private var showSplash = AshtotraApp.wantsSplash
 
@@ -19,7 +19,7 @@ struct AshtotraApp: App {
                     .environment(store)
                     .environment(sleep)
                     .tint(Theme.saffron)
-                    .onAppear { satsang.onBecameHost = { store.spendFreeSatsangIfNeeded() } }
+                    .onAppear { satsang.onBecameHost = { store.beginFreePeriodIfNeeded(.hosting) } }
                 if showSplash {
                     SplashView()
                         .transition(.opacity)

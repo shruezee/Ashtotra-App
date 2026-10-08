@@ -10,6 +10,8 @@ struct SleepView: View {
     @AppStorage(DevotionalSong.sourceKey) private var songSource = DevotionalSong.Source.music.rawValue
     @AppStorage(DevotionalSong.fileKey) private var songFile = ""
     @State private var showPlayer = false
+    @State private var showPaywall = false
+    @Environment(PlusStore.self) private var plus
 
     private var song: DevotionalSong.Choice {
         DevotionalSong.Choice(source: DevotionalSong.Source(rawValue: songSource) ?? .music, persistentID: songID, fileName: songFile)
@@ -58,6 +60,11 @@ struct SleepView: View {
             }
 
             Button {
+                guard plus.canUse(.meditation) else {
+                    showPaywall = true
+                    return
+                }
+                plus.beginFreePeriodIfNeeded(.meditation)
                 player.play(selected, minutes: minutes == 0 ? nil : minutes, song: song)
                 showPlayer = true
             } label: {
@@ -70,6 +77,7 @@ struct SleepView: View {
             .buttonBorderShape(.roundedRectangle(radius: 20))
         }
         .fullScreenCover(isPresented: $showPlayer) { SleepPlayerView() }
+        .sheet(isPresented: $showPaywall) { PlusPaywall(reason: .meditationEnded) }
     }
 
     private func nowPlaying(_ sound: SleepSound) -> some View {

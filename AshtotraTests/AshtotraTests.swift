@@ -341,13 +341,34 @@ struct SatsangTests {
         #expect(SatsangFileInfo.kind(for: URL(fileURLWithPath: "/tmp/notes.txt")) == nil)
     }
 
-    @MainActor @Test func firstSatsangIsFreeThenNeedsThePurchase() {
-        let defaults = UserDefaults(suiteName: "SatsangTests.\(UUID().uuidString)")!
-        let store = SatsangStore(defaults: defaults, observeTransactions: false)
-        #expect(store.canHost)
-        store.spendFreeSatsangIfNeeded()
-        #expect(!store.canHost)
-        #expect(!SatsangStore(defaults: defaults, observeTransactions: false).canHost)
+    @MainActor @Test func hostingIsFreeForOneDayThenNeedsPlus() {
+        var clock = Date(timeIntervalSince1970: 1_000_000)
+        let storage = MemoryTrialStorage()
+        let plus = PlusStore(storage: storage, now: { clock }, observeTransactions: false)
+        #expect(plus.status(of: .hosting) == .notStarted)
+        #expect(plus.badge(for: .hosting) == "FIRST DAY FREE")
+        plus.beginFreePeriodIfNeeded(.hosting)
+        clock += 23 * 3600
+        #expect(plus.canUse(.hosting))
+        #expect(plus.badge(for: .hosting) == "FREE · 60 MIN LEFT")
+        clock += 2 * 3600
+        #expect(!plus.canUse(.hosting))
+        // Meditation has its own, untouched free month.
+        #expect(plus.canUse(.meditation))
+        // The start date survives a relaunch, so the free day can't restart.
+        #expect(!PlusStore(storage: storage, now: { clock }, observeTransactions: false).canUse(.hosting))
+    }
+
+    @MainActor @Test func meditationIsFreeForOneMonthThenNeedsPlus() {
+        var clock = Date(timeIntervalSince1970: 1_000_000)
+        let plus = PlusStore(storage: MemoryTrialStorage(), now: { clock }, observeTransactions: false)
+        plus.beginFreePeriodIfNeeded(.meditation)
+        clock += 10 * 86_400
+        plus.beginFreePeriodIfNeeded(.meditation)   // using it again doesn't restart the month
+        #expect(plus.badge(for: .meditation) == "FREE · 20 DAYS LEFT")
+        clock += 20 * 86_400 + 1
+        #expect(!plus.canUse(.meditation))
+        #expect(plus.badge(for: .meditation) == "PLUS")
     }
 }
 

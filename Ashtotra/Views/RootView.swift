@@ -16,7 +16,7 @@ struct RootView: View {
     @State private var showSatsangRoom = false
     @State private var debugSheet: String?
     @State private var offerHostPurchase = false
-    @Environment(SatsangStore.self) private var store
+    @Environment(PlusStore.self) private var plus
 
     var body: some View {
         TabView(selection: $tab) {
@@ -50,21 +50,22 @@ struct RootView: View {
             SatsangRoomView()
         }
         .sheet(item: Binding(get: { debugSheet.map(DebugSheet.init) }, set: { debugSheet = $0?.id })) { sheet in
-            if sheet.id == "paywall" { SatsangPaywall() }
-            else if sheet.id == "paywall-after" { SatsangPaywall(afterFreeSatsang: true) }
+            if let reason = sheet.id.hasPrefix("paywall:") ? PlusReason(rawValue: String(sheet.id.dropFirst(8))) : nil {
+                PlusPaywall(reason: reason)
+            }
             else { SatsangStartView() }
         }
-        // After the free satsang ends, invite the host to unlock hosting.
+        // After a satsang ends once the free hosting day is over, invite the host to subscribe.
         .onChange(of: satsang.finishedHosting) { _, finished in
             guard finished else { return }
             satsang.acknowledgeFinishedHosting()
-            guard !store.isUnlocked, store.freeSatsangUsed else { return }
+            guard !plus.isSubscribed, plus.status(of: .hosting) == .ended else { return }
             Task {
                 try? await Task.sleep(for: .milliseconds(900))
                 offerHostPurchase = true
             }
         }
-        .sheet(isPresented: $offerHostPurchase) { SatsangPaywall(afterFreeSatsang: true) }
+        .sheet(isPresented: $offerHostPurchase) { PlusPaywall(reason: .afterSatsang) }
         .onChange(of: satsang.isActive) { _, active in
             // Give any open sheet (e.g. the start screen) time to close before presenting.
             Task {
@@ -94,7 +95,8 @@ struct RootView: View {
         case ("satsangstart", _):
             debugSheet = "start"
         case ("paywall", let variant):
-            debugSheet = variant == "after" ? "paywall-after" : "paywall"
+            // -demoRoute paywall | paywall:afterSatsang | paywall:meditationEnded | paywall:hostingEnded
+            debugSheet = "paywall:" + (variant ?? "general")
         case ("satsang", let what?):
             // -demoRoute satsang:host-prayer | satsang:guest-names | satsang:host-welcome
             let asHost = what.hasPrefix("host")
