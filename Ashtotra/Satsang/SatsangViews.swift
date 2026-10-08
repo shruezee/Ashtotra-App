@@ -143,14 +143,23 @@ private struct ActivitySharingSheet: UIViewControllerRepresentable {
 struct SatsangPaywall: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(SatsangStore.self) private var store
+    /// Shown right after the free satsang ends.
+    var afterFreeSatsang = false
 
     var body: some View {
         NavigationStack {
             VStack(spacing: 18) {
                 Spacer()
-                Image(systemName: "crown.fill").font(.system(size: 56)).foregroundStyle(Theme.saffron)
-                Text("Become a Satsang Host").font(.title.weight(.bold))
-                Text("Lead satsangs over FaceTime and Messages as often as you like: prayers, chanting, YouTube, videos, PDFs and photos, in sync for everyone.")
+                if afterFreeSatsang {
+                    Text("🙏").font(.system(size: 56)).accessibilityHidden(true)
+                    Text("Hope your satsang was beautiful").font(.title.weight(.bold)).multilineTextAlignment(.center)
+                } else {
+                    Image(systemName: "crown.fill").font(.system(size: 56)).foregroundStyle(Theme.saffron)
+                    Text("Become a Satsang Host").font(.title.weight(.bold))
+                }
+                Text(afterFreeSatsang
+                     ? "That was your free satsang as host. Become a Satsang Host to lead as many as you like, with prayers, chanting, chat, YouTube, videos, PDFs and photos in sync for everyone."
+                     : "Lead satsangs over FaceTime and Messages as often as you like: prayers, chanting, chat, YouTube, videos, PDFs and photos, in sync for everyone.")
                     .multilineTextAlignment(.center)
                     .foregroundStyle(.secondary)
                 VStack(alignment: .leading, spacing: 8) {

@@ -105,6 +105,12 @@ enum DevotionalSong {
         return true
     }
 
+    /// Volume for a song from Files (the Music app manages its own volume).
+    @MainActor
+    static func setVolume(_ level: Float) {
+        filePlayer?.volume = level
+    }
+
     @MainActor
     static func stop() {
         MPMusicPlayerController.applicationQueuePlayer.stop()

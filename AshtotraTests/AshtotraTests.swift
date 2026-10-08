@@ -450,3 +450,48 @@ struct SatsangChatTests {
         }
     }
 }
+
+struct SleepSoundTests {
+    static let generated: [SleepSound] = [.rain, .ocean, .wind, .forest, .fireplace, .whiteNoise, .pinkNoise, .brownNoise, .omChant, .templeBells]
+
+    @Test(arguments: generated)
+    func generatedSoundsAreAudibleAndNeverClip(sound: SleepSound) {
+        let samples = SoundscapeSynth.render(sound, seconds: 6)
+        #expect(samples.allSatisfy { $0.isFinite && abs($0) <= 1 })
+        // Skip the fade-in, then check it's genuinely making sound.
+        let tail = samples.suffix(samples.count / 2)
+        let rms = sqrt(tail.map { Double($0 * $0) }.reduce(0, +) / Double(tail.count))
+        #expect(rms > 0.005, "\(sound) is silent")
+        #expect(rms < 0.6, "\(sound) is too loud")
+    }
+
+    @Test func brownNoiseIsDeeperThanWhiteNoise() {
+        // Brown noise changes slowly from sample to sample; white noise jumps around.
+        func roughness(_ s: [Float]) -> Double {
+            zip(s.dropFirst(), s).map { Double(abs($0 - $1)) }.reduce(0, +) / Double(s.count)
+                / max(0.0001, s.map { Double(abs($0)) }.reduce(0, +) / Double(s.count))
+        }
+        let white = Array(SoundscapeSynth.render(.whiteNoise, seconds: 4).suffix(16_000))
+        let brown = Array(SoundscapeSynth.render(.brownNoise, seconds: 4).suffix(16_000))
+        #expect(roughness(brown) < roughness(white) / 3)
+    }
+
+    @Test func timerFadesOutOverTheLastMinute() {
+        #expect(SleepTimer.fadeGain(remaining: nil) == 1)
+        #expect(SleepTimer.fadeGain(remaining: 600) == 1)
+        #expect(SleepTimer.fadeGain(remaining: 30) == 0.5)
+        #expect(SleepTimer.fadeGain(remaining: 0) == 0)
+    }
+
+    @Test func timerLabelsReadNaturally() {
+        #expect(SleepTimer.label(15) == "15 min")
+        #expect(SleepTimer.label(60) == "1 hr")
+        #expect(SleepTimer.label(90) == "1 hr 30 min")
+        #expect(SleepTimer.label(nil) == "Until I stop")
+    }
+
+    @Test func everySoundHasAGroupAndTheDevotionalOnesAreThere() {
+        #expect(SleepSound.Group.allCases.flatMap { SleepSound.grouped($0) }.count == SleepSound.allCases.count)
+        #expect(SleepSound.grouped(.devotional) == [.omChant, .templeBells, .tanpura, .singingBowl, .mySong])
+    }
+}

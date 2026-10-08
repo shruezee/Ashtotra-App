@@ -6,6 +6,7 @@ struct AshtotraApp: App {
     @State private var reciter = Reciter()
     @State private var satsang = SatsangSession()
     @State private var store = SatsangStore()
+    @State private var sleep = SleepPlayer()
     @State private var showSplash = AshtotraApp.wantsSplash
 
     var body: some Scene {
@@ -16,6 +17,7 @@ struct AshtotraApp: App {
                     .environment(reciter)
                     .environment(satsang)
                     .environment(store)
+                    .environment(sleep)
                     .tint(Theme.saffron)
                     .onAppear { satsang.onBecameHost = { store.spendFreeSatsangIfNeeded() } }
                 if showSplash {

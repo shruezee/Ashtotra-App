@@ -21,6 +21,10 @@ final class SatsangSession {
     var isChatOpen = false { didSet { if isChatOpen { unreadChat = 0 } } }
     /// Reactions to float across the screen.
     private(set) var reactions: [FloatingReaction] = []
+    /// Becomes true when a satsang this device hosted has ended (used to offer the host purchase).
+    private(set) var finishedHosting = false
+    func acknowledgeFinishedHosting() { finishedHosting = false }
+
     /// People whose messages this user has chosen to hide.
     private(set) var hiddenSenders = Set<UUID>()
 
@@ -318,6 +322,7 @@ final class SatsangSession {
     }
 
     private func reset() {
+        if isActive && isHost { finishedHosting = true }
         tasks.forEach { $0.cancel() }
         tasks.removeAll()
         // Keep the eligibility subscription; drop session ones.

@@ -9,6 +9,12 @@ final class DroneSynth {
     private let voice = SynthVoice()
     private var source: AVAudioSourceNode?
 
+    /// Overall loudness (used by the sleep timer's fade-out).
+    var volume: Float {
+        get { engine.mainMixerNode.outputVolume }
+        set { engine.mainMixerNode.outputVolume = newValue }
+    }
+
     func start(_ kind: Kind) {
         voice.kind = kind
         voice.targetGain = kind == .none ? 0 : 1

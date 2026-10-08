@@ -21,6 +21,9 @@ Four small steps a day: morning prayers, the day's devotion, a few minutes of me
 MEDITATE
 Choose 1 to 20 minutes, gently close your eyes, and breathe. A haptic breath guide swells as you breathe in and fades as you breathe out, so you never need to look. Meditate to a tanpura drone, a singing bowl, silence, or your own favourite devotional song: an MP3 or MP4 from Files, or a song from your Music library. A soft bell tells you when it's time.
 
+SLEEP
+Drift off to gentle rain, ocean waves, soft wind, night crickets or a fireplace; white, pink or brown noise; or devotional sounds: an Om drone, temple bells, tanpura, singing bowl or your own devotional song. Set a sleep timer and it fades out gently, even with your screen locked.
+
 YOUR PRACTICE
 Your streak, days of prayer, minutes meditated, and a calendar of every day you showed up.
 
@@ -65,7 +68,7 @@ No ads. No accounts. No tracking. Everything stays on your device.
 **Keywords:** hanuman chalisa,gayatri,mantra,meditation,aarti,puja,108 names,japa,mala,breathing,shiva,hindu
 
 **What's new in 3.1:**
-Satsang together: pray and chant with family over FaceTime or Messages, in sync. Share prayers, the 108 names, YouTube links, videos, PDFs and photos. Joining is free; your first satsang as host is free too. You can also meditate to your own MP3 or MP4 from Files.
+Satsang together: pray and chant with family over FaceTime or Messages, in sync. Share prayers, the 108 names, YouTube links, videos, PDFs and photos. Joining is free; your first satsang as host is free too. You can also meditate to your own MP3 or MP4 from Files. New Sleep sounds: nature, soft noise and devotional sounds with a sleep timer that fades out gently.
 
 **What's new in 3.0:**
 A complete rewrite. Daily prayer tracking, meditation with a haptic breath guide, daily prayer routines, stotras and aarti, read-aloud, six scripts, chant mode with a 108-bead mala, favourites, reminders, dark mode and full text-size and VoiceOver support. No ads.

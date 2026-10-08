@@ -5,6 +5,7 @@ struct TodayView: View {
     @AppStorage("script") private var script: Script = .simple
     @Binding var tab: AppTab
     @State private var showSatsang = false
+    @Environment(SatsangStore.self) private var store
 
     private let book = PrayerBook.shared
     private let library = Library.shared
@@ -41,6 +42,22 @@ struct TodayView: View {
 
     // MARK: Sections
 
+    /// The only purchase badge in the app: shown on satsang (the chanting rooms).
+    @ViewBuilder
+    private var hostBadge: some View {
+        let (text, color): (String, Color) =
+            store.isUnlocked ? ("✓ HOST", .green)
+            : !store.freeSatsangUsed ? ("FIRST ONE FREE", Theme.saffron)
+            : ("👑 HOST" + (store.product.map { " · \($0.displayPrice)" } ?? ""), Theme.saffron)
+        Text(text)
+            .font(.caption2.weight(.bold))
+            .foregroundStyle(.white)
+            .padding(.horizontal, 8)
+            .padding(.vertical, 3)
+            .background(color, in: .capsule)
+            .accessibilityLabel(store.isUnlocked ? "You're a Satsang Host" : !store.freeSatsangUsed ? "First satsang free" : "Satsang Host purchase")
+    }
+
     private var satsangCard: some View {
         Button {
             showSatsang = true
@@ -51,8 +68,11 @@ struct TodayView: View {
                     .foregroundStyle(Theme.saffron)
                     .frame(width: 44)
                     .accessibilityHidden(true)
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Satsang together").font(.headline)
+                VStack(alignment: .leading, spacing: 4) {
+                    HStack(spacing: 8) {
+                        Text("Satsang together").font(.headline)
+                        hostBadge
+                    }
                     Text("Pray and chant with family over FaceTime, in sync")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)

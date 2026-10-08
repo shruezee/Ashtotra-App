@@ -15,6 +15,8 @@ struct RootView: View {
     @Environment(SatsangSession.self) private var satsang
     @State private var showSatsangRoom = false
     @State private var debugSheet: String?
+    @State private var offerHostPurchase = false
+    @Environment(SatsangStore.self) private var store
 
     var body: some View {
         TabView(selection: $tab) {
@@ -48,8 +50,21 @@ struct RootView: View {
             SatsangRoomView()
         }
         .sheet(item: Binding(get: { debugSheet.map(DebugSheet.init) }, set: { debugSheet = $0?.id })) { sheet in
-            if sheet.id == "paywall" { SatsangPaywall() } else { SatsangStartView() }
+            if sheet.id == "paywall" { SatsangPaywall() }
+            else if sheet.id == "paywall-after" { SatsangPaywall(afterFreeSatsang: true) }
+            else { SatsangStartView() }
         }
+        // After the free satsang ends, invite the host to unlock hosting.
+        .onChange(of: satsang.finishedHosting) { _, finished in
+            guard finished else { return }
+            satsang.acknowledgeFinishedHosting()
+            guard !store.isUnlocked, store.freeSatsangUsed else { return }
+            Task {
+                try? await Task.sleep(for: .milliseconds(900))
+                offerHostPurchase = true
+            }
+        }
+        .sheet(isPresented: $offerHostPurchase) { SatsangPaywall(afterFreeSatsang: true) }
         .onChange(of: satsang.isActive) { _, active in
             // Give any open sheet (e.g. the start screen) time to close before presenting.
             Task {
@@ -78,8 +93,8 @@ struct RootView: View {
             showSettings = true
         case ("satsangstart", _):
             debugSheet = "start"
-        case ("paywall", _):
-            debugSheet = "paywall"
+        case ("paywall", let variant):
+            debugSheet = variant == "after" ? "paywall-after" : "paywall"
         case ("satsang", let what?):
             // -demoRoute satsang:host-prayer | satsang:guest-names | satsang:host-welcome
             let asHost = what.hasPrefix("host")

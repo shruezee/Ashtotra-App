@@ -16,27 +16,37 @@ struct MeditateView: View {
     @State private var fileError: String?
     @State private var libraryDenied = false
     @State private var sessionOpen = false
+    @AppStorage("meditateMode") private var mode = "meditate"
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 24) {
-                Text("Sit comfortably, gently close your eyes, and let your breath slow down.")
-                    .font(.title3)
-                    .foregroundStyle(.secondary)
-                durationCard
-                soundCard
-                breathCard
-                Button {
-                    sessionOpen = true
-                } label: {
-                    Label("Begin \(minutes)-minute meditation", systemImage: "leaf.fill")
-                        .font(.title3.weight(.semibold))
-                        .frame(maxWidth: .infinity, minHeight: 64)
+                Picker("Mode", selection: $mode) {
+                    Label("Meditate", systemImage: "leaf.fill").tag("meditate")
+                    Label("Sleep", systemImage: "moon.zzz.fill").tag("sleep")
                 }
-                .buttonStyle(.borderedProminent)
-                .tint(Theme.saffron)
-                .buttonBorderShape(.roundedRectangle(radius: 20))
-                stats
+                .pickerStyle(.segmented)
+                if mode == "sleep" {
+                    SleepView()
+                } else {
+                    Text("Sit comfortably, gently close your eyes, and let your breath slow down.")
+                        .font(.title3)
+                        .foregroundStyle(.secondary)
+                    durationCard
+                    soundCard
+                    breathCard
+                    Button {
+                        sessionOpen = true
+                    } label: {
+                        Label("Begin \(minutes)-minute meditation", systemImage: "leaf.fill")
+                            .font(.title3.weight(.semibold))
+                            .frame(maxWidth: .infinity, minHeight: 64)
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(Theme.saffron)
+                    .buttonBorderShape(.roundedRectangle(radius: 20))
+                    stats
+                }
             }
             .padding(.horizontal, 20)
             .padding(.bottom, 32)
@@ -44,7 +54,7 @@ struct MeditateView: View {
             .frame(maxWidth: .infinity)
         }
         .background(Theme.background.ignoresSafeArea())
-        .navigationTitle("Meditate")
+        .navigationTitle(mode == "sleep" ? "Sleep" : "Meditate")
         .settingsToolbar()
         .fullScreenCover(isPresented: $sessionOpen) {
             MeditationSessionView(minutes: minutes, sound: sound, pattern: .named(patternID),
