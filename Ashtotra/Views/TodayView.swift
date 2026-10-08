@@ -4,6 +4,7 @@ struct TodayView: View {
     @Environment(PracticeLog.self) private var log
     @AppStorage("script") private var script: Script = .simple
     @Binding var tab: AppTab
+    @State private var showSatsang = false
 
     private let book = PrayerBook.shared
     private let library = Library.shared
@@ -16,6 +17,7 @@ struct TodayView: View {
                     greeting(now)
                     checklist(now)
                     todaysDevotion(now)
+                    satsangCard
                     routines(now)
                     continueChanting
                     favorites
@@ -34,9 +36,35 @@ struct TodayView: View {
         .background(Theme.background.ignoresSafeArea())
         .navigationTitle("Ashtotra")
         .settingsToolbar()
+        .sheet(isPresented: $showSatsang) { SatsangStartView() }
     }
 
     // MARK: Sections
+
+    private var satsangCard: some View {
+        Button {
+            showSatsang = true
+        } label: {
+            HStack(spacing: 14) {
+                Image(systemName: "shareplay")
+                    .font(.title)
+                    .foregroundStyle(Theme.saffron)
+                    .frame(width: 44)
+                    .accessibilityHidden(true)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Satsang together").font(.headline)
+                    Text("Pray and chant with family over FaceTime, in sync")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                }
+                Spacer()
+                Image(systemName: "chevron.right").foregroundStyle(.tertiary)
+            }
+            .padding(16)
+            .background(Theme.card, in: .rect(cornerRadius: 20))
+        }
+        .buttonStyle(.plain)
+    }
 
     private func greeting(_ now: Date) -> some View {
         let hour = Calendar.current.component(.hour, from: now)

@@ -246,3 +246,106 @@ struct DailyChecklistTests {
         #expect(JourneyView.describe("meditation", minutes: 1) == "Meditated 1 minute")
     }
 }
+
+struct SatsangTests {
+    private let host = UUID(), guest = UUID(), stranger = UUID()
+
+    @Test func onlyTheHostCanChangeWhatEveryoneSees() {
+        var current = SatsangState()
+        current.hostID = host
+        current.revision = 3
+        var update = current
+        update.revision = 4
+        update.content = .prayer(id: "gayatri")
+        #expect(SatsangRules.accepts(update, from: host, current: current, present: [host, guest]))
+
+        var hijack = update
+        hijack.hostID = guest
+        #expect(!SatsangRules.accepts(hijack, from: guest, current: current, present: [host, guest]))
+        // A message claiming to be the host but sent by someone else is ignored.
+        #expect(!SatsangRules.accepts(update, from: guest, current: current, present: [host, guest]))
+    }
+
+    @Test func staleHostMessagesAreIgnored() {
+        var current = SatsangState()
+        current.hostID = host
+        current.revision = 10
+        var old = current
+        old.revision = 9
+        #expect(!SatsangRules.accepts(old, from: host, current: current, present: [host]))
+    }
+
+    @Test func someoneCanLeadWhenTheHostLeaves() {
+        var current = SatsangState()
+        current.hostID = host
+        var claim = current
+        claim.hostID = guest
+        #expect(SatsangRules.accepts(claim, from: guest, current: current, present: [guest, stranger]))
+        // The first host of a new satsang is accepted too.
+        var first = SatsangState()
+        first.hostID = host
+        #expect(SatsangRules.accepts(first, from: host, current: SatsangState(), present: [host, guest]))
+    }
+
+    @Test func mediaTimeAdvancesOnlyWhilePlaying() {
+        let start = Date(timeIntervalSince1970: 1_000)
+        var state = SatsangState()
+        state.mediaTime = 30
+        state.mediaUpdatedAt = start
+        #expect(state.expectedMediaTime(at: start.addingTimeInterval(10)) == 30)
+        state.mediaPlaying = true
+        #expect(state.expectedMediaTime(at: start.addingTimeInterval(10)) == 40)
+    }
+
+    @Test func followersOnlyJumpWhenNoticeablyOut() {
+        #expect(!SatsangRules.needsSeek(local: 40.8, expected: 40))
+        #expect(SatsangRules.needsSeek(local: 43, expected: 40))
+    }
+
+    @Test(arguments: [
+        "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "https://youtu.be/dQw4w9WgXcQ?si=abc",
+        "youtube.com/shorts/dQw4w9WgXcQ",
+        "https://m.youtube.com/watch?feature=share&v=dQw4w9WgXcQ",
+        "https://www.youtube.com/live/dQw4w9WgXcQ",
+        "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "dQw4w9WgXcQ",
+    ])
+    func youtubeLinksAreRecognised(link: String) {
+        #expect(YouTubeLink.videoID(from: link) == "dQw4w9WgXcQ")
+    }
+
+    @Test func nonYouTubeLinksAreRejected() {
+        #expect(YouTubeLink.videoID(from: "https://vimeo.com/123456789") == nil)
+        #expect(YouTubeLink.videoID(from: "hello") == nil)
+    }
+
+    @Test func stateSurvivesTheTripBetweenDevices() throws {
+        var state = SatsangState()
+        state.hostID = host
+        state.content = .video(attachment: UUID(), title: "Aarti")
+        state.mediaMutedForOthers = true
+        let data = try JSONEncoder().encode(SatsangMessage.state(state))
+        guard case .state(let decoded) = try JSONDecoder().decode(SatsangMessage.self, from: data) else {
+            Issue.record("wrong message")
+            return
+        }
+        #expect(decoded == state)
+    }
+
+    @Test func sharedFileKindsAreDetected() {
+        #expect(SatsangFileInfo.kind(for: URL(fileURLWithPath: "/tmp/stotra.pdf")) == .pdf)
+        #expect(SatsangFileInfo.kind(for: URL(fileURLWithPath: "/tmp/aarti.MP4")) == .video)
+        #expect(SatsangFileInfo.kind(for: URL(fileURLWithPath: "/tmp/deity.heic")) == .image)
+        #expect(SatsangFileInfo.kind(for: URL(fileURLWithPath: "/tmp/notes.txt")) == nil)
+    }
+
+    @MainActor @Test func firstSatsangIsFreeThenNeedsThePurchase() {
+        let defaults = UserDefaults(suiteName: "SatsangTests.\(UUID().uuidString)")!
+        let store = SatsangStore(defaults: defaults, observeTransactions: false)
+        #expect(store.canHost)
+        store.spendFreeSatsangIfNeeded()
+        #expect(!store.canHost)
+        #expect(!SatsangStore(defaults: defaults, observeTransactions: false).canHost)
+    }
+}

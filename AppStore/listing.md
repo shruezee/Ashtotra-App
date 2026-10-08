@@ -4,13 +4,16 @@
 **Subtitle:** Prayer, meditation & mantras
 **Category:** Lifestyle (secondary: Books)
 **Age rating:** 4+
-**Price:** Free · no in-app purchases
+**Price:** Free · one optional in-app purchase: Satsang Host (non-consumable, A$9.99, Family Sharing on)
 
 **Promotional text:**
 Rebuilt from scratch: daily prayer routines, Hanuman Chalisa, Aditya Hrudayam and the 108 names, in six scripts and read aloud.
 
 **Description:**
 Ashtotra is a calm companion for daily Hindu prayer. Read, listen and chant in the script you read best.
+
+SATSANG TOGETHER
+Pray with family and friends over FaceTime or Messages. The host shares a prayer, the 108 names, a YouTube bhajan, a video, a PDF or a photo, and everyone follows in sync: the same verse highlighted, the same chant bead, the video playing together. The host can mute a video for everyone else so the group can chant over it. Joining is always free; becoming a Satsang Host is a one-time purchase, and your first satsang as host is free.
 
 TODAY'S PRACTICE
 Four small steps a day: morning prayers, the day's devotion, a few minutes of meditation, and the evening lamp. Tick them off and watch your week fill with rings.
@@ -60,6 +63,9 @@ PRIVATE
 No ads. No accounts. No tracking. Everything stays on your device.
 
 **Keywords:** hanuman chalisa,gayatri,mantra,meditation,aarti,puja,108 names,japa,mala,breathing,shiva,hindu
+
+**What's new in 3.1:**
+Satsang together: pray and chant with family over FaceTime or Messages, in sync. Share prayers, the 108 names, YouTube links, videos, PDFs and photos. Joining is free; your first satsang as host is free too.
 
 **What's new in 3.0:**
 A complete rewrite. Daily prayer tracking, meditation with a haptic breath guide, daily prayer routines, stotras and aarti, read-aloud, six scripts, chant mode with a 108-bead mala, favourites, reminders, dark mode and full text-size and VoiceOver support. No ads.

@@ -4,6 +4,8 @@ import SwiftUI
 struct AshtotraApp: App {
     @State private var log = PracticeLog()
     @State private var reciter = Reciter()
+    @State private var satsang = SatsangSession()
+    @State private var store = SatsangStore()
     @State private var showSplash = AshtotraApp.wantsSplash
 
     var body: some Scene {
@@ -12,7 +14,10 @@ struct AshtotraApp: App {
                 RootView()
                     .environment(log)
                     .environment(reciter)
+                    .environment(satsang)
+                    .environment(store)
                     .tint(Theme.saffron)
+                    .onAppear { satsang.onBecameHost = { store.spendFreeSatsangIfNeeded() } }
                 if showSplash {
                     SplashView()
                         .transition(.opacity)

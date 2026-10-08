@@ -41,6 +41,7 @@ Ashtotra first shipped in 2019 as a UIKit app that displayed bundled PDFs, with 
 
 ## Features
 
+- **Satsang together (SharePlay):** pray with family over FaceTime or Messages. The host shares a prayer (verse highlighted for everyone), the 108-name chant ring, a YouTube link, a video, a PDF or a photo; everyone follows in sync, and the host can mute a video for everyone else so the group can chant over it. Joining is free; hosting is a one-time **Satsang Host** purchase, with the first satsang free
 - **Today's practice:** a four-step daily checklist (morning prayers, the day's devotion, meditation, evening lamp) that fills in as you go, with a week of progress rings
 - **Your practice:** streak, days of prayer, minutes meditated, a month calendar of rings, and what you did each day
 - **Meditate:** 1–20 minutes (default 2), "gently close your eyes", a breathing circle, and a **haptic breath guide** that swells as you breathe in and fades as you breathe out; with a tanpura drone, singing bowl, silence, or your own devotional song from Apple Music, ending with a bell
@@ -62,6 +63,8 @@ Ashtotra first shipped in 2019 as a UIKit app that displayed bundled PDFs, with 
 | Meditation sound | Tanpura and singing bowl synthesised in real time with an `AVAudioSourceNode` (plucked strings with jawari-like harmonics; inharmonic bowl partials with beating), so no recordings are bundled. "My devotional song" plays a track the user picks with `MPMediaPickerController` via the application queue player |
 | Haptic breath | `CHHapticEngine` continuous events with intensity parameter curves: rising on the in-breath, still on the hold, fading on the out-breath, with a soft tap at each change |
 | Tracking | `PracticeLog` keeps per-day activity sets (`routine:morning`, `prayer:…`, `chant:…`, `meditation`) and meditation minutes; `DailyChecklist` turns them into progress for rings and the calendar |
+| Satsang | **GroupActivities**: a `GroupActivity` started in a FaceTime call or via `GroupActivitySharingController`; a `GroupSessionMessenger` carries a versioned, host-authored `SatsangState` (content, position, media clock, mute), and pure `SatsangRules` decide whose updates to follow and when followers re-sync; files travel through `GroupSessionJournal`. YouTube uses the official IFrame player in a `WKWebView`; videos use `AVPlayer`; PDFs use PDFKit |
+| Purchases | **StoreKit 2** non-consumable with `Transaction.updates`, entitlement checks, restore, and a local `.storekit` configuration for testing |
 | Reminders | One repeating `UNCalendarNotificationTrigger`, scheduled only after the user turns it on |
 | Content pipeline | Names parsed from ITRANS-style romanisation → IAST → Devanagari, Telugu, Kannada and Gujarati with a deterministic transliterator. Typos corrected and every list cross-checked against a second source; Ganesha, Shiva, Lakshmi and Saraswati verified at all 108 positions |
 | Data | One bundled `Ashtottara.json`, decoded into `Codable` models |

@@ -12,6 +12,9 @@ struct RootView: View {
     @State private var meditatePath = NavigationPath()
     @State private var showSettings = false
     @Environment(PracticeLog.self) private var log
+    @Environment(SatsangSession.self) private var satsang
+    @State private var showSatsangRoom = false
+    @State private var debugSheet: String?
 
     var body: some View {
         TabView(selection: $tab) {
@@ -40,6 +43,20 @@ struct RootView: View {
             .tag(AppTab.names)
         }
         .environment(\.openSettings, OpenSettingsAction { showSettings = true })
+        // Joining from FaceTime or Messages, or starting one, opens the satsang room.
+        .fullScreenCover(isPresented: $showSatsangRoom, onDismiss: { if satsang.isActive { satsang.leave() } }) {
+            SatsangRoomView()
+        }
+        .sheet(item: Binding(get: { debugSheet.map(DebugSheet.init) }, set: { debugSheet = $0?.id })) { sheet in
+            if sheet.id == "paywall" { SatsangPaywall() } else { SatsangStartView() }
+        }
+        .onChange(of: satsang.isActive) { _, active in
+            // Give any open sheet (e.g. the start screen) time to close before presenting.
+            Task {
+                if active { try? await Task.sleep(for: .milliseconds(600)) }
+                showSatsangRoom = satsang.isActive
+            }
+        }
         .sheet(isPresented: $showSettings) {
             SettingsView()
         }
@@ -59,6 +76,16 @@ struct RootView: View {
         switch (parts.first, parts.count > 1 ? parts[1] : nil) {
         case ("settings", _):
             showSettings = true
+        case ("satsangstart", _):
+            debugSheet = "start"
+        case ("paywall", _):
+            debugSheet = "paywall"
+        case ("satsang", let what?):
+            // -demoRoute satsang:host-prayer | satsang:guest-names | satsang:host-welcome
+            let asHost = what.hasPrefix("host")
+            if what.hasSuffix("prayer") { satsang.debugSimulate(asHost: asHost, content: .prayer(id: "hanuman-chalisa"), position: 3) }
+            else if what.hasSuffix("names") { satsang.debugSimulate(asHost: asHost, content: .names(id: "ganesha"), position: 7) }
+            else { satsang.debugSimulate(asHost: asHost, content: .welcome) }
         case ("meditate", _):
             tab = .meditate
         case ("journey", _):
@@ -103,6 +130,9 @@ struct RootView: View {
 }
 
 struct JourneyRoute: Hashable {}
+
+/// Debug-only sheets opened by `-demoRoute` for screenshots.
+private struct DebugSheet: Identifiable { let id: String }
 
 extension View {
     /// Every tab can open prayers, routines and 108-name lists.

@@ -1,0 +1,30 @@
+{
+  "identifier" : "4C1E6E2A-8F0A-4B7B-9C41-5A1F0D2B7E11",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : true,
+      "internalID" : "6740000001",
+      "localizations" : [
+        {
+          "description" : "Host satsangs over FaceTime and Messages with SharePlay.",
+          "displayName" : "Satsang Host",
+          "locale" : "en_AU"
+        }
+      ],
+      "productID" : "com.shruezee.ashtotra.satsanghost",
+      "referenceName" : "Satsang Host",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "1474584223",
+    "_developerTeamID" : "73RC6SBX5Y",
+    "_locale" : "en_AU",
+    "_storefront" : "AUS",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [],
+  "version" : { "major" : 4, "minor" : 0 }
+}
