@@ -94,14 +94,16 @@ struct PlusBadge: View {
     let feature: PlusStore.Feature
 
     var body: some View {
-        let text = plus.badge(for: feature)
-        Text(text)
-            .font(.caption2.weight(.bold))
-            .foregroundStyle(.white)
-            .padding(.horizontal, 8)
-            .padding(.vertical, 3)
-            .background(plus.isSubscribed ? Color.green : Theme.saffron, in: .capsule)
-            .accessibilityLabel(plus.isSubscribed ? "Included with Ashtotra Plus" : text.capitalized)
+        if plus.pricingEnabled {
+            let text = plus.badge(for: feature)
+            Text(text)
+                .font(.caption2.weight(.bold))
+                .foregroundStyle(.white)
+                .padding(.horizontal, 8)
+                .padding(.vertical, 3)
+                .background(plus.isSubscribed ? Color.green : Theme.saffron, in: .capsule)
+                .accessibilityLabel(plus.isSubscribed ? "Included with Ashtotra Plus" : text.capitalized)
+        }
     }
 }
 
@@ -112,7 +114,7 @@ struct PlusFreePeriodBanner: View {
     let showPlans: () -> Void
 
     var body: some View {
-        if !plus.isSubscribed {
+        if plus.pricingEnabled && !plus.isSubscribed {
             Button(action: showPlans) {
                 HStack(spacing: 10) {
                     PlusBadge(feature: feature)

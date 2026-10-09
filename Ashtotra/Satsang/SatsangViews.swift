@@ -81,7 +81,9 @@ struct SatsangStartView: View {
 
     @ViewBuilder
     private var hostStatus: some View {
-        if plus.isSubscribed {
+        if !plus.pricingEnabled {
+            EmptyView()
+        } else if plus.isSubscribed {
             Label("Hosting is included in your Ashtotra Plus. Thank you! 🙏", systemImage: "checkmark.seal.fill")
                 .font(.subheadline.weight(.semibold))
                 .foregroundStyle(.green)

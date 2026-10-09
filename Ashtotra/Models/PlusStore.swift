@@ -15,11 +15,16 @@ final class PlusStore {
     static let yearlyID = "com.shruezee.ashtotra.plus.yearly"
     static let productIDs = [monthlyID, yearlyID]
 
+    /// Pricing is off during the launch: every feature is free and no paywall or badge shows.
+    /// Turn on once the local artist voices are in and the app has around 1,000 users.
+    static let pricingLive = false
+
     static let hostingFreePeriod: TimeInterval = 24 * 60 * 60
     static let meditationFreePeriod: TimeInterval = 30 * 24 * 60 * 60
 
     enum Feature { case hosting, meditation }
 
+    let pricingEnabled: Bool
     private(set) var isSubscribed = false
     private(set) var products: [Product] = []
     private(set) var hostingStart: Date?
@@ -29,12 +34,14 @@ final class PlusStore {
     @ObservationIgnored private let now: () -> Date
     @ObservationIgnored private var updates: Task<Void, Never>?
 
-    init(storage: TrialStorage = KeychainTrialStorage(), now: @escaping () -> Date = Date.init, observeTransactions: Bool = true) {
+    init(storage: TrialStorage = KeychainTrialStorage(), now: @escaping () -> Date = Date.init,
+         observeTransactions: Bool = true, pricingEnabled: Bool = PlusStore.pricingLive) {
+        self.pricingEnabled = pricingEnabled
         self.storage = storage
         self.now = now
         hostingStart = storage.date(for: "hostingTrialStart")
         meditationStart = storage.date(for: "meditationTrialStart")
-        guard observeTransactions else { return }
+        guard observeTransactions, pricingEnabled else { return }
         updates = Task { [weak self] in
             for await update in Transaction.updates {
                 if case .verified(let transaction) = update {
@@ -49,7 +56,7 @@ final class PlusStore {
     // MARK: Access
 
     func canUse(_ feature: Feature) -> Bool {
-        isSubscribed || status(of: feature) != .ended
+        !pricingEnabled || isSubscribed || status(of: feature) != .ended
     }
 
     enum FreeStatus: Equatable {
@@ -69,7 +76,7 @@ final class PlusStore {
 
     /// Call when the feature is actually used; starts its free period the first time.
     func beginFreePeriodIfNeeded(_ feature: Feature) {
-        guard !isSubscribed else { return }
+        guard pricingEnabled, !isSubscribed else { return }
         switch feature {
         case .hosting where hostingStart == nil:
             hostingStart = now()

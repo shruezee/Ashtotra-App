@@ -66,6 +66,7 @@ struct SettingsView: View {
                     Text("Example: \(Library.shared.chantLine(sample, script: script))", script: script)
                 }
 
+                if plus.pricingEnabled {
                 Section {
                     if plus.isSubscribed {
                         Label("Ashtotra Plus is active. Thank you! 🙏", systemImage: "checkmark.seal.fill")
@@ -93,6 +94,7 @@ struct SettingsView: View {
                 }
                 .sheet(isPresented: $showPaywall) { PlusPaywall(reason: .general) }
                 .manageSubscriptionsSheet(isPresented: $manageSubscription)
+                }
 
                 Section("Reading") {
                     Toggle("Show “Om … namaha” on every name", isOn: $showOmNamah)

@@ -344,7 +344,7 @@ struct SatsangTests {
     @MainActor @Test func hostingIsFreeForOneDayThenNeedsPlus() {
         var clock = Date(timeIntervalSince1970: 1_000_000)
         let storage = MemoryTrialStorage()
-        let plus = PlusStore(storage: storage, now: { clock }, observeTransactions: false)
+        let plus = PlusStore(storage: storage, now: { clock }, observeTransactions: false, pricingEnabled: true)
         #expect(plus.status(of: .hosting) == .notStarted)
         #expect(plus.badge(for: .hosting) == "FIRST DAY FREE")
         plus.beginFreePeriodIfNeeded(.hosting)
@@ -356,12 +356,23 @@ struct SatsangTests {
         // Meditation has its own, untouched free month.
         #expect(plus.canUse(.meditation))
         // The start date survives a relaunch, so the free day can't restart.
-        #expect(!PlusStore(storage: storage, now: { clock }, observeTransactions: false).canUse(.hosting))
+        #expect(!PlusStore(storage: storage, now: { clock }, observeTransactions: false, pricingEnabled: true).canUse(.hosting))
+    }
+
+    @MainActor @Test func everythingIsFreeWhilePricingIsOff() {
+        var clock = Date(timeIntervalSince1970: 1_000_000)
+        let plus = PlusStore(storage: MemoryTrialStorage(), now: { clock }, observeTransactions: false, pricingEnabled: false)
+        plus.beginFreePeriodIfNeeded(.hosting)
+        plus.beginFreePeriodIfNeeded(.meditation)
+        clock += 365 * 86_400
+        #expect(plus.canUse(.hosting) && plus.canUse(.meditation))
+        // No free period was used up, so it starts fresh once pricing is turned on.
+        #expect(plus.status(of: .hosting) == .notStarted)
     }
 
     @MainActor @Test func meditationIsFreeForOneMonthThenNeedsPlus() {
         var clock = Date(timeIntervalSince1970: 1_000_000)
-        let plus = PlusStore(storage: MemoryTrialStorage(), now: { clock }, observeTransactions: false)
+        let plus = PlusStore(storage: MemoryTrialStorage(), now: { clock }, observeTransactions: false, pricingEnabled: true)
         plus.beginFreePeriodIfNeeded(.meditation)
         clock += 10 * 86_400
         plus.beginFreePeriodIfNeeded(.meditation)   // using it again doesn't restart the month
