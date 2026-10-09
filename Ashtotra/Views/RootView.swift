@@ -55,7 +55,7 @@ struct RootView: View {
             }
             else { SatsangStartView() }
         }
-        // After a satsang ends once the free hosting day is over, invite the host to subscribe.
+        // After a satsang ends once the free satsang has been used, invite the host to subscribe.
         .onChange(of: satsang.finishedHosting) { _, finished in
             guard finished else { return }
             satsang.acknowledgeFinishedHosting()

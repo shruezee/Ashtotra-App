@@ -39,7 +39,7 @@ struct SettingsView: View {
 
     private func freeText(_ feature: PlusStore.Feature) -> String {
         switch plus.status(of: feature) {
-        case .notStarted: feature == .hosting ? "First day free" : "First month free"
+        case .notStarted: feature == .hosting ? "First satsang free" : "First month free"
         case .active(let end): "Free, " + PlusStore.timeLeft(until: end, from: .now).lowercased()
         case .ended: "Needs Plus"
         }
@@ -90,7 +90,7 @@ struct SettingsView: View {
                 } header: {
                     Text("Ashtotra Plus")
                 } footer: {
-                    Text("Hosting a satsang is free for your first day and meditation for your first month. Prayers, the 108 names and joining satsangs are always free.")
+                    Text("Your first hosted satsang is free, and meditation and sleep are free for your first month. Prayers, the 108 names and joining satsangs are always free.")
                 }
                 .sheet(isPresented: $showPaywall) { PlusPaywall(reason: .general) }
                 .manageSubscriptionsSheet(isPresented: $manageSubscription)

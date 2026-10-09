@@ -90,7 +90,7 @@ struct SatsangStartView: View {
         } else {
             switch plus.status(of: .hosting) {
             case .notStarted:
-                Label("Hosting is free for your first day.", systemImage: "gift.fill")
+                Label("Your first satsang as host is free.", systemImage: "gift.fill")
                     .font(.subheadline.weight(.semibold))
                     .foregroundStyle(Theme.saffron)
             case .active(let end):

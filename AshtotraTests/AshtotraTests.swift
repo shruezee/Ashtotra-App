@@ -341,22 +341,18 @@ struct SatsangTests {
         #expect(SatsangFileInfo.kind(for: URL(fileURLWithPath: "/tmp/notes.txt")) == nil)
     }
 
-    @MainActor @Test func hostingIsFreeForOneDayThenNeedsPlus() {
-        var clock = Date(timeIntervalSince1970: 1_000_000)
+    @MainActor @Test func firstHostedSatsangIsFreeThenNeedsPlus() {
         let storage = MemoryTrialStorage()
-        let plus = PlusStore(storage: storage, now: { clock }, observeTransactions: false, pricingEnabled: true)
-        #expect(plus.status(of: .hosting) == .notStarted)
-        #expect(plus.badge(for: .hosting) == "FIRST DAY FREE")
-        plus.beginFreePeriodIfNeeded(.hosting)
-        clock += 23 * 3600
+        let plus = PlusStore(storage: storage, observeTransactions: false, pricingEnabled: true)
         #expect(plus.canUse(.hosting))
-        #expect(plus.badge(for: .hosting) == "FREE · 60 MIN LEFT")
-        clock += 2 * 3600
+        #expect(plus.badge(for: .hosting) == "FIRST SATSANG FREE")
+        plus.beginFreePeriodIfNeeded(.hosting)
         #expect(!plus.canUse(.hosting))
+        #expect(plus.badge(for: .hosting) == "PLUS")
         // Meditation has its own, untouched free month.
         #expect(plus.canUse(.meditation))
-        // The start date survives a relaunch, so the free day can't restart.
-        #expect(!PlusStore(storage: storage, now: { clock }, observeTransactions: false, pricingEnabled: true).canUse(.hosting))
+        // Survives a relaunch, so the free satsang can't be used again.
+        #expect(!PlusStore(storage: storage, observeTransactions: false, pricingEnabled: true).canUse(.hosting))
     }
 
     @MainActor @Test func everythingIsFreeWhilePricingIsOff() {

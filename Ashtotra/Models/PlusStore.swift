@@ -7,7 +7,7 @@ import StoreKit
 /// Prayers, the 108 names, chanting, and joining a satsang are always free.
 ///
 /// Before subscribing, each feature has a free period that starts the first time it's used:
-/// hosting a satsang is free for one day, and meditation is free for one month.
+/// the first satsang you host is free, and meditation is free for one month.
 @MainActor
 @Observable
 final class PlusStore {
@@ -15,11 +15,9 @@ final class PlusStore {
     static let yearlyID = "com.shruezee.ashtotra.plus.yearly"
     static let productIDs = [monthlyID, yearlyID]
 
-    /// Pricing is off during the launch: every feature is free and no paywall or badge shows.
-    /// Turn on once the local artist voices are in and the app has around 1,000 users.
-    nonisolated static let pricingLive = false
+    /// Set to false to make every feature free, with no paywall or badge.
+    nonisolated static let pricingLive = true
 
-    static let hostingFreePeriod: TimeInterval = 24 * 60 * 60
     static let meditationFreePeriod: TimeInterval = 30 * 24 * 60 * 60
 
     enum Feature { case hosting, meditation }
@@ -66,11 +64,12 @@ final class PlusStore {
     }
 
     func status(of feature: Feature) -> FreeStatus {
-        let (start, length) = feature == .hosting
-            ? (hostingStart, Self.hostingFreePeriod)
-            : (meditationStart, Self.meditationFreePeriod)
-        guard let start else { return .notStarted }
-        let end = start.addingTimeInterval(length)
+        if feature == .hosting {
+            // One free satsang: once it has started, the free hosting is used.
+            return hostingStart == nil ? .notStarted : .ended
+        }
+        guard let start = meditationStart else { return .notStarted }
+        let end = start.addingTimeInterval(Self.meditationFreePeriod)
         return now() < end ? .active(endsAt: end) : .ended
     }
 
@@ -93,7 +92,7 @@ final class PlusStore {
     func badge(for feature: Feature) -> String {
         if isSubscribed { return "✓ PLUS" }
         switch status(of: feature) {
-        case .notStarted: return feature == .hosting ? "FIRST DAY FREE" : "1 MONTH FREE"
+        case .notStarted: return feature == .hosting ? "FIRST SATSANG FREE" : "1 MONTH FREE"
         case .active(let end): return "FREE · " + Self.timeLeft(until: end, from: now())
         case .ended: return "PLUS"
         }

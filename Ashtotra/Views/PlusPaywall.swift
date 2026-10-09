@@ -70,7 +70,7 @@ struct PlusPaywall: View {
     private var title: String {
         switch reason {
         case .afterSatsang: "Hope your satsang was beautiful"
-        case .hostingEnded: "Your free day of hosting has ended"
+        case .hostingEnded: "You've used your free satsang"
         case .meditationEnded: "Your free month of meditation has ended"
         case .general: "Ashtotra Plus"
         }
