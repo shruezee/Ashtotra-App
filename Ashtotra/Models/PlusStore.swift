@@ -17,7 +17,7 @@ final class PlusStore {
 
     /// Pricing is off during the launch: every feature is free and no paywall or badge shows.
     /// Turn on once the local artist voices are in and the app has around 1,000 users.
-    static let pricingLive = false
+    nonisolated static let pricingLive = false
 
     static let hostingFreePeriod: TimeInterval = 24 * 60 * 60
     static let meditationFreePeriod: TimeInterval = 30 * 24 * 60 * 60
