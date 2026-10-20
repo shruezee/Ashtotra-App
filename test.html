@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Help test new apps from Shruezee Studio. Pick the apps you care about, join the tester group with your Gmail and install from Google Play.">
+  <title>Test our apps | Shruezee Studio</title>
+  <style>
+    :root { --ink:#202938; --muted:#64748b; --accent:#3157c8; --line:#e5eaf1; --surface:#f7f9fc; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; color:var(--ink); background:#fff; line-height:1.65; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .container { width:min(960px,90%); margin:auto; }
+    header { border-bottom:1px solid var(--line); }
+    nav { min-height:64px; display:flex; justify-content:space-between; align-items:center; }
+    .brand { font-size:19px; font-weight:750; color:var(--ink); }
+    h1 { font-size:clamp(30px,5vw,46px); line-height:1.15; letter-spacing:-1.2px; margin:40px 0 10px; }
+    .intro { color:var(--muted); font-size:18px; max-width:680px; }
+    .steps { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:26px 0 8px; }
+    .step { background:var(--surface); border-radius:12px; padding:14px 16px; font-size:15px; }
+    .step b { display:block; color:var(--accent); }
+    .chips { display:flex; flex-wrap:wrap; gap:8px; margin:30px 0 8px; }
+    .chip { border:1px solid var(--line); background:#fff; color:var(--ink); padding:8px 15px; border-radius:999px; font-size:14px; font-weight:600; cursor:pointer; }
+    .chip[aria-pressed="true"] { background:var(--accent); border-color:var(--accent); color:#fff; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin:18px 0 40px; }
+    .card { padding:22px; border:1px solid var(--line); border-radius:14px; background:#fff; display:flex; flex-direction:column; }
+    .card h3 { margin:6px 0 6px; font-size:20px; }
+    .card p { color:var(--muted); margin:0 0 14px; flex:1; }
+    .tag { display:inline-block; padding:3px 9px; margin:0 6px 4px 0; border-radius:5px; background:var(--surface); color:#475569; font-size:12px; }
+    .btn { display:block; text-align:center; padding:11px 16px; border-radius:9px; font-weight:650; font-size:14.5px; margin-top:8px; border:1px solid var(--accent); }
+    .btn.primary { background:var(--accent); color:#fff; }
+    .btn.off { opacity:.55; pointer-events:none; }
+    .hide { display:none !important; }
+    .note { color:var(--muted); font-size:14px; margin-bottom:50px; }
+    @media (max-width:700px) { .grid, .steps { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <header><nav class="container"><a class="brand" href="index.html">Shruezee Studio</a><a href="index.html#work">Our work</a></nav></header>
+  <main class="container">
+    <h1>Help test our apps</h1>
+    <p class="intro">Pick the apps that interest you, join their tester group with your Gmail, then install from Google Play. It takes about a minute and you don't need to send us anything.</p>
+
+    <div class="steps">
+      <div class="step"><b>1. Join the group</b>Use the Gmail that's on your Android phone.</div>
+      <div class="step"><b>2. Open the test link</b>Tap “Become a tester” on your phone.</div>
+      <div class="step"><b>3. Install &amp; use it</b>Keep it installed for 14 days and tell us what you think.</div>
+    </div>
+
+    <div class="chips" role="group" aria-label="Choose your interest">
+      <button class="chip" data-filter="all" aria-pressed="true">All apps</button>
+      <button class="chip" data-filter="prayer" aria-pressed="false">Prayer &amp; meditation</button>
+      <button class="chip" data-filter="health" aria-pressed="false">Medicine &amp; carers</button>
+      <button class="chip" data-filter="games" aria-pressed="false">Games</button>
+    </div>
+
+    <div class="grid" id="apps"></div>
+
+    <p class="note">We use your Gmail address only to give you access to the test, through Google Groups. We don't see anyone else's address and other testers can't see yours. You can leave the group any time. Android phones only. iPhone testing is by TestFlight, so email us if you'd like an invite.</p>
+  </main>
+
+<script>
+  // One entry per app. Fill in groupUrl once the Google Group exists and is set to "anyone can join".
+  // optIn is the Play closed-testing link. For apps not ready yet, leave groupUrl empty.
+  const APPS = [
+    { topics: ["prayer"], tags: ["Android", "Daily prayers", "Meditation"],
+      name: "Ashtotra: Daily Prayers",
+      about: "Daily prayers, aarti, meditation and the 108 names, read in six scripts and read aloud. No ads, no accounts.",
+      groupUrl: "https://groups.google.com/g/ashtotra-testers",
+      optIn: "https://play.google.com/apps/testing/com.shruezee.ashtotra" },
+    { topics: ["health"], tags: ["Android", "Medicine reminders", "Carers & families"],
+      name: "KindDose",
+      about: "A caring medicine-reminder app with label scanning, voice entry, history and family profiles. Made for carers and healthcare workers.",
+      groupUrl: "",
+      optIn: "https://play.google.com/apps/testing/com.shruezee.kinddose" },
+    { topics: ["games"], tags: ["Android", "iPhone &amp; iPad", "Family games", "All ages"],
+      name: "MiniMingle: Hero Board Games",
+      about: "Tic-Tac-Toe, Connect 4, Bingo, Dots &amp; Boxes and Memory Match with 13 superhero-style heroes, for ages 3 to adult. Already on the App Store; the Android version is in testing.",
+      groupUrl: "",
+      optIn: "https://play.google.com/apps/testing/com.shruezee.minimingle",
+      storeUrl: "https://apps.apple.com/app/id6818020829" }
+  ];
+
+  const grid = document.getElementById("apps");
+  APPS.forEach((a) => {
+    const el = document.createElement("article");
+    el.className = "card"; el.dataset.topics = a.topics.join(" ");
+    let buttons;
+    if (a.groupUrl) {
+      buttons = `<a class="btn primary" href="${a.groupUrl}">1. Join the tester group</a>
+                 <a class="btn" href="${a.optIn}">2. Open the test link</a>`;
+    } else {
+      buttons = `<span class="btn off">Android testing opens soon</span>`;
+    }
+    if (a.storeUrl) buttons += `<a class="btn" href="${a.storeUrl}">Get it on the App Store (iPhone)</a>`;
+    el.innerHTML = `<div>${a.tags.map(t => `<span class="tag">${t}</span>`).join("")}</div>
+                    <h3>${a.name}</h3><p>${a.about}</p>${buttons}`;
+    grid.appendChild(el);
+  });
+
+  document.querySelectorAll(".chip").forEach((chip) => chip.addEventListener("click", () => {
+    document.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", c === chip));
+    const f = chip.dataset.filter;
+    document.querySelectorAll("#apps .card").forEach((card) =>
+      card.classList.toggle("hide", f !== "all" && !card.dataset.topics.split(" ").includes(f)));
+  }));
+</script>
+</body>
+</html>

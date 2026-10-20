@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test Ashtotra on Android – join the testers</title>
+<meta name="description" content="Help test Ashtotra: Daily Prayers on Android. Join the testers group, open the test link and install from Google Play.">
+<link rel="stylesheet" href="style.css">
+<style>
+  .step { display:flex; gap:14px; align-items:flex-start; margin:18px 0; }
+  .num { flex:0 0 38px; height:38px; border-radius:50%; background:var(--accent); color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center; }
+  .btn { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; font-weight:600; padding:12px 22px; border-radius:999px; margin:8px 10px 0 0; }
+  .btn.alt { background:transparent; color:var(--accent); border:2px solid var(--accent); }
+  .hidden { display:none; }
+</style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <img src="images/app-icon.jpg" alt="Ashtotra app icon: a golden Om inside a ring of 108 beads">
+    <div>
+      <h1>Test Ashtotra on Android</h1>
+      <div class="sub">Daily prayers, meditation &amp; the 108 names · Android 8 or newer</div>
+    </div>
+  </div>
+  <p class="lead">Thank you for helping! Join as a tester, install the app from Google Play, and tell us what you think before it opens to everyone.</p>
+
+  <div class="step">
+    <div class="num">1</div>
+    <div>
+      <b>Join the testers</b><br>
+      <span id="joinText">Use the Google account you use on your Android phone (usually Gmail).</span><br>
+      <a id="joinGroup" class="btn hidden" href="#">Join the testers group</a>
+      <a id="joinEmail" class="btn" href="mailto:shruthianthropic@gmail.com?subject=Ashtotra%20Android%20tester&amp;body=Please%20add%20me%20as%20an%20Ashtotra%20Android%20tester.%0A%0AMy%20Gmail%20address%3A%20">Email us your Gmail address</a>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="num">2</div>
+    <div>
+      <b>Open the test link on your phone</b><br>
+      Tap <i>Become a tester</i>. It only works with the same Google account as step 1.<br>
+      <a id="optIn" class="btn" href="https://play.google.com/apps/testing/com.shruezee.ashtotra">Open the test link</a>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="num">3</div>
+    <div>
+      <b>Install from Google Play and use it for 2 weeks</b><br>
+      Tap <i>Download it on Google Play</i>, install, and open the app a few times. Please keep it installed for the whole 14 days, because Google counts testers day by day.
+    </div>
+  </div>
+
+  <h2>What to try</h2>
+  <div class="grid">
+    <div class="card"><b>Today</b>Tick off the four daily steps and watch your week fill.</div>
+    <div class="card"><b>Listen</b>Open the Hanuman Chalisa and tap Listen.</div>
+    <div class="card"><b>Meditate</b>Try 1 minute with the gentle breath vibration.</div>
+    <div class="card"><b>Chant</b>Chant a few of the 108 names in your favourite script.</div>
+    <div class="card"><b>Reminder</b>Turn on the daily reminder and check it arrives.</div>
+    <div class="card"><b>Anything odd?</b>A wrong word, a crash, a screen that looks off: tell us.</div>
+  </div>
+
+  <h2>Send feedback</h2>
+  <p>Email <a href="mailto:shruthianthropic@gmail.com?subject=Ashtotra%20Android%20feedback">shruthianthropic@gmail.com</a> with your phone model and what happened. You can also use <i>Settings › Suggest a correction</i> in the app.</p>
+
+  <p class="foot">We use your email only to add you as a tester. We don't share it or use it for anything else. Questions? Write to us any time. <a href="privacy.html">Privacy policy</a> · <a href="index.html">Back to Ashtotra</a></p>
+</main>
+<script>
+  // Set these once the Google Group and the Play testing track exist (see android/TESTING.md).
+  const GROUP_URL = "";   // e.g. "https://groups.google.com/g/ashtotra-testers"
+  if (GROUP_URL) {
+    const g = document.getElementById("joinGroup");
+    g.href = GROUP_URL; g.classList.remove("hidden");
+    const e = document.getElementById("joinEmail");
+    e.classList.add("alt"); e.textContent = "Or email us your Gmail address";
+    document.getElementById("joinText").textContent = "Tap the button and join. It takes a few seconds and gives you access straight away.";
+  }
+</script>
+</body>
+</html>
