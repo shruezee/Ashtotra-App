@@ -43,7 +43,7 @@ struct PrayerReaderView: View {
         }
         .background(Theme.background.ignoresSafeArea())
         .safeAreaInset(edge: .bottom) {
-            ListenBar(owner: prayer.id, tint: Theme.tint(for: prayer)) {
+            ListenBar(owner: prayer.id, tint: Theme.tint(for: prayer), recording: prayer.audio) {
                 allLines.map(\.line.devanagari)
             }
         }
@@ -188,13 +188,16 @@ struct ListenBar: View {
     @Environment(Reciter.self) private var reciter
     let owner: String
     let tint: Color
+    var recording: String? = nil
     let lines: () -> [String]
     @State private var pace = 0.8
+    @State private var player = RecordingPlayer()
 
     var body: some View {
         let playing = reciter.isPlaying(owner)
         HStack(spacing: 14) {
             Button {
+                player.stop()
                 if playing { reciter.stop() } else { reciter.play(lines(), owner: owner) }
             } label: {
                 Label(playing ? "Stop" : "Listen", systemImage: playing ? "stop.fill" : "speaker.wave.2.fill")
@@ -205,6 +208,20 @@ struct ListenBar: View {
             .tint(tint)
             .buttonBorderShape(.capsule)
             .disabled(!Reciter.hasVoice)
+
+            if let recording {
+                Button {
+                    reciter.stop()
+                    player.toggle(recording)
+                } label: {
+                    Label(player.isPlaying ? "Stop" : "Recording",
+                          systemImage: player.isPlaying ? "stop.circle.fill" : "play.circle.fill")
+                        .font(.subheadline.weight(.semibold))
+                        .frame(minHeight: 52)
+                }
+                .tint(tint)
+                .accessibilityLabel(player.isPlaying ? "Stop recording" : "Play recording")
+            }
 
             Menu {
                 Picker("Pace", selection: $pace) {
@@ -225,6 +242,7 @@ struct ListenBar: View {
         .padding(.vertical, 10)
         .background(.regularMaterial, in: .capsule)
         .padding(.bottom, 8)
+        .onDisappear { player.stop() }
     }
 
     private var paceName: String {

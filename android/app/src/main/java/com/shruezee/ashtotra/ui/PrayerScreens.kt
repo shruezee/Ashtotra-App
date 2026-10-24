@@ -64,6 +64,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.shruezee.ashtotra.AppContainer
+import com.shruezee.ashtotra.audio.RecordingPlayer
 import com.shruezee.ashtotra.data.Prayer
 import com.shruezee.ashtotra.data.PrayerKind
 import com.shruezee.ashtotra.data.Script
@@ -186,7 +187,7 @@ fun PrayerReaderScreen(container: AppContainer, go: Navigator, id: String) {
                 }
             }
         }
-        ListenBar(container, owner, Palette.tint(prayer.deity), Modifier.align(Alignment.BottomCenter)) {
+        ListenBar(container, owner, Palette.tint(prayer.deity), Modifier.align(Alignment.BottomCenter), recording = prayer.audio) {
             lines.map { it.second.devanagari }
         }
     }
@@ -267,8 +268,15 @@ private fun shareText(prayer: Prayer, script: Script) =
 
 /** Listen / stop with a pace choice. Uses the phone's Hindi text-to-speech voice, offline. */
 @Composable
-fun ListenBar(container: AppContainer, owner: String, tint: Color, modifier: Modifier = Modifier, lines: () -> List<String>) {
+fun ListenBar(
+    container: AppContainer, owner: String, tint: Color, modifier: Modifier = Modifier,
+    recording: String? = null, lines: () -> List<String>,
+) {
     val reciter = container.reciter
+    val context = LocalContext.current
+    val recorder = remember { RecordingPlayer(context) }
+    var recordingPlaying by remember { mutableStateOf(false) }
+    DisposableEffect(Unit) { onDispose { recorder.stop() } }
     val status by reciter.status.collectAsState()
     val hasVoice by reciter.hasVoice.collectAsState()
     val pace by container.settings.recitePace.state.collectAsState()
@@ -281,6 +289,7 @@ fun ListenBar(container: AppContainer, owner: String, tint: Color, modifier: Mod
             horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             Button(
                 onClick = {
+                    recorder.stop(); recordingPlaying = false
                     if (playing) reciter.stop() else { reciter.pace = pace; reciter.play(lines(), owner = owner) }
                 },
                 enabled = hasVoice,
@@ -290,6 +299,17 @@ fun ListenBar(container: AppContainer, owner: String, tint: Color, modifier: Mod
                 Icon(if (playing) Icons.Filled.Stop else Icons.AutoMirrored.Filled.VolumeUp, contentDescription = null)
                 Spacer(Modifier.width(8.dp))
                 Text(if (playing) "Stop" else "Listen", style = MaterialTheme.typography.titleMedium)
+            }
+            if (recording != null) {
+                TextButton(
+                    onClick = {
+                        reciter.stop()
+                        recordingPlaying = if (recordingPlaying) { recorder.stop(); false }
+                        else recorder.play(recording) { recordingPlaying = false }
+                    },
+                    modifier = Modifier.heightIn(min = 52.dp)
+                        .semantics { contentDescription = if (recordingPlaying) "Stop recording" else "Play recording" },
+                ) { Text(if (recordingPlaying) "⏹ Stop" else "▶ Recording") }
             }
             Box {
                 TextButton(onClick = { menu = true }, modifier = Modifier.heightIn(min = 52.dp)

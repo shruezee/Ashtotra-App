@@ -91,6 +91,8 @@ data class Prayer(
     val kind: PrayerKind,
     val about: String,
     val meaning: String? = null,
+    /** Name of a bundled recording (an mp3 in assets), if this prayer has one. */
+    val audio: String? = null,
     val verses: List<Verse>,
     val tags: List<String> = emptyList(),
 ) {

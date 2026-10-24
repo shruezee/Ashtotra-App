@@ -63,6 +63,8 @@ struct Prayer: Codable, Identifiable, Hashable {
     let kind: Kind
     let about: String
     let meaning: String?
+    /// Name of a bundled recording (an mp3 in the app bundle), if this prayer has one.
+    let audio: String?
     let verses: [Verse]
 
     var lineCount: Int { verses.reduce(0) { $0 + $1.lines.count } }

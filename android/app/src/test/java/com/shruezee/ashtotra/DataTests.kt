@@ -30,6 +30,12 @@ class DataTests {
         library.collections.forEach { assertEquals(it.title, 108, it.names.size) }
     }
 
+    @Test fun bundledRecordingsExist() {
+        book.prayers.mapNotNull { it.audio }.forEach { name ->
+            assertNotNull("missing $name.mp3", DataTests::class.java.classLoader!!.getResource("$name.mp3"))
+        }
+    }
+
     @Test fun everyTextExistsInEveryScript() {
         val texts = library.collections.flatMap { it.names } + book.prayers.flatMap { it.lines }
         for (text in texts) for (script in Script.entries) {
