@@ -186,12 +186,14 @@ struct ReaderOptionsMenu: View {
 /// Play / stop read-aloud with a pace control. Uses the device's Hindi voice, offline.
 struct ListenBar: View {
     @Environment(Reciter.self) private var reciter
+    @Environment(PlusStore.self) private var plus
     let owner: String
     let tint: Color
     var recording: String? = nil
     let lines: () -> [String]
     @State private var pace = 0.8
     @State private var player = RecordingPlayer()
+    @State private var showPaywall = false
 
     var body: some View {
         let playing = reciter.isPlaying(owner)
@@ -212,10 +214,18 @@ struct ListenBar: View {
             if let recording {
                 Button {
                     reciter.stop()
-                    player.toggle(recording)
+                    if player.isPlaying {
+                        player.stop()
+                    } else if plus.canUse(.recordings) {
+                        plus.beginFreePeriodIfNeeded(.recordings)
+                        player.play(recording)
+                    } else {
+                        showPaywall = true
+                    }
                 } label: {
                     Label(player.isPlaying ? "Stop" : "Recording",
-                          systemImage: player.isPlaying ? "stop.circle.fill" : "play.circle.fill")
+                          systemImage: player.isPlaying ? "stop.circle.fill"
+                              : plus.canUse(.recordings) ? "play.circle.fill" : "lock.circle.fill")
                         .font(.subheadline.weight(.semibold))
                         .frame(minHeight: 52)
                 }
@@ -243,6 +253,7 @@ struct ListenBar: View {
         .background(.regularMaterial, in: .capsule)
         .padding(.bottom, 8)
         .onDisappear { player.stop() }
+        .sheet(isPresented: $showPaywall) { PlusPaywall(reason: .recordingEnded) }
     }
 
     private var paceName: String {

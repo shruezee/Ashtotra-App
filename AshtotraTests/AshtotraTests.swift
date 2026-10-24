@@ -366,6 +366,19 @@ struct SatsangTests {
         #expect(plus.status(of: .hosting) == .notStarted)
     }
 
+    @MainActor @Test func firstRecordingIsFreeThenNeedsPlus() {
+        let storage = MemoryTrialStorage()
+        let plus = PlusStore(storage: storage, observeTransactions: false, pricingEnabled: true)
+        #expect(plus.canUse(.recordings))
+        #expect(plus.badge(for: .recordings) == "FIRST LISTEN FREE")
+        plus.beginFreePeriodIfNeeded(.recordings)
+        #expect(!plus.canUse(.recordings))
+        #expect(plus.badge(for: .recordings) == "PLUS")
+        // Other features keep their own free periods, and the used listen survives a relaunch.
+        #expect(plus.canUse(.hosting) && plus.canUse(.meditation))
+        #expect(!PlusStore(storage: storage, observeTransactions: false, pricingEnabled: true).canUse(.recordings))
+    }
+
     @MainActor @Test func meditationIsFreeForOneMonthThenNeedsPlus() {
         var clock = Date(timeIntervalSince1970: 1_000_000)
         let plus = PlusStore(storage: MemoryTrialStorage(), now: { clock }, observeTransactions: false, pricingEnabled: true)

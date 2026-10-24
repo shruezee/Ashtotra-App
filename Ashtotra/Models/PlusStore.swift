@@ -3,11 +3,11 @@ import Observation
 import Security
 import StoreKit
 
-/// "Ashtotra Plus": one subscription that unlocks hosting satsangs and meditation (including Sleep).
+/// "Ashtotra Plus": one subscription that unlocks hosting satsangs, meditation (including Sleep) and voice recordings.
 /// Prayers, the 108 names, chanting, and joining a satsang are always free.
 ///
 /// Before subscribing, each feature has a free period that starts the first time it's used:
-/// the first satsang you host is free, and meditation is free for one month.
+/// the first satsang you host is free, the first voice recording is free, and meditation is free for one month.
 @MainActor
 @Observable
 final class PlusStore {
@@ -20,13 +20,14 @@ final class PlusStore {
 
     static let meditationFreePeriod: TimeInterval = 30 * 24 * 60 * 60
 
-    enum Feature { case hosting, meditation }
+    enum Feature { case hosting, meditation, recordings }
 
     let pricingEnabled: Bool
     private(set) var isSubscribed = false
     private(set) var products: [Product] = []
     private(set) var hostingStart: Date?
     private(set) var meditationStart: Date?
+    private(set) var recordingsStart: Date?
 
     @ObservationIgnored private let storage: TrialStorage
     @ObservationIgnored private let now: () -> Date
@@ -39,6 +40,7 @@ final class PlusStore {
         self.now = now
         hostingStart = storage.date(for: "hostingTrialStart")
         meditationStart = storage.date(for: "meditationTrialStart")
+        recordingsStart = storage.date(for: "recordingsTrialStart")
         guard observeTransactions, pricingEnabled else { return }
         updates = Task { [weak self] in
             for await update in Transaction.updates {
@@ -64,9 +66,15 @@ final class PlusStore {
     }
 
     func status(of feature: Feature) -> FreeStatus {
-        if feature == .hosting {
+        switch feature {
+        case .hosting:
             // One free satsang: once it has started, the free hosting is used.
             return hostingStart == nil ? .notStarted : .ended
+        case .recordings:
+            // One free listen to a voice recording.
+            return recordingsStart == nil ? .notStarted : .ended
+        case .meditation:
+            break
         }
         guard let start = meditationStart else { return .notStarted }
         let end = start.addingTimeInterval(Self.meditationFreePeriod)
@@ -83,6 +91,9 @@ final class PlusStore {
         case .meditation where meditationStart == nil:
             meditationStart = now()
             storage.set(meditationStart!, for: "meditationTrialStart")
+        case .recordings where recordingsStart == nil:
+            recordingsStart = now()
+            storage.set(recordingsStart!, for: "recordingsTrialStart")
         default:
             break
         }
@@ -92,7 +103,12 @@ final class PlusStore {
     func badge(for feature: Feature) -> String {
         if isSubscribed { return "✓ PLUS" }
         switch status(of: feature) {
-        case .notStarted: return feature == .hosting ? "FIRST SATSANG FREE" : "1 MONTH FREE"
+        case .notStarted:
+            switch feature {
+            case .hosting: return "FIRST SATSANG FREE"
+            case .recordings: return "FIRST LISTEN FREE"
+            case .meditation: return "1 MONTH FREE"
+            }
         case .active(let end): return "FREE · " + Self.timeLeft(until: end, from: now())
         case .ended: return "PLUS"
         }

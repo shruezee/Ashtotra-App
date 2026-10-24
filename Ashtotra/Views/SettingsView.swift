@@ -39,7 +39,12 @@ struct SettingsView: View {
 
     private func freeText(_ feature: PlusStore.Feature) -> String {
         switch plus.status(of: feature) {
-        case .notStarted: feature == .hosting ? "First satsang free" : "First month free"
+        case .notStarted:
+            switch feature {
+            case .hosting: "First satsang free"
+            case .recordings: "First listen free"
+            case .meditation: "First month free"
+            }
         case .active(let end): "Free, " + PlusStore.timeLeft(until: end, from: .now).lowercased()
         case .ended: "Needs Plus"
         }
@@ -73,6 +78,7 @@ struct SettingsView: View {
                             .foregroundStyle(.green)
                         Button("Manage subscription") { manageSubscription = true }
                     } else {
+                        LabeledContent("Voice recordings", value: freeText(.recordings))
                         LabeledContent("Hosting satsangs", value: freeText(.hosting))
                         LabeledContent("Meditation and Sleep", value: freeText(.meditation))
                         Button("See Ashtotra Plus plans") { showPaywall = true }
@@ -90,7 +96,7 @@ struct SettingsView: View {
                 } header: {
                     Text("Ashtotra Plus")
                 } footer: {
-                    Text("Your first hosted satsang is free, and meditation and sleep are free for your first month. Prayers, the 108 names and joining satsangs are always free.")
+                    Text("Your first hosted satsang and first voice recording are free, and meditation and sleep are free for your first month. Prayers, the 108 names and joining satsangs are always free.")
                 }
                 .sheet(isPresented: $showPaywall) { PlusPaywall(reason: .general) }
                 .manageSubscriptionsSheet(isPresented: $manageSubscription)
@@ -141,6 +147,11 @@ struct SettingsView: View {
                 Section("About") {
                     Text("The prayers and 108 names are traditional texts, carefully checked against more than one source. If you spot a mistake, please let us know.")
                         .font(.callout)
+                    NavigationLink {
+                        FeedbackView()
+                    } label: {
+                        Label("Send feedback or rate Ashtotra", systemImage: "heart.text.square")
+                    }
                     Link(destination: URL(string: "mailto:shruthianthropic@gmail.com?subject=Ashtotra%20correction")!) {
                         Label("Suggest a correction", systemImage: "envelope")
                     }

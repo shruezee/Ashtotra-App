@@ -3,7 +3,7 @@ import SwiftUI
 
 /// Why the subscription screen is showing, which shapes its message.
 enum PlusReason: String, Identifiable {
-    case hostingEnded, meditationEnded, afterSatsang, general
+    case hostingEnded, meditationEnded, recordingEnded, afterSatsang, general
     var id: String { rawValue }
 }
 
@@ -46,6 +46,7 @@ struct PlusPaywall: View {
                 .multilineTextAlignment(.center)
             VStack(alignment: .leading, spacing: 8) {
                 Label("Host satsangs: prayers, chanting, chat, YouTube, videos, PDFs", systemImage: "person.2.wave.2.fill")
+                Label("Voice recordings of prayers, chanted for you", systemImage: "waveform")
                 Label("Meditate with the haptic breath guide and your own song", systemImage: "leaf.fill")
                 Label("Sleep sounds: rain, ocean, Om drone, temple bells and more", systemImage: "moon.zzz.fill")
                 Label("Prayers, 108 names and joining satsangs stay free", systemImage: "heart.fill")
@@ -62,6 +63,7 @@ struct PlusPaywall: View {
         switch reason {
         case .afterSatsang: "🙏"
         case .meditationEnded: "🍃"
+        case .recordingEnded: "🔔"
         case .hostingEnded: "🪔"
         case .general: "🕉️"
         }
@@ -72,6 +74,7 @@ struct PlusPaywall: View {
         case .afterSatsang: "Hope your satsang was beautiful"
         case .hostingEnded: "You've used your free satsang"
         case .meditationEnded: "Your free month of meditation has ended"
+        case .recordingEnded: "Hear every prayer in a chanted voice"
         case .general: "Ashtotra Plus"
         }
     }
@@ -82,8 +85,10 @@ struct PlusPaywall: View {
             "Keep leading satsangs for family and friends with Ashtotra Plus. Joining stays free for everyone."
         case .meditationEnded:
             "Keep meditating and drifting off to sleep sounds with Ashtotra Plus."
+        case .recordingEnded:
+            "You've heard your free recording. Ashtotra Plus unlocks every voice recording, along with meditation, sleep sounds and hosting satsangs."
         case .general:
-            "One subscription for hosting satsangs, meditation and sleep sounds."
+            "One subscription for voice recordings, hosting satsangs, meditation and sleep sounds."
         }
     }
 }

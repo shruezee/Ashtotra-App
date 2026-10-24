@@ -8,10 +8,6 @@ final class RecordingPlayer: NSObject {
     private(set) var isPlaying = false
     private var player: AVAudioPlayer?
 
-    func toggle(_ name: String) {
-        if isPlaying { stop() } else { play(name) }
-    }
-
     func play(_ name: String) {
         stop()
         guard let url = Bundle.main.url(forResource: name, withExtension: "mp3") else { return }
